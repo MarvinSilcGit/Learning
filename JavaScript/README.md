@@ -1,5 +1,5 @@
 <details>
-  <summary><h2>Basic Functions</h2></summary>
+  <summary><h2> Chapter 1: Basic Functions</h2></summary>
 
 ```javascript
 function sum (x, y)
@@ -55,7 +55,7 @@ function sum (x, y)
 </details>
 
 <details>
-  <summary><h2>String Functions</h2></summary>
+  <summary><h2>Chapter 2: String I</h2></summary>
 
 ### Length
 
@@ -67,8 +67,6 @@ function getCharCount(variável)
     return variável.length;
 }
 ```
-
-
 
 ### toUpperCase
 
