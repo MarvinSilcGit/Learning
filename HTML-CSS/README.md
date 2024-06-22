@@ -31,7 +31,6 @@
   ### H1 e H2
 
   <p style ="text-align: justify">O elemento h2 é usado para definir títulos da principais seções de uma página web. O elemente h2 é uma subseção do elemento h1. É importante pensar nos elementos h1 e h2 como um rascunho de um livro. O h1 é o título da página e os elementos h2 são os capítulos. Nós estamos levando um tempo e focando nos pequenos detalhes porque é muito importante usar h1 e h2 baseado na hierarquia no documento ao invés do tamanho da fonte. Utilize somente um h1 por página, pois o h1 é o principal</p>
-</details>
 
 ### H3, H4, H5 e H6
 
@@ -40,6 +39,7 @@
 ### Heading and SEO
 
 <p style ="text-align: justify">SEO (Search Engine Optimization) é a prática de aprimorar a qualidade de seu website de modo a adquirir mais visitantes advindos dos motores de busca. Cabeçalhos teem uma função importante em SE, pois você está comunicndo para o motor de busca o rascunho da página e o tópico mais importante.</p>
+</details>
 
 <details>
   <summary><h2>Boilerplate</h2></summary>
