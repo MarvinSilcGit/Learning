@@ -157,8 +157,50 @@ function sayHello(name)
 }
 ```
 
-### Interpolation Advanced
-Capitalize
-Nutrition Table
-Multiline string
+### Interpolation advanced
+
+**Exemplo:**
+
+```javascript
+function getFullName(firstName, lastName)
+{
+    return `${firstName} ${lastName}`;
+}
+```
+
+### Multiline string
+
+**Exemplo:**
+
+```javascript
+return `I am Learning JavaScript
+and I found it to be
+quite fun!`
+```
+
+### Capitalize
+
+```javascript
+function captalized(word)
+{
+  return word[0].toUpperCase() + word.substring(1).toLowerCase();
+}
+```
+
+### at
+
+```javascript
+function index(word)
+{
+  return word.at(1);
+}
+
+```
+</details>
+
+<details>
+  <summary><h2>Chapter 3: Numbers</h2></summary>
+
+  ###
+
 </details>
