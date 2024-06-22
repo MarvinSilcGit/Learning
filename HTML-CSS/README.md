@@ -42,7 +42,25 @@
 </details>
 
 <details>
-  <summary><h2>Boilerplate</h2></summary>
+  <summary><h2>Chapter 5: Boilerplate</h2></summary>
+
+  
+</details>
+
+<details>
+  <summary><h2>Chapter 6: Blank space and comments</h2></summary>
+
+  
+</details>
+
+<details>
+  <summary><h2>Chapter 7: The paragraph element</h2></summary>
+
+  
+</details>
+
+<details>
+  <summary><h2>Chapter 8: Lists</h2></summary>
 
   
 </details>
