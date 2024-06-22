@@ -1,3 +1,9 @@
+# Links:
+
+https://www.sqlitetutorial.net/tryit/
+
+https://sqliteonline.com/
+
 # Códigos básicos do SQL
 
 ## Create Table:
