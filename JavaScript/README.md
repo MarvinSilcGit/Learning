@@ -158,4 +158,9 @@ function sayHello(name)
     return `Hello ${name}`;
 }
 ```
+
+### Interpolation Advanced
+Capitalize
+Nutrition Table
+Multiline string
 </details>
