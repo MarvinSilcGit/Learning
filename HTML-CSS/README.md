@@ -35,8 +35,6 @@
 
 ### H3, H4, H5 e H6
 
-
-
 <p style ="text-align: justify">Nós já aprendemos sobre h1 e h2. Similarmente para como h2 se relaciona com h1: o elemento h3 é uma subseção de h2, h4 é uma subseção de 3, h5 é uma subseção de h4 e h6 é uma subseção de h5. É importante evitar pular níveis de cabeçalhos. Se você tem um h1, o cabeçalho a seguir deverá ser h2. Você não deve pular h2 e ir direto para h3. O mesmo se aplica aos outros cabeçalhos.</p>
 
 ### Heading and SEO
