@@ -2,7 +2,8 @@
 
 ##  Table of contents
 
-<h2> Unit 1 Present Continuous (I am doing)</h2>
+<details>
+  <summary><h2> Unit 1 Present Continuous (I am doing)</h2></summary>
 
 ### Basic definition: I am doing somethinng = I started doing it and I haven't finished; I'm in the middle of doing it
 
@@ -41,3 +42,4 @@ waving
 
 #### 1.4 Answers:
 
+</details>
