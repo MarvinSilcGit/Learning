@@ -26,7 +26,9 @@
 </details>
 
 <details>
-  <summary><h2>Heading deep dive</h2></summary>
+  <summary><h2>Chapter 4: Headings deep dive</h2></summary>
+
+  <p style ="text-align: justify">O elemento h2 é usado para definir títulos da principais seções de uma página web. O elemente h2 é uma subseção do elemento h1. É importante pensar nos elementos h1 e h2 como um rascunho de um livro. O h1 é o título da página e os elementos h2 são os capítulos. Nós estamos levando um tempo e focando nos pequenos detalhes porque é muito importante usar h1 e h2 baseado na hierarquia no documento ao invés do tamanho da fonte. Utilize somente um h1 por página, pois o h1 é o principal</p>
 </details>
 
 <details>
