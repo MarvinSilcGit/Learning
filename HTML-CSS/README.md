@@ -1,5 +1,3 @@
-# HTML-CSS 
-
 <details>
   
   <summary><h2>Charpter 2: Intro to Semantics</h2></summary>
