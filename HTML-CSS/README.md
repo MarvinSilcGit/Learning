@@ -196,3 +196,39 @@ World</h1>
 
   
 </details>
+
+<details>
+  <summary><h2>Chapter 9: HTML validity</h2></summary>
+
+  
+</details>
+
+<details>
+  <summary><h2>Chapter 10: Intro to landmarks</h2></summary>
+
+  
+</details>
+
+<details>
+  <summary><h2>Chapter 11: strong and em</h2></summary>
+
+  
+</details>
+
+<details>
+  <summary><h2>Chapter 12: Intro to Images</h2></summary>
+
+  
+</details>
+
+<details>
+  <summary><h2>Chapter 13: Intro do CSS</h2></summary>
+
+  
+</details>
+
+<details>
+  <summary><h2>Chapter 14: Intro do CSS (continued)</h2></summary>
+
+  
+</details>
