@@ -169,12 +169,17 @@ waving
 
 ### 3.4 Answers:
 
-
+1. You're always losing your keys
+2. It is always happening
+3. I'm always making
+4. I'm always forgeting my phone at home
   
 </details>
 
 <details>
   <summary><h2 id="unit4">Unit 4: Present Continuous and present Simples 2 (I am doing and I do)</h2></summary>
+
+### 4.1 Answers:
   
 </details>
 
