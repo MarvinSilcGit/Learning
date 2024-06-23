@@ -18,7 +18,7 @@
 <details>
   <summary><h2 id ="unit1"> Unit 1: Present Continuous (I am doing)</h2></summary>
 
-### Basic definition: We use the continuous for things happening at or around the time os speaking. The action is not complete. For actions and happenings that have started but not finished.
+#### Basic definition: We use the continuous for things happening at or around the time os speaking. The action is not complete. For actions and happenings that have started but not finished.
 
 ### Exercises:
 
@@ -78,7 +78,7 @@ _Check Answers, page 336_
 <details>
   <summary><h2 id ="unit2">Unit 2: Present Simple (I do)</h2></summary>
 
-### Basic definition: we use present simple to talk about things in general. We use it to say that something happens all the time or repeatdly, or that something is true in general.
+#### Basic definition: we use present simple to talk about things in general. We use it to say that something happens all the time or repeatdly, or that something is true in general.
 
 ### 2.1 Answers:
 
@@ -136,7 +136,7 @@ _Check Answers, page 336_
 <details>
   <summary><h2 id ="unit3">Unit 3: Present Continuous and present Simples 1 (I am doing and I do)</h2></summary>
 
-### Basic definition:
+#### Basic definition:
 
 ### 3.1 Answers:
 
@@ -238,21 +238,21 @@ _Check Answers, page 336_
 <details>
   <summary><h2 id ="unit5">Unit 5: Past simple (I did)</h2></summary>
 
-### Basic definition: the past simple (something **happened**) tells us only about the past. If somebody says 'Tom lost his key', we don't know whether he has the now or not. We know only that the lost it at some time in the past.
+#### Basic definition: the past simple (something **happened**) tells us only about the past. If somebody says 'Tom lost his key', we don't know whether he has the now or not. We know only that the lost it at some time in the past.
   
 </details>
 
 <details>
   <summary><h2 id ="unit6">Unit 6: Past continuous (I was doing)</h2></summary>
 
-### Basic definition: the action or situation started before this time, hut had no finished.
+#### Basic definition: the action or situation started before this time, hut had no finished.
   
 </details>
 
 <details>
   <summary><h2 id ="unit7">Unit 7: Present perfect 1 (I have done)</h2></summary>
 
-### Basic definition: When we talk about a period of time that continues form the past until now, we use the present perfect (have been, have travelled).
+#### Basic definition: When we talk about a period of time that continues form the past until now, we use the present perfect (have been, have travelled).
   
 </details>
 
