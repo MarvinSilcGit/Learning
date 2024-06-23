@@ -8,6 +8,8 @@ function sum (x, y)
 }
 ```
 
+<br>
+
 ### Multiplication
 
 ```javascript
@@ -16,6 +18,8 @@ function multi (x, y)
   return x * y;
 }
 ```
+
+<br>
 
 ### Division
 
@@ -26,6 +30,8 @@ function div (x, y)
 }
 ```
 
+<br>
+
 ### Subtraction 
 
 ```javascript
@@ -35,6 +41,8 @@ function sub(x, y)
 }
 ```
 
+<br>
+
 ### Exponentiation
 
 ```javascript
@@ -43,6 +51,8 @@ function exp (x, y)
   return x ** y;
 }
 ```
+
+<br>
 
 ### Remainder (Resto da divisão)
 
@@ -68,6 +78,8 @@ function getCharCount(variável)
 }
 ```
 
+<br>
+
 ### toUpperCase
 
 <p style ="text-align: justify">Transforma a string em caixa alta</p>
@@ -78,6 +90,8 @@ function shoutMyName(name)
     return name.toUpperCase;
 }
 ```
+
+<br>
 
 ### toLowerCase
 
@@ -90,6 +104,8 @@ function lowerName(name)
 }
 ```
 
+<br>
+
 ### Character acess
 
 <p style ="text-align: justify"> Você pode acessar um caractere específico em uma string ao utilizar a sintaxe dos colchetes</p>
@@ -101,7 +117,9 @@ function getFirstCharacter(name)
 }
 ```
 
-<p></p>
+<br>
+
+<p style ="text-align> justify">Também é possível utilizar a função <code>.lenght</code> abaixo para buscar o último caractere dentro da função dos colchetes.</p>
 
 ```javascript
 function getLastCharacter(name)
@@ -109,6 +127,8 @@ function getLastCharacter(name)
     return name[name.length-1];
 }
 ```
+
+<br>
 
 ### Substring
 
@@ -127,9 +147,11 @@ function getDescription(text)
 ```javascript
 function skipFirstCharacter(text)
 {
-    return text.substring(1); // quando um, assume o fim como sendo o comprimento máximo da string
+    return text.substring(1); // Quando um, assume o fim como sendo o comprimento máximo da string
 }
 ```
+
+<br>
 
 ### Concatenation
 
@@ -144,6 +166,8 @@ function concatInitials(firstNameInitial, lastNameInitial)
 }
 ```
 
+<br>
+
 ### Interpolation
 
 <p style ="text-align: justify">Strings Template suportam interpolação. Isso significa que você poderia escrever uma variável em sua string, e recuperar o seu valor. A sintaxe é direta ao ponto, você envolve a variável com <code>${variável}</code> </p>
@@ -157,6 +181,8 @@ function sayHello(name)
 }
 ```
 
+<br>
+
 ### Interpolation advanced
 
 **Exemplo:**
@@ -168,6 +194,8 @@ function getFullName(firstName, lastName)
 }
 ```
 
+<br>
+
 ### Multiline string
 
 **Exemplo:**
@@ -178,6 +206,8 @@ and I found it to be
 quite fun!`
 ```
 
+<br>
+
 ### Capitalize
 
 ```javascript
@@ -186,6 +216,8 @@ function captalized(word)
   return word[0].toUpperCase() + word.substring(1).toLowerCase();
 }
 ```
+
+<br>
 
 ### at is similar to [] index, but can do negative index
 
