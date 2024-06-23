@@ -133,7 +133,7 @@ function skipFirstCharacter(text)
 
 ### Concatenation
 
-<p style ="text-align: justify">Em JavaScript, o operador + irá se comportar de maneira diferente baseado nos tipos de valores que você usa com ele. Você já viu que 1 + 3 irá retornar 4. Contudo, você poderia usar o operador + para concatenar duas strings. que significa unificar elas em uma única string.</p>
+<p style ="text-align: justify">Em JavaScript, o operador + irá se comportar de maneira diferente baseado nos tipos de valores que você usa com ele. Você já viu que <code>1 + 3 </code> irá retornar 4. Contudo, você poderia usar o operador + para concatenar duas strings. que significa unificar elas em uma única string.</p>
 
 **Exemplo:**
 
@@ -146,7 +146,7 @@ function concatInitials(firstNameInitial, lastNameInitial)
 
 ### Interpolation
 
-<p style ="text-align: justify">Strings Template suportam interpolação. Isso significa que você poderia escrever uma variável em sua string, e recuperar o seu valor. A sintaxe é direta ao ponto, você envolve a variável com <i>_${variável}</i> </p>
+<p style ="text-align: justify">Strings Template suportam interpolação. Isso significa que você poderia escrever uma variável em sua string, e recuperar o seu valor. A sintaxe é direta ao ponto, você envolve a variável com <code>${variável}</code> </p>
 
 **Exemplo:**
 
@@ -201,6 +201,27 @@ function index(word)
 <details>
   <summary><h2>Chapter 3: Numbers</h2></summary>
 
-  ###
+  ### Numeric separator (<code>_</code>)
+
+  <p style ="text-align: justify">Você pode representar números grandes mais claramente com o separador numério (_)</p>
+
+```javascript
+let nb = 1_000; // equivalent to 1000
+
+let nb = 1_000_000; // 1000000 (1 million)
+```
+
+### Converting from number to string
+
+<p style ="text-align: justify">Embora seja raramente utilizado, você pode converter um número para string ao chamar o método <code>to.string()</code></p>
+
+```javascript
+let answer = 42;
+answer.toString(); //"42"
+```
+
+### NaN
+
+<p>Você pode algumas vezes encontar <code>NaN</code> que significa <b>Not a Number</b>. Por exemplo, você tenta multiplicar um número por uma string. NaN é com frequência um sinal que algo está errado com seu código, na maioria das vezes vocês esqueceu de converter uma string para um número.</p>
 
 </details>
