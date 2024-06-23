@@ -203,7 +203,7 @@ function index(word)
 
   ### Numeric separator (<code>_</code>)
 
-  <p style ="text-align: justify">Você pode representar números grandes mais claramente com o separador numério (_)</p>
+  <p style ="text-align: justify">Você pode representar números grandes mais claramente com o separador numério (<code>_</code>)</p>
 
 ```javascript
 let nb = 1_000; // equivalent to 1000
