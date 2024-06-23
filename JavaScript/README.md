@@ -284,3 +284,28 @@ Number.parseInt(str, 10); //42
 <p style ="text-align: justify">Há muitas razões que você gostaria de converter uma string para um número, porém, a mais comum é quando o número e digitado pelo usuáiro em uma caixa de texto or o número está sendo lido de um DOM. Como você verá, os valores serão sempre uma string mesmo se o usuário digitar um número.</p>
 
 </details>
+
+<details>
+  <summary><h2>Chapter 4: Variables</h2></summary>
+
+  
+</details>
+
+<details>
+  <summary><h2>Chapter 5: Conditions</h2></summary>
+
+  
+</details>
+
+
+<details>
+  <summary><h2>Chapter 6: Arrays</h2></summary>
+
+  
+</details>
+
+<details>
+  <summary><h2>Chapter 6: Arrays II & callbacks</h2></summary>
+
+  
+</details>
