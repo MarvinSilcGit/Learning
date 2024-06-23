@@ -11,7 +11,8 @@
 <details>
   <summary><h2 id ="unit1"> Unit 1: Present Continuous (I am doing)</h2></summary>
 
-### Basic definition: I am doing somethinng = I started doing it and I haven't finished; I'm in the middle of doing it
+### Basic definition: We use the continuous for things happening at or around the time os speaking. The action is not complete. For actions and happenings that have started but
+not finished.
 
 ### Exercises:
 
@@ -69,6 +70,8 @@ waving
 <details>
   <summary><h2 id ="unit2">Unit 2: Present Simple (I do)</h2></summary>
 
+### Basic definition: we use present simple to talk about things in general. We use it to say that something happens all the time or repeatdly, or that something is true in general.
+
 ### 2.1 Answers:
 
 1. speaks
@@ -125,6 +128,8 @@ waving
 <details>
   <summary><h2 id ="unit3">Unit 3: Present Continuous and present Simples 1 (I am doing and I do)</h2></summary>
 
+### Basic definition:
+
 ### 3.1 Answers:
 
 1. ok
@@ -180,6 +185,45 @@ waving
   <summary><h2 id ="unit4">Unit 4: Present Continuous and present Simples 2 (I am doing and I do)</h2></summary>
 
 ### 4.1 Answers:
+
+1. Do you want
+2. believes
+3. I don't remember
+4. I'm using
+5. I need
+6. consists
+7. does he want?
+8. do you recognise
+9. I think
+10. do you think
+11. He seems
+
+### 4.2 Answers:
+
+1. You don't seem very haapy today
+2. I think about you
+3. Who does this umbrella belong to?
+4. This smells good
+5. is there anybody sitting here?
+6. these gloves doesn't fit on me
+
+### 4.3 Answers:
+
+1. ok
+2. I don't believe it
+3. i'm feel
+4. does it tastes like
+5. What do you see?
+6. ok
+
+### 4.4 Answers:
+
+1. he's being
+2. is
+3. is being
+4. are
+5. you are being
+6. are you
   
 </details>
 
