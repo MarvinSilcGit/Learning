@@ -86,9 +86,37 @@
 
 ### The body element
 
-<p tyle ="text-align: justify">O elemento <code>body</code> contém todo o conteúdo da página. É aqui onde você escreve os cabeçalhos, parágrafos, adiciona imagens, vídeos e tudo o mais.</p>
+<p style ="text-align: justify">O elemento <code>body</code> contém todo o conteúdo da página. É aqui onde você escreve os cabeçalhos, parágrafos, adiciona imagens, vídeos e tudo o mais.</p>
 
 <br>
+
+### Meta charset
+
+```html
+<meta charset ="UTF-8"
+```
+
+<p style ="text-align: justify">A chave <code>charset</code> é a abreviação de <i>character set</i>(conjunto de caracteres). Ela refere a como exibir os diversos tipos de caracteres na tela pelo computador. O valor <code>UTF-8</code> possui suporte para muitos dos caracteres do mundo inteiro.</p>
+
+<br>
+
+### Meta viewport
+
+```html
+<meta name ="viewport" content ="width=device-width, initial-scale=1.0">
+```
+
+<p style ="text-align: justify">O viewport precisa ser utilizado por um website para que em uma tela móvel a exibição seja adequada ao tamanho da tela. Ele pede para o navegador representar a largura da página de acordo com o dispositivo atual.</p>
+
+<br>
+
+### The title element
+
+```html
+<title>MDN Web Docs</title>
+```
+
+<p style ="text-align: justify">O elemento <code>title</code> mostra o título de uma página web barra de abas de um navegador.</p>
   
 </details>
 
