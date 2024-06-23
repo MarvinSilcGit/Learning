@@ -299,7 +299,7 @@ Number.parseInt(str, 10); //42
 
 
 <details>
-  <summary><h2>Chapter 6: Arrays</h2></summary>
+  <summary><h2>Chapter 6: Arrays I</h2></summary>
 
   
 </details>
