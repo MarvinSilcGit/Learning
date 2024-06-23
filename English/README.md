@@ -11,19 +11,20 @@
 <details>
   <summary><h2 id ="unit1"> Unit 1: Present Continuous (I am doing)</h2></summary>
 
-### Basic definition: We use the continuous for things happening at or around the time os speaking. The action is not complete. For actions and happenings that have started but
-not finished.
+### Basic definition: We use the continuous for things happening at or around the time os speaking. The action is not complete. For actions and happenings that have started but not finished.
 
 ### Exercises:
 
+_Check Answers, page 336_
+
 #### 1.1 Answers:
 
-taking
-tying
-crossing
-scratching
-hiding
-waving
+1. taking
+2. tying
+3. crossing
+4. scratching
+5. hiding
+6. waving
 
 #### 1.2 Answers:
 
