@@ -182,7 +182,7 @@ waving
 </details>
 
 <details>
-  <summary><h2 id ="unit4">Unit 4: Present Continuous and present Simples 2 (I am doing and I do)</h2></summary>
+  <summary><h2 id ="unit4">Unit 4: Present Continuous and present simple 2 (I am doing and I do)</h2></summary>
 
 ### 4.1 Answers:
 
@@ -229,16 +229,22 @@ waving
 
 <details>
   <summary><h2 id ="unit5">Unit 5: Past simple (I did)</h2></summary>
+
+### Basic definition: the past simple (something **happened**) tells us only about the past. If somebody says 'Tom lost his key', we don't know whether he has the now or not. We know only that the lost it at some time in the past.
   
 </details>
 
 <details>
   <summary><h2 id ="unit6">Unit 6: Past continuous (I was doing)</h2></summary>
+
+### Basic definition: the action or situation started before this time, hut had no finished.
   
 </details>
 
 <details>
   <summary><h2 id ="unit7">Unit 7: Present perfect 1 (I have done)</h2></summary>
+
+### Basic definition: When we talk about a period of time that continues form the past until now, we use the present perfect (have been, have travelled).
   
 </details>
 
