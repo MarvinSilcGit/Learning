@@ -232,3 +232,9 @@ World</h1>
 
   
 </details>
+
+<details>
+  <summary><h2>Chapter 15: CSS inheritance</h2></summary>
+
+  
+</details>
