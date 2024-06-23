@@ -187,7 +187,7 @@ function captalized(word)
 }
 ```
 
-### at
+### at is similar to [] index, but can do negative index
 
 ```javascript
 function index(word)
