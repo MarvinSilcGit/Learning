@@ -124,6 +124,52 @@ waving
 
 <details>
   <summary><h2 id="unit3">Unit 3: Present Continuous and present Simples 1 (I am doing and I do)</h2></summary>
+
+### 3.1 Answers:
+
+1. ok
+2. do you go
+3. ok
+4. is always phoning
+5. ok
+6. are they talking
+7. ok
+8. ok
+9. getting
+10. I'm coming
+11. he always starts
+12. ok
+
+### 3.2 Answers:
+
+1. I usually get
+2. I'm getting
+3. Are you listening
+4. Do you listen
+5. flows
+6. Is flowing
+7. I don't do
+8. do you usually do
+9. she's staying
+10. She always stays
+
+### 3.3 Answers:
+
+1. What's happening
+2. She speaks
+3. Everybody is waiting
+4. do you pronounce
+5. Isn't working
+6. lives
+7. i'm starting
+8. They are visiting
+9. does your father do for a living
+10. it not takes
+11. Learning. is teaching
+
+### 3.4 Answers:
+
+
   
 </details>
 
