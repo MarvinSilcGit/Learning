@@ -19,7 +19,7 @@
 
   ### Intro to Accessibility
 
-  <p style ="text-align: justify">No contexto do HTML, acessibilidade se refere a fazer seu site usável por todo mundo. Quando você escrever seu código de acessibilidade, seu eu do futuro irá te agradecer. Nós estamos escrevendo websites que nós iremos usar daqui alguns anos. Nossa extensão de habilidades pode muito bem mudar em poucos anos.
+  <p style ="text-align: justify">No contexto do HTML, acessibilidade se refere a fazer seu site usável por todo mundo. Quando você escrever seu código de acessibilidade, seu eu do futuro irá te agradecer. Nós estamos escrevendo websites que nós iremos usar daqui alguns anos. Nossa extensão de habilidades pode muito bem mudar em poucos anos.</p>
 
 <br>
 
@@ -48,8 +48,6 @@
 
 <p style ="text-align: justify">SEO (Search Engine Optimization) é a prática de aprimorar a qualidade de seu website de modo a adquirir mais visitantes advindos dos motores de busca. Cabeçalhos teem uma função importante em SE, pois você está comunicndo para o motor de busca o rascunho da página e o tópico mais importante.</p>
 </details>
-
-<br>
 
 <details>
   <summary><h2>Chapter 5: Boilerplate</h2></summary>
