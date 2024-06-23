@@ -123,6 +123,10 @@
 <details>
   <summary><h2>Chapter 6: Blank space and comments</h2></summary>
 
+  ### Blank space and newlines
+
+  <p style ="text-align: justify"></p>
+
   
 </details>
 
