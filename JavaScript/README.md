@@ -1,6 +1,8 @@
 <details>
   <summary><h2> Chapter 1: Basic Functions</h2></summary>
 
+### Sum
+
 ```javascript
 function sum (x, y)
 {
