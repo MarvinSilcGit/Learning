@@ -6,6 +6,8 @@
 
 <p style="text-align: justify">Escrever HTML semântico significa dar significado para os elementos que nós usamos. Isso permite você focar no propósito do elemente ao invés de sua aparência. Semântica foca em fornecer significado e propósito para os elementos que você usa.</p>
 
+<br>
+
 ### Intro to Headings
 
 <p style ="text-align: justify">O elemento cabeçalho h1 é usado para representa o tópico de mais alta importância em uma página web. Ao escrever código HTML, é importante focar na semântica ao invés da aparencia. HTML é feito para o conteúdo, enquanto que o CSS é usado para estilizar o conteúdo.</p>
@@ -18,8 +20,6 @@
   ### Intro to Accessibility
 
   <p style ="text-align: justify">No contexto do HTML, acessibilidade se refere a fazer seu site usável por todo mundo. Quando você escrever seu código de acessibilidade, seu eu do futuro irá te agradecer. Nós estamos escrevendo websites que nós iremos usar daqui alguns anos. Nossa extensão de habilidades pode muito bem mudar em poucos anos.
-
-<br>
 
 ### Headings and Accesibility
 
