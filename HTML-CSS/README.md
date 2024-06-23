@@ -19,6 +19,8 @@
 
   <p style ="text-align: justify">No contexto do HTML, acessibilidade se refere a fazer seu site usável por todo mundo. Quando você escrever seu código de acessibilidade, seu eu do futuro irá te agradecer. Nós estamos escrevendo websites que nós iremos usar daqui alguns anos. Nossa extensão de habilidades pode muito bem mudar em poucos anos.
 
+<br>
+
 ### Headings and Accesibility
 
 <p style ="text-align: justify">Leitor de tela é um software que tem comandos para rapidamente pular entre cabeçalhos ou regiões referenciais específicas. Isso faz com que seja essencial ter cabeçalhos siginificativos. Isso ajuda ususários com tecnologias assistivas facilmente navegar e explorar sua página. Note que isso não é o único benefício de ter cabeçalhos siginicativos. Há muito mais benefícios no que diz respeito a SEO.</p>
@@ -32,14 +34,20 @@
 
   <p style ="text-align: justify">O elemento h2 é usado para definir títulos da principais seções de uma página web. O elemente h2 é uma subseção do elemento h1. É importante pensar nos elementos h1 e h2 como um rascunho de um livro. O h1 é o título da página e os elementos h2 são os capítulos. Nós estamos levando um tempo e focando nos pequenos detalhes porque é muito importante usar h1 e h2 baseado na hierarquia no documento ao invés do tamanho da fonte. Utilize somente um h1 por página, pois o h1 é o principal</p>
 
+<br>
+
 ### H3, H4, H5 and H6
 
 <p style ="text-align: justify">Nós já aprendemos sobre h1 e h2. Similarmente para como h2 se relaciona com h1: o elemento h3 é uma subseção de h2, h4 é uma subseção de 3, h5 é uma subseção de h4 e h6 é uma subseção de h5. É importante evitar pular níveis de cabeçalhos. Se você tem um h1, o cabeçalho a seguir deverá ser h2. Você não deve pular h2 e ir direto para h3. O mesmo se aplica aos outros cabeçalhos.</p>
+
+<br>
 
 ### Headings and SEO
 
 <p style ="text-align: justify">SEO (Search Engine Optimization) é a prática de aprimorar a qualidade de seu website de modo a adquirir mais visitantes advindos dos motores de busca. Cabeçalhos teem uma função importante em SE, pois você está comunicndo para o motor de busca o rascunho da página e o tópico mais importante.</p>
 </details>
+
+<br>
 
 <details>
   <summary><h2>Chapter 5: Boilerplate</h2></summary>
@@ -125,14 +133,55 @@
 
   ### HTML Comments
 
-  <p style ="text-align: justify"></p>
+```html
+<!-- Comentário de linha única-->
+
+<!-- Comenário
+de múltiplas linhas -->
+```
+
+  <p style ="text-align: justify">Um comentário é um pedaço de texto escrito por um desenvolvedor para descrever o que está acontecendo no código, prover esclarecimento, uma nota para ele mesmo ou outras notas.</p>
   
   <br>
 
   ### Blank space and newlines
 
-  <p style ="text-align: justify"></p>
+  <p style ="text-align: justify">Espaços em branco são tratados diferentemente no HTML do que você pode experar. Olhe abaixo:</p>
 
+```html
+<h1>Hello           world</h1>
+```
+**Resposta:**
+
+<code>Hello world</code>
+
+<p style ="text-align: justify">Você tem mais do que um espaço em branco, ele será renderizado como um espaço em branco pelo navegador. Este comportamento dá a você flexibilidade sobre como escrever seu código, especialmente conforme sua página vai ficando mais complexa..</p>
+
+<br>
+
+### New Lines
+
+<p style ="text-align: justify">Caracteres de nova linha são representados por um único caractere de espaço em branco.</p>
+
+```
+<h1>Hello
+
+World</h1>
+```
+
+**Resultado:**
+
+<code>Hello World</code>
+
+<br>
+
+### What if a want a new line to render?
+
+<p style ="text-align: justify">Em alguns caso, você quer um caractere de nova linha para renderizar na página. Nesse caso, você usa o elemento de quebra de linha <code>br</code>. Esse elemento produz uma nova linha e não possui tag de fechamento.</p>
+
+<p style ="text-align: justify">O elemento <code>br</code> não é tão utilizado como você pode espear. Seu uso deveria ser limitado a lugares onde uma nova linha dentro da mesma sentência ou contexto. Você não deveria usar-ló para separar parágrafos. Também, o elemento <code>br</code> nunca deveria ser usado para criar separação entre elementos: 1. ele quebre a página em termos de acessibilidade e 2. você não pode facilmente modificar a separação entre dois elementos.</p>
+
+<p style ="text-align: justify">O exemplo mais comum de uso é para representar endereços. Outro exemplo típico está em literatura (poemas), onde você precisa que um pedaço do texto vá em outra linha.</p>
   
 </details>
 
