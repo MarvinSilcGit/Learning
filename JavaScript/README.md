@@ -211,6 +211,8 @@ let nb = 1_000; // equivalent to 1000
 let nb = 1_000_000; // 1000000 (1 million)
 ```
 
+<br>
+
 ### Converting from number to string
 
 <p style ="text-align: justify">Embora seja raramente utilizado, você pode converter um número para string ao chamar o método <code>to.string()</code></p>
@@ -220,9 +222,13 @@ let answer = 42;
 answer.toString(); //"42"
 ```
 
+<br>
+
 ### NaN
 
 <p>Você pode algumas vezes encontar <code>NaN</code> que significa <b>Not a Number</b>. Por exemplo, você tenta multiplicar um número por uma string. NaN é com frequência um sinal que algo está errado com seu código, na maioria das vezes vocês esqueceu de converter uma string para um número.</p>
+
+<br>
 
 ### Converting string to number
 
@@ -236,6 +242,8 @@ Number.parseInt(str, 10); //42
 <p style ="text-align: justify">O nome da função é chamada <code>Numer.parseInt()</code>. Sim, incluindo the <code>Number</code>. É assim porque há um objeto global chamado <code>Number</code> que contém o método chamado <code>parseInt()</code>. Esse método espera dois parâmetros: o primeiro parâmetro é a string que você gostaria de converter em um número. O segundo argumeneto é a raiz que será usada na conversão.</p>
 
 <p style ="text-align: justify">A raiz é a base do sistema numérico que você gostaria de usar. No seu caso, utilize o número pois representa a maneira que nós contamos números diariamente utilizando o sistema decimal. Sempre utilze a raiz em 10 para garantir a compatibilidade com o sistema decimal. Caso seja o sistema binário, utilize 2</p>
+
+<br>
 
 ### Use cases for converting to a number
 
