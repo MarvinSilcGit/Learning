@@ -188,6 +188,11 @@ World</h1>
 <details>
   <summary><h2>Chapter 7: The paragraph element</h2></summary>
 
+
+```html
+<p>The xPhone is the best phone on the market.</p>
+```
+
 ### The paragraph element
 
 <p style ="text-align: justify">O elemento <code>p</code>é usado para representar um parágrafo de texto de uma página web. Alguns leitores de tela anunciam o elemento <code>p</code> como um parágrafo. Isso permite ao usuário escutar algumas poucas palavras do parágrafo e pular para o seguinte. Quando você escreve o texto dentro do parágrafo, você fala ao navegador o significado do elemento. Isso é chamado de HTML semântico.</p>
@@ -211,11 +216,32 @@ World</h1>
 
 ### The ol and ul elements
 
+```html
+<ol>
+
+    <li>Heat the pasta.</li>
+
+    <li>Pour the sauce on the cooked pasta.</li>
+
+</ol>
+```
+
 ### The ol (ordered list) element
 
 <p style ="text-align: justify">O elemento <code>ol</code> (ordered list) representa uma lista de items onde os items foram intencionalmente ordenados. O elemento <code>li</code> representa o um item da lista. Então, o <code>ol</code> define que a lista é ordenada. Então, cada elemento <code>li</code> dentro representa um item dessa lista ordenada.</p>
 
 <br>
+
+```html
+<ul>
+
+    <li>Heat the pasta.</li>
+
+    <li>Pour the sauce on the cooked pasta.</li>
+
+</ul>
+```
+
 
 ### The ul (unordered list) element
 
