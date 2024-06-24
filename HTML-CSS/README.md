@@ -202,7 +202,7 @@ World</h1>
 
 ### Contents of a paragraph
 
-<p style="text-align: justify">Um elemento parágrafo irá conter majoritariamente texto. Por agora, é importante saber que você não pode aninhar um parágrafo dentro do outro.</p>
+<p style ="text-align: justify">Um elemento parágrafo irá conter majoritariamente texto. Por agora, é importante saber que você não pode aninhar um parágrafo dentro do outro.</p>
   
 </details>
 
@@ -213,7 +213,19 @@ World</h1>
 
 ### The ol (ordered list) element
 
-<p style="text-align: justify">O elemento <code>ol</code> (ordered list) representa uma lista de items onde os items foram intencionalmente ordenados. O elemento <code>li</code> representa o um item da lista. Então, o <code>ol</code> define que a lista é ordenada. Então, cada elemento <code>li</code> dentro representa um item dessa lista ordenada.</p>
+<p style ="text-align: justify">O elemento <code>ol</code> (ordered list) representa uma lista de items onde os items foram intencionalmente ordenados. O elemento <code>li</code> representa o um item da lista. Então, o <code>ol</code> define que a lista é ordenada. Então, cada elemento <code>li</code> dentro representa um item dessa lista ordenada.</p>
+
+<br>
+
+### The ul (unordered list) element
+
+<p style="text-align: justify">Similar ao elmento <code>ol</code> nós temos agora o elemento <code>ul</code>. O elemento <code>ul</code> representa listas de items onde a ordem de items não importa.</p>
+
+<br>
+
+### Element nesting
+
+<p style ="text-align: justify">É possíve também com listas, aninhar uma dentro da outra, criando listas dentro de listas. Vale tanto para listas ordenadas dentro de lista não ordenadas ou vice-versa, listas ordenads dentro de listas ordenadas e listas não ordenadas dentro de listas não ordenadas</p>
 
   
 </details>
