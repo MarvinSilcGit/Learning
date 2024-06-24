@@ -10,8 +10,9 @@
     <a href ="#unit4">Unit 4: Present Continuous and present Simples 2</a> <br>
     <a href ="#unit5">Unit 5: Past Simple</a> <br>
     <h2>Present perfect and past</h2>
-    <a href ="#unit6">Unit 6: Present perfect 1</a> <br>
-    <a href ="#unit7">Unit 7: Present perfect 2</a> <br>
+    <a href ="#unit6">Unit 6: Past Continuous</a> <br>
+    <a href ="#unit7">Unit 7: Present perfect 1</a> <br>
+    <a href ="#unit8">Unit 8: Present perfect 2</a> <br>
   </nav>
 </details>
 
@@ -309,4 +310,12 @@ _Check Answers, page 336_
   
 </details>
 
+<details>
+  <summary><h2 id ="unit9">Unit 9: Present perfect continuous (I have being doing)</h2></summary>
+  
+</details>
 
+<details>
+  <summary><h2 id ="unit10">Unit 10: Present perfect continuous and Present Perfect (I have being doing and I have done)</h2></summary>
+  
+</details>
