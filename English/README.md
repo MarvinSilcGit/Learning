@@ -231,7 +231,7 @@
 2. - [x] is
 3. - [x] is being
 4. - [x] are
-5. - [x] <del>you are being</del> are you being
+5. - [ ] <del>you are being</del> are you being
 6. - [x] are you
   
 </details>
@@ -293,7 +293,52 @@
   <summary><h3 id ="unit6">Unit 6: Past continuous (I was doing)</h3></summary>
 
 #### Basic definition: the action or situation started before this time, hut had no finished.
-  
+
+#### 6.1 Answers:
+
+1.  - [x] was wearing
+2.  - [x] wasn't listening
+3.  - [x] were sitting
+4.  - [x] was working
+5.  - [x] weren't looking
+6.  - [x] was snowing
+7.  - [x] were you going?
+8.  - [x] was looking
+
+#### 6.2 Answers:
+
+1.  - [x] f
+2.  - [x] e
+3.  - [x] a
+4.  - [x] g
+5.  - [x] c
+6.  - [x] d
+7.  - [x] b
+
+#### 6.3 Answers:
+
+1.  - [x] saw
+2.  - [x] didn't see
+3.  - [x] was looking
+4.  - [x] was cycling
+5.  - [x] stepped
+6.  - [x] was going
+7.  - [x] managed
+8.  - [x] didn't hit
+
+#### 6.4 Answers:
+
+1.  - [x] saw... arrived
+2.  - [ ] <del>did you do</del> were you doing
+3.  - [x] did you go
+4.  - [ ] <del>was you driving... happened</del> were you driving... happened
+5.  - [x] took
+6.  - [ ] <del>weren't know... did</del> didn't know
+7.  - [x] saw... was trying
+8.  - [x] was walkind... heard... was following... started
+9.  - [x] wanted... changed
+10.  - [x] dropped... was doing... didn't break
+
 </details>
 
 <details>
