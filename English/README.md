@@ -267,8 +267,16 @@ _Check Answers, page 336_
   
 ### 5.3 Answers:
 
+1. - [x] did you go
+2. - [x] How? did you hired a car?
+3. - [x] did you take?
+4. - [x] did you stay?
+5. - [x] It was
+6. - [x] did you go to
+  
+### 5.4 Answers:
 
-
+1. 
 
 </details>
 
