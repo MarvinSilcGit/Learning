@@ -209,6 +209,12 @@ World</h1>
 <details>
   <summary><h2>Chapter 8: Lists</h2></summary>
 
+### The ol and ul elements
+
+### The ol (ordered list) element
+
+<p style="text-align: justify">O elemento <code>ol</code> (ordered list) representa uma lista de items onde os items foram intencionalmente ordenados. O elemento <code>li</code> representa o um item da lista. Então, o <code>ol</code> define que a lista é ordenada. Então, cada elemento <code>li</code> dentro representa um item dessa lista ordenada.</p>
+
   
 </details>
 
