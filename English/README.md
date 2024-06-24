@@ -4,15 +4,17 @@
   <summary><h2>Table of contents</h2></summary>
   <nav>
     <h2>Present and Past</h2>
-    <a href ="#unit1">Unit 1: Present Continuous</a> <br>
-    <a href ="#unit2">Unit 2: Present Simple</a> <br>
-    <a href ="#unit3">Unit 3: Present Continuous and present Simples 1</a> <br>
-    <a href ="#unit4">Unit 4: Present Continuous and present Simples 2</a> <br>
+    <a href ="#unit1">Unit 1: Present continuous</a> <br>
+    <a href ="#unit2">Unit 2: Present simple</a> <br>
+    <a href ="#unit3">Unit 3: Present continuous and Present simple 1</a> <br>
+    <a href ="#unit4">Unit 4: Present continuous and Present simple 2</a> <br>
     <a href ="#unit5">Unit 5: Past Simple</a> <br>
     <h2>Present perfect and past</h2>
-    <a href ="#unit6">Unit 6: Past Continuous</a> <br>
+    <a href ="#unit6">Unit 6: Past continuous</a> <br>
     <a href ="#unit7">Unit 7: Present perfect 1</a> <br>
     <a href ="#unit8">Unit 8: Present perfect 2</a> <br>
+    <a href ="#unit9">Unit 9: Present perfect Continuous</a> <br>
+    <a href ="#unit10">Unit 10: Present perfect and Present perfect </a> <br>
   </nav>
 </details>
 
