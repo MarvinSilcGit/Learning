@@ -49,7 +49,7 @@ _Check Answers, page 336_
 1. - [x] What's happening?
 2. - [x] Why are you crying?
 3. - [x] Is she working today?
-4. - [x] What are you doing these days?
+4. - [ ] <del>What do you are doing these days?</del> What are you doing these days?
 5. - [x] What is she studying?
 6. - [x] What are they doing?
 7. - [x] Are you enjoying it?
@@ -82,13 +82,13 @@ _Check Answers, page 336_
 
 ### 2.1 Answers:
 
-1. speaks
-2. goes
-3. causes
-4. lives
-5. lives
-6. takes
-7. conects
+1.  speaks
+2.  <del>go</del>
+3.  causes
+4.  <del>closes</del>
+5.  <del>live</del>
+6.  <del>take</del>
+7.  conects
 
 ### 2.2 Answers:
 
