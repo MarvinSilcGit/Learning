@@ -17,13 +17,9 @@
 </details>
 
 <details>
-  <summary><h2 id ="unit1"> Unit 1: Present Continuous (I am doing)</h2></summary>
+  <summary><h3 id ="unit1"> Unit 1: Present Continuous (I am doing)</h3></summary>
 
 #### Basic definition: We use the continuous for things happening at or around the time os speaking. The action is not complete. For actions and happenings that have started but not finished.
-
-### Exercises:
-
-_Check Answers, page 336_
 
 #### 1.1 Answers:
 
@@ -77,11 +73,11 @@ _Check Answers, page 336_
 
 
 <details>
-  <summary><h2 id ="unit2">Unit 2: Present Simple (I do)</h2></summary>
+  <summary><h3 id ="unit2">Unit 2: Present Simple (I do)</h3></summary>
 
 #### Basic definition: we use present simple to talk about things in general. We use it to say that something happens all the time or repeatdly, or that something is true in general.
 
-### 2.1 Answers:
+#### 2.1 Answers:
 
 1. - [x]  speaks
 2. - [ ]  <del>goes</del> go
@@ -91,7 +87,7 @@ _Check Answers, page 336_
 6. - [ ]  <del>takes</del> takes
 7. - [x]  conects
 
-### 2.2 Answers:
+#### 2.2 Answers:
 
 1. - [x] doesn't drink
 2. - [ ] <del>the banks closes</del> do the banks close
@@ -102,7 +98,7 @@ _Check Answers, page 336_
 7. - [x] doens't do
 8. - [ ] takes... <del>it takes</del> does it take
 
-### 2.3 Answers:
+#### 2.3 Answers:
 
 1. - [x] goes
 2. - [x] doesn't grow
@@ -114,7 +110,7 @@ _Check Answers, page 336_
 8. - [x] don't tell
 9. - [x] flows
 
-### 2.4 Answers:
+#### 2.4 Answers:
 
 1. - [x] do you play tennis?
 2. - [x] Does your sister play tennis too?
@@ -123,7 +119,7 @@ _Check Answers, page 336_
 5. - [x] Do you speak Spanish?
 6. - [x] Where do your grandparents live?
 
-### 2.5 Answers:
+#### 2.5 Answers:
 
 1. - [x] I suggest
 2. - [x] I promisse
@@ -135,11 +131,11 @@ _Check Answers, page 336_
 </details>
 
 <details>
-  <summary><h2 id ="unit3">Unit 3: Present Continuous and present Simples 1 (I am doing and I do)</h2></summary>
+  <summary><h3 id ="unit3">Unit 3: Present Continuous and present Simples 1 (I am doing and I do)</h3></summary>
 
 #### Basic definition:
 
-### 3.1 Answers:
+#### 3.1 Answers:
 
 1. - [x] ok
 2. - [x] do you go
@@ -154,7 +150,7 @@ _Check Answers, page 336_
 11. - [x] he always starts
 12. - [x] ok
 
-### 3.2 Answers:
+#### 3.2 Answers:
 
 1. - [x] I usually get
 2. - [x] I'm getting
@@ -167,7 +163,7 @@ _Check Answers, page 336_
 9. - [x] she's staying
 10. - [x] She always stays
 
-### 3.3 Answers:
+#### 3.3 Answers:
 
 1. - [x] What's happening
 2. - [x] She speaks
@@ -182,7 +178,7 @@ _Check Answers, page 336_
 11. - [ ] <del>it not takes</del> it doesn't take
 12. - [ ] <del>Learning. is teaching</del> I'm learning. is teaching
 
-### 3.4 Answers:
+#### 3.4 Answers:
 
 1. - [x] You're always losing your keys
 2. - [x] It is always happening
@@ -192,9 +188,9 @@ _Check Answers, page 336_
 </details>
 
 <details>
-  <summary><h2 id ="unit4">Unit 4: Present Continuous and present simple 2 (I am doing and I do)</h2></summary>
+  <summary><h3 id ="unit4">Unit 4: Present Continuous and present simple 2 (I am doing and I do)</h3></summary>
 
-### 4.1 Answers:
+#### 4.1 Answers:
 
 1. Do you want
 2. - [x] believes
@@ -209,7 +205,7 @@ _Check Answers, page 336_
 11. - [x] do you think
 12. - [x] He seems
 
-### 4.2 Answers:
+#### 4.2 Answers:
 
 1. - [x] You don't seem very haapy today
 2. - [x] I'm thinking about you
@@ -218,7 +214,7 @@ _Check Answers, page 336_
 5. - [x] is there anybody sitting here?
 6. - [x] these gloves doesn't fit me
 
-### 4.3 Answers:
+#### 4.3 Answers:
 
 1. - [x] ok
 2. - [x] I don't believe it
@@ -227,7 +223,7 @@ _Check Answers, page 336_
 5. - [x] What do you see?
 6. - [x] ok
 
-### 4.4 Answers:
+#### 4.4 Answers:
 
 1. - [x] he's being
 2. - [x] is
@@ -239,11 +235,11 @@ _Check Answers, page 336_
 </details>
 
 <details>
-  <summary><h2 id ="unit5">Unit 5: Past simple (I did)</h2></summary>
+  <summary><h3 id ="unit5">Unit 5: Past simple (I did)</h3></summary>
 
 #### Basic definition: the past simple (something **happened**) tells us only about the past. If somebody says 'Tom lost his key', we don't know whether he has the now or not. We know only that the lost it at some time in the past.
 
-### 5.1 Answers:
+#### 5.1 Answers:
 
 1. - [x] She got up
 2. - [x] had
@@ -258,7 +254,7 @@ _Check Answers, page 336_
 11. - [x]  She went to bed at about
 12. - [x]  She slept
    
-### 5.2 Answers:
+#### 5.2 Answers:
 
 1. - [x] Wrote
 2. - [x] Taught
@@ -267,7 +263,7 @@ _Check Answers, page 336_
 5. - [x] Threw. Caught
 6. - [x] Spent. Bought. Cost
   
-### 5.3 Answers:
+#### 5.3 Answers:
 
 1. - [x] did you go
 2. - [x] How? did you hired a car?
@@ -276,7 +272,7 @@ _Check Answers, page 336_
 5. - [x] It was
 6. - [x] did you go to
   
-### 5.4 Answers:
+#### 5.4 Answers:
 
 1. - [x] took
 2. - [x] didn't enjoy
@@ -292,30 +288,30 @@ _Check Answers, page 336_
 </details>
 
 <details>
-  <summary><h2 id ="unit6">Unit 6: Past continuous (I was doing)</h2></summary>
+  <summary><h3 id ="unit6">Unit 6: Past continuous (I was doing)</h3></summary>
 
 #### Basic definition: the action or situation started before this time, hut had no finished.
   
 </details>
 
 <details>
-  <summary><h2 id ="unit7">Unit 7: Present perfect 1 (I have done)</h2></summary>
+  <summary><h3 id ="unit7">Unit 7: Present perfect 1 (I have done)</h3></summary>
 
 #### Basic definition: When we talk about a period of time that continues form the past until now, we use the present perfect (have been, have travelled).
   
 </details>
 
 <details>
-  <summary><h2 id ="unit8">Unit 8: Present perfect 2 (I have done)</h2></summary>
+  <summary><h3 id ="unit8">Unit 8: Present perfect 2 (I have done)</h3></summary>
   
 </details>
 
 <details>
-  <summary><h2 id ="unit9">Unit 9: Present perfect continuous (I have being doing)</h2></summary>
+  <summary><h3 id ="unit9">Unit 9: Present perfect continuous (I have being doing)</h3></summary>
   
 </details>
 
 <details>
-  <summary><h2 id ="unit10">Unit 10: Present perfect continuous and Present Perfect (I have being doing and I have done)</h2></summary>
+  <summary><h3 id ="unit10">Unit 10: Present perfect continuous and Present Perfect (I have being doing and I have done)</h3></summary>
   
 </details>
