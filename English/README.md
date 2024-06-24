@@ -4,7 +4,7 @@
   <summary><h2>Table of contents</h2></summary>
   <nav>
     <h2>Present and Past</h2>
-    [Unit 4](#unit-4)
+    [Unit 1](#unit-1)
     <a href ="#unit1">Unit 1: Present Continuous</a> <br>
     <a href ="#unit2">Unit 2: Present Simple</a> <br>
     <a href ="#unit3">Unit 3: Present Continuous and present Simples 1</a> <br>
@@ -17,6 +17,7 @@
 </details>
 
 <details>
+  ## Unit 1
   <summary><h2 id ="unit1"> Unit 1: Present Continuous (I am doing)</h2></summary>
 
 #### Basic definition: We use the continuous for things happening at or around the time os speaking. The action is not complete. For actions and happenings that have started but not finished.
