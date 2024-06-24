@@ -140,52 +140,53 @@ _Check Answers, page 336_
 
 ### 3.1 Answers:
 
-1. ok
-2. do you go
-3. ok
-4. is always phoning
-5. ok
-6. are they talking
-7. ok
-8. ok
-9. getting
-10. I'm coming
-11. he always starts
-12. ok
+1. - [x] ok
+2. - [x] do you go
+3. - [x] ok
+4. - [ ] <del>is always phoning</del> are they talking
+5. - [x] ok
+6. - [x] are they talking
+7. - [x] ok
+8. - [x] ok
+9. - [ ] <del>getting</del> it's getting
+10. - [x] I'm coming
+11. - [x] he always starts
+12. - [x] ok
 
 ### 3.2 Answers:
 
-1. I usually get
-2. I'm getting
-3. Are you listening
-4. Do you listen
-5. flows
-6. Is flowing
-7. I don't do
-8. do you usually do
-9. she's staying
-10. She always stays
+1. - [x] I usually get
+2. - [x] I'm getting
+3. - [x] Are you listening
+4. - [x] Do you listen
+5. - [x] flows
+6. - [x] Is flowing
+7. - [x] I don't do
+8. - [x] do you usually do
+9. - [x] she's staying
+10. - [x] She always stays
 
 ### 3.3 Answers:
 
-1. What's happening
-2. She speaks
-3. Everybody is waiting
-4. do you pronounce
-5. Isn't working
-6. lives
-7. i'm starting
-8. They are visiting
-9. does your father do for a living
-10. it not takes
-11. Learning. is teaching
+1. - [x] What's happening
+2. - [x] She speaks
+3. - [x] Everybody is waiting
+4. - [x] do you pronounce
+5. - [x] Isn't working
+6. - [x] livesis improving
+7. - [x] lives
+8. - [x] I'm starting
+9. - [x] They are visiting
+10. - [x] does your father do for a living Learning.
+11. - [ ] <del>it not takes</del> it doesn't take
+12. - [ ] <del>Learning. is teaching</del> I'm learning. is teaching
 
 ### 3.4 Answers:
 
-1. You're always losing your keys
-2. It is always happening
-3. I'm always making
-4. I'm always forgeting my phone at home
+1. - [x] You're always losing your keys
+2. - [x] It is always happening
+3. - [x] I'm always making
+4. - [x] I'm always forgeting my phone at home
   
 </details>
 
