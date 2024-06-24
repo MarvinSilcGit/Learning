@@ -240,6 +240,21 @@ _Check Answers, page 336_
   <summary><h2 id ="unit5">Unit 5: Past simple (I did)</h2></summary>
 
 #### Basic definition: the past simple (something **happened**) tells us only about the past. If somebody says 'Tom lost his key', we don't know whether he has the now or not. We know only that the lost it at some time in the past.
+
+### 5.1 Answers:
+
+1. - [x] She got up
+2. - [x] had
+3. - [x] walked to work
+4. - [x] it tooks me about half an hour
+5. - [x] I started
+6. - [x] didn't have
+7. - [x] finished
+8. - [x] She was tired when she got
+9. - [x] <del>She didn't made</del> she made
+10. - [x] <del>I didn't usually got</del> Shwe didn't go
+11. - [x]  She went to bed at about
+12. - [x]  She slept
   
 </details>
 
