@@ -255,7 +255,21 @@ _Check Answers, page 336_
 10. - [x] <del>I didn't usually got</del> Shwe didn't go
 11. - [x]  She went to bed at about
 12. - [x]  She slept
+   
+### 5.2 Answers:
+
+1. - [x] Wrote
+2. - [x] Taught
+3. - [x] Sold
+4. - [x] Fell. Hurt
+5. - [x] Threw. Caught
+6. - [x] Spent. Bought. Cost
   
+### 5.3 Answers:
+
+
+
+
 </details>
 
 <details>
