@@ -249,6 +249,28 @@ World</h1>
 
 <br>
 
+```html
+<ol>
+
+  <li>Introduction</li>
+
+  <li>Hypothesis</li>
+
+  <li>Theories</li>
+
+    <ul>
+
+      <li>Behavior theory</li>
+
+      <li>Relational theory</li>
+
+    </ul>
+  
+  <li>Conclusion</li>
+
+</ol>
+```
+
 ### Element nesting
 
 <p style ="text-align: justify">É possíve também com listas, aninhar uma dentro da outra, criando listas dentro de listas. Vale tanto para listas ordenadas dentro de lista não ordenadas ou vice-versa, listas ordenads dentro de listas ordenadas e listas não ordenadas dentro de listas não ordenadas</p>
