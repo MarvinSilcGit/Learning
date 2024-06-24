@@ -196,43 +196,44 @@ _Check Answers, page 336_
 ### 4.1 Answers:
 
 1. Do you want
-2. believes
-3. I don't remember
-4. I'm using
-5. I need
-6. consists
-7. does he want?
-8. do you recognise
-9. I think
-10. do you think
-11. He seems
+2. - [x] believes
+3. - [x] I don't remember
+4. - [x] I'm using
+5. - [x] I need
+6. - [x] consists
+7. - [x] does he want?
+8. - [x] is he looking?
+9. - [x] do you recognise
+8. - [x] I'm thinking
+11. - [x] do you think
+12. - [x] He seems
 
 ### 4.2 Answers:
 
-1. You don't seem very haapy today
-2. I think about you
-3. Who does this umbrella belong to?
-4. This smells good
-5. is there anybody sitting here?
-6. these gloves doesn't fit on me
+1. - [x] You don't seem very haapy today
+2. - [x] I'm thinking about you
+3. - [x] Who does this umbrella belong to?
+4. - [x] This smells good
+5. - [x] is there anybody sitting here?
+6. - [x] these gloves doesn't fit me
 
 ### 4.3 Answers:
 
-1. ok
-2. I don't believe it
-3. i'm feel
-4. does it tastes like
-5. What do you see?
-6. ok
+1. - [x] ok
+2. - [x] I don't believe it
+3. - [x] I'm feel
+4. - [ ] <del>does it tastes like</del> does it taste like 
+5. - [x] What do you see?
+6. - [x] ok
 
 ### 4.4 Answers:
 
-1. he's being
-2. is
-3. is being
-4. are
-5. you are being
-6. are you
+1. - [x] he's being
+2. - [x] is
+3. - [x] is being
+4. - [x] are
+5. - [x] <del>you are being</del> are you being
+6. - [x] are you
   
 </details>
 
@@ -251,8 +252,8 @@ _Check Answers, page 336_
 6. - [x] didn't have
 7. - [x] finished
 8. - [x] She was tired when she got
-9. - [x] <del>She didn't made</del> she made
-10. - [x] <del>I didn't usually got</del> Shwe didn't go
+9. - [ ] <del>She didn't made</del> she made
+10. - [ ] <del>I didn't usually got</del> Shwe didn't go
 11. - [x]  She went to bed at about
 12. - [x]  She slept
    
@@ -276,7 +277,16 @@ _Check Answers, page 336_
   
 ### 5.4 Answers:
 
-1. 
+1. - [x] took
+2. - [x] didn't enjoy
+3. - [x] didn't distub
+4. - [x] left
+5. - [x] were
+6. - [x] didn't sleep
+7. - [x] didn't cost
+8. - [x] flew
+9. - [x] didn't have
+10. - [x] wasn't
 
 </details>
 
