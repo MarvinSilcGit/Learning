@@ -4,6 +4,7 @@
   <summary><h2>Table of contents</h2></summary>
   <nav>
     <h2>Present and Past</h2>
+    [Unit 4](#Unit4)
     <a href ="#unit1">Unit 1: Present Continuous</a> <br>
     <a href ="#unit2">Unit 2: Present Simple</a> <br>
     <a href ="#unit3">Unit 3: Present Continuous and present Simples 1</a> <br>
@@ -26,12 +27,12 @@ _Check Answers, page 336_
 
 #### 1.1 Answers:
 
-1. taking
-2. tying
-3. crossing
-4. scratching
-5. hiding
-6. waving
+1. - [x] taking
+2. - [x] tying
+3. - [x] crossing
+4. - [x] scratching
+5. - [x] hiding
+6. - [x] waving
 
 #### 1.2 Answers:
 
