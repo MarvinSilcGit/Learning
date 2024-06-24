@@ -82,54 +82,54 @@ _Check Answers, page 336_
 
 ### 2.1 Answers:
 
-1.  speaks
-2.  <del>go</del>
-3.  causes
-4.  <del>closes</del>
-5.  <del>live</del>
-6.  <del>take</del>
-7.  conects
+1. - [x]  speaks
+2. - [ ]  <del>goes</del> go
+3. - [x]  causes
+4. - [ ]  <del>lives</del> closes
+5. - [ ]  <del>lives</del> live
+6. - [ ]  <del>takes</del> takes
+7. - [x]  conects
 
 ### 2.2 Answers:
 
-1. doesn't drink
-2. the banks closes
-3. don't use
-4. do Maria comes from
-5. do you do
-6. this word means
-7. doens't do
-8. takes. it takes
+1. - [x] doesn't drink
+2. - [ ] <del>the banks closes</del> do the banks close
+3. - [x] don't use
+4. - [ ] <del>do Maria comes</del> does Maria come
+5. - [x] do you do
+6. - [ ] <del>this word means</del> does this word mean
+7. - [x] doens't do
+8. - [ ] takes... <del>it takes</del> does it take
 
 ### 2.3 Answers:
 
-1. goes
-2. doens't grow
-3. rises
-4. make
-5. don't eat
-6. don't believe
-7. translates
-8. don't tell
-9. flows
+1. - [x] goes
+2. - [x] doesn't grow
+3. - [x] rises
+4. - [x] make
+5. - [x] don't eat
+6. - [x] don't believe
+7. - [x] translates
+8. - [x] don't tell
+9. - [x] flows
 
 ### 2.4 Answers:
 
-1. do you play tennis?
-2. Does your sister play tennis too?
-3. How often do you go to cinema?
-4. What does your brother do for a living?
-5. Do you speak Spanish?
-6. Where do your grandparents live?
+1. - [x] do you play tennis?
+2. - [x] Does your sister play tennis too?
+3. - [x] How often do you go to cinema?
+4. - [x] What does your brother do for a living?
+5. - [x] Do you speak Spanish?
+6. - [x] Where do your grandparents live?
 
 ### 2.5 Answers:
 
-1. I suggest
-2. I promisse
-3. I insist
-4. I apologise
-5. I recommend
-6. I agree
+1. - [x] I suggest
+2. - [x] I promisse
+3. - [x] I insist
+4. - [x] I apologise
+5. - [x] I recommend
+6. - [x] I agree
   
 </details>
 
