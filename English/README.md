@@ -4,7 +4,6 @@
   <summary><h2>Table of contents</h2></summary>
   <nav>
     <h2>Present and Past</h2>
-    [Unit 1](#unit-1)<br>
     <a href ="#unit1">Unit 1: Present Continuous</a> <br>
     <a href ="#unit2">Unit 2: Present Simple</a> <br>
     <a href ="#unit3">Unit 3: Present Continuous and present Simples 1</a> <br>
@@ -17,7 +16,6 @@
 </details>
 
 <details>
-  ## Unit 1
   <summary><h2 id ="unit1"> Unit 1: Present Continuous (I am doing)</h2></summary>
 
 #### Basic definition: We use the continuous for things happening at or around the time os speaking. The action is not complete. For actions and happenings that have started but not finished.
@@ -37,42 +35,42 @@ _Check Answers, page 336_
 
 #### 1.2 Answers:
 
-1. f
-2. e
-3. g
-4. a
-5. d
-6. h
-7. b
-8. c
+1. - [x] f
+2. - [x] e
+3. - [x] g
+4. - [x] a
+5. - [x] d
+6. - [x] h
+7. - [x] b
+8. - [x] c
 
 #### 1.3 Answers:
 
-1. What's happening?
-2. Why are you crying?
-3. Is she working today?
-4. What do you have doing these days?
-5. What is she studying?
-6. What are they doing?
-7. Are you enjoying?
-8. Why are you walking so fast?
+1. - [x] What's happening?
+2. - [x] Why are you crying?
+3. - [x] Is she working today?
+4. - [x] What are you doing these days?
+5. - [x] What is she studying?
+6. - [x] What are they doing?
+7. - [x] Are you enjoying it?
+8. - [x] Why are you walking so fast?
 
 #### 1.4 Answers:
 
-1. I'm trying
-2. It isn't raining
-3. I'm listening
-4. She is having
-5. He is learning
-6. They are speaking
-7. It is getting worse
-8. Is working
-9. I'm looking
-10. It is working
-11. They are building
-12. He isn't enjoying
-13. The weather is changing
-14. He is starting
+1. - [x] I'm trying
+2. - [x] It isn't raining
+3. - [x] I'm listening
+4. - [x] She is having
+5. - [x] He is learning
+6. - [x] They aren't speaking
+7. - [x] It is getting worse
+8. - [x] Isn't working
+9. - [x] I'm looking
+10. - [x] It is working
+11. - [x] They are building
+12. - [x] He isn't enjoying
+13. - [x] The weather is changing
+14. - [x] He is starting
 
 </details>
 
