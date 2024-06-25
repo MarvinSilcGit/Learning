@@ -9,6 +9,7 @@ mindmap
     **JavaScript**
     **Khan Academy**
     **SQLite**
+    **UML**
 ```
 
 ## Links
