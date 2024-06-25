@@ -20,7 +20,7 @@ mindmap
     (Intro CSS)
     (CSS Inheritance)
 ```
-_Add 3 backsticks at the beginning and end of the code block with mermaid_
+_Add 3 backsticks at the beginning and end of the code block with mermaid to highlight the code_
 
 ### Shapes
 
