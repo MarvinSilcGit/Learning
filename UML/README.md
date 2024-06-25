@@ -22,6 +22,17 @@ mindmap
 ```
 _Add 3 backsticks at the beginning and end of the code block with mermaid to highlight the code_
 
+```
+mindmap
+  **HTML-CSS**
+    (Semantics)
+    (Accessibility)
+    (Headings)
+  **JavaScript**
+    (Numbers)
+    (Strings)
+```
+
 _Use indentaion to create hierarchy between topics_
 ### Shapes
 
