@@ -301,29 +301,28 @@ World</h1>
 <details>
   <summary><h2>Chapter 10: Intro to landmarks</h2></summary>
 
-  ### Intro to Landmarks
+### Intro to Landmarks
 
-  <p style="text-align: justify">Elementos referenciais teem o objetivo de dividir a página em várias áreas reconhecíveis. Um usuário pode usar leitores de tela para navegar com facilidade e motores de buscam podem melhor entender o conteúdo do seu website</p>
+<p style="text-align: justify">Elementos referenciais teem o objetivo de dividir a página em várias áreas reconhecíveis. Um usuário pode usar leitores de tela para navegar com facilidade e motores de buscam podem melhor entender o conteúdo do seu website</p>
 
 <br>
 
- ### The Main Element
+### The Main Element
 
- <p style ="text-align: justify">O elemento <code>main</code> é utilizado para representar o conteúdo principal da página.</p>
+<p style ="text-align: justify">O elemento <code>main</code> é utilizado para representar o conteúdo principal da página.</p>
+
+<br>
+
+### The header element
+
+<p style ="text-align: justify">O elemento <code>header</code> representa o conteúdo usado para introduzir a página. Ele geralmente contém o cabeçalho, uma logo e elementos de navegação.</p>
 
  <br>
 
- ### The header element
-
- <p style ="text-align: justify">O elemento <code>header</code> representa o conteúdo usado para introduzir a página. Ele geralmente contém o cabeçalho, uma logo e elementos de navegação.</p>
-
- <br>
-
- ### The footer element
+### The footer element
 
  <p style ="text-align:justify">O elemento <code>footer</code> representa o rodapé da página. Ele contém os dados comumente utilizados no final da página, tais como: links, documentos relacionados, direitos de propriedade intelectual, informações de contato e endereço.</p>
 
-  
 </details>
 
 <details>
