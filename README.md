@@ -42,7 +42,6 @@ mindmap
         ALTER
         DROP
         DELETE
-    **UML**
     
 ```
 
