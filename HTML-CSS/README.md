@@ -333,17 +333,19 @@ World</h1>
 
  <p style ="text-align: justify">O elemento <code>strong</code> é utilizado para represenar conteúdo que forte relevância, seriedade ou urgência.</p>
 
- <br>
+<br>
 
- ### The b element
+### The b element
 
  <p style ="text-align: justify">O elemento <code>b</code> é utilizado para chamar a atenção de uma porção de texto relevante, sem tem muita importância além disso.</p>
 
- ### The em and i elements
+<br>
+
+### The em and i elements
 
  <p style ="text-align: justify">O elemento <code>em</code> é utilizado para dar ênfase em termos de tonalidade ao conteúdo.</p>
 
- <br>
+<br>
 
  <p style ="text-align: justify">O elemento <code>i</code> é utilizado para denotar outros termos de idioma diferentes, títulos de obras artísticas ou termos técnicos.</p>
 
