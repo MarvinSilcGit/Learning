@@ -329,6 +329,24 @@ World</h1>
 <details>
   <summary><h2>Chapter 11: strong and em</h2></summary>
 
+ ### The strong and b elements
+
+ <p style ="text-align: justify">O elemento <code>strong</code> é utilizado para represenar conteúdo que forte relevância, seriedade ou urgência.</p>
+
+ <br>
+
+ ### The b element
+
+ <p style ="text-align: justify">O elemento <code>b</code> é utilizado para chamar a atenção de uma porção de texto relevante, sem tem muita importância além disso.</p>
+
+ ### The em and i elements
+
+ <p style ="text-align: justify">O elemento <code>em</code> é utilizado para dar ênfase em termos de tonalidade ao conteúdo.</p>
+
+ <br>
+
+ <p style ="text-align: justify">O elemento <code>i</code> é utilizado para denotar outros termos de idioma diferentes, títulos de obras artísticas ou termos técnicos.</p>
+
   
 </details>
 
