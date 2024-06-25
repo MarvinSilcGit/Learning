@@ -12,29 +12,29 @@ mindmap
     
 ```
 
-# Learning
+## Links
 
-## English
+### English
 
 https://test-english.com/
 
 https://www.perfect-english-grammar.com/
 
-## Math
+### Math
 
 https://en.khanacademy.org/login
 
-## HTML-CSS
+### HTML-CSS
 
 https://learnhtmlcss.online/
 
 https://v2.scrimba.com/
 
-## SQLite
+### SQLite
 
 https://www.sqlitetutorial.net/
 
-## JavaScript
+### JavaScript
 
 https://learnjavascript.online/
 https://v2.scrimba.com/
