@@ -3,12 +3,25 @@
 
 ```mermaid
 mindmap
-  root(Leaning Fields)
-    English
-    HTML-CSS
-    JavaScript
-    Khan Academy
-    SQLite
+  root(**Leaning Fields**)
+    **English**
+    **HTML-CSS**
+      **Semantics**
+      **Accessibility**
+      **Headings**
+      **Boilerplate**
+      **Blank space and comments**
+      **Paragraphs**
+      **Lists**
+      **HTML validity**
+      **Landmarks**
+      **Strong and em**
+      **Images**
+      **Intro CSS**
+      **CSS Inheritance**
+    **JavaScript**
+    **Khan Academy**
+    **SQLite**
     
 ```
 
