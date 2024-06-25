@@ -5,8 +5,8 @@
 mindmap
   root(**Leaning Fields**)
     **English**
-        Present continuous I am doing
-        Present simple I do
+        Present continuous
+        Present simple
         Present continuous and simple 1
         Present continuous and simple 2
     **HTML-CSS**
