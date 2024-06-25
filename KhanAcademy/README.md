@@ -15,7 +15,7 @@
   <summary id ="EMR"><h3>Early Math Review</h3></summary>
 
 - [x] Unit 1 Counting
-- [ ] Unit 2 Addition and subtraction intro
+- [x] Unit 2 Addition and subtraction intro
 - [ ] Unit 3 Place value (tens and hundreds)
 - [ ] Unit 4 Addition and subtraction within 20
 - [ ] Unit 5 Addition and subtractino within 100
