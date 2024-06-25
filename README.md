@@ -20,6 +20,13 @@ mindmap
       **Intro CSS**
       **CSS Inheritance**
     **JavaScript**
+      **Basic Functions**
+      **Strings 1**
+      **Numbers**
+      **Variables**
+      **Conditions**
+      **Arrays 1**
+      **Arrays 2 & callbacks**
     **Khan Academy**
     **SQLite**
     
