@@ -2,20 +2,20 @@
 
 ```mermaid
 mindmap
-**HTML-CSS**
-  (Semantics)
-  (Accessibility)
-  (Headings)
-  (Boilerplate)
-  (Blank space and comments)
-  (Paragraphs)
-  (Lists)
-  (HTML validity)
-  (Landmarks)
-  (Strong and em)
-  (Images)
-  (Intro CSS)
-  (CSS Inheritance)
+  **HTML-CSS**
+    (Semantics)
+    (Accessibility)
+    (Headings)
+    (Boilerplate)
+    (Blank space and comments)
+    (Paragraphs)
+    (Lists)
+    (HTML validity)
+    (Landmarks)
+    (Strong and em)
+    (Images)
+    (Intro CSS)
+    (CSS Inheritance)
 ```
 
 <details>
