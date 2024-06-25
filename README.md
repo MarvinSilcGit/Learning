@@ -1,6 +1,6 @@
 # Learning
 
-## English links
+## English
 
 https://test-english.com/
 
