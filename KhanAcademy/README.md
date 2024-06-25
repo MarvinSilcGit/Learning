@@ -2,6 +2,7 @@
 
 <details open>
   <summary><h3>Table of contents</h3></summary>
+  <h3>Math: pre-k - 8th grade</h3>
   <ol>
     <li><h5><a href ="#EMR">Early Math Review</a></h5></li>
     <li><h5><a href ="#2ndG">2nd Grade</a></h5></li>
