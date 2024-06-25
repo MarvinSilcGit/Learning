@@ -296,14 +296,14 @@ World</h1>
 <p style ="text-align: justify">É possíve também com listas, aninhar uma dentro da outra, criando listas dentro de listas. Vale tanto para listas ordenadas dentro de lista não ordenadas ou vice-versa, listas ordenads dentro de listas ordenadas e listas não ordenadas dentro de listas não ordenadas</p>
 
   
-</details
+</details>
 
 <details>
-  <summary><h2>Chapter 10: Intro to landmarks</h2></summary>
-
+ <summary><h2>Chapter 10: Intro to Landmarks</h2></summary>
+ 
 ### Intro to Landmarks
 
-<p style="text-align: justify">Elementos referenciais teem o objetivo de dividir a página em várias áreas reconhecíveis. Um usuário pode usar leitores de tela para navegar com facilidade e motores de buscam podem melhor entender o conteúdo do seu website</p>
+<p style ="text-align: justify">Elementos referenciais teem o objetivo de dividir a página em várias áreas reconhecíveis. Um usuário pode usar leitores de tela para navegar com facilidade e motores de buscam podem melhor entender o conteúdo do seu website</p>
 
 <br>
 
@@ -317,12 +317,13 @@ World</h1>
 
 <p style ="text-align: justify">O elemento <code>header</code> representa o conteúdo usado para introduzir a página. Ele geralmente contém o cabeçalho, uma logo e elementos de navegação.</p>
 
- <br>
+<br>
 
 ### The footer element
 
  <p style ="text-align:justify">O elemento <code>footer</code> representa o rodapé da página. Ele contém os dados comumente utilizados no final da página, tais como: links, documentos relacionados, direitos de propriedade intelectual, informações de contato e endereço.</p>
 
+ 
 </details>
 
 <details>
