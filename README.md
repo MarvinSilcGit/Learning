@@ -1,3 +1,17 @@
+# Learning Diagram:
+
+
+```mermaid
+mindmap
+  root(Leaning Fields)
+    English
+    HTML-CSS
+    JavaScript
+    Khan Academy
+    SQLite
+    
+```
+
 # Learning
 
 ## English
