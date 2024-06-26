@@ -35,7 +35,9 @@ Departamento }|-- Escola
 @enduml
 ```
 
-## Repeat Loop
+## Activity Diagram
+
+### Repeat Loop
 
 ```plantuml
 @startuml
@@ -63,9 +65,9 @@ floating note left: Fim
 @enduml
 ```
 
-## While Loop
+### While Loop
 
-### With backward function
+#### With backward function
 
 ```plantuml
 @startuml
@@ -90,7 +92,7 @@ floating note right: Fim
 @enduml
 ```
 
-### Without backward function
+#### Without backward function
 
 ```plantuml
 @startuml
@@ -122,9 +124,9 @@ floating note right: Fim
 @enduml
 ```
 
-## Conditions
+### Conditions
 
-### If (floating notes included)
+#### If (floating notes included)
 
 ```plantuml
 @startuml
@@ -154,7 +156,7 @@ floating note right: Fim
 @enduml
 ```
 
-### Elseif (vertical mode on)
+#### Elseif (vertical mode on)
 
 ```plantuml
 @startuml
