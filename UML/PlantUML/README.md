@@ -184,3 +184,36 @@ endif
 end
 @enduml
 ```
+<br>
+
+```plantuml
+!pragma useVerticalIf on
+@startuml
+start
+floating note right: Início
+
+partition declaraçãoVariáveis{
+: **casaValor** = 230000;
+: **salario** = 1422;
+: **anos** = 10;
+: **meses** = **anos** * 12;
+: **parcelas** = **casaValor** / **meses**
+: **porcentagem** = **salario** * 0.3;
+}
+
+partition Condicioais{
+if (**parcelas** > **porcentagem**) then (**Sim**)
+	
+	:print("Inapto");
+
+(**Não**) elseif (**parcelas** <= **porcentagem**) then (**Sim**)
+	
+	:print("Apto");
+	
+endif
+}
+
+end
+floating note left: Fim
+@enduml
+```
