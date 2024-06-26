@@ -1,6 +1,6 @@
 # Sintax
 
-## Mapas Mentais
+## Mind Maps
 
 ```
 mindmap
