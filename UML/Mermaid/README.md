@@ -59,7 +59,3 @@ mindmap
     I am the default shape
 
 ```
-
-## Sequence diagrams
-
-
