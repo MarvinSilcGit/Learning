@@ -5,8 +5,12 @@
   <h4>Math: pre-k - 8th grade</h4>
   <ol>
     <nav>
-      <li><h5><a href ="#EMR">Early Math Review</a></h5></li>
-      <li><h5><a href ="#2ndG">2nd Grade</a></h5></li>
+      <li>
+        <a href ="#EMR">Early Math Review</a>
+      </li>
+      <li>
+        <a href ="#2ndG">2nd Grade</a>
+      </li>
     </nav>
   </ol>
 </details>
