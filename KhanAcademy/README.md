@@ -4,14 +4,16 @@
   <summary><h3>Table of contents</h3></summary>
   <h4>Math: pre-k - 8th grade</h4>
   <ol>
-    <nav>
-      <li>
+    <li>
+      <h5>
         <a href ="#EMR">Early Math Review</a>
-      </li>
-      <li>
+      </h5>
+    </li>
+    <li>
+      <h5>
         <a href ="#2ndG">2nd Grade</a>
-      </li>
-    </nav>
+      </h5>
+    </li>
   </ol>
 </details>
 
