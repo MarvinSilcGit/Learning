@@ -1,5 +1,7 @@
 # Sintax
 
+## Mapas Mentais
+
 ```
 mindmap
   **HTML-CSS**
@@ -57,3 +59,7 @@ mindmap
     I am the default shape
 
 ```
+
+## Sequence diagrams
+
+
