@@ -355,6 +355,10 @@ World</h1>
 <details>
   <summary><h2>Chapter 12: Intro to Images</h2></summary>
 
+```html
+<img src = "" width ="" height ="" alt ="">
+```
+ 
   ### The img element
 
   <p style ="text-align: justify">O elemento <code>img</code> é responsável por exibir imagens na página.</p>
