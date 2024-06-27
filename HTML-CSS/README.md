@@ -355,6 +355,36 @@ World</h1>
 <details>
   <summary><h2>Chapter 12: Intro to Images</h2></summary>
 
+  ### The img element
+
+  <p style ="text-align: justify">O elemento <code>img</code> é responsável por exibir imagens na página.</p>
+
+  <br>
+
+  ### The src attribute
+
+  <p style ="text-align: justify">O atributo src é usado para definir o local da página.</p>
+
+  ### The width and height attributes
+
+  <p style ="text-align: justify">O atributo width define a largura da imagem e height a altura da página e é sempre necessário utilizar-los para explicitar o tamanho da imagem para o navegador e remover comportamentos preditivos dos navegadores em alocar o espaço certo para imagem na página.</p>
+
+  <br>
+
+  ### Alternative text
+
+  <p style ="text-align: justify">O atributo alt é usado para especificar um texto alternativo no lugar da imagem caso ele não possa ser exibida. Com isso, ele sempre é necessário. Ele é usado também em leitores de tela, como forma de narrar a imagem para uma pessoa cega.</p>
+
+
+ #### Decorative images
+
+ <p style ="text-align: justify">Um imagem decorativa é usada somente com o único propósito estético na página. Para tais imagens, o atributo alt precisa estar assim: <code>alt =""</code>.</p>
+
+ <br>
+
+ #### Informative images
+
+ <p style ="text-align: justify">Imagens informativas são imagens que adicionam valor para a página e possuem relacão com o conteúdo. Para tais imagens o atributo alt precisa estar assim: <code>alt ="textoDescritivoImagem"</code>. Evite utilizar descrições genéricas, pois pode confundir pessoas que estejam utilizando leitores de tela.</p>
   
 </details>
 
