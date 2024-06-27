@@ -38,3 +38,7 @@ https://www.sqlitetutorial.net/
 
 https://learnjavascript.online/
 https://v2.scrimba.com/
+
+### Python
+
+https://realpython.com/
