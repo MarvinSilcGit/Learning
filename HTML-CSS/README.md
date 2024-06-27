@@ -395,6 +395,31 @@ World</h1>
 <details>
   <summary><h2>Chapter 13: Intro do CSS</h2></summary>
 
+ ### Intro to CSS
+
+ <p style ="text-align: justify">CSS significa _Cascading Style Sheets_. O CSS é utilizado para estilizar uma página escrita em HTML. Ou seja, CSS vai de mão dada com HTML na construção de uma página minimamente decente e funcional.</p>
+
+<br>
+
+ ### Adding stylesheet
+
+```html
+<link rel="stylesheet" href="index.css">
+```
+
+<br>
+
+### CSS sintax
+
+```css
+h1 {
+    color: red;
+}
+```
+
+<p style ="text-align: justify">O elemento <code>h1</code> no contexto CSS é chamado de seletor. Um seletor CSS é usado para encontrar os elementos em uma página web que irá receber um conjunto de estilos.</p>
+
+<p style ="text-align: justify">A sintexe do CSS é composta de duas partes: o seletor e par propriedade/valor. No contexto do código de cima. <code>color:</code> é proprieade e <code>red</code> é o valor.</p>
   
 </details>
 
