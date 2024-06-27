@@ -423,13 +423,13 @@ h1 {
 
 <p style ="text-align: justify">A sintexe do CSS é composta de duas partes: o seletor e par propriedade/valor. No contexto do código de cima. <code>color:</code> é proprieade e <code>red</code> é o valor.</p>
 
-<br>
-
 ### O seletor simples
 
 <p style ="text-align: justify">Há várias maneiras de selecionar as tags de uma página e uma delas é pelo uso do seletor simples. Com isso, toda vez que a tag <code>h1</code> for escrita, o seletor captura seu uso e aplica o efeito de cor green.</p>
 
 <br>
+
+### CSS comments
 
 ```css
 /* This is a CSS comment */
@@ -437,9 +437,6 @@ h1 {
     color: red;
 }
 ```
-
-### CSS comments
-
 <p style ="text-align: justify">Os comentários permitem acrescentar lembretes ou guias das funções que arquivo CSS possui e como isso afeta o conteúdo exibido no navegador.</p>
   
 </details>
