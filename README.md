@@ -10,6 +10,7 @@ mindmap
     **Khan Academy**
     **SQLite**
     **UML**
+    **Python**
 ```
 
 ## Links
