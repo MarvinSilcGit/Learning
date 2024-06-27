@@ -425,7 +425,7 @@ h1 {
 
 ### O seletor simples
 
-<p style ="text-align: justify">Há várias maneiras de selecionar as tags de uma página e uma delas é pelo uso do seletor simples. Com isso, toda vez que a tag <code>h1</code> for escrita, o seletor captura seu uso e aplica o efeito de cor green.</p>
+<p style ="text-align: justify">Há várias maneiras de selecionar as tags de uma página, e uma delas é pelo uso do seletor simples. Com isso, toda vez que a tag <code>h1</code> for escrita, o seletor captura seu uso e aplica o efeito de cor green. No contexto do código acima, foi usado o seletor simples na tag <code>h1</code>.</p>
 
 <br>
 
