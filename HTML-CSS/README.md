@@ -404,7 +404,7 @@ World</h1>
  ### Adding stylesheet
 
 ```html
-<link rel="stylesheet" href="index.css">
+<link rel ="stylesheet" type ="text/css" href ="style.css">
 ```
 
 <p>Sintaxe para conexão entre um arquivo CSS e uma página HTML. Aplique dentro da tag <code>head</code></p>
