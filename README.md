@@ -7,10 +7,11 @@ mindmap
     **English**
     **HTML-CSS**
     **JavaScript**
+    **Python**
     **Khan Academy**
     **SQLite**
     **UML**
-    **Python**
+    
 ```
 
 ## Links
