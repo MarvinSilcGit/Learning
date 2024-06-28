@@ -371,14 +371,24 @@
 2. - [ ] Have you saw it? <del>have you seen it</del>?
 3. - [x] I have forgotten
 4. - [x] He hasn't replied
-5. it has finished?
-6. Has the weather changed
-7. you hasn't signed
-8. they have gone
-9. he hasn't decided yet
-10. I have just saw her
-11. He's already gone;
-12. Have your course started yet?
+5. - [ ] <del>it has finished?</del> Has it finished?
+6. - [ ] <del>Has the weather changed</del> the weather has changed
+7. - [ ] <del>you Hasn't signed</del> You haven't signed
+8. - [ ] <del>they Have gone</del> Have they gone?
+9. - [x] He hasn't decided yet
+10. - [ ] <del>I have just saw her</del> I have just seen her
+11. - [x] He's already gone;
+12. - [x] Have your course started yet?
+
+#### 7.4 Answers:
+
+1. - [x] I've just had lunch
+2. - [ ] <del>He has already gone out</del> He has just gone out
+3. - [x] I haven't finished yet
+4. - [x] I have already done it
+5. - [x] Has you found?
+6. - [x] I haven't decided yet
+7. - [x] She has just came back
   
 </details>
 
