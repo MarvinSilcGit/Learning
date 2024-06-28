@@ -30,9 +30,6 @@ https://sqliteonline.com/
 
 <details>
 	<summary><h2>Section 1. Simple Query</h2></summary>
-
- ### SQLite Select
-
  
 </details>
 
