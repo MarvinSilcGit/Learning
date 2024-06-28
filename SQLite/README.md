@@ -45,10 +45,7 @@ https://www.sqlitetutorial.net/tryit/
 https://sqliteonline.com/
 
 <details>
- <summary>
-	 <h2>Intro to SQL</h2>
- </summary>
-</details>
+	<summary><h2>Intro to SQL</h2></summary>
 
 ### Introduction to SQL
 
@@ -57,3 +54,7 @@ https://sqliteonline.com/
 <br>
 
 ### Relational Databases
+
+</details>
+
+
