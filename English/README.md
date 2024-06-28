@@ -394,6 +394,30 @@
 
 <details>
   <summary><h3 id ="unit8">Unit 8: Present perfect 2 (I have done)</h3></summary>
+
+### 8.1 Answers:
+
+1. - [x] Have you ever ridden a horse?
+2. - [x] Have you ever been to California?
+3. - [ ] <del>Have you ever ran a marathon?</del> Have you ever run a marathon?
+4. - [x] Have you ever spoken to a famous person?
+5. - [x] What's the most beautiful place have you ever visited?
+
+### 8.2 Answers:
+
+1. - [x] I've never met
+2. - [x] haven't had
+3. - [x] Haven't eaten
+4. - [x] Haven't played
+5. - [ ] <del>I have been</del> I have had
+6. - [x] I haven't read
+7. - [x] I haven't never been
+8. - [x] It Has happened
+9. - [x] I haven't tried
+10. - [x] Has been
+11. - [x] I haven't seen
+
+### 8.3 Answers:
   
 </details>
 
