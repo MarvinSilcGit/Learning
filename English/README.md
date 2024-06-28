@@ -345,6 +345,40 @@
   <summary><h3 id ="unit7">Unit 7: Present perfect 1 (I have done)</h3></summary>
 
 #### Basic definition: When we talk about a period of time that continues form the past until now, we use the present perfect (have been, have travelled).
+
+#### 7.1 Answers:
+
+1. - [x] has lost his key.
+2. - [x] has improved.
+3. - [x] have disappeared.
+4. - [x] has broken her leg.
+5. - [ ] <del>has went up</del> has gone up
+6. - [x] beard has grown up
+7. - [x] has stopped raining
+8. - [x] have shrunk
+
+#### 7.2 Answers:
+
+1. - [x] gone
+2. - [x] been
+3. - [x] gone
+4. - [x] gone
+5. - [x] been
+  
+#### 7.3 Answers:
+
+1. - [x] She hasn't gone
+2. - [ ] Have you saw it? <del>have you seen it</del>?
+3. - [x] I have forgotten
+4. - [x] He hasn't replied
+5. it has finished?
+6. Has the weather changed
+7. you hasn't signed
+8. they have gone
+9. he hasn't decided yet
+10. I have just saw her
+11. He's already gone;
+12. Have your course started yet?
   
 </details>
 
