@@ -36,7 +36,42 @@ https://sqliteonline.com/
 
 <br>
 
+### Introduction to SQL
+
+<p>SQL, Structured Query Language, é uma linguagem de programação projetada para gerenciar dados armazenados em um banco de dados relacional. Os comando cobertos nesse curso utiliza SQLite Relational Database Management System.</p>
+
 <br>
+
+### Relational Database
+
+<p>Um banco de dados relacional é um banco de dados que organiza informação em uma ou mais tabelas. Uma tabela é uma coleção de dados organizados em linhas e colunas. Tabelas são também conhecidas como relações.</p>
+
+<p>Uma coluna é um conjunto de características de um tipo particular. Uma linha é um registro único em uma tabela.</p>
+
+<br>
+
+### Statements
+
+<p>O código abaixo é uma declaração. Uma declaração é um texto que banco de dados reconhece como um comando válido. Declarações sempre terminam con ponto e vírgula.</p>
+
+```sql
+CREATE TABLE table_name
+(
+   column_1 data_type, 
+   column_2 data_type, 
+   column_3 data_type
+);
+```
+
+_Distrinchando o código acima:_
+
+1. <code>CREATE TABLE</code> é um comando. Comandos performam tarefas específicas em SQL. Por convenção, comando são escrito em caxa-alta.
+2. <code>table_name</code> se refere ao nome da tabela o qual o comando se aplica.
+3. <code>column_1 data_type, column_2 data_type, column_3 data_type</code> é um parâmetro. Um parâmetro é uma lista de colunas, tipos de dados ou valores que são passados para um comando como sendo um argumento.
+
+<br>
+
+### CREATE
  
 </details>
 
