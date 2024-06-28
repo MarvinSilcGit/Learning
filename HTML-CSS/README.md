@@ -22,6 +22,14 @@ mindmap
   
   <summary><h2>Charpter 2: Intro to Semantics</h2></summary>
 
+
+```mermaid
+mindmap
+  **Chapter2**
+   (Intro to Semantics)
+   (Intro to Headings)
+```
+
 ### Intro to Semantics
 
 <p style="text-align: justify">Escrever HTML semântico significa dar significado para os elementos que nós usamos. Isso permite você focar no propósito do elemente ao invés de sua aparência. Semântica foca em fornecer significado e propósito para os elementos que você usa.</p>
