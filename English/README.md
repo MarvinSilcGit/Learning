@@ -401,7 +401,7 @@
 2. - [x] Have you ever been to California?
 3. - [ ] <del>Have you ever ran a marathon?</del> Have you ever run a marathon?
 4. - [x] Have you ever spoken to a famous person?
-5. - [x] What's the most beautiful place have you ever visited?
+5. - [ ] <del>What's the most beautiful place have you ever visited?</del> What's the most beautiful place you have ever visited?
 
 ### 8.2 Answers:
 
@@ -418,6 +418,22 @@
 11. - [x] I haven't seen
 
 ### 8.3 Answers:
+
+1. - [x] I haven't used a computer todaay
+2. - [x] I Haven't been to the cinema for ages
+3. - [x] I haven't travelled by bus this year
+4. - [x] I haven't read a book this week
+5. - [x] I haven't eaten any fruit today
+6. - [x] I haven't lost anythin since
+
+### 8.4 Answers:
+
+1. - [x] It's the first time he has driven
+2. - [x] They have seen
+3. - [x] Has never ridden
+4. - [x] They have been
+5. - [ ] <del>She has been</del> Has stayed
+6. - [x] He has never played
   
 </details>
 
