@@ -98,6 +98,44 @@ _Distrinchando o código acima:_
 
 ### INSERT
 
+<p style ="text-align: justify">O comando <code>INSERT</code> insere uma nova linha na coluna. Nós podemos usar esse comando sempre que for necessário adicionar novas colunas.</p>
+
+```sql
+INSERT INTO celebs (id, name, age) 
+VALUES (1, 'Justin Bieber', 29);
+```
+
+_Distrinchando o código acima:_
+
+1. <code>INSERT INTO</code> é um comando que adiciona a especificada coluna ou colunas.
+2. <code>VALUES</code> é comando que indica os valores que estão sendo inseridos para cada coluna na ordem.
+
+<br>
+
+### SELECT
+
+<p style ="text-align: justify">Comendos <ode>SELECT</ode> são utilizados para recupear dados de uma banco de dados.</p>
+
+```sql
+SELECT name FROM celebs;
+```
+
+_Distrinchando o código acima:_
+
+1. <code>SELECT</code> é o comando que indica que essa declaração é uma consulta.
+2. <code>FROM celebs</code> especifica o nome da tabela da qual os dados foram consultados.
+
+
+```
+SELECT * FROM celebs;
+```
+
+_Distrinchando o código acima:_
+
+<p style ="text-align: justify"><code>*</code> é um caractere coringa especial que estivemos usando até então. Ele nos permite selecionar toda coluna em uma tabela sem ter que nomear cada uma individualmente.</p>
+
+
+
 </details>
 
 <details>
