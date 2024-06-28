@@ -18,6 +18,21 @@ https://sqliteonline.com/
 <details>
 	<summary><h2>Manipulation</h2></summary>
 
+
+```mermaid
+mindmap
+	**Manipulation**
+		(Relational Database)
+		(Statements)
+		(CREATE)
+		(INSERT INTO)
+		(SELECT)
+		(ALTER)
+		(UPDATE)
+		(DELETE)
+		(CONSTRAINTS)
+```
+
 ### What is SQLite
 
 <p style ="text-align: justify">SQLite é um moto de banco de dados. Ele permite usuários interagir com um banco de dados relacional. Em SQLite, o banco de dados é armazenado em um único arquivo. Esse fato permite uma grande acessibilidade: copiar um banco de dados não é mais complicado do que copiar um arquivo qualquer.</p>
