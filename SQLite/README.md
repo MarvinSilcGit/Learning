@@ -1,7 +1,5 @@
 # Course Diagram:
 
-## The bigger picture
-
 ```mermaid
 mindmap
 	**Basic SQLite tutorial**
@@ -28,3 +26,12 @@ mindmap
 https://www.sqlitetutorial.net/tryit/
 
 https://sqliteonline.com/
+
+
+<details>
+	<summary><h2>Section 1. Simples Query</h2></summary>
+
+ ### SQLite Select
+
+ 
+</details>
