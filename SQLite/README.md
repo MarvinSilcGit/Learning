@@ -22,7 +22,6 @@ https://sqliteonline.com/
 ```mermaid
 mindmap
 	**Manipulation**
-		(Relational Database)
 		(Statements)
 		(CREATE)
 		(INSERT INTO)
