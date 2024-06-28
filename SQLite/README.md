@@ -1,59 +1,30 @@
 # Course Diagram:
 
-## Parte 1
+## The bigger picture
 
 ```mermaid
 mindmap
-	**Manipulation**
-		(Relational Databse)
-		(Statements)
-		(Create)
-		(Insert)
-		(Select)
-		(Alter)
-		(Alter)
-		(Update)
-		(Delete)
+	**Basic SQLite tutorial**
+		(Simple Querie)
+		(Sorting rows)
+		(Filtering data)
+		(Joining tables)
+		(Grouping data)
+		(Set Operators)
+		(Subquery & CTE)
+		(More querying techniques)
+		(Changing data)
+		(Transactions)
+		(Data Definition)
 		(Constraints)
+		(Views)
+		(Indexes)
+		(Triggers)
+		(Full-text search)
+		(SQLite tools)
 ```
 
 ## Useful Links
 https://www.sqlitetutorial.net/tryit/
 
 https://sqliteonline.com/
-
-<details>
-	<summary><h2>Intro to SQL</h2></summary>
-
-### Introduction to SQL
-
-<p style ="text-align: justify">SQL, Structured Query Language (Linguagem de Consulta Estruturada) é uma linguagem de programação projetada para gerenciar dados armazenados em um banco de dados relacional.</p>
-
-<br>
-
-### Relational Databases
-
-</details>
-
-
-## Parte 2
-
-```mermaid
-mindmap
-	**Queries**
-		(Introduction)
-		(Select)
-		(As)
-		(Distinct)
-		(Where)
-		(Like I)
-		(Like II)
-		(Like III)
-		(Is Null)
-		(Between)
-		(And)
-		(Or)
-		(Order By)
-		(Limit)
-		(Case)
-```
