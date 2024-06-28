@@ -36,6 +36,13 @@ https://sqliteonline.com/
 
 <br>
 
+<br>
+ 
+</details>
+
+<details>
+	<summary><h2>Queries</h2></summary>
+
 ### Introduction
 
 <p style ="text-align: justify">Um dos principais propósitos de uma linguagem SQL é recuperar informação armazenada no banco de dados. Isso é comumente conhecido como consulta. Consultas permitem-nos comunicar com um banco de dados perguntando e ele devolvendo um conjunto de resultados com dados relevantes.</p>
@@ -45,24 +52,16 @@ https://sqliteonline.com/
 ```sql
 SELECT * FROM movies;
 ```
-
-<br>
-
+ 
 ### SELECT
 
 <p style ="text-align: justify">Anteriormente, nós aprendemos que o comando <code>SELECT</code> é usado toda vez que você quer consultar dados de um banco de dados. O <code>*</code> significa que todas as colunas da tabela <code>movies</code> serão recuperadas.</p>
 
-<p>Suponha que nós estamos somente interessados em duas das colunas. Nós podemos selecionar colunas individualmente pelo seus nomes.</p>
-
+<p style ="text-align: justify">Suponha que nós estamos somente interessados em duas das colunas. Nós podemos selecionar colunas individualmente pelo seus nomes.</p>
 
 ```sql
 SELECT column1, column2 FROM table_name;
 ```
- 
-</details>
-
-<details>
-	<summary><h2>Queries</h2></summary>
 
 </details>
 
