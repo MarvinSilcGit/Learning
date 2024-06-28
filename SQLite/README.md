@@ -3,7 +3,7 @@ https://www.sqlitetutorial.net/tryit/
 
 https://sqliteonline.com/
 
-# Course Mindmap
+# Course Mind map
 
 ```mermaid
 mindmap
