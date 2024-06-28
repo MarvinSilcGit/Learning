@@ -35,3 +35,9 @@ https://sqliteonline.com/
 
  
 </details>
+
+<details>
+	<summary><h2>Section 2. Sorting rows</h2></summary>
+
+ 
+</details>
