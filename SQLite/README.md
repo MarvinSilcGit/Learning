@@ -171,7 +171,7 @@ _Distrinchando o código acima:_
 
 1. <code>UPDATE</code> é o comando que edita uma linha da tabela.
 2. <code>SET</code> é o comando que especifica a coluna e depois o parâmetro (entre aspas ou não a depender do tipo de dado) que ficará no lugar do anterior.
-3. <code>WHERE</code> é comando que especifica qual linha da coluna selecionada será alterada. Apesar de não ser necesário para o restante do comando funcionar, se não for acrescentado, todas as linhas da coluna possuirão o mesmo valor passado como parâmetro. Por isso mesmo, é necessária a utilização de um valor que seja único para cada linha da tabela.
+3. <code>WHERE</code> é comando que especifica qual linha da coluna selecionada será alterada se o parâmetro for verdadeiro. Apesar de não ser necesário para o restante do comando funcionar, se não for acrescentado, todas as linhas da coluna possuirão o mesmo valor passado como parâmetro. Por isso mesmo, é necessária a utilização de um valor que seja único para cada linha da tabela.
 
 <br>
 
@@ -186,7 +186,9 @@ WHERE twitter_handle IS NULL;
 
 _Distrinchando o código acima:_
 
-1. 
+1. <code>DELETE FROM</code> é o comando que permite deletar uma mais linhas de uma tabela.
+2. <code>WHERE</code> especifica uma ou mais linhas que serão deletadas confome o parâmetro for verdadeiro.
+3. <code>IS NULL</code> é o parâmetro que será analizado com verdadeiro ou não.
 
 </details>
 
