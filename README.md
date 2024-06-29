@@ -26,18 +26,23 @@ mindmap
 
 <h5><a href ="https://test-english.com/">test-english.com</a></h5>
 
+<h5><a href ="https://www.perfect-english-grammar.com/">perfect-english-grammar.com</a></h5>
 
-https://www.perfect-english-grammar.com/
 
 ### Math
 
-https://en.khanacademy.org/login
+<h5><a href ="https://en.khanacademy.org/login">khanacademy</a></h5>
+
 
 ### HTML-CSS
 
-https://learnhtmlcss.online/
+<h5><a href ="https://learnhtmlcss.online/">learnhtmlcss</a></h5>
 
-https://v2.scrimba.com/
+<h5><a href ="https://v2.scrimba.com/">scrimba</a></h5>
+
+<h5><a href ="https://www.w3schools.com/">w3schools.com</a></h5>
+
+
 
 ### SQLite
 
