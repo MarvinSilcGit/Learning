@@ -13,18 +13,6 @@ mindmap
 	<summary><h2>Manipulation</h2></summary>
 
 
-```mermaid
-mindmap
-	**Manipulation**
-		(CREATE)
-		(INSERT INTO)
-		(SELECT)
-		(ALTER)
-		(UPDATE)
-		(DELETE)
-		(CONSTRAINTS)
-```
-
 ### What is SQLite
 
 <p style ="text-align: justify">SQLite é um moto de banco de dados. Ele permite usuários interagir com um banco de dados relacional. Em SQLite, o banco de dados é armazenado em um único arquivo. Esse fato permite uma grande acessibilidade: copiar um banco de dados não é mais complicado do que copiar um arquivo qualquer.</p>
@@ -56,6 +44,18 @@ mindmap
 <p  style ="text-align: justify">Uma coluna é um conjunto de características de um tipo particular. Uma linha é um registro único em uma tabela.</p>
 
 <br>
+
+```mermaid
+mindmap
+	**Manipulation**
+		(CREATE)
+		(INSERT INTO)
+		(SELECT)
+		(ALTER)
+		(UPDATE)
+		(DELETE)
+		(CONSTRAINTS)
+```
 
 ### Statements
 
@@ -105,7 +105,7 @@ _Distrinchando o código acima:_
 
 ### INSERT
 
-<p style ="text-align: justify">O comando <code>INSERT</code> insere uma nova linha na coluna. Nós podemos usar esse comando sempre que for necessário adicionar novas colunas.</p>
+<p style ="text-align: justify">A declaração <code>INSERT</code> insere uma nova linha na coluna. Nós podemos usar esse comando sempre que for necessário adicionar novas colunas.</p>
 
 ```sql
 INSERT INTO celebs (id, name, age) 
@@ -121,7 +121,7 @@ _Distrinchando o código acima:_
 
 ### SELECT
 
-<p style ="text-align: justify">Comendos <ode>SELECT</ode> são utilizados para recupear dados de uma banco de dados.</p>
+<p style ="text-align: justify">A declaração <code>SELECT</code> é utilizadas para recupear dados de uma banco de dados.</p>
 
 ```sql
 SELECT name FROM celebs;
