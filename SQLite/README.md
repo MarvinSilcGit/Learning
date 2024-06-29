@@ -161,7 +161,7 @@ _Distrinchando o código acima:_
 
 ### UPDATE
 
-<p style ="text-align: justify">A declaração <code>UPDATE SET;</code> permite editar uma linha de uma coluna da tabela com um novo valor que for passado para a declaração.</p>
+<p style ="text-align: justify">A declaração <code>UPDATE SET</code> permite editar uma linha de uma coluna da tabela com um novo valor que for passado para a declaração.</p>
 
 ```sql
 UPDATE celebs SET twitter_handle = '@taylorswift13' WHERE id = 4; 
@@ -173,7 +173,20 @@ _Distrinchando o código acima:_
 2. <code>SET</code> é o comando que especifica a coluna e depois o parâmetro (entre aspas ou não a depender do tipo de dado) que ficará no lugar do anterior.
 3. <code>WHERE</code> é comando que especifica qual linha da coluna selecionada será alterada. Apesar de não ser necesário para o restante do comando funcionar, se não for acrescentado, todas as linhas da coluna possuirão o mesmo valor passado como parâmetro. Por isso mesmo, é necessária a utilização de um valor que seja único para cada linha da tabela.
 
+<br>
 
+### DELETE
+
+<p style ="text-align: justify">A declaração <code>DELETE FROM</code> apaga uma ou mais linhas de uma tabela.</p>
+
+```sql
+DELETE FROM celebs 
+WHERE twitter_handle IS NULL;
+```
+
+_Distrinchando o código acima:_
+
+1. 
 
 </details>
 
