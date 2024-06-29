@@ -1,10 +1,3 @@
-# Useful Links
-https://www.sqlitetutorial.net/tryit/
-
-https://sqliteonline.com/
-
-https://sqldocs.org/
-
 # Course's Mind map
 
 ```mermaid
