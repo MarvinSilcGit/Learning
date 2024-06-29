@@ -147,6 +147,38 @@ _Distrinchando o código acima:_
 
 <p style ="text-align: justify"><code>*</code> é um caractere coringa especial que estivemos usando até então. Ele nos permite selecionar toda coluna em uma tabela sem ter que nomear cada uma individualmente.</p>
 
+<br>
+
+### ALTER
+
+<p style ="text-align: justify">A declaração <code>ALTER TABLE</code> juntamente com <code>ADD COLUMN</code> permite adicionar uma nova coluna na tabela.</p>
+
+```sql
+ALTER TABLE celebs 
+ADD COLUMN twitter_handle TEXT;
+```
+
+_Distrinchando o código acima:_
+
+1. <code>ALTER TABLE</code> é o comando que permite você fazer mudanças específicas.
+2. <code>ADD COLUMN</code> é o comando que permite você Adicionar coluna.
+
+<br>
+
+### UPDATE
+
+<p style ="text-align: justify">A declaração <code>UPDATE SET;</code> permite editar uma linha de uma coluna da tabela com um novo valor que for passado para a declaração.</p>
+
+```sql
+UPDATE celebs SET twitter_handle = '@taylorswift13' WHERE id = 4; 
+```
+
+_Distrinchando o código acima:_
+
+1. <code>UPDATE</code> é o comando que edita uma linha da tabela.
+2. <code>SET</code> é o comando que especifica a coluna e depois o parâmetro (entre aspas ou não a depender do tipo de dado) que ficará no lugar do anterior.
+3. <code>WHERE</code> é comando que especifica qual linha da coluna selecionada será alterada. Apesar de não ser necesário para o restante do comando funcionar, se não for acrescentado, todas as linhas da coluna possuirão o mesmo valor passado como parâmetro. Por isso mesmo, é necessária a utilização de um valor que seja único para cada linha da tabela.
+
 
 
 </details>
