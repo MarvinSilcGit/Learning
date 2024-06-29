@@ -59,3 +59,41 @@ mindmap
     I am the default shape
 
 ```
+
+<br>
+
+## EMR diagrams
+
+```mermaid
+---
+
+---
+erDiagram
+
+
+Escola {
+    cnpj REAL
+    endereco TEXT
+		listaDepartamento TEXT
+}
+
+Aluno{
+ 		nome TEXT
+    cpf TEXT
+}
+
+Diretor{
+		nome text
+		salario real
+}
+
+Departamento{
+		listaFuncionarios TEXT
+		Nome TEXT
+		orcamento TEXT
+		
+}
+Escola ||--|{ Diretor: temUm
+Escola ||--|{ Aluno: possuiMuitos
+Escola ||--|{ Departamento: temUm
+```
