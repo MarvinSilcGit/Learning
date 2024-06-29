@@ -21,7 +21,6 @@ mindmap
 ```mermaid
 mindmap
 	**Manipulation**
-		(Statements)
 		(CREATE)
 		(INSERT INTO)
 		(SELECT)
