@@ -3,7 +3,9 @@ https://www.sqlitetutorial.net/tryit/
 
 https://sqliteonline.com/
 
-# Course Mind map
+https://sqldocs.org/
+
+# Course's Mind map
 
 ```mermaid
 mindmap
