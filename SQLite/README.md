@@ -190,6 +190,12 @@ _Distrinchando o código acima:_
 2. <code>WHERE</code> especifica uma ou mais linhas que serão deletadas confome o parâmetro for verdadeiro.
 3. <code>IS NULL</code> é o parâmetro que será analizado com verdadeiro ou não.
 
+<br>
+
+### Constraints
+
+<p style ="text-align: justify"></p>
+
 </details>
 
 <details>
