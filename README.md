@@ -46,7 +46,9 @@ mindmap
 
 ### SQLite
 
-https://www.sqlitetutorial.net/
+<h5><a href ="https://www.sqlitetutorial.net/">sqlitetutorial.net</a></h5>
+
+<h5><a href ="https://www.codecademy.com/">codecademy.com</a></h5>
 
 ### JavaScript
 
