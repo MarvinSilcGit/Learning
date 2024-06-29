@@ -51,6 +51,13 @@ mindmap
 
 <h5><a href ="https://www.codecademy.com/">codecademy.com</a></h5>
 
+<h5><a href ="https://www.sqlitetutorial.net/tryit/">slite.net/tryit</a></h5>
+
+<h5><a href ="https://sqliteonline.com/">sqliteonline.com</a></h5>
+
+<h5><a href ="https://sqldocs.org/">sqldocs.org</a></h5>
+
+
 ### JavaScript
 
 <h5><a href ="https://learnjavascript.online/">learnjavascript</a></h5>
