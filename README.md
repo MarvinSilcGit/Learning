@@ -38,7 +38,7 @@ mindmap
 
 <h5><a href ="https://learnhtmlcss.online/">learnhtmlcss</a></h5>
 
-<h5><a href ="https://v2.scrimba.com/">scrimba</a></h5>
+<h5><a href ="https://v2.scrimba.com/">scrimba.com</a></h5>
 
 <h5><a href ="https://www.w3schools.com/">w3schools.com</a></h5>
 
@@ -52,9 +52,11 @@ mindmap
 
 ### JavaScript
 
-https://learnjavascript.online/
-https://v2.scrimba.com/
+<h5><a href ="https://learnjavascript.online/">learnjavascript</a></h5>
+
+<h5><a href ="https://v2.scrimba.com/">scrimba.com</a></h5>
 
 ### Python
 
-https://realpython.com/
+<h5><a href ="https://realpython.com/">realpython.com</a></h5>
+
