@@ -445,7 +445,19 @@
 
 ### 9.1 Answers:
 
+1. It's been raining.
+2. She has been watching tv
+3. They have been playing
+4. He has been running.
 
+
+### 9.2 Answers:
+
+1. - [x] Have you been swimming?
+2. - [x] How long have you waiting me?
+3. - [ ] <del>What you have been doing?</del> Whave have you been doing?
+4. - [x] How long have you been working here?
+5. - [x] How long have you been doing that?
 
 
   
