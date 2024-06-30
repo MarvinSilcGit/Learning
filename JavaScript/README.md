@@ -327,6 +327,8 @@ console.log(language); // "C++"
 <details>
   <summary><h2>Chapter 5: Conditions</h2></summary>
 
+<br>
+
 ### If
 
 <p style ="text-align: justify">Sintaxe básica</p>
@@ -339,6 +341,8 @@ if (grade >= 10)
     console.log("Passing grade");
 }
 ```
+
+<br>
 
 ### else
 
@@ -357,6 +361,10 @@ else
     console.log("Failing grade");
 }
 ```
+
+<br>
+
+
 ### else if
 
 <p style ="text-align: justify">Sintaxe básica</p>
@@ -378,6 +386,8 @@ else
     console.log("Failing grade");
 }
 ```
+
+<br>
 
 ### advanced if
 
@@ -414,6 +424,8 @@ function canVote(age)
 
 }
 ```
+
+<br>
 
 ### Legany note
 
@@ -458,6 +470,59 @@ function isPassing(grade)
 {
     return grade >= 10;
 }
+```
+
+<br>
+
+### Even & Odd
+
+<p>O operator <code>%</code> pode ser utilizad para retornar se tal número é par ou ímpar.</p>
+
+```javascript
+// even numbers
+4 % 2 // 0
+6 % 2 // 0
+8 % 2 // 0
+10 % 2 // 0
+
+// odd numbers
+3 % 2 // 1
+5 % 2 // 1
+7 % 2 // 1
+9 % 2 // 1
+```
+
+<br>
+
+### The ternary operator
+
+<p>Condições também podem ser feitas utilizando o operador ternário <code>?</code>.</p>
+
+```javascript
+function evenOrOdd(number)
+{
+
+    if (number % 2 === 0)
+    {
+        return "even";
+    }
+    return "odd";
+}
+```
+
+_Modo ternário_
+
+```javascript
+function evenOrOdd(number)
+{
+  return (number % 2 === 0) ? "even": "odd";
+}
+```
+
+_O operador ternário possui a seguinte sintaxe_
+
+```
+condition ? expressionWhenTrue: expressionWhenFalse
 ```
 
 </details>
