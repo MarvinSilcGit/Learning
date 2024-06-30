@@ -205,7 +205,7 @@ World</h1>
 
 ### What if a want a new line to render?
 
-<p style ="text-align: justify">Em alguns caso, você quer um caractere de nova linha para renderizar na página. Nesse caso, você usa o elemento de quebra de linha <code>br</code>. Esse elemento produz uma nova linha e não possui tag de fechamento.</p>
+<p style ="text-align: justify">Em alguns casos, você pode querer um caractere de nova linha para renderizar na página. Nesse caso, você usa o elemento de quebra de linha <code>br</code>. Esse elemento produz uma nova linha e não possui tag de fechamento.</p>
 
 <p style ="text-align: justify">O elemento <code>br</code> não é tão utilizado como você pode espear. Seu uso deveria ser limitado a lugares onde uma nova linha dentro da mesma sentência ou contexto. Você não deveria usar-ló para separar parágrafos. Também, o elemento <code>br</code> nunca deveria ser usado para criar separação entre elementos: 1. ele quebre a página em termos de acessibilidade e 2. você não pode facilmente modificar a separação entre dois elementos.</p>
 
