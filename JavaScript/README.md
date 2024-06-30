@@ -426,8 +426,41 @@ console.log(a == 2) // true!!!
 console.log(a === 2) // false
 ```
 
-</details>
+<br>
 
+### Returning booleans
+
+<p>Sempre que estiver retorando booleano, não é necessário utilizar if e elses</p>
+
+```javascript
+function isPassing(grade)
+{
+
+    if (grade >= 10)
+    {
+        return true;
+    }
+
+    else
+    {
+        return false;
+    }
+
+}
+
+isPassing(12);
+```
+
+_Pode ser simplicado com:_
+
+```javascript
+function isPassing(grade)
+{
+    return grade >= 10;
+}
+```
+
+</details>
 
 <details>
   <summary><h2>Chapter 6: Arrays I</h2></summary>
