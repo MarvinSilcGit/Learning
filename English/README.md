@@ -445,10 +445,10 @@
 
 ### 9.1 Answers:
 
-1. It's been raining.
-2. She has been watching tv
-3. They have been playing
-4. He has been running.
+1. - [x] It's been raining.
+2. - [x] She has been watching tv
+3. - [x] They have been playing
+4. - [x] He has been running.
 
 
 ### 9.2 Answers:
