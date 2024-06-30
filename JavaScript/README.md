@@ -266,7 +266,7 @@ answer.toString(); //"42"
 
 ### Converting string to number
 
-<p style ="text-align: justify">Em alguns cenários, você iria preferir converter de uma string para um número, Por conta disso, você teria que usar o método <code>Numer.parseInt()</code>.</p>
+<p style ="text-align: justify">Em alguns cenários, você iria preferir converter de uma string para um número, Por conta disso, você terá que usar o método <code>Number.parseInt()</code>.</p>
 
 ```javascript
 let str = "42";
@@ -327,9 +327,105 @@ console.log(language); // "C++"
 <details>
   <summary><h2>Chapter 5: Conditions</h2></summary>
 
+### If
 
+<p style ="text-align: justify">Sintaxe básica</p>
 
-  
+```javascript
+const grade = 15;
+
+if (grade >= 10)
+{
+    console.log("Passing grade");
+}
+```
+
+### else
+
+<p style ="text-align: justify">Sintaxe básica</p>
+
+```javascript
+const grade = 3;
+
+if (grade >= 10)
+{
+    console.log("Passing grade");
+}
+
+else
+{
+    console.log("Failing grade");
+}
+```
+### else if
+
+<p style ="text-align: justify">Sintaxe básica</p>
+
+```javascript
+const grade = 10;
+
+if (grade > 10) {
+    console.log("Passing grade");
+}
+
+else if (grade === 10)
+{
+    console.log("Passing on the limit");
+}
+
+else
+{
+    console.log("Failing grade");
+}
+```
+
+### advanced if
+
+<p>Sintaxe básica</p>
+
+```java script
+function canVote(age)
+{
+
+    if (age >= 18)
+    {
+        return true;
+    }
+
+    else
+    {
+        return false;
+    }
+
+}
+```
+
+_Agora no estilo sofisticado_
+
+```javascript
+function canVote(age)
+{
+    if (age >=18)
+    {
+        return true;
+    }
+
+    return false;
+
+}
+```
+
+### Legany note
+
+<p>Não utilize <code>==</code> para fazer comparações entre valores e/ou variáveis. Utilize no lugar <code>===</code>.</p>
+
+```javascript
+const a  = "2";
+console.log(a == 2) // true!!!
+
+console.log(a === 2) // false
+```
+
 </details>
 
 
