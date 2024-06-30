@@ -235,9 +235,9 @@ function index(word)
 <details>
   <summary><h2>Chapter 3: Numbers</h2></summary>
 
-  ### Numeric separator (<code>_</code>)
+### Numeric separator (<code>_</code>)
 
-  <p style ="text-align: justify">Você pode representar números grandes mais claramente com o separador numério (<code>_</code>)</p>
+<p style ="text-align: justify">Você pode representar números grandes mais claramente com o separador numério (<code>_</code>)</p>
 
 ```javascript
 let nb = 1_000; // equivalent to 1000
@@ -288,11 +288,46 @@ Number.parseInt(str, 10); //42
 <details>
   <summary><h2>Chapter 4: Variables</h2></summary>
 
+### Variables
+
+<p>Há dois tipos de declarar variáveis em JavaScript.</p>
+
+
+### let
+
+<p style ="text-align: justify">A primeira que você escreve uma variável nova, use o prefixo <code>let</code>.</p>
+
+```javascript
+let name = "Sam";
+console.log(name);
+```
+
+<p style ="text-align: justify">Isso define uma varíavel chamada <code>name</code> com o valor <code>"Sam"</code>. Da próxima vez que foz utilizar a variável, basta apenas o nome dela. Variável com prefixo <code>let</code> podem ser modificadas futuramente por qualquer outro tipo de valor.</p>
+
+
+<br>
+
+### const
+
+<p style ="text-align: justify">Variáveis declaradas com <code>const</code> não podem ser modificadas depois com sinal <code>=</code> de atribuição. Esse tipo de prefixo é útil quando for definir variáveis e forçar que o comportamento seja o mais previsível.</p>
+
+```javascript
+const language = "C++"; // Cannot be re-assigned anymore
+console.log(language); // "C++"
+```
+
+<br>
+
+### let vs const
+
+<p style ="text-align: justify">Para escolher entre <code>let</code> e <code>const</code> use o seguinte regra: sempre vá com <code>const</code> até você perceber que precisa atribuir um novo valor para a variável. Quando sim, mude para let.</p>
   
 </details>
 
 <details>
   <summary><h2>Chapter 5: Conditions</h2></summary>
+
+
 
   
 </details>
