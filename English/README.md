@@ -459,6 +459,25 @@
 4. - [x] How long have you been working here?
 5. - [x] How long have you been doing that?
 
+### 9.3 Answers:
+
+1. - [x] It has been raining.
+2. - [x] We have been waiting.
+3. - [x] I have been learning.
+4. - [x] She has been working there
+5. - [x] They have been going.
+
+### 9.4 Answers:
+
+1. - [x] Haria has been learning.
+2. - [x] I have been looking for you.
+3. - [x] Are you looking
+4. - [x] She has been teaching
+5. - [x] I have been thinking
+6. - [x] He is working
+7. - [x] She has been working
+8. - [x] You are driving
+9. - [x] Has been traveling
 
   
 </details>
