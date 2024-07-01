@@ -194,7 +194,26 @@ _Distrinchando o código acima:_
 
 ### Constraints
 
-<p style ="text-align: justify"></p>
+<p style ="text-align: justify">As restrições são utilizadas para informar ao sistema de banco de dados que certas colunas possuem características adicionais e que essas características devem ser seguidas.</p>
+
+```sql
+CREATE TABLE celebs
+(
+   id INTEGER PRIMARY KEY, 
+   name TEXT UNIQUE,
+   date_of_birth TEXT NOT NULL,
+   date_of_death TEXT DEFAULT 'Not Applicable'
+);
+```
+
+<p style ="text-align: justify"><code>PRIMARY KEY</code> é a restrição que define uma coluna da tabela como sendo o identificador universal da própria tabela e que não pode ser repetido.</p>
+
+<p style ="text-align: justify"><code>UNIUE</code> é a restrição que diz que determinada coluna tem um valor único que não pode ser repetido. Tem semelhança com <code>PRIMARY KEY</code> mas não a mesma função.</p>
+
+<p style ="text-align: justify"><code>NOT NULL</code> é a restrição que impede a inserção de nova linha em branco na coluna em questão que sejam em branco.</p>
+
+<p style ="text-align: justify"><code>DEFAULT</code> é a restrição que declara outro valor padrão caso, na hora de inserção de uma nova linha, esse valor esteja em branco</p>
+
 
 </details>
 
