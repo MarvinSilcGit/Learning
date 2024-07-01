@@ -220,6 +220,23 @@ CREATE TABLE celebs
 <details>
 	<summary><h2>Queries</h2></summary>
 
+```mermaid
+mindmap
+	**Queries**
+		(SELECT)
+		(AS)
+		(DISTINCT)
+		(WHERE)
+		(LIKE I, II)
+		(IS NULL)
+		(BETWEEN)
+		(AND)
+		(OR)
+		(ORDER BY)
+		(LIMIT)
+		(CASE)
+```
+
 ### Introduction
 
 <p style ="text-align: justify">Um dos principais propósitos de uma linguagem SQL é recuperar informação armazenada no banco de dados. Isso é comumente conhecido como consulta. Consultas permitem-nos comunicar com um banco de dados perguntando e ele devolvendo um conjunto de resultados com dados relevantes.</p>
@@ -229,6 +246,8 @@ CREATE TABLE celebs
 ```sql
 SELECT * FROM movies;
 ```
+
+<br>
  
 ### SELECT
 
