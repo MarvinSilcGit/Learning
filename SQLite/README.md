@@ -206,6 +206,8 @@ CREATE TABLE celebs
 );
 ```
 
+_Distrinchando o código acima:_
+
 <p style ="text-align: justify"><code>PRIMARY KEY</code> é a restrição que define uma coluna da tabela como sendo o identificador universal da própria tabela e que não pode ser repetido. Somente é permitida uma restrição dessa por tabela.</p>
 
 <p style ="text-align: justify"><code>UNIUE</code> é a restrição que diz que determinada coluna tem um valor único que não pode ser repetido. Tem semelhança com <code>PRIMARY KEY</code> mas não a mesma função.</p>
