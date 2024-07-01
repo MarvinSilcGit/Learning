@@ -54,7 +54,7 @@ mindmap
 		(ALTER)
 		(UPDATE)
 		(DELETE)
-		(CONSTRAINTS)
+		(Constraints)
 ```
 
 ### Statements
