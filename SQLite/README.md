@@ -249,12 +249,23 @@ SELECT name AS 'Titles'
 FROM movies;
 ```
 
-<p  style ="text-align: justify"><code>AS</code> é o comando que permite modificar o noma da coluna somente na hora da exibição, mas não modificar de fato na tabela. Está mais para um recurso visual. No caso acima, ao invés de exibir <code>name</code> será exibido <code>Titles.</code></p>
+<p style ="text-align: justify"><code>AS</code> é o comando que permite modificar o noma da coluna somente na hora da exibição, mas não modificar de fato na tabela. Está mais para um recurso visual. No caso acima, ao invés de exibir <code>name</code> será exibido <code>Titles.</code></p>
 
 <br>
 
-### Distinct 
+### Distinct
 
+```sql
+SELECT DISTINCT year FROM movies;
+```
+
+<p style ="text-align: justify">O comando <code>DISTINCT</code> é utilizado para exibir linhas de um coluna que possuem valores não repetidos. No caso acima, todas as linhas onde a coluna <code>year</code> possui valores distintos.</p>
+
+<br>
+
+### WHERE
+
+<p style ="text-align: justify"><code>WHERE</code> é comando que especifica qual linha da coluna selecionada será alterada se o parâmetro for verdadeiro.</p>
 
 
 </details>
