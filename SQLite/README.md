@@ -224,7 +224,7 @@ CREATE TABLE celebs
 
 <p style ="text-align: justify">Um dos principais propósitos de uma linguagem SQL é recuperar informação armazenada no banco de dados. Isso é comumente conhecido como consulta. Consultas permitem-nos comunicar com um banco de dados perguntando e ele devolvendo um conjunto de resultados com dados relevantes.</p>
 
-<p>We should get acquainted with the <code>movies</code> table</p>
+<p>Nós deveríamos nos habituar com a tabela <code>movies</code></p>
 
 ```sql
 SELECT * FROM movies;
@@ -239,6 +239,23 @@ SELECT * FROM movies;
 ```sql
 SELECT column1, column2 FROM table_name;
 ```
+
+<br>
+
+### AS
+
+```sql
+SELECT name AS 'Titles'
+FROM movies;
+```
+
+<p  style ="text-align: justify"><code>AS</code> é o comando que permite modificar o noma da coluna somente na hora da exibição, mas não modificar de fato na tabela. Está mais para um recurso visual. No caso acima, ao invés de exibir <code>name</code> será exibido <code>Titles.</code></p>
+
+<br>
+
+### Distinct 
+
+
 
 </details>
 
