@@ -327,8 +327,6 @@ console.log(language); // "C++"
 <details>
   <summary><h2>Chapter 5: Conditions</h2></summary>
 
-<br>
-
 ### If
 
 <p style ="text-align: justify">Sintaxe básica</p>
