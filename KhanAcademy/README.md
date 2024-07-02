@@ -25,7 +25,7 @@
 - [x] Unit 1 Counting
 - [x] Unit 2 Addition and subtraction intro
 - [x] Unit 3 Place value (tens and hundreds)
-- [ ] Unit 4 Addition and subtraction within 20
+- [x] Unit 4 Addition and subtraction within 20
 - [ ] Unit 5 Addition and subtractino within 100
 - [ ] Unit 6 Addition and subtraction within 1000
 - [ ] Unit 7 Measuremente and data
