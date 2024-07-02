@@ -473,5 +473,50 @@ _Sempre utilize ponto e vírgula para finalizar cada linha da declaração dentr
 <details>
   <summary><h2>Chapter 15: CSS inheritance</h2></summary>
 
+
+### User-agent sylesheet
+
+<p style ="text-align: justify">O agente-usuário é um software que consome conteúdo da web à pedido dos usuários. Nesse caso, os navegadores web se encaixam nessa definição. O stylesheeet se refere ao arquivo CSS que todos os navegadores tem por padrão como forma de estilização mínima de uma página. Por exemplol, todo cabeça já vem estilizado em um determinado tamanho de fonte e destaque visual.</p>
+
+<br>
+
+### User-agent styles and the cascade
+
+<p>Por ser um arquivo do tipo <i>cascade</i> (cascata) a declaração que você fizer irá sobescrever o mesmo tipo de declaração feita pelo navegador, pois será a última declaração e assim ficará com a prioridade na hora da estilização. Do mesmo modo, dentro do seu arquivo css, qualquer declaração feita depois e que seja do mesmo tipo sobsescreverá a declaração feita antes.</p>
+
+```css
+p
+{
+  color: red;
+}
+
+p
+{
+  color: blue;
+}
+```
+
+_Na página irá apareceu um parágrafo da cor azul, pois ele é o último na cascata._
+
+<br>
+
+### CSS inheritance
+
+<p style ="text-align: justify">Muitas propriedades podem ser herdadas através da tag pai respectiva. Somente quando a tag filha já possuir uma estilização depois da tag pag, é que a herança não funciona. Se a estilização for antes, ela herdará a característica da tag pai.</p>
+
+```css
+<p>
+    Welcome to my <strong>first</strong> website.
+</p>
+
+<style>
+    p
+    {
+        color: blue;
+    }
+</style>
+```
+
+_No caso acima, a tag strong é filha da tag p e herdada a estilização da mesma._
   
 </details>
