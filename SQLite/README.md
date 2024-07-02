@@ -70,7 +70,7 @@ CREATE TABLE table_name
 );
 ```
 
-_Distrinchando o código acima:_
+_Destrinchando o código acima_
 
 1. <code>CREATE TABLE</code> é um comando. Comandos performam tarefas específicas em SQL. Por convenção, comando são escrito em caxa-alta.
 2. <code>table_name</code> se refere ao nome da tabela o qual o comando se aplica.
@@ -91,7 +91,7 @@ CREATE TABLE celebs
 );
 ```
 
-_Distrinchando o código acima:_
+_Destrinchando o código acima_
 
 1. <code>CREATE TABLE</code> é um comando que conta ao SQL que você quer criar uma nova tabela
 2. <code>celebs</code> é o nome da tabela;
@@ -112,7 +112,7 @@ INSERT INTO celebs (id, name, age)
 VALUES (1, 'Justin Bieber', 29);
 ```
 
-_Distrinchando o código acima:_
+_Destrinchando o código acima_
 
 1. <code>INSERT INTO</code> é um comando que adiciona a especificada coluna ou colunas.
 2. <code>VALUES</code> é comando que indica os valores que estão sendo inseridos para cada coluna na ordem.
@@ -127,7 +127,7 @@ _Distrinchando o código acima:_
 SELECT name FROM celebs;
 ```
 
-_Distrinchando o código acima:_
+_Destrinchando o código acima_
 
 1. <code>SELECT</code> é o comando que indica que essa declaração é uma consulta.
 2. <code>FROM celebs</code> especifica o nome da tabela da qual os dados foram consultados.
@@ -137,7 +137,7 @@ _Distrinchando o código acima:_
 SELECT * FROM celebs;
 ```
 
-_Distrinchando o código acima:_
+_Destrinchando o código acima_
 
 <p style ="text-align: justify"><code>*</code> é um caractere coringa especial que estivemos usando até então. Ele nos permite selecionar toda coluna em uma tabela sem ter que nomear cada uma individualmente.</p>
 
@@ -152,7 +152,7 @@ ALTER TABLE celebs
 ADD COLUMN twitter_handle TEXT;
 ```
 
-_Distrinchando o código acima:_
+_Destrinchando o código acima_
 
 1. <code>ALTER TABLE</code> é o comando que permite você fazer mudanças específicas.
 2. <code>ADD COLUMN</code> é o comando que permite você Adicionar coluna.
@@ -167,7 +167,7 @@ _Distrinchando o código acima:_
 UPDATE celebs SET twitter_handle = '@taylorswift13' WHERE id = 4; 
 ```
 
-_Distrinchando o código acima:_
+_Destrinchando o código acima_
 
 1. <code>UPDATE</code> é o comando que edita uma linha da tabela.
 2. <code>SET</code> é o comando que especifica a coluna e depois o parâmetro (entre aspas ou não a depender do tipo de dado) que ficará no lugar do anterior.
@@ -184,7 +184,7 @@ DELETE FROM celebs
 WHERE twitter_handle IS NULL;
 ```
 
-_Distrinchando o código acima:_
+_Destrinchando o código acima_
 
 1. <code>DELETE FROM</code> é o comando que permite deletar uma mais linhas de uma tabela.
 2. <code>WHERE</code> especifica uma ou mais linhas que serão deletadas confome o parâmetro for verdadeiro.
@@ -288,6 +288,41 @@ SELECT DISTINCT year FROM movies;
 
 <p style ="text-align: justify"><code>WHERE</code> é comando que especifica qual linha da coluna selecionada será alterada se o parâmetro for verdadeiro.</p>
 
+<br>
+
+### LIKE
+
+<p>O comando <code>LIKE</code> é utilizado em conjunção com <code>SELECT FROM</code> e <code>WHERE</code> para filtrar os dados de uma coluna de acordo com parâmetro.</p>
+
+```sql
+SELECT * FROM movies WHERE name LIKE 'A%';
+```
+
+_Destrinchando o código acima_
+
+Utilizando o caractere coringa <code>%</code> no final do parâmetro, o comando vai procura qualquer linha que começe com a letra 'A' ou 'a'. É possível buscar por linhas com terminem com mais de um caractere.
+
+<br>
+
+```sql
+SELECT * FROM movies WHERE name LIKE '%A';
+```
+
+_Destrinchando o código acima_
+
+Utilizando o caractere coringa <code>%</code> no final do parâmetro, o comando vai procura qualquer linha que termine com a letra 'A' ou 'a'. É possível buscar por linhas com terminem com mais de um caractere.
+
+<br>
+
+```
+SELECT * FROM movies WHERE name LIKE '%man%';
+```
+
+_Destrinchando o código acima_
+
+Utilizando o caractere coringa <code>%</code> no início e fim do parâmetro, o comando vai procura qualquer linha que contenha o texto 'man', tanto na forma caixa-alta ou caixa-baixa.
+
+<br>
 
 </details>
 
