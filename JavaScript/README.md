@@ -613,6 +613,10 @@ gradis.forEach(function(gradi)
 
 <p>Como pode ter observado, a variável grades é diferente do nome pasado como parâmetro. O que acontece é que no caso do <code>.forEach()</code> o javaScript supôe que o primeiro parâmetro passado é o parâmetro percetence ao vetor <code>grades</code> pois o método está sendo inicializado através da varíavel <code>grades</code></p>
 
+<br>
+
+### Return confusion
+
 </details>
 
 <details>
