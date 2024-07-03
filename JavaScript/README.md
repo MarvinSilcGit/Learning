@@ -427,7 +427,7 @@ function canVote(age)
 
 ### Legany note
 
-<p>Não utilize <code>==</code> para fazer comparações entre valores e/ou variáveis. Utilize no lugar <code>===</code>.</p>
+<p style ="text-align: justify">Não utilize <code>==</code> para fazer comparações entre valores e/ou variáveis. Utilize no lugar <code>===</code>.</p>
 
 ```javascript
 const a  = "2";
@@ -440,7 +440,7 @@ console.log(a === 2) // false
 
 ### Returning booleans
 
-<p>Sempre que estiver retorando booleano, não é necessário utilizar if e elses</p>
+<p style ="text-align: justify">Sempre que estiver retorando booleano, não é necessário utilizar if e elses</p>
 
 ```javascript
 function isPassing(grade)
@@ -474,7 +474,7 @@ function isPassing(grade)
 
 ### Even & Odd
 
-<p>O operator <code>%</code> pode ser utilizad para retornar se tal número é par ou ímpar.</p>
+<p style ="text-align: justify">O operator <code>%</code> pode ser utilizad para retornar se tal número é par ou ímpar.</p>
 
 ```javascript
 // even numbers
@@ -494,7 +494,7 @@ function isPassing(grade)
 
 ### The ternary operator
 
-<p>Condições também podem ser feitas utilizando o operador ternário <code>?</code>.</p>
+<p style ="text-align: justify">Condições também podem ser feitas utilizando o operador ternário <code>?</code>.</p>
 
 ```javascript
 function evenOrOdd(number)
@@ -537,7 +537,7 @@ const attendees = ["Sam", "Alex"]; // array of strings
 const values = [10, false, "John"]; // mixed
 ```
 
-<p>Vetores permitem você armazenar vários tipos de dados diferentes em uma mesma variável. Dessa forma, a variável em questão assume a condição de uma variável que possuem diversos valores individuais. Semelhante a Strins, também é possível as seguintes funções: <code>length</code>, <code>at()</code>, acesso pelo índice <code>[]</code> e adicionar novos valores ao final do vetor <code>push()</code></p>
+<p style ="text-align: justify">Vetores permitem você armazenar vários tipos de dados diferentes em uma mesma variável. Dessa forma, a variável em questão assume a condição de uma variável que possuem diversos valores individuais. Semelhante a Strins, também é possível as seguintes funções: <code>length</code>, <code>at()</code>, acesso pelo índice <code>[]</code> e adicionar novos valores ao final do vetor <code>push()</code></p>
 
 ```javascript
 const numbers = [1, 2, 3, '4'];
@@ -562,7 +562,7 @@ grades.forEach(function(grade)
 });
 ```
 
-<p>Iteração em um vetor é um dos conceito mais importantes em JavaScript. O método <code>.forEach</code> permite a você executar a função <code>callback</code> para item do vetor. Um <i>callback</i> é uma definição de função passada como parâmetro para outra função. No caso acima, a função <code>function(grade)</code> é passada como parâmetro para a iteração buscar os índices dentro do vetor.</p>
+<p style ="text-align: justify">Iteração em um vetor é um dos conceito mais importantes em JavaScript. O método <code>.forEach</code> permite a você executar a função <code>callback</code> para item do vetor. Um <i>callback</i> é uma definição de função passada como parâmetro para outra função. No caso acima, a função <code>function(grade)</code> é passada como parâmetro para a iteração buscar os índices dentro do vetor.</p>
 
 ```javascript
 const grades = [10, 8, 13];
@@ -611,11 +611,13 @@ gradis.forEach(function(gradi)
 
 ```
 
-<p>Como pode ter observado, a variável grades é diferente do nome pasado como parâmetro. O que acontece é que no caso do <code>.forEach()</code> o javaScript supôe que o primeiro parâmetro passado é o parâmetro percetence ao vetor <code>grades</code> pois o método está sendo inicializado através da varíavel <code>grades</code></p>
+<p style ="text-align: justify">Como pode ter observado, a variável grades é diferente do nome pasado como parâmetro. O que acontece é que no caso do <code>.forEach()</code> o javaScript supôe que o primeiro parâmetro passado é o parâmetro percetence ao vetor <code>grades</code> pois o método está sendo inicializado através da varíavel <code>grades</code></p>
 
 <br>
 
 ### Return confusion
+
+<p></p>
 
 </details>
 
