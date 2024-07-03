@@ -617,7 +617,28 @@ gradis.forEach(function(gradi)
 
 ### Return confusion
 
-<p></p>
+<p style ="text-align: justify">Nomear variáveis com um nome claro a faz muito mais fácil de entender para você e para outros. É sempre bom utilizar plural para o nome do vetor e singular para o item do vetor.</p>
+
+```javascript
+const grades = [10, 14, 15]; // array (plural)
+grades.forEach(function(grade)
+{ // array item (singular)
+    console.log(grade);
+});
+
+
+const people = ["Sam", "Alex"]; // array (plural)
+people.forEach(function(person)
+{ // array item (singular)
+    console.log(person);
+});
+```
+
+<br>
+
+### Returning from loop
+
+<p style ="text-align: justify"></p>
 
 </details>
 
