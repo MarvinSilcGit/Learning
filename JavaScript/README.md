@@ -548,6 +548,71 @@ numbers.at(-1) // 3;
 numbers.length; // 5;
 ```
 
+<br>
+
+### Array forEach
+
+```javascript
+const grades = [10, 8, 13];
+
+grades.forEach(function(grade)
+{
+    // do something with individual grade
+    console.log(grade);
+});
+```
+
+<p>Iteração em um vetor é um dos conceito mais importantes em JavaScript. O método <code>.forEach</code> permite a você executar a função <code>callback</code> para item do vetor. Um <i>callback</i> é uma definição de função passada como parâmetro para outra função. No caso acima, a função <code>function(grade)</code> é passada como parâmetro para a iteração buscar os índices dentro do vetor.</p>
+
+```javascript
+const grades = [10, 8, 13];
+// this is the callback
+function(grade) {
+    console.log(grade);
+}
+// call the callback with grade = 10 (grades[0])
+console.log(grade); // will log 10
+// call the callback with grade = 8 (grades[1])
+console.log(grade); // will log 8
+// call the callback with grade = 13 (grades[2])
+console.log(grade); // will log 13
+```
+
+<br>
+
+### How does it know that it's "grade"
+
+```javascript
+const grades = [10, 8, 13];
+
+const gradis = [10, 0 ,10];
+
+grades.forEach(function(grade)
+{
+    // do something with individual grade
+    console.log(grade);
+});
+
+// Resultado
+10
+8
+13
+
+gradis.forEach(function(gradi)
+{
+    // do something with individual grade
+    console.log(gradi);
+});
+
+// Resultado
+10
+0
+10
+
+```
+
+<p>Como pode ter observado, a variável grades é diferente do nome pasado como parâmetro. O que acontece é que no caso do <code>.forEach()</code> o javaScript supôe que o primeiro parâmetro passado é o parâmetro percetence ao vetor <code>grades</code> pois o método está sendo inicializado através da varíavel <code>grades</code></p>
+
 </details>
 
 <details>
