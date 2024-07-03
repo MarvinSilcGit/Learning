@@ -669,5 +669,8 @@ _O código acima funciona como esperado pois o <code>return</code> está dentro 
 <details>
   <summary><h2>Chapter 6: Arrays II & callbacks</h2></summary>
 
+### Array filter
+
+<p></p>
   
 </details>
