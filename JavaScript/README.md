@@ -638,7 +638,31 @@ people.forEach(function(person)
 
 ### Returning from loop
 
-<p style ="text-align: justify"></p>
+<p style ="text-align: justify">Existe um erro comum que ocorre quando você tenta retornar de uma função que contém <code>.forEach()</code>.</p>
+
+```javascript
+function logUserIds(userIds) {
+    userIds.forEach(function(userId) {
+        console.log(userId);
+        return true; // does this work as expected?
+    });
+}
+```
+
+_O código acima não executa como esperado por quem o escreveu_
+
+```javascript
+function logUserIds(userIds) {
+    userIds.forEach(function(userId) {
+        console.log(userId);
+    });
+    return true; // or is this the correct way?
+}
+```
+
+_O código acima funciona como esperado pois o <code>return</code> está dentro da função e não dentro do método._
+
+<p>Isso acontece porque um retorno somente funciona como filha direta de sua função, e não como sendo um descendente.</p>
 
 </details>
 
