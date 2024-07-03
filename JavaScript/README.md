@@ -528,7 +528,26 @@ condition ? expressionWhenTrue: expressionWhenFalse
 <details>
   <summary><h2>Chapter 6: Arrays I</h2></summary>
 
-  
+### Arrays
+
+```javascript
+const users = []; // empty array
+const grades = [10, 8, 13, 15]; // array of numbers
+const attendees = ["Sam", "Alex"]; // array of strings
+const values = [10, false, "John"]; // mixed
+```
+
+<p>Vetores permitem você armazenar vários tipos de dados diferentes em uma mesma variável. Dessa forma, a variável em questão assume a condição de uma variável que possuem diversos valores individuais. Semelhante a Strins, também é possível as seguintes funções: <code>length</code>, <code>at()</code>, acesso pelo índice <code>[]</code> e adicionar novos valores ao final do vetor <code>push()</code></p>
+
+```javascript
+const numbers = [1, 2, 3, '4'];
+
+numbers.push(11); // Ao final do vetor;
+numbers[1] // 2;
+numbers.at(-1) // 3;
+numbers.length; // 5;
+```
+
 </details>
 
 <details>
