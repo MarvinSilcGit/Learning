@@ -332,6 +332,12 @@ _Destrinchando o código acima_
 
 Utilizando o caractere coringa <code>%</code> no meio do parâmetro, o comando vai procurar qualquer linha que começe com 'B' e termine com 'A', tanto na forma caixa-alta ou caixa-baixa.
 
+<br>
+
+### NULL (IS NULL, IS NOT NULL)
+
+<p>Esse comando serve para identificar se determinada linha de uma coluna possui ou não o valor em branco ou nulo que não passado no momento de insersação dos dados.</p>
+
 
 </details>
 
