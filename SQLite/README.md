@@ -418,6 +418,18 @@ SELECT * FROM movies WHERE year BETWEEN 1990 AND 1999 AND genre = 'romance' ORDE
 ```
 _É possível aplicar ordem depois de condições_
 
+<br>
+
+### LIMIT
+
+<p>Possui a função de limitar a quantidade de linhas que serão buscadas na consulta.</p>
+
+```sql
+SELECT * FROM movies WHERE imdb_rating > 8;
+```
+
+_É possível utilizar com ou sem outros comandos de consulta_
+
 </details>
 
 
