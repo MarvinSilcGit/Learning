@@ -430,6 +430,48 @@ SELECT * FROM movies WHERE imdb_rating > 8;
 
 _É possível utilizar com ou sem outros comandos de consulta_
 
+<br>
+
+### CASE
+
+<p>Esse comando permite criar uma avaliação de múltiplas condições de maneira mais organiza e permite também nova ação caso seja verdadeira tal condição. Entre o comando <code>WHEN</code> e <code>THEN</code> é possível diferentes tipos de condições. Em teoria, não há limite para quais combinações, porém, cuidado, pois elas podem ficar redundantes.</p>
+
+```sql
+SELECT name,
+
+CASE
+
+  WHEN imdb_rating > 8 THEN "Crazy shit"
+
+  WHEN imdb_rating > 6 THEN 'Good at best'
+
+  ELSE 'Dumpster fire'
+
+END AS 'Notinhas'
+
+FROM movies WHERE imdb_rating < 6;
+```
+
+_Utilizando operador relacional_
+
+```sql
+SELECT name,
+
+CASE
+
+  WHEN name = 'Spider-Man' THEN "Crazy shit"
+
+  WHEN imdb_rating > 6 THEN 'Good at best'
+
+  ELSE 'Dumpster fire'
+
+END AS 'Notinhas'
+
+FROM movies;
+```
+
+_Referenciando outra coluna na primeira condição_
+
 </details>
 
 
