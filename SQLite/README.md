@@ -338,6 +338,17 @@ Utilizando o caractere coringa <code>%</code> no meio do parâmetro, o comando v
 
 <p>Esse comando serve para identificar se determinada linha de uma coluna possui ou não o valor em branco ou nulo que não passado no momento de insersação dos dados.</p>
 
+```sql
+SELECT name FROM movies WHERE imdb_rating IS NOT NULL;
+```
+
+_No código acima vai exibir linhas das colunas onde imd_rating não é nulo_
+
+```sql
+SELECT name FROM movies WHERE imdb_rating IS NULL;
+```
+
+_No código acima vai exibir linhas das colunas onde imd_rating é nulo_
 
 </details>
 
