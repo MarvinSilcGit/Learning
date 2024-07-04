@@ -350,6 +350,24 @@ SELECT name FROM movies WHERE imdb_rating IS NULL;
 
 _No código acima vai exibir linhas das colunas onde imd_rating é nulo_
 
+<br>
+
+### BETWEEN
+
+<p>Esse comando serve para consultar valores que estejam no alcance delimitado pela consulta, utilizando sempre o comando <code>WHERE</code> para auxiliar quais dados buscar. Quando do uso, o comportamento desse comando é diferente de letras para números.</p>
+
+```sql
+SELECT * FROM movies WHERE year BETWEEN 1990 AND 1999;
+```
+
+_Irá pesquisar os anos de 1990 até 1999 inclusive_
+
+```sql
+SELECT * FROM movies WHERE name BETWEEN 'A' AND 'J';
+```
+_Irá pesquisar os nome dos filmes que comecem entre A e J não inclusivo, ou seja, até a letra I_
+
+
 </details>
 
 <details>
