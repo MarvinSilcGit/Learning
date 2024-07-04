@@ -441,7 +441,9 @@ SELECT name,
 
 CASE
 
-  WHEN imdb_rating > 8 THEN "Crazy shit"
+  WHEN imdb_rating > 8 THEN 'Above average'
+
+	WHEN imdb_rating > 9 THEN 'Crazy shit'
 
   WHEN imdb_rating > 6 THEN 'Good at best'
 
@@ -449,7 +451,7 @@ CASE
 
 END AS 'Notinhas'
 
-FROM movies WHERE imdb_rating < 6;
+FROM movies;
 ```
 
 _Utilizando operador relacional_
