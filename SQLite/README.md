@@ -365,6 +365,7 @@ _Irá pesquisar os anos de 1990 até 1999 inclusive_
 ```sql
 SELECT * FROM movies WHERE name BETWEEN 'A' AND 'J';
 ```
+
 _Irá pesquisar os nome dos filmes que comecem entre A e J não inclusivo, ou seja, até a letra I_
 
 <p>Também é possível utilizar operadores relacionais no lugar do comando <code>BETWEEN</code>.</p>
@@ -374,6 +375,12 @@ SELECT * FROM movies WHERE year < 1985;
 ```
 
 _Irá retornar todos os filmes com o ano de lançamento menor que 1985_
+
+<br>
+
+### Logic Operators: AND e OR
+
+<p>Assim como</p>
 
 
 </details>
