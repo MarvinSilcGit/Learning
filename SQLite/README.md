@@ -425,7 +425,7 @@ _É possível aplicar ordem depois de condições_
 <p>Possui a função de limitar a quantidade de linhas que serão buscadas na consulta.</p>
 
 ```sql
-SELECT * FROM movies WHERE imdb_rating > 8;
+SELECT * FROM movies WHERE imdb_rating > 8 LIMIT 10;
 ```
 
 _É possível utilizar com ou sem outros comandos de consulta_
