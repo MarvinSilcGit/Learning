@@ -394,7 +394,32 @@ SELECT * FROM movies WHERE year < 1985 AND genre = 'horror';
 
 _Comparação feita entre <code>year < 1985</code> e <code>genre = 'horror'</code>_
 
+<br>
+
+### ORDERY BY
+
+<p>Esse comando é utilizado para ordenar as linhas da tabela através do uso de uma coluna como referência. Utilize os comandos <code>ASC</code> para ordenação ascendente e <code>DESC</code> para ordenação descendente. Por padrão a ordenação é feita do menor para o maior, seja número ou texto.</p>
+
+```sql
+SELECT * FROM movies ORDER BY name;
+```
+
+_Nesse caso, as linhas serão ordenada em ordem alfabética_
+
+
+```sql
+SELECT * FROM movies WHERE imdb_rating > 8 ORDER BY year DESC;
+```
+
+_Note que o <code>ORDER BY</code> vem depois de <code>WHERE</code> (se estiver presente)_
+
+```sql
+SELECT * FROM movies WHERE year BETWEEN 1990 AND 1999 AND genre = 'romance' ORDER BY year;
+```
+_É possível aplicar ordem depois de condições_
+
 </details>
+
 
 <details>
 	<summary><h2>Aggregate Functions</h2></summary>
