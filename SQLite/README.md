@@ -378,10 +378,21 @@ _Irá retornar todos os filmes com o ano de lançamento menor que 1985_
 
 <br>
 
-### Logic Operators: AND e OR
+### AND e OR
 
-<p>Assim como</p>
+<p>Assim como na programação, é possível fazer comparações lógicas entre condições na linguagem SQL. Quando utilizando <code>AND</code> somente é feita a consulta quando as duas condições são verdadeiras. Quando <code>OR</code> basta que apena uma das condições seja verdadeira para a consulta ser realizada.</p>
 
+```sql
+SELECT * FROM movies WHERE year BETWEEN 1990 AND 1999 AND genre = 'romance';
+```
+
+_Comparação feita entre <code>BETWEEN 1990 AND 1999</code> e <code>genre = 'romance'</code>_
+
+```sql
+SELECT * FROM movies WHERE year < 1985 AND genre = 'horror';
+```
+
+_Comparação feita entre <code>year < 1985</code> e <code>genre = 'horror'</code>_
 
 </details>
 
