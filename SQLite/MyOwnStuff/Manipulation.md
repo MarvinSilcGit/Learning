@@ -7,8 +7,8 @@
 ```sql
 CREATE TABLE estudante_cetep
 (
-  	matricula INTEGER PRIMARY KEY NOT NULL,
-	cpf TEXT UNIQUE NOT NULL,
+  	matricula INTEGER PRIMARY KEY,
+		cpf TEXT UNIQUE NOT NULL,
   	nome TEXT NOT NULL,
   	email TEXT NOT NULL,
   	cidade TEXT NOT NULL,
