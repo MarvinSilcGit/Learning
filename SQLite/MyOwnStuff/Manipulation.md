@@ -36,10 +36,18 @@ VALUES ('543.786.210-81', 'Camino', 'comio@mail.com', 'Pombilvis', 'Técnico Agr
 ```sql
 ALTER TABLE estudante_cetep
 ADD COLUMN rg INTEGER;
+
+ALTER TABLE estudante_cetep
+ADD COLUMN data_nascimento TEXT;
+
+ALTER TABLE estudante_cetep
+ADD COLUMN sexualidade TEXT;
 ```
 
 ### UPDATE SET
 
 ```sql
 UPDATE estudante_cetep SET sexualidade = 'Fêmea' WHERE matricula = 2;
+UPDATE estudante_cetep SET data_nascimento = '11/01/2007' WHERE matricula = 2;
+UPDATE estudante_cetep SET rg = 14111983 WHERE matricula = 2;
 ```
