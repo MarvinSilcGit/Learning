@@ -51,3 +51,10 @@ UPDATE estudante_cetep SET sexualidade = 'Fêmea' WHERE matricula = 2;
 UPDATE estudante_cetep SET data_nascimento = '11/01/2007' WHERE matricula = 2;
 UPDATE estudante_cetep SET rg = 14111983 WHERE matricula = 2;
 ```
+
+### DELETE FROM
+
+```sql
+DELETE FROM estudante_cetep
+WHERE matricula = 1;
+```
