@@ -155,7 +155,7 @@ ADD COLUMN twitter_handle TEXT;
 _Destrinchando o código acima_
 
 1. <code>ALTER TABLE</code> é o comando que permite você fazer mudanças específicas.
-2. <code>ADD COLUMN</code> é o comando que permite você Adicionar coluna.
+2. <code>ADD COLUMN</code> é o comando que permite você adicionar coluna.
 
 <br>
 
