@@ -1,6 +1,5 @@
 # Learning Diagram:
 
-
 ```mermaid
 mindmap
   root(**Leaning Fields**)
