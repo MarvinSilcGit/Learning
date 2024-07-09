@@ -59,6 +59,7 @@ mindmap
 
 <h5><a href ="https://sqldocs.org/">sqldocs.org</a></h5>
 
+https://www.alphacodingskills.com/sqlite/sqlite-tutorial.php
 
 ### JavaScript
 
@@ -69,6 +70,8 @@ mindmap
 ### Python
 
 <h5><a href ="https://realpython.com/">realpython.com</a></h5>
+https://codepip.com/
+https://codecombat.com/home
 
 ### UML
 
@@ -80,7 +83,6 @@ mindmap
 
 
 <h5><a href ="https://www.markdowntutorial.com/">markdowntutorial.com</a></h5>
-
 
 <h5><a href ="https://www.markdownguide.org/">markdownguide.org</a></h5>
 
