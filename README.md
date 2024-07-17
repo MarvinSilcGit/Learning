@@ -11,7 +11,7 @@ mindmap
     **SQLite**
     **UML**
     **Markdown**
-    
+    **Figma**
 ```
 
 ## Links
