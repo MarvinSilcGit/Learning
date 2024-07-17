@@ -89,5 +89,8 @@ https://codecombat.com/home
 
 <h5><a href ="https://www.w3schools.io/file/markdown-introduction/">w3schools.io</a></h5>
 
+### Figma
+
+<h5><a href ="https://www.figma.com/pt-br/resource-library/design-basics/">Figma Basics</a></h5>
 
 
