@@ -98,6 +98,6 @@ mindmap
 
 ### Figma
 
-<h5><a href ="https://www.figma.com/pt-br/resource-library/">Figma Basics</a></h5>
-
+<h5><a href ="https://www.figma.com/pt-br/resource-library/">Figma resources</a></h5>
+<h5><a href ="https://figmaelements.com/">figmaelements.com</a></h5>
 
