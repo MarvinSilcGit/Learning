@@ -44,8 +44,11 @@ mindmap
 
 <h5><a href ="https://css-workshop.com/">css-workshop.com</a></h5>
 
-https://learncssgrid.com/
-https://code2care.org/html/
+<h5><a href ="https://learncssgrid.com/">Learcssgrid.com</a></h5>
+
+<h5><a href ="https://code2care.org/html/">code2care.com</a></h5>
+
+
 
 
 ### SQLite
