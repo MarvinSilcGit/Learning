@@ -49,8 +49,6 @@ mindmap
 <h5><a href ="https://code2care.org/html/">code2care.com</a></h5>
 
 
-
-
 ### SQLite
 
 <h5><a href ="https://www.sqlitetutorial.net/">sqlitetutorial.net</a></h5>
@@ -63,7 +61,8 @@ mindmap
 
 <h5><a href ="https://sqldocs.org/">sqldocs.org</a></h5>
 
-https://www.alphacodingskills.com/sqlite/sqlite-tutorial.php
+<h5><a href ="https://www.alphacodingskills.com/sqlite/sqlite-tutorial.php">alphacodingskils.com</a></h5>
+
 
 ### JavaScript
 
@@ -71,11 +70,15 @@ https://www.alphacodingskills.com/sqlite/sqlite-tutorial.php
 
 <h5><a href ="https://v2.scrimba.com/">scrimba.com</a></h5>
 
+
 ### Python
 
 <h5><a href ="https://realpython.com/">realpython.com</a></h5>
-https://codepip.com/
-https://codecombat.com/home
+
+<h5><a href ="https://codepip.com/">codepip.com</a></h5>
+
+<h5><a href ="https://codecombat.com/home">codecombat.com</a></h5>
+
 
 ### UML
 
@@ -83,14 +86,15 @@ https://codecombat.com/home
 
 <h5><a href ="https://mermaid.js.org/">mermaid.js.org</a></h5>
 
-### Markdown
 
+### Markdown
 
 <h5><a href ="https://www.markdowntutorial.com/">markdowntutorial.com</a></h5>
 
 <h5><a href ="https://www.markdownguide.org/">markdownguide.org</a></h5>
 
 <h5><a href ="https://www.w3schools.io/file/markdown-introduction/">w3schools.io</a></h5>
+
 
 ### Figma
 
