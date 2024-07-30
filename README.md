@@ -79,6 +79,7 @@ mindmap
 
 <h5><a href ="https://codecombat.com/home">codecombat.com</a></h5>
 
+<h5><a href ="https://wiki.python.org.br/ListaDeExercicios"></a>Lista de Exercícios</h5>
 
 ### UML
 
