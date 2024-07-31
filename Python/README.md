@@ -11,7 +11,7 @@
 print("Alo Mundo")
 ```
 
-  #### 2. Faça um Programa que peça um número e então mostre a mensagem O número informado foi [número]. 
+  #### 2. Faça um Programa que peça um número e então mostre uma mensagem com o número informado
 
 ```python
 
