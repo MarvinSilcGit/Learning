@@ -239,7 +239,7 @@
 <details>
   <summary><h3 id ="unit5">Unit 5: Past simple (I did)</h3></summary>
 
-#### Basic definition: the past simple (something **happened**) tells us only about the past. If somebody says 'Tom lost his key', we don't know whether he has the now or not. We know only that the lost it at some time in the past.
+#### Basic definition: the past simple (something **happened**) tells us only about the past. If somebody says 'Tom lost his key', we don't know whether he has the key now or not. We know only that the lost it at some time in the past.
 
 #### 5.1 Answers:
 
