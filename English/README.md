@@ -487,7 +487,7 @@
 
 ### 10.1 Answers:
 
-1. - [x] 
+1. - [x] He has been reading / he has read
 2. - [x] Has been travelling / has visited
 3. - [x] He has won / He has been playing
 4. - [x] have been making / They have made
