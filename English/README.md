@@ -493,18 +493,18 @@
 4. - [x] have been making / They have made
   
 ### 10.2 Answers:
-1. - [x]
-2. - [x]
-3. - [x]
-4. - [x]
-5. - [x]
-6. - [x]
-7. - [x]
+1. - [x] How long have you been learning Arabic?
+2. - [x] How long have you been waiting?
+3. - [x] Have you caught any fish?
+4. - [x] How many people have you invited?
+5. - [x] How long have you been teaching?
+6. - [x] How many books have you written? / How long have you been writing books?
+7. - [x] How long have you been saving? / How much money have you saved 
 
 ### 10.3 Answers:
 
 1. - [x]
-2. - [x]
+2. - [x] 
 3. - [x]
 4. - [x]
 5. - [x]
