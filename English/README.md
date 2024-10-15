@@ -525,13 +525,13 @@
 3. - [x] Have you been working
 4. - [x] Have you ever worked
 5. - [x] She has gone
-6. - [ ] I have had
+6. - [ ] <del>I have</del> I have had
 7. - [x] I have been watching
 8. - [x] He has appeared
 9. - [x] I haven't been waiting
 10. - [x] You have been crying
 11. - [x] It Has stopped
-12. - [ ] They have been playing
+12. - [ ] <del>They has been playing</del> They have been playing
 13. - [x] I have lost /  Have you seen
 14. - [x] I have been reading / I have not finished
 15. - [x] I have read
@@ -560,7 +560,7 @@
 ### 11.2 Answers:
 
 1. - [x] How long has Paul been in hospital?
-2. - [ ] How long have you known katherine?
+2. - [ ] <del>How long have you been katherine</del> How long have you known katherine?
 3. - [x] How long have your sister been in Australia?
 4. - [x] How long have you been teaching English?
 5. - [x] How long have you had that jacket?
@@ -572,16 +572,16 @@
 1. - [x] Has been
 2. - [x] haven't seen
 3. - [x] Has been
-4. - [ ] is
+4. - [ ] <del>has been living</del> is
 5. - [x] Haven't played
 6. - [x] Have been waiting
-7. - [ ] Have known 
+7. - [ ] <del>Have been known</del> Have known 
 8. - [x] Hasn't never been
 9. - [x] lives
 10. - [x] Has been living
-11. - [ ] has been watching
-12. - [ ] Haven't watched
-13. - [ ] Have had
+11. - [ ] <del>Have watched</del> Has been watching
+12. - [ ] <del>Haven't been wacthing</del> Haven't watched
+13. - [ ] <del>Have been</del> Have had
 14. - [x] Haven't been
 15. - [x] I have always wanted 
 
