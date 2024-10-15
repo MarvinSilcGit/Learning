@@ -503,20 +503,20 @@
 
 ### 10.3 Answers:
 
-1. - [x]
-2. - [x] 
-3. - [x]
-4. - [x]
-5. - [x]
-6. - [x]
-7. - [x]
-8. - [x]
-9. - [x] 
-10. - [x]
-11. - [x]     
-12. - [x]
-13. - [x]
-14. - [x]
-15. - [x]
+1. - [x] Have you been playing
+2. - [x] Somebody has broken
+3. - [x] Have you been working
+4. - [x] Have you ever worked
+5. - [x] She has gone
+6. - [ ] I have had
+7. - [x] I have been watching
+8. - [x] He has appeared
+9. - [x] I haven't been waiting
+10. - [x] You have been crying
+11. - [x] It Has stopped
+12. - [ ] They have been playing
+13. - [x] I have lost /  Have you seen
+14. - [x] I have been reading / I have not finished
+15. - [x] I have read
      
 </details>
