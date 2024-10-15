@@ -484,5 +484,14 @@
 
 <details>
   <summary><h3 id ="unit10">Unit 10: Present perfect continuous and Present Perfect (I have being doing and I have done)</h3></summary>
-  
+
+### 10.1 Answers:
+
+1. - [x] 
+2. - [x] Has been travelling / has visited
+3. - [x] He has won / He has been playing
+4. - [x] have been making / They have made
+
+
+### 10.2 Answers:
 </details>
