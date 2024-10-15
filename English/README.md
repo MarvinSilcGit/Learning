@@ -263,7 +263,7 @@
 7. - [x] finished
 8. - [x] She was tired when she got
 9. - [ ] <del>She didn't made</del> she made
-10. - [ ] <del>I didn't usually got</del> Shwe didn't go
+10. - [ ] <del>I didn't usually got</del> She didn't go
 11. - [x]  She went to bed at about
 12. - [x]  She slept
    
