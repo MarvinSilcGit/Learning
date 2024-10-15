@@ -560,7 +560,7 @@
 ### 11.2 Answers:
 
 1. - [x] How long has Paul been in hospital?
-2. - [ ] How long have you been katherine?
+2. - [ ] How long have you known katherine?
 3. - [x] How long have your sister been in Australia?
 4. - [x] How long have you been teaching English?
 5. - [x] How long have you had that jacket?
@@ -569,21 +569,21 @@
 
 ### 11.3 Answers:
 
-1. - [x] 
-2. - [x]
-3. - [x] 
-4. - [x] 
-5. - [x]
-6. - [x] 
-7. - [x] 
-8. - [x] 
-9. - [x] 
-10. - [x] 
-11. - [x] 
-12. - [x] 
-13. - [x] 
-14. - [x] 
-15. - [x] 
+1. - [x] Has been
+2. - [x] haven't seen
+3. - [x] Has been
+4. - [ ] is
+5. - [x] Haven't played
+6. - [x] Have been waiting
+7. - [ ] Have known 
+8. - [x] Hasn't never been
+9. - [x] lives
+10. - [x] Has been living
+11. - [ ] has been watching
+12. - [ ] Haven't watched
+13. - [ ] Have had
+14. - [x] Haven't been
+15. - [x] I have always wanted 
 
 </details>
 
