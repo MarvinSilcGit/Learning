@@ -509,6 +509,7 @@
 4. - [x] have been making / They have made
   
 ### 10.2 Answers:
+
 1. - [x] How long have you been learning Arabic?
 2. - [x] How long have you been waiting?
 3. - [x] Have you caught any fish?
@@ -543,6 +544,46 @@
     <h3 id ="unit11">Unit 11: how long have you (been) ... ?</h3>
   </summary>
 
+### 11.1 Answers:
+
+1. - [x] I know
+2. - [x] Have you lived
+3. - [x] It's raining
+4. - [x] Has been
+5. - [x] Have you been waiting 
+6. - [x] We're living
+7. - [x] I haven't known
+8. - [x] She's
+9. - [x] Have you had it?
+10. - [x] I have been feeling
+
+### 11.2 Answers:
+
+1. - [x] How long has Paul been in hospital?
+2. - [ ] How long have you been katherine?
+3. - [x] How long have your sister been in Australia?
+4. - [x] How long have you been teaching English?
+5. - [x] How long have you had that jacket?
+6. - [x] How long has Joe been working at the airport?
+7. - [x] Have you always lived in Chigado?
+
+### 11.3 Answers:
+
+1. - [x] 
+2. - [x]
+3. - [x] 
+4. - [x] 
+5. - [x]
+6. - [x] 
+7. - [x] 
+8. - [x] 
+9. - [x] 
+10. - [x] 
+11. - [x] 
+12. - [x] 
+13. - [x] 
+14. - [x] 
+15. - [x] 
 
 </details>
 
