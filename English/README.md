@@ -140,6 +140,7 @@
   
 </details>
 
+
 <details>
   <summary><h3 id ="unit3">Unit 3: Present Continuous and present Simples 1 (I am doing and I do)</h3></summary>
 
@@ -197,6 +198,7 @@
   
 </details>
 
+
 <details>
   <summary><h3 id ="unit4">Unit 4: Present Continuous and present simple 2 (I am doing and I do)</h3></summary>
 
@@ -243,6 +245,7 @@
 6. - [x] are you
   
 </details>
+
 
 <details>
   <summary><h3 id ="unit5">Unit 5: Past simple (I did)</h3></summary>
@@ -297,6 +300,7 @@
 
 </details>
 
+
 <details>
   <summary><h3 id ="unit6">Unit 6: Past continuous (I was doing)</h3></summary>
 
@@ -349,6 +353,7 @@
 
 </details>
 
+
 <details>
   <summary><h3 id ="unit7">Unit 7: Present perfect 1 (I have done)</h3></summary>
 
@@ -400,6 +405,7 @@
   
 </details>
 
+
 <details>
   <summary><h3 id ="unit8">Unit 8: Present perfect 2 (I have done)</h3></summary>
 
@@ -445,11 +451,11 @@
   
 </details>
 
+
 <details>
   <summary><h3 id ="unit9">Unit 9: Present perfect continuous (I have being doing)</h3></summary>
 
 #### Basic definition: we use present perfect continuous for an activity thas has recently stopped or just stopped or activity that is still hadppening.
-
 
 ### 9.1 Answers:
 
@@ -486,9 +492,9 @@
 7. - [x] She has been working
 8. - [x] You are driving
 9. - [x] Has been traveling
-
   
 </details>
+
 
 <details>
   <summary>
@@ -531,12 +537,67 @@
      
 </details>
 
+
 <details>
   <summary>
     <h3 id ="unit11">Unit 11: how long have you (been) ... ?</h3>
   </summary>
 
 
+</details>
+
+<details>
+  <summary>
+    <h3 id ="unit12">Unit 12: for and since when ... ? and how long ... ?</h3>
+  </summary>
+
   
 </details>
 
+<details>
+  <summary>
+    <h3 id ="unit13">Unit 13: Present perfect and past 1 (I have done and I did)</h3>
+  </summary>
+
+
+</details>
+
+<details>
+  <summary>
+    <h3 id ="unit14">Unit 14:Present perfect and past 2 (I have done and I did)</h3>
+  </summary>
+  
+</details>
+
+
+<details>
+  <summary>
+    <h3 id ="unit15">Unit 15: Past perfect (I had done)</h3>
+  </summary>
+
+  
+</details>
+
+<details>
+  <summary>
+    <h3 id ="unit16">Unit 16: Past perfect continuous (I had been doing)</h3>
+  </summary>
+
+  
+</details>
+
+<details>
+  <summary>
+    <h3 id ="unit17">Unit 17: Have and have got</h3>
+  </summary>
+
+  
+</details>
+
+<details>
+  <summary>
+    <h3 id ="unit18">Unit 18: Used to (do)</h3>
+  </summary>
+
+  
+</details>
