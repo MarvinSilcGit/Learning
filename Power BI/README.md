@@ -68,7 +68,7 @@ mindmap
 
 #### Answers
 
-  ##### 1. 
+  ##### 1. É preciso de convencê-las de fato da necessidade para a organização e a facilidade que esse novo modo de fazer as coisas irá trazer. Porém, haverá com certeza dores de crescimento para que essas ideias possas se solidificar na mente das pessoas: sempre busque previamente esclarecer as vantagens e os percalços que acontecerão.
 
 
   </details>
