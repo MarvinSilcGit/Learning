@@ -70,6 +70,10 @@ mindmap
 
   ##### 1. É preciso de convencê-las de fato da necessidade para a organização e a facilidade que esse novo modo de fazer as coisas irá trazer. Porém, haverá com certeza dores de crescimento para que essas ideias possas se solidificar na mente das pessoas: sempre busque previamente esclarecer as vantagens e os percalços que acontecerão.
 
+  ##### 2. Pode impactar em criar incertezas para os colaboradoes internos e outras pessoas externas, pois mudanças sempre serão mal vistas por muitos, mesmo que seja para melhor. Portanto, a liderança precisa ter certeza e precisão ao decidir implantar uma nova forma de organizar e fazer.
+  
+  ##### 3. Identificação de colaboradores comprometidos através da identificação do desempenho passado e avaliação de suas contribuições para as mudanças propostas para o futuro. Ou seja, o quão engajado ele está ou não nesse processo.
+
 
   </details>
 
