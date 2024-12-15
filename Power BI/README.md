@@ -42,6 +42,11 @@ mindmap
 
   #### Answers
 
+  ##### 1. Através de uma narrativa precisa de dados, ou seja, que os dados sejam organizados e exibidos de maneira interpretável
+  ##### 2. Os principais desafios são: é compreender e utilizar os dados obtidos de modo que eles possam ajudar a tomar decisões eficientes e precisas
+  ##### 3. Se não houver uma cultura organizacional que esteja disposta e preparada para utilizar dados analíticos como base para decisões e abdicar dos instintos e experiências prévias, haverá conflitos constantes entres os dados gerados e as pessoas que discordam dos dados.
+  ##### 4. 
+
 
   </details>
 
