@@ -11,7 +11,7 @@ mindmap
     **SQLite**
     **UML**
     **Markdown**
-    **Figma**
+    **Power BI**
 ```
 
 ## Links
@@ -97,11 +97,7 @@ mindmap
 <h5><a href ="https://www.w3schools.io/file/markdown-introduction/">w3schools.io</a></h5>
 
 
-### Figma
+### Power BI
 
-<h5><a href ="https://www.figma.com/pt-br/resource-library/">Figma resources</a></h5>
-
-<h5><a href ="https://figmaelements.com/">figmaelements.com</a></h5>
-<h5><a href ="https://designcourse.com/">designcourse.com</a></h5>
-<h5><a href ="https://designcode.io/">designcode.io</a></h5>
+<h5><a></a></h5>
 
