@@ -45,7 +45,11 @@ mindmap
   ##### 1. Através de uma narrativa precisa de dados, ou seja, que os dados sejam organizados e exibidos de maneira interpretável
   ##### 2. Os principais desafios são: é compreender e utilizar os dados obtidos de modo que eles possam ajudar a tomar decisões eficientes e precisas
   ##### 3. Se não houver uma cultura organizacional que esteja disposta e preparada para utilizar dados analíticos como base para decisões e abdicar dos instintos e experiências prévias, haverá conflitos constantes entres os dados gerados e as pessoas que discordam dos dados.
-  ##### 4. 
+  ##### 4. Ela facilita através da digitalização dos processos e organizações dos dados com a capacidade de processamento infinitamente maior do que qualquer pessoa.
+  ##### 5. Através de um plano de ação que una os dois lados, de modo que eles possam desde o começo estar em uníssono para resolver os problemas utilizando as memsmas ferramentas de análise e as mesmas fontes de dados.
+  ##### 6. Elas afetam no sentido de que uma análise de dados de um perfil pode se tornar menos personalizado e único, tornando ações e produtos mais genéricos e imprecisos.
+  ##### 7. Proporção entre a campanha feita e pessoas que se engajaram financeiramente, aumento da consciência da marca e de seu "valor ideal agregado" junto ao público, uma boa reputação perante ao público-alvo e o dimensionamento do boca-a-boca, ou seja, o quão grande foi o burburinho gerado pela campanha.
+  ##### 8. Recomendação de compras e de combos de serviços ou produtos que estão interligados e que se adequam ao uso do cliente, otimização de preços de forma a aumentar ou diminiur a margem conforme o cliente valoriza ou não tal produto/serviço.
 
 
   </details>
