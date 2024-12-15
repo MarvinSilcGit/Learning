@@ -314,7 +314,7 @@ Utilizando o caractere coringa <code>%</code> no final do parâmetro, o comando 
 
 <br>
 
-```
+```sql
 SELECT * FROM movies WHERE name LIKE '%man%';
 ```
 
