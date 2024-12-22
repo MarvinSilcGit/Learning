@@ -20,7 +20,8 @@
 
    ##### Asnwers:
 
-   1. Os p
+   1. Sua utilide prática e fundamental nos campos científicos como Engenharia, Climatologia, criminalidade foresense, Agricultura e Matemática. Sem estatística, o estudo e prática dessas áreas ficaria seriamente comprometida.
+   2. Através do entendimento geral de que a estatística é uma ferramenta de entendimento do mundo para além do básico e do genérico e que a estatística é uma ferramenta de aprofundamento do entendimento dos acontecimentos e das chances de repetições ou não desses acontecimentos. Ou seja, a alfabetização em estatística possibilita o despreendimento de narrativas genéricas e nocivas.
   
   #### 1.1: Three reasons to study statistics
 
