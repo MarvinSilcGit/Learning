@@ -136,4 +136,45 @@ total = salario + aumento
 
 print("com um salario inicial de R$ %.2f e um aumento de R$ %.2f, o funcionario passará à receber R$ %.2f" % (salario, aumento, total))
 ```
+  #### Exercício 3.11: Faça um programa que solicite o preço de uma mercadoria e o percentual de desconto. Exiba o valor do desconto e o preço a pagar.
+
+```python
+precoMercadoria = float(input("Digite o preço da mercadoria: "))
+
+desconto = float(input("Digite a pocentagem de desconto: "))
+
+valorDesconto = (desconto / 10 ) * (precoMercadoria / 10)
+
+precoTotal = precoMercadoria - valorDesconto
+
+print("O valor do desconto é de R$ %.2f. E o preço à pagar é de R$ %.2f" % (valorDesconto, precoTotal))
+```
+
+  #### Exercício 3.12 Escreva um programa que calcule o tempo de uma viagem de carro. Pergunte a distância a percorrer e a velocidade média esperada para a viagem.
+
+```python
+distancia = float(input("Qual foi a distância percorrida em kilômetros? "))
+
+velocidadeMedia = float(input("Digite a velocidade média: "))
+
+tempo = distancia / velocidadeMedia
+
+print("O tempo necessário para a viagem foi de %.1f hora(s)" % tempo)
+```
+  
+  #### Exercício 3.13 Escreva um programa que converta uma temperatura digitada em °C em °F.
+
+```python
+celsius = float(input("Digite a temperatura para ser convertida de celsius para fahrenheit: "))
+
+fahrenheit = (celsius * 1.8) + 32
+
+print("A temperatura em %.1f° celsius equivale à %.1f° fahrenheit" % (celsius, fahrenheit))
+
+fahrenheit = float(input("Digite a temperautra para ser convertida de fahrenheit para celsius: "))
+
+celsius = (fahrenheit - 32) / 1.8
+
+print("A temperatura em %.1f° fahrenheit equivale à %.1f° celsius" % (fahrenheit, celsius))
+```
 </details>
