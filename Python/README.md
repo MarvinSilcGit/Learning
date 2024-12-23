@@ -123,5 +123,17 @@ segundos = minutos * 60 + segundos
 
 print("%d dia(s) dura ao equivalente à %d segundos" % (dias, segundos))
 ```
+  #### Exercício 3.10: Faça um programa que calcule o aumento de um salário. Ele deve solicitar o valor do salário e a porcentagem do aumento. Exiba o valor do aumento e do novo salário.
 
+```python
+salario = float(input("digite o salário recebido anualmente: "))
+
+porcentagem = float(input("qual a porcentagem de aumento? "))
+
+aumento = (porcentagem / 10) * (salario / 10)
+
+total = salario + aumento
+
+print("com um salario inicial de R$ %.2f e um aumento de R$ %.2f, o funcionario passará à receber R$ %.2f" % (salario, aumento, total))
+```
 </details>
