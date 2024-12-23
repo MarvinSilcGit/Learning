@@ -13,13 +13,12 @@
   #### 1. Faça um Programa que mostre a mensagem "Alo mundo" na tela.
 
 ```python
-print("Alo Mundo")
+print("Alô Mundo")
 ```
 
   #### 2. Faça um Programa que peça um número e então mostre uma mensagem com o número informado
 
 ```python
-
 numero = input("Digite o número")
 
 print(numero)
