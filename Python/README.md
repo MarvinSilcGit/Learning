@@ -1,9 +1,10 @@
-## Python Brasil: Lista de Exercícios;
-
 <details>
   <summary>
-    <h3>Estrutura Sequencial</h3>
+    <h2>Python Brasil: Lista de Exercícios</h2>
+    https://wiki.python.org.br/ListaDeExercicios
   </summary>
+
+  ### Estrutura Sequencial
 
   #### 1. Faça um Programa que mostre a mensagem "Alo mundo" na tela.
 
@@ -70,3 +71,12 @@ area = 3.14 * (raioCirculo**2)
 ```
 </details>
 
+
+<details>
+  <summary>
+    <h2>Introdução à programação com Python 2ª Edição</h2>
+  </summary>
+
+  ### Atividades
+
+</details>
