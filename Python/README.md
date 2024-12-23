@@ -67,7 +67,7 @@ raioCirculo = int(input("Digite o raio do círculo"))
 area = 3.14 * (raioCirculo**2)
 ```
 
-  ### 7. Faça um Programa que calcule a área de um quadrado, em seguida mostre o dobro desta área para o usuário.
+  #### 7. Faça um Programa que calcule a área de um quadrado, em seguida mostre o dobro desta área para o usuário.
 
 ```python
 
@@ -81,5 +81,29 @@ area = 3.14 * (raioCirculo**2)
   </summary>
 
   ### Atividades
+
+  #### Exercício 3.7: Faça um programa que peça dois números inteiros. Imprima a soma desses dois números na tela.
+
+```python
+numero1 = int(input("Digite o primeiro número: "))
+
+numero2 = int(input("Digite o segundo número: "))
+
+print(numero1 + numero2)
+```
+
+  #### Exercício 3.8: Escreva um programa que leia um valor em metros e o exiba convertido em milímetros.
+
+```python
+
+
+```
+
+  #### Exercício 3.9: Escreva um programa que leia a quantidade de dias, horas, minutos e segundos do usuário. Calcule o total em segundos.
+
+```python
+
+
+```
 
 </details>
