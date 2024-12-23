@@ -107,8 +107,21 @@ print("O valor de %.2f metro(s) é equivalente à %d milímetro(s)" %(valorMetro
   #### Exercício 3.9: Escreva um programa que leia a quantidade de dias, horas, minutos e segundos do usuário. Calcule o total em segundos.
 
 ```python
+dias = int(input("Digite a quantidade de dia: "))
 
+horas = int(input("Digite a quantidade de horas: "))
 
+minutos = int(input("Digite a quantidade de minutos: "))
+
+segundos = int(input("Digite a quantidade de segundos: "))
+
+horas = dias * 24 + horas
+
+minutos = horas * 60 + minutos
+
+segundos = minutos * 60 + segundos
+
+print("%d dia(s) dura ao equivalente à %d segundos" % (dias, segundos))
 ```
 
 </details>
