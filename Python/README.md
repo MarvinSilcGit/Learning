@@ -177,4 +177,21 @@ celsius = (fahrenheit - 32) / 1.8
 
 print("A temperatura em %.1f° fahrenheit equivale à %.1f° celsius" % (fahrenheit, celsius))
 ```
+
+  #### Exercício: 3.14: Escreva um programa que pergunte a quantidade de km percorridos por um carro alugado pelo usuário, assim como a quantidade de dias pelos quais o carro foi alugado. Calcule o preço a pagar, sabendo que o carro custa R$ 60 por dia e R$ 0,15 por km rodado.
+
+```python
+kilometrosPercorridos = float(input("Quantos kilômetros foram percorridos com o carro? "))
+
+diasAlugados = int(input("Por quantos dias o carro foi alugado? "))
+
+diariaAluguel = 60 * diasAlugados
+
+custoKilometro = 0.15 * kilometrosPercorridos
+
+custoTotalAluguel = diariaAluguel + custoKilometro
+
+print("O custo total do aluguel foi de R$ %.2f, por um carro que foi alugado por %d dias e com %.1f kilômetros percorridos" % (custoTotalAluguel, diasAlugados, kilometrosPercorridos))
+```
+
 </details>
