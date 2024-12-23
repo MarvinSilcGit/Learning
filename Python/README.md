@@ -89,7 +89,9 @@ numero1 = int(input("Digite o primeiro número: "))
 
 numero2 = int(input("Digite o segundo número: "))
 
-print(numero1 + numero2)
+total = numero1 + numero2
+
+print("A soma de %d + %d é igual a %d" % (numero1, numero2, total))
 ```
 
   #### Exercício 3.8: Escreva um programa que leia um valor em metros e o exiba convertido em milímetros.
@@ -99,7 +101,7 @@ valorMetro = float(input("Digite o valor para ser convertido em milímetros: "))
 
 valorMilimetro = valorMetro * 1000
 
-print(valorMilimetro)
+print("O valor de %.2f metro(s) é equivalente à %d milímetro(s)" %(valorMetro, valorMilimetro))
 ```
 
   #### Exercício 3.9: Escreva um programa que leia a quantidade de dias, horas, minutos e segundos do usuário. Calcule o total em segundos.
