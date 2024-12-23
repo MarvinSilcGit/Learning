@@ -1,6 +1,6 @@
 <details>
   <summary>
-    <h2>Python Brasil: Lista de Exercícios</h2>
+    <h2>Python Brasil Wiki: Lista de Exercícios</h2>
     
   </summary>
   <h3>Resources:</h3>
