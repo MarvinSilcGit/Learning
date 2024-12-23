@@ -1,8 +1,11 @@
 <details>
   <summary>
     <h2>Python Brasil: Lista de Exercícios</h2>
-    https://wiki.python.org.br/ListaDeExercicios
+    <br>
+    <h3>Resources:</h3>
+    <h3>https://wiki.python.org.br/ListaDeExercicios</h3>
   </summary>
+  
 
   ### Estrutura Sequencial
 
