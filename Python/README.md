@@ -95,8 +95,11 @@ print(numero1 + numero2)
   #### Exercício 3.8: Escreva um programa que leia um valor em metros e o exiba convertido em milímetros.
 
 ```python
+valorMetro = float(input("Digite o valor para ser convertido em milímetros: "))
 
+valorMilimetro = valorMetro * 1000
 
+print(valorMilimetro)
 ```
 
   #### Exercício 3.9: Escreva um programa que leia a quantidade de dias, horas, minutos e segundos do usuário. Calcule o total em segundos.
