@@ -1,7 +1,6 @@
 <details>
   <summary>
     <h2>Python Brasil Wiki: Lista de Exercícios</h2>
-    
   </summary>
   <h3>Resources:</h3>
   <h3>https://wiki.python.org.br/ListaDeExercicios</h3>
@@ -200,4 +199,86 @@ custoTotalAluguel = diariaAluguel + custoKilometro
 print("O custo total do aluguel foi de R$ %.2f, por um carro que foi alugado por %d dias e com %.1f kilômetros percorridos" % (custoTotalAluguel, diasAlugados, kilometrosPercorridos))
 ```
 
+</details>
+
+<details>
+
+  <summary>
+    <h2>Techie Delight</h2>
+  </summary>
+  <h3>Resources:</h3>
+  <h3>https://www.techiedelight.com/data-structures-and-algorithms-problems/</h3>
+  <br>
+  
+  ### Data Structures and Algorithm Problems
+
+  #### 1. Find a pair with the given sum in an array
+
+```python
+import random
+
+Counter1, Counter2, Array, RandomLen, par = 0, 0, [], [], []
+
+Goal = random.randint(1, 30)
+
+for Counter in range(15):
+
+    RandomLen.append(random.randint(1, 15))
+
+    if RandomLen[Counter] in Array:
+
+        continue
+
+    else:
+
+        Array.append(RandomLen[Counter])
+
+while Counter1 != len(Array):
+
+    if Array[Counter1] == Array[Counter2]:
+
+        Counter1 += 1
+
+        continue
+
+    elif Array[Counter1] + Array[Counter2] == Goal or Array[Counter1] - Array[Counter2] == Goal:
+
+        if Array[Counter2] and Array[Counter1] not in par:
+
+            par.append(Array[Counter1])
+
+            par.append(Array[Counter2])
+
+        else:
+
+            pass
+
+    if Counter1 == len(Array)-1:
+
+        Counter2 += 1
+
+        Counter1 = 0
+
+        continue
+
+    else:
+
+        Counter1 += 1
+
+print("The Bullseye-Array", Array)
+
+print()
+
+print("The Goal is", Goal)
+
+print()
+
+if len(par) > 1:
+
+    print("The pairs that matchs:", par)
+
+elif len(par) == 1:
+
+    print("The only one pair that matchs:", par)
+```
 </details>
