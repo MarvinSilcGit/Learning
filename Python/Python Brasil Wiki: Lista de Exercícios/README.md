@@ -82,11 +82,32 @@ area = 3.14 * (raioCirculo**2)
 ```
   </details>
 
+  
   <details>
     <summary>
       <h3>Estrutura de Decisão</h3>
     </summary>
+  
+  #### 1. Faça um Programa que peça dois números e imprima o maior deles. 
 
+```python
+numero1 = int(input("Digite o primeiro número: "))
+
+numero2 = int(input("Digite o segundo número: "))
+
+if numero1 > numero2:
+
+    print("O maior número é %d" % numero1)
+
+elif numero1 < numero2:
+
+    print("O maior número é %d" % numero2)
+
+else:
+
+    print("Os dois números são iguais")
+```
+    
   </details>
 
 </details>
