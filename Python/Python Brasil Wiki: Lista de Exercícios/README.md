@@ -107,7 +107,40 @@ else:
 
     print("Os dois números são iguais")
 ```
-    
+
+  #### 2. Faça um Programa que peça um valor e mostre na tela se o valor é positivo ou negativo.
+
+```python
+
+```
+  
+  #### 3. Faça um Programa que verifique se uma letra digitada é "F" ou "M". Conforme a letra escrever: F - Feminino, M - Masculino, Sexo Inválido.
+
+```python
+
+
+```
+  
+  #### 4. Faça um Programa que verifique se uma letra digitada é vogal ou consoante.
+
+```python
+
+
+```
+  
+  #### 5. Faça um programa para a leitura de duas notas parciais de um aluno. O programa deve calcular a média alcançada por aluno e apresentar: A mensagem "Aprovado", se a média alcançada for maior ou igual a sete; A mensagem "Reprovado", se a média for menor do que sete; A mensagem "Aprovado com Distinção", se a média for igual a dez. 
+
+```python
+
+
+```
+  
+  #### 6. Faça um Programa que leia três números e mostre o maior deles. 
+
+```python
+
+
+```
   </details>
 
 </details>
