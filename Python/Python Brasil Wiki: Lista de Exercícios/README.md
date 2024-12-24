@@ -113,8 +113,23 @@ print("A temperatura em %.1f° celsius equivale à %.1f° fahrenheit" % (celsius
   #### 11. Faça um Programa que peça 2 números inteiros e um número real. Calcule e mostre: o produto do dobro do primeiro com metade do segundo, a soma do triplo do primeiro com o terceiro e o terceiro elevado ao cubo. 
 
 ```python
+numeroInteiro1 = int(input("Digite o primeiro número inteiro: "))
 
+numeroInteiro2 = int(input("Digite o segundo número inteiro: "))
 
+numeroReal = float(input("Digite o número real: "))
+
+resultado1 = numeroInteiro1 * 2 * numeroInteiro2 / 2
+
+print(resultado1)
+
+resultado2 = numeroInteiro1 * 3 + numeroReal
+
+print(resultado2)
+
+resultado3 = numeroReal**3
+
+print(resultado3)
 ```
 
   #### 12. Tendo como dados de entrada a altura de uma pessoa, construa um algoritmo que calcule seu peso ideal, usando a seguinte fórmula: (72.7*altura) - 58
