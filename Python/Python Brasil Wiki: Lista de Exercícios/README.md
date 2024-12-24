@@ -47,7 +47,9 @@ nota3 = float(input("Digite a terceira nota"))
 
 nota4 = float(input("Digite a quarta nota"))
 
-print((nota1+nota2+nota3+nota4)/4)
+média = (nota1 + nota2 + nota3 + nota4) / 4
+
+print(média)
 ```
 
   #### 5. Faça um Programa que converta metros para centímetros.
@@ -55,7 +57,7 @@ print((nota1+nota2+nota3+nota4)/4)
 ```python
 metros = 100
 
-centimetros = 100*100
+centimetros = 100 * 100
 
 print(centimetros)
 ```
@@ -188,8 +190,23 @@ else:
   #### 6. Faça um Programa que leia três números e mostre o maior deles. 
 
 ```python
+numero1 = float(input("Digite o primeiro número: "))
 
+numero2 = float(input("Digite o segundo número: "))
 
+numero3 = float(input("Digite o terceiro número: "))
+
+if numero1 > numero2 and numero1 > numero3:
+
+    print("O primeiro número é maior")
+
+elif numero2 > numero1 and numero2 > numero3:
+
+    print("O segundo número é maior")
+
+elif numero3 > numero2  and numero3 > numero1:
+
+    print("O terceiro número é maior")
 ```
   </details>
 
