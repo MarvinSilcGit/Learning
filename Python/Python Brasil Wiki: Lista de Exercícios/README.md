@@ -2,8 +2,6 @@
   <summary>
     <h2>Python Brasil Wiki: Lista de Exercícios</h2>
   </summary>
-  <h3>Resources:</h3>
-  <h3>https://wiki.python.org.br/ListaDeExercicios</h3>
 
   <br>
 
