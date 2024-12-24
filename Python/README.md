@@ -2,6 +2,10 @@
 
 ### Techie Delight
 
+<h3>https://www.techiedelight.com/data-structures-and-algorithms-problems/</h3>
+
 ### Python Brasil Wiki
+
+<h3>https://wiki.python.org.br/ListaDeExercicios</h3>
 
 ### Introdução à Programação com Python - 2ª Edição
