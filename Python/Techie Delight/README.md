@@ -3,8 +3,6 @@
   <summary>
     <h2>Techie Delight</h2>
   </summary>
-  <h3>Resources:</h3>
-  <h3>https://www.techiedelight.com/data-structures-and-algorithms-problems/</h3>
   <br>
   
   ### Data Structures and Algorithm Problems
