@@ -90,17 +90,24 @@ salario = salarioHora * horasMensal
 print("O salário mensal é R$ %.2f " % salario)
 ```
 
-  #### 9. Faça um Programa que peça a temperatura em graus Fahrenheit, transforme e mostre a temperatura em graus Celsius. Fórmula: C = 5 * ((F-32) / 9).
+  #### 9. Faça um Programa que peça a temperatura em graus Fahrenheit, transforme e mostre a temperatura em graus Celsius.
 
 ```python
+fahrenheit = float(input("Digite a temperautra para ser convertida de fahrenheit para celsius: "))
 
+celsius = (fahrenheit - 32) / 1.8
+
+print("A temperatura em %.1f° fahrenheit equivale à %.1f° celsius" % (fahrenheit, celsius))
 ```
 
   #### 10. Faça um Programa que peça a temperatura em graus Celsius, transforme e mostre em graus Fahrenheit.
 
 ```python
+celsius = float(input("Digite a temperatura para ser convertida de celsius para fahrenheit: "))
 
+fahrenheit = (celsius * 1.8) + 32
 
+print("A temperatura em %.1f° celsius equivale à %.1f° fahrenheit" % (celsius, fahrenheit))
 ```
 
   #### 11. Faça um Programa que peça 2 números inteiros e um número real. Calcule e mostre: o produto do dobro do primeiro com metade do segundo, a soma do triplo do primeiro com o terceiro e o terceiro elevado ao cubo. 
