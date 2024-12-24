@@ -71,8 +71,11 @@ area = 3.14 * (raioCirculo**2)
   #### 7. Faça um Programa que calcule a área de um quadrado, em seguida mostre o dobro desta área para o usuário.
 
 ```python
+ladoQuadrado = float(input("Digite um lado do quadrado: "))
 
+areaQuadrado = ladoQuadrado**2 * 2
 
+print("A área do quadrado é %.2f" % areaQuadrado)
 ```
 
   #### 8. Faça um Programa que pergunte quanto você ganha por hora e o número de horas trabalhadas no mês. Calcule e mostre o total do seu salário no referido mês. 
