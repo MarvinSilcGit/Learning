@@ -7,8 +7,10 @@
 
   <br>
 
-  ### Estrutura Sequencial
-
+  <details>
+    <summary>
+      <h3>Estrutura Sequencial</h3>
+    </summary>
   #### 1. Faça um Programa que mostre a mensagem "Alo mundo" na tela.
 
 ```python
@@ -77,6 +79,8 @@ area = 3.14 * (raioCirculo**2)
 
 
 ```
+  </details>
+
 </details>
 
 
