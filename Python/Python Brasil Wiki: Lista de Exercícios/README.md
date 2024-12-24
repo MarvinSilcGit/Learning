@@ -111,7 +111,15 @@ else:
   #### 2. Faça um Programa que peça um valor e mostre na tela se o valor é positivo ou negativo.
 
 ```python
+valor = float(input("Digite um número: "))
 
+if valor < 0:
+
+    print("O valor %.1f é negativo" % valor)
+
+else:
+
+    print("O valor %.1f é positivo" % valor)
 ```
   
   #### 3. Faça um Programa que verifique se uma letra digitada é "F" ou "M". Conforme a letra escrever: F - Feminino, M - Masculino, Sexo Inválido.
