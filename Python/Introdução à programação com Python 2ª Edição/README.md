@@ -482,7 +482,9 @@ for contador in range(11):
   #### Exercício 5.6: Altere o programa anterior para exibir os resultados no mesmo formato de uma tabuada: 2x1 = 2, 2x2=4, ...
 
 ```python
+for contador in range(11):
 
+    print(contador * 2)
 ```
 
   #### Exercício 5.7: Modifique o programa anterior de forma que o usuário também digite o início e o fim da tabuada, em vez de começar com 1 e 10.
@@ -515,19 +517,30 @@ for contador in range(11):
 
 ```
 
-  #### Exercício 5.13:
+  #### Exercício 5.13: Escreva um programa que pergunte o valor inicial de uma dívida e o juro mensal. Pergunte também o valor mensal que será pago. Imprima o número de meses para que a dívida seja paga, o total pago e o total de juros pago.
 
 ```python
 
 ```
 
-  #### Exercício 5.14:
+  #### Exercício 5.14: Escreva um programa que leia números inteiros do teclado. O programa deve ler os números até que o usuário digite 0 (zero). No final da execução, exiba a quantidade de números digitados, assim como a soma e a média aritmética.
 
 ```python
 
 ```
 
-  #### Exercício 5.15:
+  #### Exercício 5.15: Escreva um programa para controlar uma pequena máquina registradora. Você deve solicitar ao usuário que digite o código do produto e a quantidade comprada. Utilize a tabela de códigos abaixo para obter o preço de cada produto:
+
+  |**Código**|**Preço**|
+  |----------|---------|
+  |1         | R$ 0,50 |
+  |2         | R$ 1,00 |
+  |3         | R$ 4,00 |
+  |5         | R$ 7,00 |
+  |9         | R$ 8,00 |
+
+  #### Seu programa deve exibir o total das compras depois que o usuário digitar 0. Qualquer outro código deve gerar a mensagem de erro “Código inválido”.
+  
 
 ```python
 
