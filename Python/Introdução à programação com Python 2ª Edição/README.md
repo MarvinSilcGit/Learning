@@ -101,7 +101,7 @@ celsius = (fahrenheit - 32) / 1.8
 print("A temperatura em %.1f° fahrenheit equivale à %.1f° celsius" % (fahrenheit, celsius))
 ```
 
-  #### Exercício: 3.14: Escreva um programa que pergunte a quantidade de km percorridos por um carro alugado pelo usuário, assim como a quantidade de dias pelos quais o carro foi alugado. Calcule o preço a pagar, sabendo que o carro custa R$ 60 por dia e R$ 0,15 por km rodado.
+  #### Exercício 3.14: Escreva um programa que pergunte a quantidade de km percorridos por um carro alugado pelo usuário, assim como a quantidade de dias pelos quais o carro foi alugado. Calcule o preço a pagar, sabendo que o carro custa R$ 60 por dia e R$ 0,15 por km rodado.
 
 ```python
 kilometrosPercorridos = float(input("Quantos kilômetros foram percorridos com o carro? "))
@@ -115,6 +115,20 @@ custoKilometro = 0.15 * kilometrosPercorridos
 custoTotalAluguel = diariaAluguel + custoKilometro
 
 print("O custo total do aluguel foi de R$ %.2f, por um carro que foi alugado por %d dias e com %.1f kilômetros percorridos" % (custoTotalAluguel, diasAlugados, kilometrosPercorridos))
+```
+
+  #### Exercício 3.15: Escreva um programa para calcular a redução do tempo de vida de um fumante. Pergunte a quantidade de cigarros fumados por dia e quantos anos ele já fumou. Considere que um fumante perde 10 minutos de vida a cada cigarro, calcule quantos dias de vida um fumante perderá. Exiba o total em dias.
+
+```python
+cigarrosDia = int(input("Quantos cigarros você fumou por dia? "))
+
+cigarrosAnos = int(input("Por quantos anos você fomou? "))
+
+cigarrosTotal = 365 * cigarrosAnos * cigarrosDia
+
+diasPerdidos = cigarrosTotal * 10 / 60 / 24
+
+print("Você já perdeu %d dias fumando %d cigarro(s) por dia, por %d anos" % (diasPerdidos, cigarrosDia, cigarrosAnos))
 ```
 
 </details>
