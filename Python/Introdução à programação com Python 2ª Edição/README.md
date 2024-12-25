@@ -288,7 +288,25 @@ elif operadores != 1 and operadores != 2 and operadores != 3 and operadores != 4
   #### Exercício 4.9: Escreva um programa para aprovar o empréstimo bancário para compra de uma casa. O programa deve perguntar o valor da casa a comprar, o salário e a quantidade de anos a pagar. O valor da prestação mensal não pode ser superior a 30% do salário. Calcule o valor da prestação como sendo o valor da casa a comprar dividido pelo número de meses a pagar.
 
 ```python
+valorCasa = float(input("Qual o valor da casa? "))
 
+salario = float(input("Qual o seu salário? "))
+
+anos = int(input("Irá pagar em quantos anos? "))
+
+anos *= 12
+
+parcelasMensais = valorCasa / anos
+
+porcentagem = salario / 100 * 30
+
+if valorCasa / anos  < porcentagem:
+
+    print("O usuário poderá contratar o financiamento, pois parcela não é superior a um terço de sua renda mensal. As parcelas serão de R$ %.2f" % parcelasMensais)
+
+else:
+
+    print("O usuário não poderá contratar o financiamento, pois parcela é superior a um terço de sua renda mensal. As parcelas seriam de R$ %.2f" % parcelasMensais)
 ```
   
   #### Exercício 4.10:
