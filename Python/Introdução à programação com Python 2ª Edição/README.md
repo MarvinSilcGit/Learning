@@ -474,7 +474,9 @@ while contador1 != 0:
   #### Exercício 5.5: Reescreva o programa anterior para escrever os 10 primeiros múltiplos de 3.
 
 ```python
-
+for contador in range(11):
+    
+    print(contador * 3)
 ```
 
   #### Exercício 5.6:
