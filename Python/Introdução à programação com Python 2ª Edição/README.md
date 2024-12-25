@@ -421,19 +421,57 @@ while contador3 != 101:
     contador3 += 1
 ```
 
-  #### Exercício 5.3:
+  #### Exercício 5.3: Faça um programa para escrever a contagem regressiva do lançamento de um foguete. O programa deve imprimir '10, 9, 8, ..., 1, 0 e Fogo!' na tela.
 
 ```python
+contador = 1
 
+contagem = 11
+
+while contador != 0:
+
+    while contagem != 1:
+
+        contagem -= 1
+
+        print(contagem)
+
+    print("Fogo!")
+
+    contador = int(input("Digite 0 para interromper a execução: "))
 ```
 
-  #### Exercício 5.4:
+  #### Exercício 5.4: Modifique o programa anterior para imprimir de 1 até o número digitado pelo usuário, mas, dessa vez, apenas os números ímpares.
 
 ```python
+contador1 = 1
 
+while contador1 != 0:
+
+    valorInicial = int(input("Digite o valor inicial: "))
+
+    if valorInicial != 1:
+
+        print("Número incorreto")
+
+        continue
+
+    else:
+
+        valorFinal = int(input("Digite o valor final: "))
+
+        while valorInicial < valorFinal:
+
+            print(valorInicial)
+
+            valorInicial += 2
+
+        print()
+
+        contador1 = int(input("Digite 0 para interromper a execução: "))
 ```
 
-  #### Exercício 5.5:
+  #### Exercício 5.5: Reescreva o programa anterior para escrever os 10 primeiros múltiplos de 3.
 
 ```python
 
