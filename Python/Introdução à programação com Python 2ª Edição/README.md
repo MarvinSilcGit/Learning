@@ -386,4 +386,89 @@ else:
 
   </details>
 
+  <details>
+    <summary>
+      <h3>Repetições</h3>
+    </summary>
+    
+  #### Exercício 5.1-2:
+
+```python
+contador1 = 0
+
+while contador1 != 4:
+
+    print(contador1)
+
+    contador1 += 1
+
+
+contador2 = 0
+
+while contador2 != 51:
+
+    print(contador2)
+
+    contador2 += 1
+
+
+contador3 = 50
+
+while contador3 != 101:
+
+    print(contador3)
+
+    contador3 += 1
+```
+
+  #### Exercício 5.3:
+
+```python
+
+```
+
+  #### Exercício 5.4:
+
+```python
+
+```
+
+  #### Exercício 5.5:
+
+```python
+
+```
+
+  #### Exercício 5.6:
+
+```python
+
+```
+
+  #### Exercício 5.7:
+
+```python
+
+```
+
+  #### Exercício 5.8:
+
+```python
+
+```
+
+  #### Exercício 5.9:
+
+```python
+
+```
+
+  #### Exercício 5.10:
+
+```python
+
+```
+
+  </details>
+
 </details>
