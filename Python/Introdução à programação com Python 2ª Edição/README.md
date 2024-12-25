@@ -1,9 +1,12 @@
 <details>
   <summary>
-    <h2>Introdução à programação com Python 2ª Edição</h2>
+    <h2>Introdução à Programação com Python 2ª Edição</h2>
   </summary>
 
-  ### Atividades
+  <details>
+    <summary>
+      <h3>Variáveis e Entrada de Dados</h3>
+    </summary>
 
   #### Exercício 3.7: Faça um programa que peça dois números inteiros. Imprima a soma desses dois números na tela.
 
@@ -131,6 +134,13 @@ diasPerdidos = cigarrosTotal * 10 / 60 / 24
 print("Você já perdeu %d dias fumando %d cigarro(s) por dia, por %d anos" % (diasPerdidos, cigarrosDia, cigarrosAnos))
 ```
 
+  </details>
+
+  <details>
+    <summary>
+      <h3>Condições</h3>
+    </summary>
+  
   #### Exercício 4.2:
 
 ```python
@@ -184,5 +194,7 @@ print("Você já perdeu %d dias fumando %d cigarro(s) por dia, por %d anos" % (d
 ```python
 
 ```
+
+  </details>
 
 </details>
