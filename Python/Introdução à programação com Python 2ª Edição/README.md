@@ -131,4 +131,58 @@ diasPerdidos = cigarrosTotal * 10 / 60 / 24
 print("Você já perdeu %d dias fumando %d cigarro(s) por dia, por %d anos" % (diasPerdidos, cigarrosDia, cigarrosAnos))
 ```
 
+  #### Exercício 4.2:
+
+```python
+
+```
+
+  #### Exercício 4.3:
+
+```python
+
+```
+
+  #### Exercício 4.4:
+
+```python
+
+```
+
+  #### Exercício 4.5:
+
+```python
+
+```
+
+  #### Exercício 4.6:
+
+```python
+
+```
+
+  #### Exercício 4.7:
+
+```python
+
+```
+
+  #### Exercício 4.8:
+
+```python
+
+```
+
+  #### Exercício 4.9:
+
+```python
+
+```
+  
+  #### Exercício 4.10:
+
+```python
+
+```
+
 </details>
