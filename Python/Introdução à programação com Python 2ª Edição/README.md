@@ -474,23 +474,29 @@ while contador1 != 0:
   #### Exercício 5.5: Reescreva o programa anterior para escrever os 10 primeiros múltiplos de 3.
 
 ```python
-for contador in range(11):
-    
+for contador in range(1, 11):
+
     print(contador * 3)
 ```
 
   #### Exercício 5.6: Altere o programa anterior para exibir os resultados no mesmo formato de uma tabuada: 2x1 = 2, 2x2=4, ...
 
 ```python
-for contador in range(11):
+for contador in range(1, 11):
 
     print(contador * 2)
 ```
 
-  #### Exercício 5.7: Modifique o programa anterior de forma que o usuário também digite o início e o fim da tabuada, em vez de começar com 1 e 10.
+  #### Exercício 5.7: Modifique o programa anterior de forma que o usuário também digite o início e o fim da tabuada, em vez de começar com 1 e terminar com 10.
 
 ```python
+inicioTabuada = int(input("Digite o valor inicial da tabuada: "))
 
+fimTabuada = int(input("Digite o valor final da tabuada: "))
+
+for contador in range(inicioTabuada, fimTabuada + 1):
+
+    print(contador * 2)
 ```
 
   #### Exercício 5.8: Escreva um programa que leia dois números. Imprima o resultado da multiplicação do primeiro pelo segundo. Utilize apenas os operadores de soma e subtração para calcular o resultado. Lembre-se de que podemos entender a multiplicação de dois números como somas sucessivas de um deles. Assim, 4 × 5 = 5 + 5 + 5 + 5 = 4 + 4 + 4 + 4 + 4.
