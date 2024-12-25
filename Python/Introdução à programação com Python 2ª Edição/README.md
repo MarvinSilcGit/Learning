@@ -141,31 +141,41 @@ print("Você já perdeu %d dias fumando %d cigarro(s) por dia, por %d anos" % (d
       <h3>Condições</h3>
     </summary>
   
-  #### Exercício 4.2:
+  #### Exercício 4.2: Escreva um programa que pergunte a velocidade do carro de um usuário. Caso ultrapasse 80 km/h, exiba uma mensagem dizendo que o usuário foi multado. Nesse caso, exiba o valor da multa, cobrando R$ 5 por km acima de 80 km/h.
+
+```python
+velocidade = int(input("Qual a velocidade do veículo? "))
+
+if velocidade > 80:
+
+    multa = (velocidade - 80) * 5
+
+    print("O condutor foi multado em R$ %.2f por estar %.0f quilômetro(s) acima do limite de velodade" % (multa, velocidade - 80))
+
+if velocidade <= 80:
+
+    print("O condutor não foi multado por estar dentro do limite de velocidade")
+```
+
+  #### Exercício 4.3: Escreva um programa que leia três números e que imprima o maior e o menor.
 
 ```python
 
 ```
 
-  #### Exercício 4.3:
+  #### Exercício 4.4: Escreva um programa que pergunte o salário do funcionário e calcule o valor do aumento. Para salários superiores a R$ 1.250,00, calcule um aumento de 10%. Para os inferiores ou iguais, de 15%.
 
 ```python
 
 ```
 
-  #### Exercício 4.4:
+  #### Exercício 4.5: Execute o programa (Listagem 4.5) e experimente alguns valores. Verifique se os resultados foram os mesmos do programa anterior (Listagem 4.3).
 
 ```python
 
 ```
 
-  #### Exercício 4.5:
-
-```python
-
-```
-
-  #### Exercício 4.6:
+  #### Exercício 4.6: Escreva um programa que pergunte a distância que um passageiro deseja percorrer em km. Calcule o preço da passagem, cobrando R$ 0,50 por km   para viagens de até de 200 km, e R$ 0,45 para viagens mais longas.
 
 ```python
 
