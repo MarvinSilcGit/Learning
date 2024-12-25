@@ -490,13 +490,21 @@ for contador in range(1, 11):
   #### Exercício 5.7: Modifique o programa anterior de forma que o usuário também digite o início e o fim da tabuada, em vez de começar com 1 e terminar com 10.
 
 ```python
-inicioTabuada = int(input("Digite o valor inicial da tabuada: "))
+contador = 0
 
-fimTabuada = int(input("Digite o valor final da tabuada: "))
+while contador != 1:
 
-for contador in range(inicioTabuada, fimTabuada + 1):
+    inicioTabuada = int(input("Digite o valor inicial da tabuada: "))
+    
+    fimTabuada = int(input("Digite o valor final da tabuada: "))
+    
+    for contador in range(inicioTabuada, fimTabuada + 1):
+    
+        print(contador * 2)
+        
+    print()
 
-    print(contador * 2)
+    contador = int(input("Digite 0 para interromper a execução: "))
 ```
 
   #### Exercício 5.8: Escreva um programa que leia dois números. Imprima o resultado da multiplicação do primeiro pelo segundo. Utilize apenas os operadores de soma e subtração para calcular o resultado. Lembre-se de que podemos entender a multiplicação de dois números como somas sucessivas de um deles. Assim, 4 × 5 = 5 + 5 + 5 + 5 = 4 + 4 + 4 + 4 + 4.
