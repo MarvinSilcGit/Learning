@@ -510,7 +510,25 @@ while contador != 1:
   #### Exercício 5.8: Escreva um programa que leia dois números. Imprima o resultado da multiplicação do primeiro pelo segundo. Utilize apenas os operadores de soma e subtração para calcular o resultado. Lembre-se de que podemos entender a multiplicação de dois números como somas sucessivas de um deles. Assim, 4 × 5 = 5 + 5 + 5 + 5 = 4 + 4 + 4 + 4 + 4.
 
 ```python
+contador = 1
 
+resultado = 0
+
+while contador != 0:
+
+    valor1 = int(input("Digite um valor: "))
+
+    valor2 = int(input("Digite outro valor: "))
+
+    for contador2 in range(0, valor2):
+
+        print("%d + %d = %d" % (resultado, valor1, resultado + valor1))
+
+        resultado += valor1
+
+    print()
+
+    contador = int(input("Digite 0 para interromper a execução: "))
 ```
 
   #### Exercício 5.9: Escreva um programa que leia dois números. Imprima a divisão inteira do primeiro pelo segundo, assim como o resto da divisão. Utilize apenas os operadores de soma e subtração para calcular o resultado. Lembre-se de que podemos entender o quociente da divisão de dois números como a quantidade de vezes que podemos retirar o divisor do dividendo. Logo, 20 ÷ 4 = 5, uma vez que podemos subtrair 4 cinco vezes de 20.
