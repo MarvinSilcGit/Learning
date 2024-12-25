@@ -160,31 +160,77 @@ if velocidade <= 80:
   #### Exercício 4.3: Escreva um programa que leia três números e que imprima o maior e o menor.
 
 ```python
+numero1 = int(input("Digite o primeiro número: "))
 
+numero2 = int(input("Digite o segundo número: "))
+
+numero3 = int(input("Digite o terceiro número: "))
+
+if numero1 > numero2 > numero3:
+
+    print("%d, %d" % (numero1, numero3))
+
+if numero1 > numero3 > numero2:
+
+    print("%d, %d" % (numero1, numero2))
+
+if numero2 > numero1 > numero3:
+
+    print("%d, s%d" % (numero2, numero3))
+
+if numero2 > numero3 > numero1:
+
+    print("%d, r%d" % (numero2, numero1))
+
+if numero3 > numero2 > numero1:
+
+    print("%d, t%d" % (numero3, numero1))
+
+if numero3 > numero1 > numero2:
+
+    print("%d, u%d" % (numero1, numero2))
 ```
 
   #### Exercício 4.4: Escreva um programa que pergunte o salário do funcionário e calcule o valor do aumento. Para salários superiores a R$ 1.250,00, calcule um aumento de 10%. Para os inferiores ou iguais, de 15%.
 
 ```python
+salario = float(input("Qual o seu salário? "))
 
-```
+if salario > 1250:
 
-  #### Exercício 4.5: Execute o programa (Listagem 4.5) e experimente alguns valores. Verifique se os resultados foram os mesmos do programa anterior (Listagem 4.3).
+    aumento1 = salario / 10
 
-```python
+    salarioFinal = salario + aumento1
 
+    print("O salário  de R$ %.2f passará a ser de R$ %.2f, com um aumento de R$ %.2f" % (salario, salarioFinal, aumento1))
+
+else:
+
+    if salario <= 1250:
+
+        aumento1 = salario * 0.15
+
+        salarioFinal = salario + aumento1
+
+        print("O salário de R$ %.2f passará a ser de R$ %.2f, com um aumento de R$ %.2f" % (salario, salarioFinal, aumento1))
 ```
 
   #### Exercício 4.6: Escreva um programa que pergunte a distância que um passageiro deseja percorrer em km. Calcule o preço da passagem, cobrando R$ 0,50 por km   para viagens de até de 200 km, e R$ 0,45 para viagens mais longas.
 
 ```python
+distancia = float(input("Qual a distância que irá percorrer? "))
 
-```
+if distancia <= 200:
 
-  #### Exercício 4.7:
+    passagem = distancia * 0.50
 
-```python
+    print("Com uma distância inferior à 200 kilômetros o passageiro irá pagar R$ %.2f pela distância de %.2f kilômetros percorridos"%(passagem, distancia))
 
+else:
+
+    passagem = distancia * 0.45
+
+    print("Com uma distância superior à 200 kilômetros o passageiro irá pagar R$ %.2f pela distância de %.2f kilômetros percorridos"%(passagem, distancia))
 ```
 
   #### Exercício 4.8:
