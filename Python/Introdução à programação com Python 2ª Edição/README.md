@@ -534,7 +534,61 @@ while contador != 0:
   #### Exercício 5.9: Escreva um programa que leia dois números. Imprima a divisão inteira do primeiro pelo segundo, assim como o resto da divisão. Utilize apenas os operadores de soma e subtração para calcular o resultado. Lembre-se de que podemos entender o quociente da divisão de dois números como a quantidade de vezes que podemos retirar o divisor do dividendo. Logo, 20 ÷ 4 = 5, uma vez que podemos subtrair 4 cinco vezes de 20.
 
 ```python
+contador1 = 1
 
+while contador1 != 0:
+
+    restoInteiro = 0
+
+    resto = 0
+
+    valor1 = float(input("Digite o primeiro valor: "))
+
+    valor2 = float(input("Digite o segundo valor: "))
+
+    if valor1 == 0 or valor2 == 0:
+
+        print("Divisão por zero inválida")
+
+        print()
+
+        continue
+        
+    else:
+
+        if valor1 == valor2:
+    
+            restoInteiro = 1
+    
+            print()
+    
+        elif valor1 > valor2:
+    
+            while valor2 + resto < valor1:
+    
+                restoInteiro += 1
+    
+                resto += valor2
+    
+            resto = valor1 - resto
+    
+        else:
+    
+            while valor1 + resto < valor2:
+    
+                resto += valor1
+    
+            while resto != valor2:
+    
+                resto += 1
+    
+        print("O resto inteiro da divisão entre %.1f e %.1f é: %.1f. E o resto da divisão é: %.1f" % (valor1, valor2, restoInteiro, resto))
+    
+        print()
+    
+        contador1 = int(input("Digite 0 para interromper a execução: "))
+    
+        print()
 ```
 
   #### Exercício 5.10: Modifique o programa da listagem 5.10 para que aceite respostas com letras maiúsculas e minúsculas em todas as questões.
