@@ -10,6 +10,9 @@
 
   #### Exercício 3.7: Faça um programa que peça dois números inteiros. Imprima a soma desses dois números na tela.
 
+  <details>
+    <summary><h4>Resposta</h4></summary>
+    
 ```python
 numero1 = int(input("Digite o primeiro número: "))
 
@@ -20,8 +23,15 @@ total = numero1 + numero2
 print("A soma de %d + %d é igual a %d" % (numero1, numero2, total))
 ```
 
+  </details>
+
+  <br>
+
   #### Exercício 3.8: Escreva um programa que leia um valor em metros e o exiba convertido em milímetros.
 
+  <details>
+    <summary><h4>Resposta</h4></summary>
+  
 ```python
 valorMetro = float(input("Digite o valor para ser convertido em milímetros: "))
 
@@ -30,8 +40,15 @@ valorMilimetro = valorMetro * 1000
 print("O valor de %.2f metro(s) é equivalente à %d milímetro(s)" %(valorMetro, valorMilimetro))
 ```
 
+  </details>
+
+  <br>
+
   #### Exercício 3.9: Escreva um programa que leia a quantidade de dias, horas, minutos e segundos do usuário. Calcule o total em segundos.
 
+  <details>
+    <summary><h4>Resposta</h4></summary>
+    
 ```python
 dias = int(input("Digite a quantidade de dia: "))
 
@@ -49,8 +66,16 @@ segundos = minutos * 60 + segundos
 
 print("%d dia(s) dura ao equivalente à %d segundos" % (dias, segundos))
 ```
+
+  </details>
+
+  <br>
+  
   #### Exercício 3.10: Faça um programa que calcule o aumento de um salário. Ele deve solicitar o valor do salário e a porcentagem do aumento. Exiba o valor do aumento e do novo salário.
 
+  <details>
+    <summary><h4>Resposta</h4></summary>
+    
 ```python
 salario = float(input("digite o salário recebido anualmente: "))
 
@@ -62,8 +87,16 @@ total = salario + aumento
 
 print("com um salario inicial de R$ %.2f e um aumento de R$ %.2f, o funcionario passará à receber R$ %.2f" % (salario, aumento, total))
 ```
+
+  </details>
+
+  <br>
+  
   #### Exercício 3.11: Faça um programa que solicite o preço de uma mercadoria e o percentual de desconto. Exiba o valor do desconto e o preço a pagar.
 
+  <details>
+    <summary><h4>Resposta</h4></summary>
+    
 ```python
 precoMercadoria = float(input("Digite o preço da mercadoria: "))
 
@@ -76,8 +109,15 @@ precoTotal = precoMercadoria - valorDesconto
 print("O valor do desconto é de R$ %.2f. E o preço à pagar é de R$ %.2f" % (valorDesconto, precoTotal))
 ```
 
+  </details>
+
+  <br>
+  
   #### Exercício 3.12 Escreva um programa que calcule o tempo de uma viagem de carro. Pergunte a distância a percorrer e a velocidade média esperada para a viagem.
 
+  <details>
+    <summary><h4>Resposta</h4></summary>
+    
 ```python
 distancia = float(input("Qual foi a distância percorrida em kilômetros? "))
 
@@ -87,9 +127,16 @@ tempo = distancia / velocidadeMedia
 
 print("O tempo necessário para a viagem foi de %.1f hora(s)" % tempo)
 ```
+
+  </details>
+
+  <br>
   
   #### Exercício 3.13 Escreva um programa que converta uma temperatura digitada em °C em °F.
 
+  <details>
+    <summary><h4>Resposta</h4></summary>
+    
 ```python
 celsius = float(input("Digite a temperatura para ser convertida de celsius para fahrenheit: "))
 
@@ -104,7 +151,14 @@ celsius = (fahrenheit - 32) / 1.8
 print("A temperatura em %.1f° fahrenheit equivale à %.1f° celsius" % (fahrenheit, celsius))
 ```
 
+  </details>
+  
+  <br>
+
   #### Exercício 3.14: Escreva um programa que pergunte a quantidade de km percorridos por um carro alugado pelo usuário, assim como a quantidade de dias pelos quais o carro foi alugado. Calcule o preço a pagar, sabendo que o carro custa R$ 60 por dia e R$ 0,15 por km rodado.
+
+  <details>
+    <summary><h4>Resposta</h4></summary>
 
 ```python
 kilometrosPercorridos = float(input("Quantos kilômetros foram percorridos com o carro? "))
@@ -120,8 +174,15 @@ custoTotalAluguel = diariaAluguel + custoKilometro
 print("O custo total do aluguel foi de R$ %.2f, por um carro que foi alugado por %d dias e com %.1f kilômetros percorridos" % (custoTotalAluguel, diasAlugados, kilometrosPercorridos))
 ```
 
+  </details>
+
+  <br>
+
   #### Exercício 3.15: Escreva um programa para calcular a redução do tempo de vida de um fumante. Pergunte a quantidade de cigarros fumados por dia e quantos anos ele já fumou. Considere que um fumante perde 10 minutos de vida a cada cigarro, calcule quantos dias de vida um fumante perderá. Exiba o total em dias.
 
+  <details>
+    <summary><h4>Resposta</h4></summary>
+    
 ```python
 cigarrosDia = int(input("Quantos cigarros você fumou por dia? "))
 
@@ -133,7 +194,11 @@ diasPerdidos = cigarrosTotal * 10 / 60 / 24
 
 print("Você já perdeu %d dias fumando %d cigarro(s) por dia, por %d anos" % (diasPerdidos, cigarrosDia, cigarrosAnos))
 ```
+  
+  </details>
 
+  <br>
+    
   </details>
 
   <details>
