@@ -391,8 +391,13 @@ else:
       <h3>Repetições</h3>
     </summary>
     
+  <br>
+    
   #### Exercício 5.1-2:
 
+  <details>
+    <summary><h4>Resposta</h4></summary>
+    
 ```python
 contador1 = 0
 
@@ -421,8 +426,15 @@ while contador3 != 101:
     contador3 += 1
 ```
 
+  </details>
+
+  <br>
+
   #### Exercício 5.3: Faça um programa para escrever a contagem regressiva do lançamento de um foguete. O programa deve imprimir '10, 9, 8, ..., 1, 0 e Fogo!' na tela.
 
+  <details>
+    <summary><h4>Resposta</h4></summary>
+    
 ```python
 contador = 1
 
@@ -441,8 +453,15 @@ while contador != 0:
     contador = int(input("Digite 0 para interromper a execução: "))
 ```
 
+  </details>
+
+  <br>
+  
   #### Exercício 5.4: Modifique o programa anterior para imprimir de 1 até o número digitado pelo usuário, mas, dessa vez, apenas os números ímpares.
 
+  <details>
+    <summary><h4>Resposta</h4></summary>
+    
 ```python
 contador1 = 1
 
@@ -471,24 +490,45 @@ while contador1 != 0:
         contador1 = int(input("Digite 0 para interromper a execução: "))
 ```
 
+  </details>
+
+  <br>
+  
   #### Exercício 5.5: Reescreva o programa anterior para escrever os 10 primeiros múltiplos de 3.
 
+  <details>
+    <summary><h4>Resposta</h4></summary>
+    
 ```python
 for contador in range(1, 11):
 
     print(contador * 3)
 ```
 
+  </details>
+
+  <br>
+  
   #### Exercício 5.6: Altere o programa anterior para exibir os resultados no mesmo formato de uma tabuada: 2x1 = 2, 2x2=4, ...
 
+  <details>
+    <summary><h4>Resposta</h4></summary>
+    
 ```python
 for contador in range(1, 11):
 
     print(contador * 2)
 ```
 
+  </details>
+
+  <br>
+
   #### Exercício 5.7: Modifique o programa anterior de forma que o usuário também digite o início e o fim da tabuada, em vez de começar com 1 e terminar com 10.
 
+  <details>
+    <summary><h4>Resposta</h4></summary>
+    
 ```python
 contador = 0
 
@@ -507,8 +547,15 @@ while contador != 1:
     contador = int(input("Digite 0 para interromper a execução: "))
 ```
 
+  </details>
+
+  <br>
+
   #### Exercício 5.8: Escreva um programa que leia dois números. Imprima o resultado da multiplicação do primeiro pelo segundo. Utilize apenas os operadores de soma e subtração para calcular o resultado. Lembre-se de que podemos entender a multiplicação de dois números como somas sucessivas de um deles. Assim, 4 × 5 = 5 + 5 + 5 + 5 = 4 + 4 + 4 + 4 + 4.
 
+  <details>
+    <summary><h4>Resposta</h4></summary>
+    
 ```python
 contador = 1
 
@@ -531,8 +578,15 @@ while contador != 0:
     contador = int(input("Digite 0 para interromper a execução: "))
 ```
 
+  </details>
+
+  <br>
+
   #### Exercício 5.9: Escreva um programa que leia dois números. Imprima a divisão inteira do primeiro pelo segundo, assim como o resto da divisão. Utilize apenas os operadores de soma e subtração para calcular o resultado. Lembre-se de que podemos entender o quociente da divisão de dois números como a quantidade de vezes que podemos retirar o divisor do dividendo. Logo, 20 ÷ 4 = 5, uma vez que podemos subtrair 4 cinco vezes de 20.
 
+  <details>
+    <summary><h4>Resposta</h4></summary>
+    
 ```python
 contador1 = 1
 
@@ -591,8 +645,15 @@ while contador1 != 0:
         print()
 ```
 
+  </details>
+
+  <br>
+
   #### Exercício 5.10: Modifique o programa da listagem 5.10 para que aceite respostas com letras maiúsculas e minúsculas em todas as questões.
 
+  <details>
+    <summary><h4>Resposta</h4></summary>
+    
 ```python
 contador = 1
 
@@ -627,11 +688,56 @@ while contador != 0:
     print()
 ```
 
+  </details>
+
+  <br>
+  
   #### Exercício 5.11-12: Escreva um programa que pergunte o depósito inicial e a taxa de juros de uma poupança. Exiba os valores mês a mês para os 24 primeiros meses. Escreva o total ganho com juros no período.
+  
+  <details>
+    <summary><h4>Resposta</h4></summary>
 
 ```python
+contador1 = 1
 
+while contador1 != 0:
+
+    depositoInicial = float(input("Qual o valor do depósito inicial na conta? "))
+
+    depositoMensal = float(input("Qual o valor depositado mensalmente? "))
+
+    taxaJuros = float(input("Qual a taxa de juros anual da poupança no período? "))
+
+    periodo = int(input("Digite a quantidade de meses do rendimento: "))
+
+    print()
+
+    ganhoTotal = depositoInicial
+
+    ganhoJuros = 0
+
+    for contador2 in range(1, periodo + 1):
+
+        ganhoTotal += ganhoTotal / 100 * taxaJuros / 12
+
+        ganhoJuros += ganhoTotal / 100 * taxaJuros / 12
+
+        print("O valor na conta no %d° mês era de %.2f. Com uma taxa de %.2f por cento, gerou o valor de R$ %.2f em juros" % (contador2, ganhoTotal, taxaJuros, ganhoJuros))
+
+        ganhoTotal += depositoMensal
+
+    ganhoTotal = 0
+
+    print()
+
+    contador1 = int(input("Digite 0 para interromper a execução: "))
+
+    print()
 ```
+
+  </details>
+
+  <br>
 
   #### Exercício 5.13: Escreva um programa que pergunte o valor inicial de uma dívida e o juro mensal. Pergunte também o valor mensal que será pago. Imprima o número de meses para que a dívida seja paga, o total pago e o total de juros pago.
 
