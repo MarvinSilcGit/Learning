@@ -208,6 +208,9 @@ print("Você já perdeu %d dias fumando %d cigarro(s) por dia, por %d anos" % (d
   
   #### Exercício 4.2: Escreva um programa que pergunte a velocidade do carro de um usuário. Caso ultrapasse 80 km/h, exiba uma mensagem dizendo que o usuário foi multado. Nesse caso, exiba o valor da multa, cobrando R$ 5 por km acima de 80 km/h.
 
+  <details>
+    <summary><h4>Resposta</h4></summary>
+
 ```python
 velocidade = int(input("Qual a velocidade do veículo? "))
 
@@ -222,8 +225,15 @@ if velocidade <= 80:
     print("O condutor não foi multado por estar dentro do limite de velocidade")
 ```
 
+  </details>
+
+  <br>
+
   #### Exercício 4.3: Escreva um programa que leia três números e que imprima o maior e o menor.
 
+  <details>
+    <summary><h4>Resposta</h4></summary>
+  
 ```python
 numero1 = int(input("Digite o primeiro número: "))
 
@@ -256,8 +266,15 @@ if numero3 > numero1 > numero2:
     print("%d, u%d" % (numero1, numero2))
 ```
 
+  </details>
+
+  <br>
+  
   #### Exercício 4.4: Escreva um programa que pergunte o salário do funcionário e calcule o valor do aumento. Para salários superiores a R$ 1.250,00, calcule um aumento de 10%. Para os inferiores ou iguais, de 15%.
 
+  <details>
+    <summary><h4>Resposta</h4></summary>
+  
 ```python
 salario = float(input("Qual o seu salário? "))
 
@@ -280,8 +297,15 @@ else:
         print("O salário de R$ %.2f passará a ser de R$ %.2f, com um aumento de R$ %.2f" % (salario, salarioFinal, aumento1))
 ```
 
+  </details>
+
+  <br>
+
   #### Exercício 4.6: Escreva um programa que pergunte a distância que um passageiro deseja percorrer em km. Calcule o preço da passagem, cobrando R$ 0,50 por km   para viagens de até de 200 km, e R$ 0,45 para viagens mais longas.
 
+  <details>
+    <summary><h4>Resposta</h4></summary>
+    
 ```python
 distancia = float(input("Qual a distância que irá percorrer? "))
 
@@ -297,9 +321,15 @@ else:
 
     print("Com uma distância superior à 200 kilômetros o passageiro irá pagar R$ %.2f pela distância de %.2f kilômetros percorridos"%(passagem, distancia))
 ```
+  </details>
+
+  <br>
 
   #### Exercício 4.8:
 
+  <details>
+    <summary><h4>Resposta</h4></summary>
+    
 ```python
 numero1 = float(input("Digite o primeiro valor: "))
 
@@ -350,8 +380,15 @@ elif operadores != 1 and operadores != 2 and operadores != 3 and operadores != 4
     print("Digite um número entre 1 e 4 para concluir a operação")
 ```
 
+  </details>
+
+  <br>
+
   #### Exercício 4.9: Escreva um programa para aprovar o empréstimo bancário para compra de uma casa. O programa deve perguntar o valor da casa a comprar, o salário e a quantidade de anos a pagar. O valor da prestação mensal não pode ser superior a 30% do salário. Calcule o valor da prestação como sendo o valor da casa a comprar dividido pelo número de meses a pagar.
 
+  <details>
+    <summary><h4>Resposta</h4></summary>
+    
 ```python
 valorCasa = float(input("Qual o valor da casa? "))
 
@@ -373,6 +410,10 @@ else:
 
     print("O usuário não poderá contratar o financiamento, pois parcela é superior a um terço de sua renda mensal. As parcelas seriam de R$ %.2f" % parcelasMensais)
 ```
+
+  </details>
+
+  <br>
   
   #### Exercício 4.10: Escreva um programa que calcule o preço a pagar pelo fornecimento de energia elétrica. Pergunte a quantidade de kWh consumida e o tipo de instalação: R para residências, I para indústrias e C para comércios. Calcule o preço a pagar de acordo com a tabela a seguir:
 
@@ -386,7 +427,10 @@ else:
   |      |Acima de 1000  | R$ 0,60  |
   |Industrial  |Até 5000 | R$ 0,55  |
   |      |Acima de 5000  | R$ 0,60  |
- 
+
+ <details>
+    <summary><h4>Resposta</h4></summary>
+   
 ```python
 print("Digite 1 para residências")
 
@@ -448,6 +492,10 @@ else:
 
     print("Digite um valor entre 1 e 3 para proseguir para o próximo menu")
 ```
+
+  </details>
+
+  <br>
 
   </details>
 
