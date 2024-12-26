@@ -804,17 +804,63 @@ while contador1 != 0:
 
   <br>
 
-  #### Exercício 5.13: Escreva um programa que pergunte o valor inicial de uma dívida e o juro mensal. Pergunte também o valor mensal que será pago. Imprima o número de meses para que a dívida seja paga, o total pago e o total de juros pago.
+  #### Exercício 5.13: Escreva um programa que pergunte o valor inicial de uma dívida e o juro mensal. Pergunte também em quantos meses será pago. Imprima o valor mensal de pagamaneto, o total pago e o total de juros pago.
 
+  <details>
+    <summary><h4>Resposta</h4></summary>
+    
 ```python
+contador1 = 1
 
+pagamentoMensal = 0
+
+while contador1 != 0:
+
+    valorInicial = float(input("Qual o valor inicial da dívida? "))
+
+    jurosMensal = float(input("Qual o juros mensal? "))
+
+    tempoPagamento = int(input("Qual será o número de parcelas? "))
+
+    dividaTotal = valorInicial
+
+    for contadorDivida in range(1, tempoPagamento + 1):
+
+        dividaTotal += dividaTotal / 100 * jurosMensal
+
+    pagamentoMensal = dividaTotal / tempoPagamento
+
+    print()
+
+    print("O pagamento da dívida de R$ %.2f foi feita em %d meses com um valor de R$ %.2f" % (dividaTotal, tempoPagamento, pagamentoMensal))
+
+    print()
+
+    contador1 = int(input("Digite 0 para interromper a execução: "))
+
+    pagamentoMensal = 0
+
+    dividaTotal = 0
+
+    print()
 ```
 
+  </details>
+
+  <br>
+  
   #### Exercício 5.14: Escreva um programa que leia números inteiros do teclado. O programa deve ler os números até que o usuário digite 0 (zero). No final da execução, exiba a quantidade de números digitados, assim como a soma e a média aritmética.
 
+  <details>
+    <summary><h4>Resposta</h4></summary>
+  
 ```python
 
 ```
+
+  </details>
+
+  <br>
 
   #### Exercício 5.15: Escreva um programa para controlar uma pequena máquina registradora. Você deve solicitar ao usuário que digite o código do produto e a quantidade comprada. Utilize a tabela de códigos abaixo para obter o preço de cada produto:
 
@@ -827,11 +873,33 @@ while contador1 != 0:
   |9         | R$ 8,00 |
 
   #### Seu programa deve exibir o total das compras depois que o usuário digitar 0. Qualquer outro código deve gerar a mensagem de erro “Código inválido”.
-  
+
+  <details>
+    <summary><h4>Resposta</h4></summary>
 
 ```python
 
 ```
+
+  </details>
+
+  <br>
+
+  </details>
+
+  <details>
+    <summary>
+      <h3>Listas</h3>
+    </summary>
+
+
+  </details>
+
+  <details>
+    <summary>
+      <h3>Trabalhando com Strings</h3>
+    </summary>
+
 
   </details>
 
