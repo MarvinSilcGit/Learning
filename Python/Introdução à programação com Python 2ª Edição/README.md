@@ -594,7 +594,37 @@ while contador1 != 0:
   #### Exercício 5.10: Modifique o programa da listagem 5.10 para que aceite respostas com letras maiúsculas e minúsculas em todas as questões.
 
 ```python
+contador = 1
 
+while contador != 0:
+
+    pontos = 0
+
+    for questao in range (1, 4):
+
+        resposta = input("Digite a reposta da questao %d : " % questao)
+
+        if questao == 1 and resposta == "b" or resposta == "B":
+
+            pontos = pontos + 1
+
+        elif questao == 2 and resposta == "a" or resposta == "A":
+
+            pontos = pontos + 1
+
+        elif questao == 3 and resposta == "d" or resposta == "D":
+
+            pontos = pontos + 1
+
+        questao += 1
+
+        print("O aluno fez %d pontos(s)" % pontos)
+
+    print()
+
+    contador = int(input("Digite 0 para interromper a execução: "))
+
+    print()
 ```
 
   #### Exercício 5.11-12: Escreva um programa que pergunte o depósito inicial e a taxa de juros de uma poupança. Exiba os valores mês a mês para os 24 primeiros meses. Escreva o total ganho com juros no período.
