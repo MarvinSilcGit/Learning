@@ -1072,7 +1072,7 @@ while contador1 != 0:
 
   <br>
 
-  #### Exercício 5:22
+  #### Exercício 5.22: Escreva um programa que exiba uma lista de opções (menu): adição, subtração, divisão, multiplicação e sair. Imprima a tabuada da operação escolhida. Repita até que a opção saída seja escolhida. 
 
   <details>
     <summary><h4>Resposta</h4></summary>
@@ -1141,7 +1141,7 @@ while contador1 != 0:
 
   <br>
 
-  #### Exercício 5:23
+  #### Exercício 5.23-24: Escreva um programa que leia um número e verifique se é ou não um número primo. Para fazer essa verificação, calcule o resto da divisão do número por 2 e depois por todos os números ímpares até o número lido. Se o resto de uma dessas divisões for igual a zero, o número não é primo. Observe que 0 e 1 não são primos e que 2 é o único número primo que é par. Depois Modifique esse mesmo programa de forma a ler um número *n*. Imprima os *n* primeiros números primos.
 
   <details>
     <summary><h4>Resposta</h4></summary>
@@ -1154,26 +1154,37 @@ while contador1 != 0:
 
   <br>
 
-  #### Exercício 5:24
-  
-  <details>
-    <summary><h4>Resposta</h4></summary>
-    
-```python
-
-```
-
-  </details>
-
-  <br>
-
-  #### Exercício 5:25
+  #### Exercício 5.25: Escreva um programa que calcule a raiz quadrada de um número. Utilize o método de Newton para obter um resultado aproximado. Sendo *n* o número a obter a raiz quadrada, considere a base b = 2. Calcule *p* usando a fórmula p = (b + (n / b) ) / 2. Agora, calcule o quadrado de *p*. A cada passo, faça  b = p e recalcule *p* usando a fórmula apresentada. Pare quando a diferença absoluta entre *n* e o quadrado de *p* for menor que 0,0001.
 
   <details>
     <summary><h4>Resposta</h4></summary>
     
 ```python
+contador1 = 1
 
+while contador1 != 0:
+
+    numero = float(input("Digite um número para saber a sua raiz aproximada, utilizando o método Newtoniano: "))
+
+    base = 2
+
+    raizQuadrada = (base + numero / base) / 2
+
+    raizQuadrada = raizQuadrada**2
+
+    while raizQuadrada * raizQuadrada - numero > 0.001:
+
+        base = raizQuadrada
+
+        raizQuadrada = (base + numero / base) / 2
+
+    print("A raiz aproximada de %d é: %.4f" % (numero, raizQuadrada))
+
+    print()
+
+    contador1 = int(input("Digite 0 para interromper a execução: "))
+
+    print()
 ```
 
   </details>
