@@ -1191,7 +1191,7 @@ while contador1 != 0:
 
   <br>
 
-  #### Exercício 5:26
+  #### Exercício 5.26: Escreva um programa que calcule o resto da divisão inteira entre dois números. Utilize apenas as operações de soma e subtração para calcular o resultado.
 
   <details>
     <summary><h4>Resposta</h4></summary>
@@ -1204,7 +1204,7 @@ while contador1 != 0:
 
   <br>
   
-  #### Exercício 5:27
+  #### Exercício 5.27: Escreva um programa que verifique se um número é palíndromo. Um número é palíndromo se continua o mesmo caso seus dígitos sejam invertidos. Exemplos: 454, 10501
 
   <details>
     <summary><h4>Resposta</h4></summary>
