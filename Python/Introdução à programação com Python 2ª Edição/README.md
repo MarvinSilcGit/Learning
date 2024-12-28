@@ -1059,7 +1059,7 @@ while contador1 != 0:
 
   <br>
 
-  #### Exercício 5.16-21:
+  #### Exercício 5.16-21: Escreva um programa que peça o valor de pagamento e imprima quantas cédulas são necessárias para pagar, sempre priorizando a cédulas e moedas de maior valor.
 
   <details>
     <summary><h4>Resposta</h4></summary>
