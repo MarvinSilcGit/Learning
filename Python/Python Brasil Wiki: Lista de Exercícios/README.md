@@ -370,6 +370,9 @@ while contador != 0:
   
   #### 1. Faça um Programa que peça dois números e imprima o maior deles. 
 
+   <details>
+    <summary><h4>Resposta</h4></summary>
+     
 ```python
 numero1 = int(input("Digite o primeiro número: "))
 
@@ -388,8 +391,15 @@ else:
     print("Os dois números são iguais")
 ```
 
+  </details>
+
+  <br>
+
   #### 2. Faça um Programa que peça um valor e mostre na tela se o valor é positivo ou negativo.
 
+   <details>
+    <summary><h4>Resposta</h4></summary>
+     
 ```python
 valor = float(input("Digite um número: "))
 
@@ -401,9 +411,16 @@ else:
 
     print("O valor %.1f é positivo" % valor)
 ```
+
+  </details>
+
+  <br>
   
   #### 3. Faça um Programa que verifique se uma letra digitada é "F" ou "M". Conforme a letra escrever: F - Feminino, M - Masculino ou Sexo Inválido.
 
+   <details>
+    <summary><h4>Resposta</h4></summary>
+     
 ```python
 sexo = input("Digite o sexo: ")
 
@@ -419,9 +436,16 @@ else:
 
     print("O sexo é inválido")
 ```
+
+  </details>
+
+  <br>
   
   #### 4. Faça um Programa que verifique se uma letra digitada é vogal ou consoante.
 
+   <details>
+    <summary><h4>Resposta</h4></summary>
+     
 ```python
 listaConsoante = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z", "ç",
                   "A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z", "Ç"]
@@ -442,9 +466,16 @@ else:
 
     print("A letra '%s' não é nem vogal nem consoante" % letraBusca)
 ```
+
+  </details>
+
+  <br>
   
   #### 5. Faça um programa para a leitura de duas notas parciais de um aluno. O programa deve calcular a média alcançada por aluno e apresentar: A mensagem "Aprovado", se a média alcançada for maior ou igual a 7; A mensagem "Reprovado", se a média for menor do que 7; A mensagem "Aprovado com Distinção", se a média for igual a 10. 
 
+   <details>
+    <summary><h4>Resposta</h4></summary>
+     
 ```python
 nota1 = float(input("Digite a primeira nota: "))
 
@@ -464,9 +495,16 @@ else:
 
     print("O aluno foi aprovado com distinção através da nota %.2f" % media)
 ```
+
+  </details>
+
+  <br>
   
   #### 6. Faça um Programa que leia três números e mostre o maior deles. 
 
+   <details>
+    <summary><h4>Resposta</h4></summary>
+     
 ```python
 numero1 = float(input("Digite o primeiro número: "))
 
@@ -486,6 +524,11 @@ elif numero3 > numero2  and numero3 > numero1:
 
     print("O terceiro número é maior")
 ```
+
+  </details>
+
+  <br>
+  
   </details>
 
 </details>
