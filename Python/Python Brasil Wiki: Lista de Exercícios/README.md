@@ -254,31 +254,21 @@ print("O peso ideal dessa mulher é %.2f" % pesoIdealMulher)
     <summary><h4>Resposta</h4></summary>
      
 ```python
-contador = 1
+pesoPeixe = float(input("Digite o peso do peixe: "))
 
-while contador != 0:
+if pesoPeixe > 50:
 
-    pesoPeixe = float(input("Digite o peso do peixe: "))
+    pesoLimite = 50
 
-    if pesoPeixe > 50:
+    pesoAdicional = pesoPeixe - pesoLimite
 
-        pesoLimite = 50
+    multa = pesoAdicional * 4
 
-        pesoAdicional = pesoPeixe - pesoLimite
+    print("A multa será R$ %.2f por exceder o peso limite em %.2f quilos " %(multa, pesoAdicional))
 
-        multa = pesoAdicional * 4
+else:
 
-        print("A multa será R$ %.2f por exceder o peso limite em %.2f quilos " %(multa, pesoAdicional))
-
-    else:
-
-        print("Não haverá pagamento de multa")
-
-    print()
-
-    contador = int(input("Digite 0 para interromper a execução: "))
-
-    print()
+    print("Não haverá pagamento de multa")
 ```
 
   </details>
@@ -291,27 +281,17 @@ while contador != 0:
     <summary><h4>Resposta</h4></summary>
      
 ```python
-contador = 1
+salario = float(input("Digite o seu salário: "))
 
-while contador != 0:
+salarioLiquido = salario
 
-    salario = float(input("Digite o seu salário: "))
+salarioLiquido -= salario / 100 * 11
 
-    salarioLiquido = salario
+salarioLiquido -= salarioLiquido / 100 * 8
 
-    salarioLiquido -= salario / 100 * 11
+salarioLiquido -= salarioLiquido / 100 * 5
 
-    salarioLiquido -= salarioLiquido / 100 * 8
-
-    salarioLiquido -= salarioLiquido / 100 * 5
-
-    print("O salário líquido será R$ %.2f, com R$ %.2f de desconto" % (salarioLiquido, salario-salarioLiquido))
-
-    print()
-
-    contador =int(input("Digite 0 para interromper a execução: "))
-
-    print()
+print("O salário líquido será R$ %.2f, com R$ %.2f de desconto" % (salarioLiquido, salario-salarioLiquido))
 ```
 
   </details>
@@ -353,7 +333,25 @@ while contador != 0:
     <summary><h4>Resposta</h4></summary>
     
 ```python
+tamanhoArquivo = float(input("Digite o tamanho do arquivo em Megabytes: "))
 
+if tamanhoArquivo < 1:
+
+    print("Valor inválido!")
+
+velecidadeLink = float(input("Digite a velocidade de sua conexão em megabits: "))
+
+tempoDownload = (tamanhoArquivo / (velecidadeLink / 8))
+
+if tempoDownload >= 60:
+
+    tempoDownload = tempoDownload / 60
+
+    print("O tempo de Download será de no mínimo %.1f minutos" % tempoDownload)
+
+else:
+
+    print("O tempo de Download será de no mínimo %.1f segundos" % tempoDownload)
 ```
 
   </details>
