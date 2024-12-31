@@ -555,6 +555,19 @@ elif numero3 > numero2  and numero3 > numero1:
     print("O terceiro número é maior")
 ```
 
+  #### 7.
+
+
+  #### 8.
+
+  #### 9.
+
+  #### 10.
+
+  #### 11.
+
+  #### 12.
+
   </details>
 
   <br>
