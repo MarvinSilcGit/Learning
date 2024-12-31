@@ -68,9 +68,9 @@ nota3 = float(input("Digite a terceira nota"))
 
 nota4 = float(input("Digite a quarta nota"))
 
-média = (nota1 + nota2 + nota3 + nota4) / 4
+media = (nota1 + nota2 + nota3 + nota4) / 4
 
-print(média)
+print(media)
 ```
 
   </details>
@@ -239,9 +239,7 @@ pesoIdealHomem = (72.7 * alturaHomem) - 58
 
 pesoIdealMulher = (62.1  * alturaMulher) - 44.7
 
-print("O peso ideal desse homem é %.2f" % pesoIdealHomem)
-
-print("O peso ideal dessa mulher é %.2f" % pesoIdealMulher)
+print("O peso ideal desse homem é %.2f.\nO peso ideal dessa mulher é %.2f" % (pesoIdealHomem, pesoIdealMulher))
 ```
 
   </details>
