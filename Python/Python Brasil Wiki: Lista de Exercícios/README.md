@@ -1,7 +1,4 @@
-<details>
-  <summary>
-    <h2>Python Brasil Wiki: Lista de Exercícios</h2>
-  </summary>
+<h2>Python Brasil Wiki: Lista de Exercícios</h2>
 
   <br>
 
@@ -694,5 +691,3 @@ elif numero3 > numero2  and numero3 > numero1:
 ```
 
   </details>
-
-</details>
