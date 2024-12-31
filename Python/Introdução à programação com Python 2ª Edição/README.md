@@ -1,7 +1,4 @@
-<details>
-  <summary>
-    <h2>Introdução à Programação com Python 2ª Edição</h2>
-  </summary>
+<h2>Introdução à Programação com Python 2ª Edição</h2>
 
   <details>
     <summary>
@@ -1446,7 +1443,4 @@ while contador1 != 0:
       <h3>Capítulo 7: Trabalhando com Strings</h3>
     </summary>
 
-
   </details>
-
-</details>
