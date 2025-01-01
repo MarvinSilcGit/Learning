@@ -859,44 +859,93 @@ elif numero3 > numero2  and numero3 > numero1:
 
   #### 22.
 
+  <details>
+    <summary><h4>Resposta</h4></summary>
+    
 ```python
 
 ```
+
+  </details>
+
+  <br>
   
   #### 23.
 
+  <details>
+    <summary><h4>Resposta</h4></summary>
+    
 ```python
 
 ```
+
+  </details>
+
+  <br>
 
   #### 24.
 
+  <details>
+    <summary><h4>Resposta</h4></summary>
+    
 ```python
 
 ```
 
+  </details>
+
+  <br>
+  
   #### 25.
 
+  <details>
+    <summary><h4>Resposta</h4></summary>
+    
 ```python
 
 ```
+
+  </details>
+
+  <br>
 
   #### 26.
 
+  <details>
+    <summary><h4>Resposta</h4></summary>
+    
 ```python
 
 ```
+
+  </details>
+
+  <br>
   
   #### 27.
-
+  
+  <details>
+    <summary><h4>Resposta</h4></summary>
+    
 ```python
 
 ```
+
+  </details>
+
+  <br>
   
   #### 28
 
+  <details>
+    <summary><h4>Resposta</h4></summary>
+    
 ```python
 
 ```
+
+  </details>
+
+  <br>
 
   </details>
