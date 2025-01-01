@@ -690,13 +690,21 @@ elif numero3 > numero2  and numero3 > numero1:
 
 ```
 
-  #### 13.
+  #### 13. Faça um Programa que leia um número e exiba o dia correspondente da semana. (1-Domingo, 2- Segunda, etc.), se digitar outro valor deve aparecer valor inválido.
 
 ```python
 
 ```
 
-  #### 14.
+  #### 14. Faça um programa que lê as duas notas parciais obtidas por um aluno numa disciplina ao longo de um semestre, e calcule a sua média. O algoritmo deve mostrar na tela as notas, a média, o conceito correspondente e a mensagem “APROVADO” se o conceito for A, B ou C ou “REPROVADO” se o conceito for D ou E. A atribuição de conceitos obedece à tabela abaixo: 
+
+  |Média de Aproveitamento|Conceito|
+  |----------------|---------------|
+  |Entre 9.0 e 10.0|A              |
+  |Entre 7.5 e 9.0 |B              |
+  |Entre 6.0 e 7.5 |C              |
+  |Entre 4.0 e 6.0 |D              |
+  |Entre 4.0 e 0.0 |E              |
 
 ```python
 
