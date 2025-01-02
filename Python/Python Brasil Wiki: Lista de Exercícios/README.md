@@ -1299,8 +1299,16 @@ if numeroDecimal > numeroInteiro:
     print("O número %.1f é decimal" % numeroDecimal)
 
 else:
+    
+    numeroDecimal = str(numeroDecimal)
+    
+    if "." in numeroDecimal:
+        
+        print("O número %s é decimal" % numeroDecimal)
+        
+    else:
 
-    print("O número %d não é decimal" % numeroInteiro)
+        print("O número %d não é decimal" % numeroInteiro)
 ```
 
   </details>
