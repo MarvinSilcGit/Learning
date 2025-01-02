@@ -1032,7 +1032,7 @@ else:
 
   <br>
   
-  #### 15.
+  #### 15. aça um Programa que peça os 3 lados de um triângulo. O programa deverá informar se os valores podem ser um triângulo. Indique, caso os lados formem um triângulo, se o mesmo é: equilátero, isósceles ou escaleno. Dicas: Três lados formam um triângulo quando a soma de quaisquer dois lados for maior que o terceiro; Triângulo Equilátero: três lados iguais; Triângulo Isósceles: quaisquer dois lados iguais; Triângulo Escaleno: três lados diferentes; 
 
   <details>
     <summary><h4>Resposta</h4></summary>
@@ -1045,7 +1045,12 @@ else:
 
   <br>
 
-  #### 16.
+  #### 16. Faça um programa que calcule as raízes de uma equação do segundo grau, na forma ax2 + bx + c. O programa deverá pedir os valores de a, b e c e fazer as consistências, informando ao usuário nas seguintes situações:
+
+  1. Se o usuário informar o valor de A igual a zero, a equação não é do segundo grau e o programa não deve fazer pedir os demais valores, sendo encerrado.
+  2. Se o delta calculado for negativo, a equação não possui raizes reais. Informe ao usuário e encerre o programa;
+  3. Se o delta calculado for igual a zero a equação possui apenas uma raiz real; informe-a ao usuário;
+  4. Se o delta for positivo, a equação possui duas raiz reais; informe-as ao usuário; 
 
   <details>
     <summary><h4>Resposta</h4></summary>
@@ -1058,7 +1063,7 @@ else:
 
   <br>
 
-  #### 17.
+  #### 17. Faça um Programa que peça um número correspondente a um determinado ano e em seguida informe se este ano é ou não bissexto.
 
   <details>
     <summary><h4>Resposta</h4></summary>
@@ -1071,7 +1076,7 @@ else:
 
   <br>
 
-  #### 18.
+  #### 18. Faça um Programa que peça uma data no formato dd/mm/aaaa e determine se a mesma é uma data válida.
 
   <details>
     <summary><h4>Resposta</h4></summary>
@@ -1084,7 +1089,7 @@ else:
 
   <br>
 
-  #### 19.
+  #### 19. Faça um Programa que leia um número inteiro menor que 1000 e imprima a quantidade de centenas, dezenas e unidades do mesmo. Observando os termos no plural a colocação do "e", da vírgula entre outros. Exemplo: 326 = 3 centenas, 2 dezenas e 6 unidades 12 = 1 dezena e 2 unidades Testar com: 326, 300, 100, 320, 310,305, 301, 101, 311, 111, 25, 20, 10, 21, 11, 1, 7 e 16 
 
   <details>
     <summary><h4>Resposta</h4></summary>
@@ -1097,7 +1102,11 @@ else:
 
   <br>
   
-  #### 20.
+  #### 20. Faça um Programa para leitura de três notas parciais de um aluno. O programa deve calcular a média alcançada por aluno e presentar:
+  
+  1. A mensagem "Aprovado", se a média for maior ou igual a 7, com a respectiva média alcançada.
+  2. A mensagem "Reprovado", se a média for menor do que 7, com a respectiva média alcançada.
+  3. A mensagem "Aprovado com Distinção", se a média for igual a 10.
 
   <details>
     <summary><h4>Resposta</h4></summary>
@@ -1110,7 +1119,10 @@ else:
 
   <br>
   
-  #### 21.
+  #### 21. Faça um Programa para um caixa eletrônico. O programa deverá perguntar ao usuário a valor do saque e depois informar quantas notas de cada valor serão fornecidas. As notas disponíveis serão as de 1, 5, 10, 50 e 100 reais. O valor mínimo é de 10 reais e o máximo de 600 reais. O programa não deve se preocupar com a quantidade de notas existentes na máquina.
+
+  1. Exemplo 1: Para sacar a quantia de 256 reais, o programa fornece duas notas de 100, uma nota de 50, uma nota de 5 e uma nota de 1.
+  2. Exemplo 2: Para sacar a quantia de 399 reais, o programa fornece três notas de 100, uma nota de 50, quatro notas de 10, uma nota de 5 e quatro notas de 1.
   
   <details>
     <summary><h4>Resposta</h4></summary>
@@ -1123,7 +1135,7 @@ else:
 
   <br>
 
-  #### 22.
+  #### 22. Faça um Programa que peça um número inteiro e determine se ele é par ou impar. Dica: utilize o operador módulo (resto da divisão). 
 
   <details>
     <summary><h4>Resposta</h4></summary>
@@ -1136,7 +1148,7 @@ else:
 
   <br>
   
-  #### 23.
+  #### 23. Faça um Programa que peça um número e informe se o número é inteiro ou decimal. Dica: utilize uma função de arredondamento.
 
   <details>
     <summary><h4>Resposta</h4></summary>
@@ -1149,7 +1161,11 @@ else:
 
   <br>
 
-  #### 24.
+  #### 24. Faça um Programa que leia 2 números e em seguida pergunte ao usuário qual operação ele deseja realizar. O resultado da operação deve ser acompanhado de uma frase que diga se o número é:
+
+  1. par ou ímpar;
+  2. positivo ou negativo;
+  3. inteiro ou decimal. 
 
   <details>
     <summary><h4>Resposta</h4></summary>
@@ -1162,7 +1178,13 @@ else:
 
   <br>
   
-  #### 25.
+  #### 25. Faça um programa que faça 5 perguntas para uma pessoa sobre um crime.  Se a pessoa responder positivamente a 2 questões ela deve ser classificada como "Suspeita", entre 3 e 4 como "Cúmplice" e 5 como "Assassino". Caso contrário, ele será classificado como "Inocente". As perguntas são:
+ 
+  1. "Telefonou para a vítima?"
+  2. "Esteve no local do crime?"
+  3. "Mora perto da vítima?"
+  4. "Devia para a vítima?"
+  5. "Já trabalhou com a vítima?" O programa deve no final emitir uma classificação sobre a participação da pessoa no crime.
 
   <details>
     <summary><h4>Resposta</h4></summary>
