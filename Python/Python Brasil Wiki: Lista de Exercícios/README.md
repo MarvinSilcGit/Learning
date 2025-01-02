@@ -1124,7 +1124,15 @@ else:
     <summary><h4>Resposta</h4></summary>
     
 ```python
+formatoData = input("Digite a data no formato dd/mm/aaaa: ")
 
+if len(formatoData) != 10 or formatoData[2] == "/" or formatoData[5] == "/":
+
+    print("Formato de data inválida")
+
+else:
+
+    print("Formato de data válida")
 ```
 
   </details>
