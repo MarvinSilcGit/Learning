@@ -752,7 +752,35 @@ elif produto3 > produto2 > produto1:
     <summary><h4>Resposta</h4></summary>
     
 ```python
+numero1 = float(input("Digite o primeiro número: "))
 
+numero2 = float(input("Digite o segundo número: "))
+
+numero3 = float(input("Digite o terceiro número: "))
+
+if numero1 > numero2 > numero3:
+
+    print("%d\n%d\n%d" % (numero1, numero2, numero3))
+
+elif numero1 > numero3 > numero2:
+
+    print("%d\n%d\n%d" % (numero1, numero3, numero2))
+
+elif numero2 > numero1 > numero3:
+
+    print("%d\n%d\n%d" % (numero2, numero1, numero3))
+
+elif numero2 > numero3 > numero1:
+
+    print("%d\n%d\n%d" % (numero2, numero3, numero1))
+
+elif numero3 > numero1 > numero2:
+
+    print("%d\n%d\n%d" % (numero3, numero1, numero2))
+
+elif numero3 > numero2 > numero1:
+
+    print("%d\n%d\n%d" % (numero3, numero2, numero1))
 ```
 
   </details>
@@ -765,7 +793,23 @@ elif produto3 > produto2 > produto1:
     <summary><h4>Resposta</h4></summary>
     
 ```python
+turno = input("Digite o turno:\nN - Noturo\nM - Matutino\nV - Vespertino\n")
 
+if turno == "N" or turno == "n":
+
+    print("Boa noite")
+
+elif turno == "M" or turno == "m":
+
+    print("Bom dia")
+
+elif turno == "V" or turno == "v":
+
+    print("Boa tarde")
+
+else:
+
+    print("Valor inválido")
 ```
 
   </details>
