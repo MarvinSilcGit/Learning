@@ -629,17 +629,29 @@ numero2 = float(input("Digite o segundo número: "))
 
 numero3 = float(input("Digite o terceiro número: "))
 
-if numero1 > numero2 and numero1 > numero3:
+if numero1 > numero2 > numero3:
 
-    print("O primeiro número é maior")
+    print("O primeiro número é o maior")
 
-elif numero2 > numero1 and numero2 > numero3:
+elif numero1 > numero3 > numero2:
 
-    print("O segundo número é maior")
+    print("O primeiro número é o maior")
 
-elif numero3 > numero2  and numero3 > numero1:
+elif numero2 > numero1 > numero3:
 
-    print("O terceiro número é maior")
+    print("O segundo número é o maior")
+
+elif numero2 > numero3 > numero1:
+
+    print("O segundo número é o maior")
+
+elif numero3 > numero1 > numero2:
+
+    print("O terceiro número é o maior")
+
+elif numero3 > numero2 > numero1:
+
+    print("O terceiro número é o maior")
 ```
 
   </details>
@@ -652,7 +664,41 @@ elif numero3 > numero2  and numero3 > numero1:
     <summary><h4>Resposta</h4></summary>
 
 ```python
+numero1 = float(input("Digite o primeiro número: "))
 
+numero2 = float(input("Digite o segundo número: "))
+
+numero3 = float(input("Digite o terceiro número: "))
+
+if numero1 > numero2 > numero3:
+
+    print("O primeiro número é o maior")
+    print("O terceiro número é o menor")
+
+elif numero1 > numero3 > numero2:
+
+    print("O primeiro número é o maior")
+    print("O segundo número é o maior")
+
+elif numero2 > numero1 > numero3:
+
+    print("O segundo número é o maior")
+    print("O terceiro número é o menor")
+
+elif numero2 > numero3 > numero1:
+
+    print("O segundo número é o maior")
+    print("O primeiro número é o menor")
+
+elif numero3 > numero1 > numero2:
+
+    print("O terceiro número é o maior")
+    print("O segundo número é o menor")
+
+elif numero3 > numero2 > numero1:
+
+    print("O terceiro número é o maior")
+    print("O primeiro número é o menor")
 ```
 
   </details>
@@ -665,7 +711,35 @@ elif numero3 > numero2  and numero3 > numero1:
     <summary><h4>Resposta</h4></summary>
     
 ```python
+produto1 = float(input("Digite o valor do primeiro produto: "))
 
+produto2 = float(input("Digite o valor do primeiro produto: "))
+
+produto3 = float(input("Digite o valor do primeiro produto: "))
+
+if produto1 > produto2 > produto3:
+
+    print("Você deve comprar o terceiro produto por ser o mais barato")
+
+elif produto1 > produto3 > produto2:
+
+    print("Você deve comprar o segundo produto por ser o mais barato")
+
+elif produto2 > produto1 > produto3:
+
+    print("Você deve comprar o terceiro produto por ser o mais barato")
+
+elif produto2 > produto3 > produto1:
+
+    print("Você deve comprar o primeiro produto por ser o mais barato")
+
+elif produto3 > produto1 > produto2:
+
+    print("Você deve comprar o segundo produto por ser o mais barato")
+
+elif produto3 > produto2 > produto1:
+
+    print("Você deve comprar o primeiro produto por ser o mais barato")
 ```
 
   </details>
