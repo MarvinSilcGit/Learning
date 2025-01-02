@@ -1197,7 +1197,14 @@ else:
 
   <br>
 
-  #### 26.
+  #### 26. Um posto está vendendo combustíveis, portanto, Escreva um algoritmo que leia o número de litros vendidos, o tipo de combustível (codificado da seguinte forma: A-álcool, G-gasolina), calcule e imprima o valor a ser pago pelo cliente sabendo-se que o preço do litro da gasolina é R$ 2,50 o preço do litro do álcool é R$ 1,90. A seguir a tabela de descontos:
+  
+  1. Álcool:
+  2. até 20 litros, desconto de 3% por litro
+  3. acima de 20 litros, desconto de 5% por litro
+  4. Gasolina:
+  5. até 20 litros, desconto de 4% por litro
+  6. acima de 20 litros, desconto de 6% por litro
 
   <details>
     <summary><h4>Resposta</h4></summary>
@@ -1210,7 +1217,10 @@ else:
 
   <br>
   
-  #### 27.
+  #### 27. Uma comerciante está vendendo frutas com a possibilidad de: se, o cliente comprar mais de 8 Kg em frutas ou o valor total da compra ultrapassar R$ 25,00, receberá ainda um desconto de 10% sobre este total. Escreva um algoritmo para ler a quantidade (em Kg) de morangos e a quantidade (em Kg) de maças adquiridas e escreva o valor a ser pago pelo cliente. A seguir a tabela de preços:
+  
+  1. Até 5 Kg: Morango por R$ 2.50 Kg e Maçã por R$ 1,80 Kg
+  2. Acima de 5 Kg: Morango por R$ 2.20 Kg e Maçã por R$ 1,50 Kg
   
   <details>
     <summary><h4>Resposta</h4></summary>
