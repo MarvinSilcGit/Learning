@@ -1233,7 +1233,15 @@ else:
 
   <br>
   
-  #### 28
+  #### 28. O Hipermercado Tabajara está com uma promoção de carnes que é imperdível. Confira:
+
+  |          |Até 5 Kg|Acima de 5 Kg|
+  |----------|----------|-----------|
+  |Filé Duplo|R$ 4,90 Kg| R$ 5,80 Kg|
+  |Alcatra   |R$ 5,90 Kg| R$ 5,80 Kg|
+  |Picanha   |R$ 6,90 Kg| R$ 7,80 Kg|
+  
+  
 
   <details>
     <summary><h4>Resposta</h4></summary>
