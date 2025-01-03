@@ -1555,3 +1555,14 @@ print("O preço final será R$ %.2f" % precoFinal)
   <br>
 
   </details>
+
+  
+  <details>
+    <summary>
+      <h3>Estrutura de Repetição</h3>
+    </summary>
+
+
+    
+
+  </details>
