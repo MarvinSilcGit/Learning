@@ -1572,7 +1572,7 @@ while contador != 0:
 
     nota = int(input("Digite uma nota entre 1 e 10: "))
 
-    if nota >= 1 and nota <= 10:
+    if nota >= 1 or nota <= 10:
 
         print(nota)
 
