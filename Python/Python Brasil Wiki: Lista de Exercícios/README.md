@@ -1770,7 +1770,11 @@ print("Serão necessários pelos menos %d anos" % anos)
     <summary><h4>Resposta</h4></summary>
 
 ```python
+for contador in range(1, 50):
 
+    if contador % 2 != 0:
+
+        print("O número %d é impar" % contador)
 ```
 
   </details>
