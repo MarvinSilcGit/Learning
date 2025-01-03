@@ -1508,8 +1508,6 @@ print("O preço final será R$ %.2f" % precoFinal)
   |Filé Duplo|R$ 4,90 Kg| R$ 5,80 Kg|
   |Alcatra   |R$ 5,90 Kg| R$ 6,80 Kg|
   |Picanha   |R$ 6,90 Kg| R$ 7,80 Kg|
-  
-  
 
   <details>
     <summary><h4>Resposta</h4></summary>
@@ -1564,17 +1562,29 @@ print("O preço final será R$ %.2f" % precoFinal)
 
   #### 1. Faça um programa que peça uma nota, entre zero e dez. Mostre uma mensagem caso o valor seja inválido e continue pedindo até que o usuário informe um valor válido.
 
+   <details>
+    <summary><h4>Resposta</h4></summary>
+     
 ```python
 
-
 ```
+
+  </details>
+
+  <br>
 
   #### 2. Faça um programa que leia um nome de usuário e a sua senha e não aceite a senha igual ao nome do usuário, mostrando uma mensagem de erro e voltando a pedir as informações.
 
+   <details>
+    <summary><h4>Resposta</h4></summary>
+     
 ```python
 
-
 ```
+
+  </details>
+
+  <br>
 
   #### 3. Faça um programa que leia e valide as seguintes informações:
   
@@ -1584,8 +1594,29 @@ print("O preço final será R$ %.2f" % precoFinal)
   4. Sexo: 'f' ou 'm';
   5. Estado Civil: 's', 'c', 'v', 'd';
 
+
+   <details>
+    <summary><h4>Resposta</h4></summary>
+     
 ```python
 
 ```
+
+  </details>
+
+  <br>
+
+  #### 4. Supondo que a população de um país A seja da ordem de 80000 habitantes com uma taxa anual de crescimento de 3% e que a população de B seja 200000 habitantes com uma taxa de crescimento de 1.5%. Faça um programa que calcule e escreva o número de anos necessários para que a população do país A ultrapasse ou iguale a população do país B, mantidas as taxas de crescimento.
+
+   <details>
+    <summary><h4>Resposta</h4></summary>
+     
+```python
+
+```
+
+  </details>
+
+  <br>
 
   </details>
