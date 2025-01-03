@@ -1843,7 +1843,17 @@ for contador in range(1, 10 + 1):
     <summary><h4>Resposta</h4></summary>
 
 ```python
+base = int(input("Digite o número base: "))
 
+expoente = int(input("Digite o número expoente: "))
+
+resultado = base
+
+for contador in range(expoente - 1):
+
+    resultado *= base
+
+print(resultado)
 ```
 
   </details>
