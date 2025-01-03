@@ -1506,7 +1506,7 @@ print("O preço final será R$ %.2f" % precoFinal)
   |          |Até 5 Kg|Acima de 5 Kg|
   |----------|----------|-----------|
   |Filé Duplo|R$ 4,90 Kg| R$ 5,80 Kg|
-  |Alcatra   |R$ 5,90 Kg| R$ 5,80 Kg|
+  |Alcatra   |R$ 5,90 Kg| R$ 6,80 Kg|
   |Picanha   |R$ 6,90 Kg| R$ 7,80 Kg|
   
   
