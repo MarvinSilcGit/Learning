@@ -1562,7 +1562,30 @@ print("O preço final será R$ %.2f" % precoFinal)
       <h3>Estrutura de Repetição</h3>
     </summary>
 
+  #### 1. Faça um programa que peça uma nota, entre zero e dez. Mostre uma mensagem caso o valor seja inválido e continue pedindo até que o usuário informe um valor válido.
 
-    
+```python
+
+
+```
+
+  #### 2. Faça um programa que leia um nome de usuário e a sua senha e não aceite a senha igual ao nome do usuário, mostrando uma mensagem de erro e voltando a pedir as informações.
+
+```python
+
+
+```
+
+  #### 3. Faça um programa que leia e valide as seguintes informações:
+  
+  1. Nome: maior que 3 caracteres;
+  2. Idade: entre 0 e 150;
+  3. Salário: maior que zero;
+  4. Sexo: 'f' ou 'm';
+  5. Estado Civil: 's', 'c', 'v', 'd';
+
+```python
+
+```
 
   </details>
