@@ -1744,7 +1744,17 @@ print("Serão necessários pelos menos %d anos" % anos)
     <summary><h4>Resposta</h4></summary>
 
 ```python
+numeroFinal = 0
 
+for contador in range(5):
+
+    numero = float(input("Digite um número: "))
+
+    if numero > numeroFinal:
+
+        numeroFinal = numero
+
+print("O maior número foi %d" % numeroFinal)
 ```
 
   </details>
