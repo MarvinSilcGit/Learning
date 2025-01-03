@@ -1171,7 +1171,7 @@ if valor // 100 > 0:
 
             valor -= quantidadeUnidade * 1
 
-print("%d = %d centenas, %d dezenas e %d unidades" % (0 + (quantidadeUnidade * 1) + 0 + (quantidadeDezena * 10) + 0 + (quantidadeCentena * 100),quantidadeCentena, quantidadeDezena, quantidadeUnidade))
+print("%d = %d centenas, %d dezenas e %d unidades" % (0 + (quantidadeUnidade * 1) + 0 + (quantidadeDezena * 10) + 0 + (quantidadeCentena * 100), quantidadeCentena, quantidadeDezena, quantidadeUnidade))
 ```
 
   </details>
