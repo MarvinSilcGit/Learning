@@ -1472,9 +1472,9 @@ print("O preço final será R$ %.2f" % precoFinal)
     <summary><h4>Resposta</h4></summary>
     
 ```python
-quantidadeMorango = int(input("Digite a quantidade em kilos de morangos: "))
+quantidadeMorango = float(input("Digite a quantidade em kilos de morangos: "))
 
-quantidadeMaca = int(input("Digite a quantidade em kilos de maçãs: "))
+quantidadeMaca = float(input("Digite a quantidade em kilos de maçãs: "))
 
 precoFinal = 0
 
