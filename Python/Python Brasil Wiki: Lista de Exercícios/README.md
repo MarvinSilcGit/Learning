@@ -1409,7 +1409,7 @@ elif operacao == "3":
 
   <br>
 
-  #### 26. Um posto está vendendo combustíveis, portanto, Escreva um algoritmo que leia o número de litros vendidos, o tipo de combustível (codificado da seguinte forma: A-álcool, G-gasolina), calcule e imprima o valor a ser pago pelo cliente sabendo-se que o preço do litro da gasolina é R$ 2,50 o preço do litro do álcool é R$ 1,90. A seguir a tabela de descontos:
+  #### 26. Um posto está vendendo combustíveis, portanto, Escreva um algoritmo que leia o número de litros vendidos, o tipo de combustível (codificado da seguinte forma: A-álcool, G-gasolina), calcule e imprima o valor a ser pago pelo cliente. A seguir a tabela de valores:
   
   |         |Até 20 Litros| Acima 20 Litros|
   |---------|-----------|------------------|
