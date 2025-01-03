@@ -1694,7 +1694,7 @@ while contador != 0:
 
   <br>
 
-  #### 4. Supondo que a população de um país A seja da ordem de 80.000 habitantes com uma taxa anual de crescimento de 3% e que a população de B seja 200.000 habitantes com uma taxa de crescimento de 1.5%. Faça um programa que calcule e escreva o número de anos necessários para que a população do país A ultrapasse ou iguale a população do país B, mantidas as taxas de crescimento.
+  #### 4-5. Supondo que a população de um país A seja da ordem de 80.000 habitantes com uma taxa anual de crescimento de 3% e que a população de B seja 200.000 habitantes com uma taxa de crescimento de 1.5%. Faça um programa que calcule e escreva o número de anos necessários para que a população do país A ultrapasse ou iguale a população do país B, mantidas as taxas de crescimento. Depois, altere o programa anterior permitindo ao usuário informar as populações e as taxas de crescimento iniciais. Valide a entrada e permita repetir a operação.
 
    <details>
     <summary><h4>Resposta</h4></summary>
@@ -1719,6 +1719,162 @@ while araja < bacalaca:
     print(bacalaca)
 
 print("Serão necessários pelos menos %d anos" % anos)
+```
+
+  </details>
+
+  <br>
+ 
+  #### 6. Faça um programa que imprima na tela os números de 1 a 20, um abaixo do outro. Depois modifique o programa para que ele mostre os números um ao lado do outro.
+
+  <details>
+    <summary><h4>Resposta</h4></summary>
+
+```python
+
+```
+
+  </details>
+
+  <br>
+
+  #### 7. Faça um programa que leia 5 números e informe o maior número.
+
+  <details>
+    <summary><h4>Resposta</h4></summary>
+
+```python
+
+```
+
+  </details>
+
+  <br>
+
+  #### 8. Faça um programa que leia 5 números e informe a soma e a média dos números.
+
+  <details>
+    <summary><h4>Resposta</h4></summary>
+
+```python
+
+```
+
+  </details>
+
+  <br>
+
+  #### 9. Faça um programa que imprima na tela apenas os números ímpares entre 1 e 50.
+
+  <details>
+    <summary><h4>Resposta</h4></summary>
+
+```python
+
+```
+
+  </details>
+
+  <br>
+
+  #### 10-11. Faça um programa que receba dois números inteiros e gere os números inteiros que estão no intervalo compreendido por eles. Depois, altere o programa anterior para mostrar no final a soma dos números.
+
+  <details>
+    <summary><h4>Resposta</h4></summary>
+
+```python
+
+```
+
+  </details>
+
+  <br>
+
+  #### 12. Desenvolva um gerador de tabuada, capaz de gerar a tabuada de qualquer número inteiro entre 1 a 10. O usuário deve informar de qual numero ele deseja ver a tabuada.
+
+  <details>
+    <summary><h4>Resposta</h4></summary>
+
+```python
+
+```
+
+  </details>
+
+  <br>
+
+  #### 13. Faça um programa que peça dois números, base e expoente, calcule e mostre o primeiro número elevado ao segundo número. Não utilize a função de potência da linguagem.
+
+  <details>
+    <summary><h4>Resposta</h4></summary>
+
+```python
+
+```
+
+  </details>
+
+  <br>
+
+  #### 14. Faça um programa que peça 10 números inteiros, calcule e mostre a quantidade de números pares e a quantidade de números impares.
+
+  <details>
+    <summary><h4>Resposta</h4></summary>
+
+```python
+
+```
+
+  </details>
+
+  <br>
+
+  #### 15. A série de Fibonacci é formada pela seqüência 1,1,2,3,5,8,13,21,34,55,... Faça um programa capaz de gerar a série até o n−ésimo termo.
+
+  <details>
+    <summary><h4>Resposta</h4></summary>
+
+```python
+
+```
+
+  </details>
+
+  <br>
+
+  #### 16. A série de Fibonacci é formada pela seqüência 0,1,1,2,3,5,8,13,21,34,55,... Faça um programa que gere a série até que o valor seja maior que 500.
+
+  <details>
+    <summary><h4>Resposta</h4></summary>
+
+```python
+
+```
+
+  </details>
+
+  <br>
+
+  #### 17. Faça um programa que calcule o fatorial de um número inteiro fornecido pelo usuário. Ex.: 5! = 5 x 4 x 3 x 2 x 1 = 120
+
+  <details>
+    <summary><h4>Resposta</h4></summary>
+
+```python
+
+```
+
+  </details>
+
+  <br>
+
+  #### 18-19. Faça um programa que, dado um conjunto de N números, determine o menor valor, o maior valor e a soma dos valores. Depis, altere o programa anterior para que ele aceite apenas números entre 0 e 1000.
+
+  <details>
+    <summary><h4>Resposta</h4></summary>
+
+```python
+
 ```
 
   </details>
