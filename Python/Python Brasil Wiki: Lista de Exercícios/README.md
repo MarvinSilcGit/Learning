@@ -2009,8 +2009,6 @@ confirmacao = 2
 
 numero = int(input("Digite um número inteiro para saber se ele é primo ou não: "))
 
-contador = 5
-
 if numero == 0 or numero == 1:
 
     print("Esse número é inválido")
