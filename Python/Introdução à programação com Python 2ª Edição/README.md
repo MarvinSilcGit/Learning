@@ -1240,8 +1240,6 @@ while contador != 0:
 
     numero = int(input("Digite um número inteiro para saber se ele é primo ou não: "))
 
-    contador2 = 5
-
     if numero == 0 or numero == 1:
 
         print("Esse número é inválido")
@@ -1254,7 +1252,7 @@ while contador != 0:
 
     else:
 
-        for contador2 in range(2, numero + 1):
+        for contador2 in range(confirmacao, numero + 1):
 
             if numero % contador2 != 0:
 
