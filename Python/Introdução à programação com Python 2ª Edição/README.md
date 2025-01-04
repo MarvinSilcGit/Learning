@@ -1238,8 +1238,6 @@ while contador != 0:
 
     confirmacao = 2
 
-    print()
-
     numero = int(input("Digite um número inteiro para saber se ele é primo ou não: "))
 
     contador2 = 5
@@ -1273,6 +1271,8 @@ while contador != 0:
     print()
 
     contador = int(input("Digite 0 para interromper a execução: "))
+
+    print()
 ```
 
   </details>
