@@ -1992,6 +1992,19 @@ print("Fatorial de %d é %d" % (numero, resultado_fatorial))
 
   <br>
 
+  #### 22. Altere o programa de cálculo dos números primos, informando, caso o número não seja primo, por quais número ele é divisível.
+  
+  <details>
+    <summary><h4>Resposta</h4></summary>
+
+```python
+
+```
+
+  </details>
+
+  <br>
+  
   #### 23. Faça um programa que mostre todos os primos entre 1 e N sendo N um número inteiro fornecido pelo usuário. O programa deverá mostrar também o número de divisões que ele executou para encontrar os números primos. Serão avaliados o funcionamento, o estilo e o número de testes (divisões) executados.
 
   <details>
@@ -2032,6 +2045,45 @@ print("Fatorial de %d é %d" % (numero, resultado_fatorial))
   <br>
 
   #### 26. Numa eleição existem três candidatos. Faça um programa que peça o número total de eleitores. Peça para cada eleitor votar e ao final mostrar o número de votos de cada candidato.
+
+  <details>
+    <summary><h4>Resposta</h4></summary>
+    
+```python
+
+```
+
+  </details>
+
+  <br>
+
+  #### 27. Faça um programa que calcule o número médio de alunos por turma. Para isto, peça a quantidade de turmas e a quantidade de alunos para cada turma. As turmas não podem ter mais de 40 alunos.
+
+  <details>
+    <summary><h4>Resposta</h4></summary>
+    
+```python
+
+```
+
+  </details>
+
+  <br>
+
+  #### 28. Faça um programa que calcule o valor total investido por um colecionador em sua coleção de CDs e o valor médio gasto em cada um deles. O usuário deverá informar a quantidade de CDs e o valor para em cada um.
+
+  <details>
+    <summary><h4>Resposta</h4></summary>
+    
+```python
+
+```
+
+  </details>
+
+  <br>
+
+  #### 29. O Sr. Manoel Joaquim possui uma grande loja de artigos de R$ 1,99, com cerca de 10 caixas. Para agilizar o cálculo de quanto cada cliente deve pagar ele desenvolveu um tabela que contém o número de itens que o cliente comprou e ao lado o valor da conta. Desta forma a atendente do caixa precisa apenas contar quantos itens o cliente está levando e olhar na tabela de preços. Você foi contratado para desenvolver o programa que monta esta tabela de preços que conterá os preços de 1 até 50 produtos.
 
   <details>
     <summary><h4>Resposta</h4></summary>
