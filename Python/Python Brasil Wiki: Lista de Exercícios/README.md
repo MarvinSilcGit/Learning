@@ -1966,4 +1966,55 @@ print("Fatorial de %d é %d" % (numero, resultado_fatorial))
 
   <br>
 
+  #### 20. Altere o programa de cálculo do fatorial, permitindo ao usuário calcular o fatorial várias vezes e limitando o fatorial a números inteiros positivos e menores que 16.
+
+  <details>
+    <summary><h4>Resposta</h4></summary>
+    
+```python
+
+```
+
+  </details>
+
+  <br>
+
+  #### 21. Faça um programa que peça um número inteiro e determine se ele é ou não um número primo. Um número primo é aquele que é divisível somente por ele mesmo e por 1.
+
+  <details>
+    <summary><h4>Resposta</h4></summary>
+    
+```python
+
+```
+
+  </details>
+
+  <br>
+
+  #### 25. Faça um programa que peça para n pessoas a sua idade, ao final o programa devera verificar se a média de idade da turma varia entre 0 e 25,26 e 60 e maior que 60; e então, dizer se a turma é jovem, adulta ou idosa, conforme a média calculada.
+  <details>
+    <summary><h4>Resposta</h4></summary>
+    
+```python
+
+```
+
+  </details>
+
+  <br>
+
+  #### 26. Numa eleição existem três candidatos. Faça um programa que peça o número total de eleitores. Peça para cada eleitor votar e ao final mostrar o número de votos de cada candidato.
+
+  <details>
+    <summary><h4>Resposta</h4></summary>
+    
+```python
+
+```
+
+  </details>
+
+  <br>
+  
   </details>
