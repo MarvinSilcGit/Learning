@@ -2009,7 +2009,7 @@ confirmacao = 2
 
 numero = int(input("Digite um número inteiro para saber se ele é primo ou não: "))
 
-contador2 = 5
+contador = 5
 
 if numero == 0 or numero == 1:
 
@@ -2021,9 +2021,9 @@ if numero == 2 or numero == 3:
 
 else:
 
-    for contador2 in range(2, numero + 1):
+    for contador in range(2, numero + 1):
 
-        if numero % contador2 != 0:
+        if numero % contador != 0:
 
             confirmacao += 1
 
