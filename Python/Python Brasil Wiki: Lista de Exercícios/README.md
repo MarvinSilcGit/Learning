@@ -1919,7 +1919,13 @@ for contador in range(10):
     <summary><h4>Resposta</h4></summary>
 
 ```python
+fibo0, fibo1 = 0, 1
 
+while fibo0 < 500:
+
+    print(fibo0)
+
+    fibo0, fibo1 = fibo1, fibo0 + fibo1
 ```
 
   </details>
