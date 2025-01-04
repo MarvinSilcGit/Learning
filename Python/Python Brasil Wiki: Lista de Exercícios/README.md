@@ -1939,7 +1939,7 @@ print("Fatorial de %d é %d" % (numero, resultado_fatorial))
 
   <br>
 
-  #### 18-19. Faça um programa que, dado um conjunto de N números, determine o menor valor, o maior valor e a soma dos valores. Depis, altere o programa anterior para que ele aceite apenas números entre 0 e 1000.
+  #### 18-19. Faça um programa que, dado um conjunto de N números, determine o menor valor, o maior valor e a soma dos valores. Depois, altere o programa anterior para que ele aceite apenas números entre 0 e 1000.
 
   <details>
     <summary><h4>Resposta</h4></summary>
