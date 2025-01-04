@@ -2278,7 +2278,7 @@ while True:
 
   <br>
 
-  #### 26. Numa eleição existem três candidatos. Faça um programa que peça o número total de eleitores. Peça para cada eleitor votar e ao final mostrar o número de votos de cada candidato.
+  #### 26. Numa eleição existem três candidatos. Faça um programa que peça o número total de eleitores e peça também para cada eleitor votar e ao final mostrar o número de votos de cada candidato.
 
   <details>
     <summary><h4>Resposta</h4></summary>
