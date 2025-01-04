@@ -1992,7 +1992,34 @@ print("Fatorial de %d é %d" % (numero, resultado_fatorial))
 
   <br>
 
+  #### 23. Faça um programa que mostre todos os primos entre 1 e N sendo N um número inteiro fornecido pelo usuário. O programa deverá mostrar também o número de divisões que ele executou para encontrar os números primos. Serão avaliados o funcionamento, o estilo e o número de testes (divisões) executados.
+
+  <details>
+    <summary><h4>Resposta</h4></summary>
+    
+```python
+
+```
+
+  </details>
+
+  <br>
+
+  #### 24. Faça um programa que calcule o mostre a média aritmética de N notas.
+
+  <details>
+    <summary><h4>Resposta</h4></summary>
+    
+```python
+
+```
+
+  </details>
+
+  <br>
+
   #### 25. Faça um programa que peça para n pessoas a sua idade, ao final o programa devera verificar se a média de idade da turma varia entre 0 e 25,26 e 60 e maior que 60; e então, dizer se a turma é jovem, adulta ou idosa, conforme a média calculada.
+  
   <details>
     <summary><h4>Resposta</h4></summary>
     
