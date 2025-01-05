@@ -24,5 +24,12 @@
 
    <p>Uma compreensão de técnicas estatisticas permitirá a você questionar e avaliar decisões que afetam seu bem-estar.</p>
 
+
+   #### 1.2 The Nature and Role of Variability
+
+   #### 1.3 Statistics and the Data Analysis Process
+   
+   #### 1.4 Types of Data and Some Simple Graphical Displays
+
    
   </details>
