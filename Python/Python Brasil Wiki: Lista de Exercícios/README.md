@@ -2509,33 +2509,7 @@ print(resultado_fatorial)
 
   <br>
 
-  #### 33.
-
-  <details>
-    <summary><h4>Resposta</h4></summary>
-    
-```python
-
-```
-
-  </details>
-
-  <br>
-
-  #### 34.
-
-  <details>
-    <summary><h4>Resposta</h4></summary>
-    
-```python
-
-```
-
-  </details>
-
-  <br>
-
-  #### 35.
+  #### 33. O Departamento Estadual de Meteorologia lhe contratou para desenvolver um programa que leia as um conjunto indeterminado de temperaturas, e informe ao final a menor e a maior temperaturas informadas, bem como a média das temperaturas.
 
   <details>
     <summary><h4>Resposta</h4></summary>
@@ -2575,6 +2549,32 @@ print(resultado_fatorial)
   <br>
 
   #### 38.
+
+  <details>
+    <summary><h4>Resposta</h4></summary>
+    
+```python
+
+```
+
+  </details>
+
+  <br>
+
+  #### 39.
+
+  <details>
+    <summary><h4>Resposta</h4></summary>
+    
+```python
+
+```
+
+  </details>
+
+  <br>
+
+  #### 40.
 
   <details>
     <summary><h4>Resposta</h4></summary>
