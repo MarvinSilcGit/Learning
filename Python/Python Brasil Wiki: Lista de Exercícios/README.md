@@ -2536,7 +2536,7 @@ fim_tabudada = int(input("Terminar em: "))
 
 if fim_tabudada <= inicio_tabuada:
 
-    print("O fim não pode ser maior ou igual ao início da tabuada")
+    print("O fim não pode ser menor ou igual ao início da tabuada")
 
 else:
 
