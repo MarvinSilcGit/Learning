@@ -29,6 +29,8 @@
    <p>A Estatística é uma área do conhecimento que focar em coletar, analisar e tirar conclusões a partir de dados de um modo sensível e crítico. Um dos usos básicos de métodos estatíticos descritivos é aumentar nosso entendimento da natureza da varibilidade em uma população. Entender variabilidade nos permite distinguir entre valores comuns e incomuns. A habilidade para reconhecer valores incomuns na presenção da varibilidade é chave para a maioria dos procedimentos estatísticos e é também o que nos possibilita quantificar a chance de estar errado quando uma conclusão é baseada em dados de amostra.</p>
 
    #### 1.3 Statistics and the Data Analysis Process
+
+   <p>Logo após que os dados foram coletados, o próximo passo no processo de análise de dados envolve organizar e resumir a informação. Tabelas, gráficos e resumos numéricos permitem maior entendimento e fornecem uma maneira efetiva de apresentar os dados. Métodos para organizar e resumir dados constituem a ramo da estatística conhecido como <i>Estatística descritiva</i>. Depois que os dados foram resumidos, nós frequentemente derivamos conclusões ou tomamos decisões baseadas nos dados. Isso, com frequência, envolve generalizar de um pequeno grupo de individuos ou objetos que foram estudados para um grupo bem maior. Métodos para retirar conclusões a partir de porções menores de grupos maiors é o outro ramo da estatítica conhecido como <i>Estatística inferencial</i></p>
    
    #### 1.4 Types of Data and Some Simple Graphical Displays
 
