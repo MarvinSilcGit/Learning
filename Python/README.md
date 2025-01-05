@@ -10,6 +10,6 @@
 
 <h3>https://wiki.python.org.br/ListaDeExercicios</h3>
 
-<br
+<br>
 
 ### Introdução à Programação com Python - 2ª Edição
