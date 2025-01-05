@@ -19,14 +19,13 @@ CAT ==> NOM(Nominais) & ORD(Ordinais)
 NUM ==> DIS(Discretas) & CONT(Contínuas)
 ```
 
-#### Variáveis Categorizadas.
+#### Variáveis Categorizadas
 
-  <p>Uma variável será qualitativa ou categorizada quando os dados estão distribuídos em categorias que se excluem. Por exemplo, sexo, escolaridade, condição social etc. Há, porém, subdivisões: Nominal e ordinal.</p>
+  <p>Uma variável será qualitativa ou categorizada quando os dados estão distribuídos em categorias que se excluem. Por exemplo, sexo, escolaridade, condição social etc. Há, porém, subdivisões: Nominal e ordinal. Uma variável será categorizada-nominal quando os dados estiverem distribuídos em categorias mutualmente excludentes e sem ordenação: cor do cabelo, tipo sanguíneo etc. Uma variável será categorizada-ordinal quando os dados estiverem distribuídos em categorias mutualmente excludentes e com ordenação: nível de escolaridade, categorias da CNH etc.</p>
 
+#### Variáveis Numéricas
 
-#### Variáveis Numéricas.
-
-<p>Uma variável será quantitativa ou numérica quando os dados estão representados por números, por exemplo, idade, data de nascimento etc. Há, porém, subdivisões: Nominal e Ordinal.</p>
+<p>Uma variável será quantitativa ou numérica quando os dados estão representados por números, por exemplo, idade, data de nascimento etc. Há, porém, subdivisões: Nominal e Ordinal. Uma variável é numérica-discreta quando os dados não podem assumir diversos valores em um determinado intervalo: número de filhos, altura etc. Uma variável é numérica-contínua quando os dados podem assumir diversos valores em um determinado intervaldo: peso, taxas glicêmicas etc.</p>
 
 </details>
 
