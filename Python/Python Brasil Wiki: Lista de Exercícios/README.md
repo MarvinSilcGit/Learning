@@ -2522,7 +2522,7 @@ print(resultado_fatorial)
 
   <br>
 
-  #### 36.
+  #### 36. Desenvolva um programa que faça a tabuada de um número qualquer inteiro que será digitado pelo usuário, mas a tabuada não deve necessariamente iniciar em 1 e terminar em 10, o valor inicial e final devem ser informados também pelo usuário. Obs: Você deve verificar se o usuário não digitou o final menor que o inicial.
 
   <details>
     <summary><h4>Resposta</h4></summary>
@@ -2535,7 +2535,7 @@ print(resultado_fatorial)
 
   <br>
 
-  #### 37.
+  #### 37. Uma academia deseja fazer um senso entre seus clientes para descobrir o mais alto, o mais baixo, a mais gordo e o mais magro, para isto você deve fazer um programa que pergunte a cada um dos clientes da academia seu código, sua altura e seu peso. O final da digitação de dados deve ser dada quando o usuário digitar 0 (zero) no campo código. Ao encerrar o programa também deve ser informados os códigos e valores do clente mais alto, do mais baixo, do mais gordo e do mais magro, além da média das alturas e dos pesos dos clientes.
 
   <details>
     <summary><h4>Resposta</h4></summary>
@@ -2548,7 +2548,7 @@ print(resultado_fatorial)
 
   <br>
 
-  #### 38.
+  #### 38. Um funcionário de uma empresa recebe aumento salarial anualmente: Sabe-se que: Esse funcionário foi contratado em 1995, com salário inicial de R$ 1.000,00; Em 1996 recebeu aumento de 1,5% sobre seu salário inicial; A partir de 1997 (inclusive), os aumentos salariais sempre correspondem ao dobro do percentual do ano anterior. Faça um programa que determine o salário atual desse funcionário. Após concluir isto, altere o programa permitindo que o usuário digite o salário inicial do funcionário.
 
   <details>
     <summary><h4>Resposta</h4></summary>
@@ -2561,7 +2561,7 @@ print(resultado_fatorial)
 
   <br>
 
-  #### 39.
+  #### 39. Faça um programa que leia dez conjuntos de dois valores, o primeiro representando o número do aluno e o segundo representando a sua altura em centímetros. Encontre o aluno mais alto e o mais baixo. Mostre o número do aluno mais alto e o número do aluno mais baixo, junto com suas alturas
 
   <details>
     <summary><h4>Resposta</h4></summary>
