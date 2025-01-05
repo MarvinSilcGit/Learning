@@ -5,6 +5,8 @@
 
   <p>Estatística é a ciência que fornece os princípios e os métodos para coleta, organização, resumo, análise e interpretação das informações.</p>
 
+  ### 1.1 Dados e variáveis
+
   
 
 </details>
