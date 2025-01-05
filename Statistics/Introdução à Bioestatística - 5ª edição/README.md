@@ -7,7 +7,17 @@
 
   ### 1.1 Dados e variáveis
 
-  
+  <p>Uma <i>variável</i> é uma condição ou característica das unidades da população, ou seja, atributos, sejam eles quantitativos ou qualitativos. Já <i>Dado estatístico</i> se refere à toda informação coletada e registrada referente à uma variável. As variáveis podem ser classificadas em dois tipos: </p>
+
+```mermaid
+flowchart TD;
+
+VAR([Variáveis]) ==> CAT(Categorizadas ou 'qualitativas') & NUM(Numéricas ou 'quantitativas')
+
+CAT ==> NOM(Nominais) & ORD(Ordinais)
+
+NUM ==> DIS(Discretas) & CONT(Contínuas)
+```
 
 </details>
 
