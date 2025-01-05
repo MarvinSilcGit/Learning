@@ -1,4 +1,4 @@
-## Introduction to Statistics & Data Analysis: 3rd Edition
+## Introduction to Statistics & Data Analysis - 3rd Edition
 
   <details>
     <summary>
