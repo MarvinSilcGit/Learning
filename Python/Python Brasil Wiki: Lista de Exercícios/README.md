@@ -2462,5 +2462,129 @@ for contador in range(1, 51):
   </details>
 
   <br>
+
+   #### 31. O Sr. Manoel Joaquim expandiu seus negócios para além dos negócios de 1,99 e agora possui uma loja de conveniências. Faça um programa que implemente uma caixa registradora rudimentar. O programa deverá receber um número desconhecido de valores referentes aos preços das mercadorias. Um valor zero deve ser informado pelo operador para indicar o final da compra. O programa deve então mostrar o total da compra e perguntar o valor em dinheiro que o cliente forneceu, para então calcular e mostrar o valor do troco. Após esta operação, o programa deverá voltar ao ponto inicial, para registrar a próxima compra.
+
+  <details>
+    <summary><h4>Resposta</h4></summary>
+    
+```python
+
+```
+
+  </details>
+
+  <br>
+
+  #### 32. Faça um programa que calcule o fatorial de um número inteiro fornecido pelo usuário. Ex.: 5!=5.4.3.2.1=120. A saída deve ser conforme o exemplo abaixo:
+
+  <details>
+    <summary><h4>Resposta</h4></summary>
+    
+```python
+numero = int(input("Fatorial de: "))
+
+resultado_fatorial = numero
+
+print("%d! =" % numero, end=" ")
+
+for contador in range(numero, 0, -1):
+
+    if contador == 1:
+
+        print("%d" % contador, end=" = ")
+
+        break
+
+    else:
+
+        resultado_fatorial *= contador - 1
+
+        print("%d" % contador, end=" x ")
+
+print(resultado_fatorial)
+```
+
+  </details>
+
+  <br>
+
+  #### 33.
+
+  <details>
+    <summary><h4>Resposta</h4></summary>
+    
+```python
+
+```
+
+  </details>
+
+  <br>
+
+  #### 34.
+
+  <details>
+    <summary><h4>Resposta</h4></summary>
+    
+```python
+
+```
+
+  </details>
+
+  <br>
+
+  #### 35.
+
+  <details>
+    <summary><h4>Resposta</h4></summary>
+    
+```python
+
+```
+
+  </details>
+
+  <br>
+
+  #### 36.
+
+  <details>
+    <summary><h4>Resposta</h4></summary>
+    
+```python
+
+```
+
+  </details>
+
+  <br>
+
+  #### 37.
+
+  <details>
+    <summary><h4>Resposta</h4></summary>
+    
+```python
+
+```
+
+  </details>
+
+  <br>
+
+  #### 38.
+
+  <details>
+    <summary><h4>Resposta</h4></summary>
+    
+```python
+
+```
+
+  </details>
+
+  <br>
   
   </details>
