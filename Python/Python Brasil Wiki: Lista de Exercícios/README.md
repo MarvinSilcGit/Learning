@@ -2574,7 +2574,14 @@ print(resultado_fatorial)
 
   <br>
 
-  #### 40.
+  #### 40. Foi feita uma estatística em cinco cidades brasileiras para coletar dados sobre acidentes de trânsito. Foram obtidos os seguintes dados:
+
+  1. Código da cidade.
+  2. Número de veículos de passeio (em 1999).
+  3. Número de acidentes de trânsito com vítimas (em 1999).
+  4. Qual o maior e menor índice de acidentes de transito e a que cidade pertence?
+  5. Qual a média de veículos nas cinco cidades juntas?
+  6. Qual a média de acidentes de trânsito nas cidades com menos de 2.000 veículos de passeio?
 
   <details>
     <summary><h4>Resposta</h4></summary>
