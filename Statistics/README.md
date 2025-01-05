@@ -9,8 +9,9 @@
 
   <p>Mesmo em meio à desconfianças, a estatística está se tornando mais popular entre o público que não contribui diariamente com ela. Isso porque ela dá ferramentas necessárias para pensar além do óbvio e do genérico, facilitando a compreensão dos eventos naturais e sociais e formando uma maneira de pensar para além da bestialidade social e individual. Nessa cadência, vão se formando mais e mais pessoas interessadas e pelos menos compreender sua utilidade prática.</p>
 
+<br>
+   
    #### 1.1: Three reasons to study statistics
-
 
    ##### The first reason: To be informed
 
@@ -24,9 +25,13 @@
 
    <p>Uma compreensão de técnicas estatisticas permitirá a você questionar e avaliar decisões que afetam seu bem-estar.</p>
 
+<br>
+
    #### 1.2 The Nature and Role of Variability
 
    <p>A Estatística é uma área do conhecimento que focar em coletar, analisar e tirar conclusões a partir de dados de um modo sensível e crítico. Um dos usos básicos de métodos estatíticos descritivos é aumentar nosso entendimento da natureza da varibilidade em uma população. Entender variabilidade nos permite distinguir entre valores comuns e incomuns. A habilidade para reconhecer valores incomuns na presenção da varibilidade é chave para a maioria dos procedimentos estatísticos e é também o que nos possibilita quantificar a chance de estar errado quando uma conclusão é baseada em dados de amostra.</p>
+
+<br>
 
    #### 1.3 Statistics and the Data Analysis Process
 
@@ -35,6 +40,9 @@
    ##### Definition:
 
    <p>A coleção inteira de indivíduos ou objetos sobre o qual a informação precisa ser extraída é chamada de <b>população</b> de interesse. Uma <b>amostra</b> é um subconjunto da população de interesse selecionada de maneira intencional.</p>
+
+
+<br>
    
    #### 1.4 Types of Data and Some Simple Graphical Displays
 
