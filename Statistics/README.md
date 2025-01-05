@@ -24,8 +24,9 @@
 
    <p>Uma compreensão de técnicas estatisticas permitirá a você questionar e avaliar decisões que afetam seu bem-estar.</p>
 
-
    #### 1.2 The Nature and Role of Variability
+
+   <p>A Estatística é uma área do conhecimento que focar em coletar, analisar e tirar conclusões a partir de dados de um modo sensível e crítico. Um dos usos básicos de métodos estatíticos descritivoes é aumentar nosso entendimento da natureza da varibilidade em uma população.</p>
 
    #### 1.3 Statistics and the Data Analysis Process
    
