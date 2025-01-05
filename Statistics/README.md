@@ -41,6 +41,8 @@
 
    <p>A coleção inteira de indivíduos ou objetos sobre o qual a informação precisa ser extraída é chamada de <b>população</b> de interesse. Uma <b>amostra</b> é um subconjunto da população de interesse selecionada de maneira intencional.</p>
 
+   <p>A <b>Estatística inferencial</b> envolve generalizar a partir de uma amostra retirada de uma população. Porém, quando nós generalizamos corremos o risco de uma conclusão incorreta, pois a conclusão sobre uma população é baseada numa informação incompleta. Um aspecto importante ao desenvolver técnicas inferenciais envolve quantificar a chance de uma conclusão incorreta.</p>
+
 
 <br>
    
