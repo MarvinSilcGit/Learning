@@ -37,12 +37,13 @@
 
    <p>Logo após que os dados foram coletados, o próximo passo no processo de análise de dados envolve organizar e resumir a informação. Tabelas, gráficos e resumos numéricos permitem maior entendimento e fornecem uma maneira efetiva de apresentar os dados. Métodos para organizar e resumir dados constituem a ramo da estatística conhecido como <i>Estatística descritiva</i>. Depois que os dados foram resumidos, nós frequentemente derivamos conclusões ou tomamos decisões baseadas nos dados. Isso, com frequência, envolve generalizar de um pequeno grupo de individuos ou objetos que foram estudados para um grupo bem maior. Métodos para retirar conclusões a partir de porções menores de grupos maiores é o outro ramo da estatítica conhecido como <i>Estatística inferencial</i></p>
 
-   ##### Definition:
+   <p>A <b>Estatística inferencial</b> envolve generalizar a partir de uma amostra retirada de uma população. Porém, quando nós generalizamos corremos o risco de uma conclusão incorreta, pois a conclusão sobre uma população é baseada numa informação incompleta. Um aspecto importante ao desenvolver técnicas inferenciais envolve quantificar a chance de uma conclusão incorreta.</p>
+
+   ##### Definitions:
 
    <p>A coleção inteira de indivíduos ou objetos sobre o qual a informação precisa ser extraída é chamada de <b>população</b> de interesse. Uma <b>amostra</b> é um subconjunto da população de interesse selecionada de maneira intencional.</p>
 
-   <p>A <b>Estatística inferencial</b> envolve generalizar a partir de uma amostra retirada de uma população. Porém, quando nós generalizamos corremos o risco de uma conclusão incorreta, pois a conclusão sobre uma população é baseada numa informação incompleta. Um aspecto importante ao desenvolver técnicas inferenciais envolve quantificar a chance de uma conclusão incorreta.</p>
-
+   <p><b>Estatítica descritiva</b> é o ramo da estatística que inclui métodos para organizar e resumir dados. <b>Estatística inferencial</b> é o ramo da estatística que envolve generalizar a partir de uma amostra de uma população e avaliar a confiabilidade de tais generalizações.</p>
 
 <br>
    
