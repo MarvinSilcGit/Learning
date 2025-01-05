@@ -26,7 +26,7 @@
 
    #### 1.2 The Nature and Role of Variability
 
-   <p>A Estatística é uma área do conhecimento que focar em coletar, analisar e tirar conclusões a partir de dados de um modo sensível e crítico. Um dos usos básicos de métodos estatíticos descritivos é aumentar nosso entendimento da natureza da varibilidade em uma população.</p>
+   <p>A Estatística é uma área do conhecimento que focar em coletar, analisar e tirar conclusões a partir de dados de um modo sensível e crítico. Um dos usos básicos de métodos estatíticos descritivos é aumentar nosso entendimento da natureza da varibilidade em uma população. Entender variabilidade nos permite distinguir entre valores comuns e incomuns. A habilidade para reconhecer valores incomuns na presenção da varibilidade é chave para a maioria dos procedimentos estatísticos e é também o que nos possibilita quantificar a chance de estar errado quando uma conclusão é baseada em dados de amostra.</p>
 
    #### 1.3 Statistics and the Data Analysis Process
    
