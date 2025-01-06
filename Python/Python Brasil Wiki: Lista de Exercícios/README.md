@@ -1675,9 +1675,9 @@ while contador != 0:
 
                 else:
 
-                    estadoCivil = input("Digite seu estado civil:\ns - solteiro(a)\nv - viúvo(a)\nc - casado(a)\nd - divorciado\n")
+                    estado_civil = input("Digite seu estado civil:\ns - solteiro(a)\nv - viúvo(a)\nc - casado(a)\nd - divorciado\n")
 
-                    if estadoCivil != "s" and estadoCivil != "v" and estadoCivil !="c" and estadoCivil != "d":
+                    if estado_civil != "s" and estado_civil != "v" and estado_civil != "c" and estado_civil != "d":
 
                         print("Estado civil inválido")
 
@@ -1685,7 +1685,7 @@ while contador != 0:
 
                     else:
 
-                        print("%s, %d, %.2f, %s, %s" % (nome, idade, salario, sexo, estadoCivil))
+                        print("%s, %d, %.2f, %s, %s" % (nome, idade, salario, sexo, estado_civil))
 
     contador = int(input("Digite 0 para finalizar o programa: "))
 ```
@@ -1746,17 +1746,17 @@ for _ in range(1, 20 + 1):
     <summary><h4>Resposta</h4></summary>
 
 ```python
-numeroFinal = 0
+numero_final = 0
 
 for contador in range(5):
 
     numero = float(input("Digite um número: "))
 
-    if numero > numeroFinal:
+    if numero > numero_final:
 
-        numeroFinal = numero
+        numero_final = numero
 
-print("O maior número foi %d" % numeroFinal)
+print("O maior número foi %d" % numero_final)
 ```
 
   </details>
@@ -1813,13 +1813,14 @@ for contador in range(1, 50):
     <summary><h4>Resposta</h4></summary>
 
 ```python
-numeroInicial = int(input("Digite o número inicial: "))
+numero_inicial = int(input("Digite o número inicial: "))
 
-numeroFinal = int(input("Digite o número final: "))
+numero_final = int(input("Digite o número final: "))
 
 soma = 0
 
-for contador in range(numeroInicial + 1, numeroFinal):
+for contador in range(numero_inicial + 1, numero_final):
+
     print(contador)
 
     soma += contador
@@ -1837,11 +1838,11 @@ print(soma)
     <summary><h4>Resposta</h4></summary>
 
 ```python
-inicioTabuada = int(input("Digite o valor inicial da tabuada: "))
+inicio_tabuada = int(input("Digite o valor inicial da tabuada: "))
 
 for contador in range(1, 10 + 1):
 
-    print("%d x %d = %d " % (inicioTabuada, contador, inicioTabuada * contador))
+    print("%d x %d = %d " % (inicio_tabuada, contador, inicio_tabuada * contador))
 ```
 
   </details>
@@ -2212,7 +2213,7 @@ contador = 1
 
 contador2 = 0
 
-mediaNotas = 0
+media_notas = 0
 
 while contador != 0:
 
@@ -2224,13 +2225,13 @@ while contador != 0:
 
     else:
 
-        mediaNotas += notas
+        media_notas += notas
 
         contador2 += 1
 
-mediaNotas = mediaNotas / contador2
+media_notas = media_notas / contador2
 
-print("A média das notas foi %.2f" % mediaNotas)
+print("A média das notas foi %.2f" % media_notas)
 ```
 
   </details>
@@ -2243,7 +2244,7 @@ print("A média das notas foi %.2f" % mediaNotas)
     <summary><h4>Resposta</h4></summary>
     
 ```python
-idadeMedia = 0
+idade_media = 0
 
 contador = 0
 
@@ -2259,25 +2260,25 @@ while True:
 
         contador += 1
 
-        idadeMedia += idade
+        idade_media += idade
 
         suficiente = input("Digite sim para calcular a média de idade: ")
 
         if suficiente == "Sim" or suficiente == "sim":
 
-            idadeMedia = idadeMedia / contador
+            idade_media = idade_media / contador
 
-            print("A idade média foi %.2f anos" % idadeMedia)
+            print("A idade média foi %.2f anos" % idade_media)
 
-            if idadeMedia <= 25:
+            if idade_media <= 25:
 
                 print("Turma jovem")
 
-            elif idadeMedia <= 60:
+            elif idade_media <= 60:
 
                 print("Turma adulta")
 
-            elif idadeMedia > 60:
+            elif idade_media > 60:
 
                 print("Turma idosa")
 ```
@@ -2302,9 +2303,9 @@ candidato3 = 0
 
 while contador != 0:
 
-    numeroEleitores = int(input("Número total de eleitores: "))
+    numero_eleitores = int(input("Número total de eleitores: "))
 
-    for contador2 in range(1, numeroEleitores + 1):
+    for contador2 in range(1, numero_eleitores + 1):
 
         print("Qual o voto do eleitor %d ?" % contador2)
 
@@ -2406,25 +2407,25 @@ while contador != 0:
 ```python
 contador = 1
 
-custoTotal = 0
+custo_total = 0
 
-custoMedio = 0
+custo_medio = 0
 
 while contador != 0:
 
-    quantidadeCds = int(input("Digite a quantidade de CDs na coleção: "))
+    quantidade_cds = int(input("Digite a quantidade de CDs na coleção: "))
 
-    for contador2 in range(1, quantidadeCds + 1):
+    for contador2 in range(1, quantidade_cds + 1):
 
         print("Digite o valor do %d° CD" % contador2)
 
         valorCd = float(input(""))
 
-        custoTotal += valorCd
+        custo_total += valorCd
 
-    custoMedio = custoTotal / quantidadeCds
+    custo_medio = custo_total / quantidade_cds
 
-    print("O custo total foi %.2f, e o custo médio de cada CD é R$ %.2f" % (custoTotal, custoMedio))
+    print("O custo total foi %.2f, e o custo médio de cada CD é R$ %.2f" % (custo_total, custo_medio))
 
     print()
 
@@ -2479,13 +2480,13 @@ for contador in range(1, 51):
 ```python
 contador = 1
 
-precoFinal = 0
+preco_final = 0
 
 contador3 = 1
 
 troco = 0
 
-valorPagamento = 0
+valor_pagamento = 0
 
 while contador != 0:
 
@@ -2495,7 +2496,7 @@ while contador != 0:
 
         preco = float(input(""))
 
-        precoFinal += preco
+        preco_final += preco
 
         contador3 += 1
 
@@ -2505,13 +2506,13 @@ while contador != 0:
 
             break
 
-    print("Total: %.2f" % precoFinal)
+    print("Total: %.2f" % preco_final)
 
     while True:
 
-        valorPagamento = float(input("Digite o valor de pagamento: "))
+        valor_pagamento = float(input("Digite o valor de pagamento: "))
 
-        if valorPagamento < precoFinal:
+        if valor_pagamento < preco_final:
 
             print("Valor insuficiente para o pagamento")
 
@@ -2519,7 +2520,7 @@ while contador != 0:
 
         else:
 
-            troco = valorPagamento - precoFinal
+            troco = valor_pagamento - preco_final
 
             print("Troco: %.2f" % troco)
 
