@@ -2587,7 +2587,6 @@ while contador != 0:
 
             maior_temperatura = numero
 
-
         if numero < menor_temperatura:
 
             menor_temperatura = numero
