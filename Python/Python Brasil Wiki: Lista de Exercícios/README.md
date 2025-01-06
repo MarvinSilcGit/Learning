@@ -824,43 +824,43 @@ else:
     <summary><h4>Resposta</h4></summary>
     
 ```python
-salarioInicial = float(input("Digite o salário atual: "))
+salario_inicial = float(input("Digite o salário atual: "))
 
 aumento = 0
 
-salarioFinal = salarioInicial
+salario_final = salario_inicial
 
-if salarioInicial <= 280:
+if salario_inicial <= 280:
 
-    aumento = salarioInicial / 100 * 20
+    aumento = salario_inicial / 100 * 20
 
-    salarioFinal += aumento
+    salario_final += aumento
 
-    print("O salário antes do reajuste era de R$ %.2f e passou a ser R$ %.2f com um aumento de R$ %.2f, ou um aumento de 20 por cento" % (salarioInicial, salarioFinal, aumento,))
+    print("O salário antes do reajuste era de R$ %.2f e passou a ser R$ %.2f com um aumento de R$ %.2f, ou um aumento de 20 por cento" % (salario_inicial, salario_final, aumento,))
 
-elif salarioInicial <= 700:
+elif salario_inicial <= 700:
 
-    aumento = salarioInicial / 100 * 15
+    aumento = salario_inicial / 100 * 15
 
-    salarioFinal += aumento
+    salario_final += aumento
 
-    print("O salário antes do reajuste era de R$ %.2f e passou a ser R$ %.2f com um aumento de R$ %.2f, ou um aumento de 15 por cento" % (salarioInicial, salarioFinal, aumento,))
+    print("O salário antes do reajuste era de R$ %.2f e passou a ser R$ %.2f com um aumento de R$ %.2f, ou um aumento de 15 por cento" % (salario_inicial, salario_final, aumento,))
 
-elif salarioInicial <= 1500:
+elif salario_inicial <= 1500:
 
-    aumento = salarioInicial / 100 * 10
+    aumento = salario_inicial / 100 * 10
 
-    salarioFinal += aumento
+    salario_final += aumento
 
-    print("O salário antes do reajuste era de R$ %.2f e passou a ser R$ %.2f com um aumento de R$ %.2f, ou um aumento de 10 por cento" % (salarioInicial, salarioFinal, aumento,))
+    print("O salário antes do reajuste era de R$ %.2f e passou a ser R$ %.2f com um aumento de R$ %.2f, ou um aumento de 10 por cento" % (salario_inicial, salario_final, aumento,))
 
-elif salarioInicial > 1500:
+elif salario_inicial > 1500:
 
-    aumento = salarioInicial / 100 * 5
+    aumento = salario_inicial / 100 * 5
 
-    salarioFinal += aumento
+    salario_final += aumento
 
-    print("O salário antes do reajuste era de R$ %.2f e passou a ser R$ %.2f com um aumento de R$ %.2f, ou um aumento de 5 por cento" % (salarioInicial, salarioFinal, aumento,))
+    print("O salário antes do reajuste era de R$ %.2f e passou a ser R$ %.2f com um aumento de R$ %.2f, ou um aumento de 5 por cento" % (salario_inicial, salario_final, aumento,))
 ```
 
   </details>
@@ -881,47 +881,47 @@ elif salarioInicial > 1500:
     <summary><h4>Resposta</h4></summary>
     
 ```python
-cargaHoraria = int(input("Digite a sua carga horária mensal: "))
+carga_horaria = int(input("Digite a sua carga horária mensal: "))
 
-salarioHora = float(input("Digite o seu salário hora: "))
+salario_hora = float(input("Digite o seu salário hora: "))
 
-salarioBruto = cargaHoraria * salarioHora
+salario_bruto = carga_horaria * salario_hora
 
 descontos = 0
 
-impostoRenda = 0
+imposto_renda = 0
 
 inss = 0
 
-if salarioBruto <=  900:
+if salario_bruto <=  900:
 
-    print("O salário será R$ %.2f com R$ %.2f de Imposto de renda, R$ %.2f de INSS. Totalizando R$ %.2f em descontos" % (salarioBruto, impostoRenda, inss, descontos))
+    print("O salário será R$ %.2f com R$ %.2f de Imposto de renda, R$ %.2f de INSS. Totalizando R$ %.2f em descontos" % (salario_bruto, imposto_renda, inss, descontos))
 
-elif salarioBruto <= 1500:
+elif salario_bruto <= 1500:
 
-    impostoRenda = salarioBruto / 100 * 5
+    imposto_renda = salario_bruto / 100 * 5
 
-    inss = salarioBruto / 100 * 10
+    inss = salario_bruto / 100 * 10
 
-    descontos = impostoRenda + inss
+    descontos = imposto_renda + inss
 
-elif salarioBruto <= 2500:
+elif salario_bruto <= 2500:
 
-    impostoRenda = salarioBruto / 100 * 10
+    imposto_renda = salario_bruto / 100 * 10
 
-    inss = salarioBruto / 100 * 10
+    inss = salario_bruto / 100 * 10
 
-    descontos = impostoRenda + inss
+    descontos = imposto_renda + inss
 
-elif salarioBruto > 2500:
+elif salario_bruto > 2500:
 
-    impostoRenda = salarioBruto / 100 * 20
+    imposto_renda = salario_bruto / 100 * 20
 
-    inss = salarioBruto / 100 * 10
+    inss = salario_bruto / 100 * 10
 
-    descontos = impostoRenda + inss
+    descontos = imposto_renda + inss
 
-print("O salário inicial era de R$ %.2f e será R$ %.2f, com R$ %.2f de Imposto de renda e R$ %.2f de INSS. Totalizando R$ %.2f em descontos" % (salarioBruto, salarioBruto-descontos, impostoRenda, inss, descontos))
+print("O salário inicial era de R$ %.2f e será R$ %.2f, com R$ %.2f de Imposto de renda e R$ %.2f de INSS. Totalizando R$ %.2f em descontos" % (salario_bruto, salario_bruto - descontos, imposto_renda, inss, descontos))
 ```
 
   </details>
@@ -934,33 +934,33 @@ print("O salário inicial era de R$ %.2f e será R$ %.2f, com R$ %.2f de Imposto
     <summary><h4>Resposta</h4></summary>
     
 ```python
-diaSemana = input("Digite o dia da semana:\n1 - Domingo\n2 - Segunda-feira\n3 - Terça-feira\n4 - Quarta-feira\n5 - Quinta-feira\n6 - Sexta-feira\n7 - Sábado\n")
+dia_semana = input("Digite o dia da semana:\n1 - Domingo\n2 - Segunda-feira\n3 - Terça-feira\n4 - Quarta-feira\n5 - Quinta-feira\n6 - Sexta-feira\n7 - Sábado\n")
 
-if diaSemana == "1":
+if dia_semana == "1":
 
     print("Domingo")
 
-elif diaSemana == "2":
+elif dia_semana == "2":
 
     print("Segunda-feira")
 
-elif diaSemana == "3":
+elif dia_semana == "3":
 
     print("Terça-feira")
 
-elif diaSemana == "4":
+elif dia_semana == "4":
 
     print("Quarta-feira")
 
-elif diaSemana == "5":
+elif dia_semana == "5":
 
     print("Quinta-feira")
 
-elif diaSemana == "6":
+elif dia_semana == "6":
 
     print("Sexta-feira")
 
-elif diaSemana == "7":
+elif dia_semana == "7":
 
     print("Sábado")
 
@@ -987,41 +987,41 @@ else:
     <summary><h4>Resposta</h4></summary>
     
 ```python
-notaParcial1 = float(input("Digite a primeira nota parcial: "))
+nota_parcial1 = float(input("Digite a primeira nota parcial: "))
 
-if notaParcial1 > 10 or notaParcial1 < 0:
-
-    print("Nota inválida")
-
-notaParcial2 = float(input("Digite a segunda nota parcial: "))
-
-if notaParcial2 > 10 or notaParcial2 < 0:
+if nota_parcial1 > 10 or nota_parcial1 < 0:
 
     print("Nota inválida")
 
-mediaFinal = (notaParcial1 + notaParcial2) / 2
+nota_parcial2 = float(input("Digite a segunda nota parcial: "))
 
-if mediaFinal >= 6:
+if nota_parcial2 > 10 or nota_parcial2 < 0:
 
-    print("Aprovado e a média foi %.2f" % mediaFinal)
+    print("Nota inválida")
 
-    if mediaFinal >= 9 and mediaFinal <= 10:
+media_final = (nota_parcial1 + nota_parcial2) / 2
+
+if media_final >= 6:
+
+    print("Aprovado e a média foi %.2f" % media_final)
+
+    if media_final >= 9 and media_final <= 10:
 
         print("Conceito A")
 
-    elif mediaFinal >= 7.5 and mediaFinal < 9:
+    elif media_final >= 7.5 and media_final < 9:
 
         print("Conceito B")
 
-    elif mediaFinal >= 6 and mediaFinal < 7.5:
+    elif media_final >= 6 and media_final < 7.5:
 
         print("Conceito C")
 
 else:
 
-    print("Reprovado e a média foi %.2f" % mediaFinal)
+    print("Reprovado e a média foi %.2f" % media_final)
 
-    if mediaFinal >= 4 and mediaFinal < 6:
+    if media_final >= 4 and media_final < 6:
 
         print("Conceito D")
 
@@ -1099,21 +1099,21 @@ else:
     <summary><h4>Resposta</h4></summary>
     
 ```python
-anoBissexto = int(input("Digite o ano para saber se é bissexto ou não: "))
+ano_bissexto = int(input("Digite o ano para saber se é bissexto ou não: "))
 
-if anoBissexto % 4 == 0:
+if ano_bissexto % 4 == 0:
 
-    if anoBissexto % 100 != 0:
+    if ano_bissexto % 100 != 0:
 
-        print("O ano %d é bissexto" % anoBissexto)
+        print("O ano %d é bissexto" % ano_bissexto)
 
-    elif anoBissexto % 100 == 0:
+    elif ano_bissexto % 100 == 0:
 
-        print("O ano %d é bissexto especial" % anoBissexto)
+        print("O ano %d é bissexto especial" % ano_bissexto)
 
 else:
 
-    print("O ano %d não é bissexto" % anoBissexto)
+    print("O ano %d não é bissexto" % ano_bissexto)
 ```
 
   </details>
@@ -1126,9 +1126,9 @@ else:
     <summary><h4>Resposta</h4></summary>
     
 ```python
-formatoData = input("Digite a data no formato dd/mm/aaaa: ")
+formato_data = input("Digite a data no formato dd/mm/aaaa: ")
 
-if len(formatoData) != 10 or formatoData[2] == "/" or formatoData[5] == "/":
+if len(formato_data) != 10 or formato_data[2] == "/" or formato_data[5] == "/":
 
     print("Formato de data inválida")
 
@@ -1149,31 +1149,33 @@ else:
 ```python
 valor = int(input("Digite um número: "))
 
-quantidadeCentena = 0
+quantidade_centena = 0
 
-quantidadeDezena = 0
+quantidade_dezena = 0
 
-quantidadeUnidade = 0
+quantidade_unidade = 0
+
+quantidade_decimo = 0
 
 if valor // 100 > 0:
 
-    quantidadeCentena = valor // 100
+    quantidade_centena = valor // 100
 
-    valor -= quantidadeCentena * 100
+    valor -= quantidade_centena * 100
 
     if valor // 10 > 0:
 
-        quantidadeDezena = valor // 10
+        quantidade_dezena = valor // 10
 
-        valor -= quantidadeDezena * 10
+        valor -= quantidade_dezena * 10
 
         if valor // 1 > 0:
 
-            quantidadeUnidade = valor // 1
+            quantidade_unidade = valor // 1
 
-            valor -= quantidadeUnidade * 1
+            valor -= quantidade_unidade * 1
 
-print("%d = %d centenas, %d dezenas e %d unidades" % (0 + (quantidadeUnidade * 1) + 0 + (quantidadeDezena * 10) + 0 + (quantidadeCentena * 100), quantidadeCentena, quantidadeDezena, quantidadeUnidade))
+print("%d = %d centenas, %d dezenas e %d unidades" % (0 + (quantidade_unidade * 1) + 0 + (quantidade_dezena * 10) + 0 + (quantidade_centena * 100), quantidade_centena, quantidade_dezena, quantidade_unidade))
 ```
 
   </details>
@@ -1228,9 +1230,9 @@ import math
 
 valor = float(input("Digite o valor que deseja sacar: "))
 
-valorPagamento = math.trunc(valor)
+valor_pagamento = math.trunc(valor)
 
-if valorPagamento < 10:
+if valor_pagamento < 10:
 
     print("Valor insuficiente para saque")
 
@@ -1242,9 +1244,9 @@ else:
 
     while True:
 
-        if limite_cedula <= valorPagamento:
+        if limite_cedula <= valor_pagamento:
 
-            valorPagamento -= limite_cedula
+            valor_pagamento -= limite_cedula
 
             cedulas += 1
 
@@ -1252,7 +1254,7 @@ else:
 
             print("%d cédula(s) de R$ %.2f" % (cedulas, limite_cedula))
 
-            if valorPagamento == 0:
+            if valor_pagamento == 0:
 
                 break
 
@@ -1318,17 +1320,17 @@ else:
 ```python
 import math
 
-numeroDecimal = float(input("Digite o número para saber se é decimal ou não: "))
+numero_decimal = float(input("Digite o número para saber se é decimal ou não: "))
 
-numeroInteiro = math.trunc(numeroDecimal)
+numero_inteiro = math.trunc(numero_decimal)
 
-if numeroDecimal > numeroInteiro:
+if numero_decimal > numero_inteiro:
 
-    print("O número %.1f é decimal" % numeroDecimal)
+    print("O número %.1f é decimal" % numero_decimal)
 
 else:
 
-    print("O número %d não é decimal" % numeroInteiro)
+    print("O número %d não é decimal" % numero_inteiro)
 ```
 
   </details>
@@ -1345,23 +1347,23 @@ else:
     <summary><h4>Resposta</h4></summary>
     
 ```python
+import math
+
 operacao = input("Digite qual operação deseja realizar:\n1 - Inteiro ou decimal\n2 - Par ou Ímpar\n3 - Positivo ou Negativo\n")
 
 if operacao == "1":
 
-    import math
+    numero_decimal = float(input("Digite o número para saber se é decimal ou não: "))
 
-    numeroDecimal = float(input("Digite o número para saber se é decimal ou não: "))
+    numero_inteiro = math.trunc(numero_decimal)
 
-    numeroInteiro = math.trunc(numeroDecimal)
+    if numero_decimal > numero_inteiro:
 
-    if numeroDecimal > numeroInteiro:
-
-        print("O número %.1f é decimal" % numeroDecimal)
+        print("O número %.1f é decimal" % numero_decimal)
 
     else:
 
-        print("O número %d não é decimal" % numeroInteiro)
+        print("O número %d não é decimal" % numero_inteiro)
 
 elif operacao == "2":
 
@@ -1422,41 +1424,41 @@ elif operacao == "3":
     <summary><h4>Resposta</h4></summary>
     
 ```python
-quantidadeLitros = float(input("Digite a quantidade de litros: "))
+quantidade_litros = float(input("Digite a quantidade de litros: "))
 
-tipoGasolina = input("Para Álcool digite A\nPara Gasolina digite G\n")
+tipo_gasolina = input("Para Álcool digite A\nPara Gasolina digite G\n")
 
-precoFinal = 0
+preco_final = 0
 
-if tipoGasolina == "A" or tipoGasolina == "a":
+if tipo_gasolina == "A" or tipo_gasolina == "a":
 
-    if quantidadeLitros <= 20:
+    if quantidade_litros <= 20:
 
-        precoFinal = quantidadeLitros * 1.9
+        preco_final = quantidade_litros * 1.9
 
-        precoFinal -= precoFinal / 100 * 3
-
-    else:
-
-        precoFinal = quantidadeLitros * 1.9
-
-        precoFinal -= precoFinal / 100 * 4
-
-elif tipoGasolina == "G" or tipoGasolina == "g":
-
-    if quantidadeLitros <= 20:
-
-        precoFinal = quantidadeLitros * 2.5
-
-        precoFinal -= precoFinal / 100 * 4
+        preco_final -= preco_final / 100 * 3
 
     else:
 
-        precoFinal = quantidadeLitros * 2.5
+        preco_final = quantidade_litros * 1.9
 
-        precoFinal -= precoFinal / 100 * 5
+        preco_final -= preco_final / 100 * 4
 
-print("O preço final será R$ %.2f" % precoFinal)
+elif tipo_gasolina == "G" or tipo_gasolina == "g":
+
+    if quantidade_litros <= 20:
+
+        preco_final = quantidade_litros * 2.5
+
+        preco_final -= preco_final / 100 * 4
+
+    else:
+
+        preco_final = quantidade_litros * 2.5
+
+        preco_final -= preco_final / 100 * 5
+
+print("O preço final será R$ %.2f" % preco_final)
 ```
 
   </details>
@@ -1474,29 +1476,29 @@ print("O preço final será R$ %.2f" % precoFinal)
     <summary><h4>Resposta</h4></summary>
     
 ```python
-quantidadeMorango = float(input("Digite a quantidade em kilos de morangos: "))
+quantidade_morango = float(input("Digite a quantidade em kilos de morangos: "))
 
-quantidadeMaca = float(input("Digite a quantidade em kilos de maçãs: "))
+quantidade_maca = float(input("Digite a quantidade em kilos de maçãs: "))
 
-precoFinal = 0
+preco_final = 0
 
-if quantidadeMorango <= 5:
+if quantidade_morango <= 5:
 
-    precoFinal += quantidadeMorango * 2.5
-
-else:
-
-    precoFinal += quantidadeMorango * 2.2
-
-if quantidadeMaca <= 5:
-
-    precoFinal += quantidadeMaca * 1.8
+    preco_final += quantidade_morango * 2.5
 
 else:
 
-    precoFinal += quantidadeMaca * 1.2
+    preco_final += quantidade_morango * 2.2
 
-print("O preço final será R$ %.2f" % precoFinal)
+if quantidade_maca <= 5:
+
+    preco_final += quantidade_maca * 1.8
+
+else:
+
+    preco_final += quantidade_maca * 1.2
+
+print("O preço final será R$ %.2f" % preco_final)
 ```
 
   </details>
@@ -1515,39 +1517,39 @@ print("O preço final será R$ %.2f" % precoFinal)
     <summary><h4>Resposta</h4></summary>
     
 ```python
-quantidadeFile = int(input("Digite a quantidade em kilos de Filé Duplo: "))
+quantidade_file = int(input("Digite a quantidade em kilos de Filé Duplo: "))
 
-quantidadePicanha = int(input("Digite a quantidade em kilos de Picanha: "))
+quantidade_picanha = int(input("Digite a quantidade em kilos de Picanha: "))
 
-quantidadeAlcatra = int(input("Digite a quantidade em kilos de Alcatra: "))
+quantidade_alcatra = int(input("Digite a quantidade em kilos de Alcatra: "))
 
-precoFinal = 0
+preco_final = 0
 
-if quantidadeFile <= 5:
+if quantidade_file <= 5:
 
-    precoFinal += quantidadeFile * 4.9
-
-else:
-
-    precoFinal += quantidadeFile * 5.8
-
-if quantidadePicanha <= 5:
-
-    precoFinal += quantidadePicanha * 5.9
+    preco_final += quantidade_file * 4.9
 
 else:
 
-    precoFinal += quantidadePicanha * 6.8
+    preco_final += quantidade_file * 5.8
 
-if quantidadeAlcatra <= 5:
+if quantidade_picanha <= 5:
 
-    precoFinal += quantidadeAlcatra * 6.9
+    preco_final += quantidade_picanha * 5.9
 
 else:
 
-    precoFinal += quantidadePicanha * 7.8
+    preco_final += quantidade_picanha * 6.8
 
-print("O preço final será R$ %.2f" % precoFinal)
+if quantidade_alcatra <= 5:
+
+    preco_final += quantidade_alcatra * 6.9
+
+else:
+
+    preco_final += quantidade_picanha * 7.8
+
+print("O preço final será R$ %.2f" % preco_final)
 ```
 
   </details>
