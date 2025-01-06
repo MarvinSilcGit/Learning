@@ -97,9 +97,11 @@ print(centimetros)
     <summary><h4>Resposta</h4></summary>
     
 ```python
-raioCirculo = int(input("Digite o raio do círculo"))
+raio_circulo = int(input("Digite o raio do círculo: "))
 
-area = 3.14 * (raioCirculo**2)
+area = 3.14 * (raio_circulo ** 2)
+
+print(area)
 ```
 
   </details>
@@ -182,21 +184,21 @@ print("A temperatura em %.1f° celsius equivale à %.1f° fahrenheit" % (celsius
     <summary><h4>Resposta</h4></summary>
      
 ```python
-numeroInteiro1 = int(input("Digite o primeiro número inteiro: "))
+numero_inteiro1 = int(input("Digite o primeiro número inteiro: "))
 
-numeroInteiro2 = int(input("Digite o segundo número inteiro: "))
+numero_inteiro2 = int(input("Digite o segundo número inteiro: "))
 
-numeroReal = float(input("Digite o número real: "))
+numero_real = float(input("Digite o número real: "))
 
-resultado1 = numeroInteiro1 * 2 * numeroInteiro2 / 2
+resultado1 = numero_inteiro1 * 2 * numero_inteiro2 / 2
 
 print(resultado1)
 
-resultado2 = numeroInteiro1 * 3 + numeroReal
+resultado2 = numero_inteiro1 * 3 + numero_real
 
 print(resultado2)
 
-resultado3 = numeroReal**3
+resultado3 = numero_real ** 3
 
 print(resultado3)
 ```
@@ -213,9 +215,9 @@ print(resultado3)
 ```python
 altura = float(input("Digite sua altura: "))
 
-pesoIdeal = (72.7 * altura) - 58
+peso_ideal = (72.7 * altura) - 58
 
-print("O peso ideal dessa pessoa é %.2f" % pesoIdeal)
+print("O peso ideal dessa pessoa é %.2f" % peso_ideal)
 ```
 
   </details>
@@ -228,15 +230,15 @@ print("O peso ideal dessa pessoa é %.2f" % pesoIdeal)
     <summary><h4>Resposta</h4></summary>
      
 ```python
-alturaHomem = float(input("Digite a altura do homem: "))
+altura_homem = float(input("Digite a altura do homem: "))
 
-alturaMulher = float(input("Digite a altura da mulher: "))
+altura_mulher = float(input("Digite a altura da mulher: "))
 
-pesoIdealHomem = (72.7 * alturaHomem) - 58
+peso_ideal_homem = (72.7 * altura_homem) - 58
 
-pesoIdealMulher = (62.1  * alturaMulher) - 44.7
+peso_ideal_mulher = (62.1 * altura_mulher) - 44.7
 
-print("O peso ideal desse homem é %.2f.\nO peso ideal dessa mulher é %.2f" % (pesoIdealHomem, pesoIdealMulher))
+print("O peso ideal desse homem é %.2f.\nO peso ideal dessa mulher é %.2f" % (peso_ideal_homem, peso_ideal_mulher))
 ```
 
   </details>
@@ -249,17 +251,17 @@ print("O peso ideal desse homem é %.2f.\nO peso ideal dessa mulher é %.2f" % (
     <summary><h4>Resposta</h4></summary>
      
 ```python
-pesoPeixe = float(input("Digite o peso do peixe: "))
+peso_peixe = float(input("Digite o peso do peixe: "))
 
-if pesoPeixe > 50:
+if peso_peixe > 50:
 
-    pesoLimite = 50
+    peso_limite = 50
 
-    pesoAdicional = pesoPeixe - pesoLimite
+    peso_adicional = peso_peixe - peso_limite
 
-    multa = pesoAdicional * 4
+    multa = peso_adicional * 4
 
-    print("A multa será R$ %.2f por exceder o peso limite em %.2f quilos " %(multa, pesoAdicional))
+    print("A multa será R$ %.2f por exceder o peso limite em %.2f quilos " % (multa, peso_adicional))
 
 else:
 
@@ -278,15 +280,15 @@ else:
 ```python
 salario = float(input("Digite o seu salário: "))
 
-salarioLiquido = salario
+salario_liquido = salario
 
-salarioLiquido -= salario / 100 * 11
+salario_liquido -= salario / 100 * 11
 
-salarioLiquido -= salarioLiquido / 100 * 8
+salario_liquido -= salario_liquido / 100 * 8
 
-salarioLiquido -= salarioLiquido / 100 * 5
+salario_liquido -= salario_liquido / 100 * 5
 
-print("O salário líquido será R$ %.2f, com R$ %.2f de desconto" % (salarioLiquido, salario-salarioLiquido))
+print("O salário líquido será R$ %.2f, com R$ %.2f de desconto" % (salario_liquido, salario - salario_liquido))
 ```
 
   </details>
@@ -301,41 +303,41 @@ print("O salário líquido será R$ %.2f, com R$ %.2f de desconto" % (salarioLiq
 ```python
 metragem = float(input("Digite a metragem: "))
 
-coberturaTinta = 3
+cobertura_tinta = 3
 
-metragemLata = 18 * coberturaTinta
+metragem_lata = 18 * cobertura_tinta
 
-quantidadeLatas = 0
+quantidade_latas = 0
 
-precoFinal = 0
+preco_final = 0
 
-precoLata = 80
+preco_lata = 80
 
-if metragem / metragemLata <= 1:
+if metragem / metragem_lata <= 1:
 
-    quantidadeLatas = 1
+    quantidade_latas = 1
 
-    precoFinal = quantidadeLatas * precoLata
+    preco_final = quantidade_latas * preco_lata
 
-    print("Será necessária, no máximo, uma lata de tinta para pintar %.2f metros². O custo será R$ %.2f" % (metragem, precoFinal))
+    print("Será necessária, no máximo, uma lata de tinta para pintar %.2f metros². O custo será R$ %.2f" % (metragem, preco_final))
 
 else:
 
-    if metragem % metragemLata == 0:
+    if metragem % metragem_lata == 0:
 
-        quantidadeLatas = metragem / metragemLata
+        quantidade_latas = metragem / metragem_lata
 
-        precoFinal = quantidadeLatas * precoLata
+        preco_final = quantidade_latas * preco_lata
 
-        print("Serão necessária exatas %d latas de tinta para pintar %.2f metros². O custo será R$ %.2f" % (quantidadeLatas, metragem, precoFinal))
+        print("Serão necessária exatas %d latas de tinta para pintar %.2f metros². O custo será R$ %.2f" % (quantidade_latas, metragem, preco_final))
 
     else:
 
-        quantidadeLatas = (metragem // metragemLata) + 1
+        quantidade_latas = (metragem // metragem_lata) + 1
 
-        precoFinal = quantidadeLatas * precoLata
+        preco_final = quantidade_latas * preco_lata
 
-        print("Será necessária aos menos %d latas de tinta para pintar %.1f metros². O custo será R$ %.2f" % (quantidadeLatas, metragem, precoFinal))
+        print("Será necessária aos menos %d latas de tinta para pintar %.1f metros². O custo será R$ %.2f" % (quantidade_latas, metragem, preco_final))
 ```
 
   </details>
@@ -351,95 +353,95 @@ else:
     <summary><h4>Resposta</h4></summary>
     
 ```python
-metragemArea = float(input("Digite a metragem: "))
+metragem_area = float(input("Digite a metragem: "))
 
-coberturaTinta = 6
+cobertura_tinta = 6
 
-metragemLata = 18 * coberturaTinta
+metragem_lata = 18 * cobertura_tinta
 
-precoLata = 80
+preco_lata = 80
 
-quantidadeLatas = 0
+quantidade_latas = 0
 
-metragemGalao = 3.6 * coberturaTinta
+metragem_galao = 3.6 * cobertura_tinta
 
-precoGalao = 25
+preco_galao = 25
 
-quantidadeGaloes = 0
+quantidade_galoes = 0
 
-precoFinal = 0
+preco_final = 0
 
-if metragemArea <= metragemGalao * 4:
+if metragem_area <= metragem_galao * 4:
 
-    if metragemArea % metragemGalao == 0:
+    if metragem_area % metragem_galao == 0:
 
-        quantidadeGaloes = metragemArea / metragemGalao
+        quantidade_galoes = metragem_area / metragem_galao
 
-        precoFinal = quantidadeGaloes * precoGalao
+        preco_final = quantidade_galoes * preco_galao
 
-        print("Serão necessários exatos %d galões de tinta para pintar %.1f metros². O custo será R$ %.2f" % (quantidadeGaloes, metragemArea, precoFinal))
+        print("Serão necessários exatos %d galões de tinta para pintar %.1f metros². O custo será R$ %.2f" % (quantidade_galoes, metragem_area, preco_final))
 
     else:
 
-        quantidadeGaloes = metragemArea // metragemGalao + 1
+        quantidade_galoes = metragem_area // metragem_galao + 1
 
-        precoFinal = quantidadeGaloes * precoGalao
+        preco_final = quantidade_galoes * preco_galao
 
-        print("Serão necessários aos menos %d galões de tinta para pintar %.1f metros². O custo será R$ %.2f" % (quantidadeGaloes, metragemArea, precoFinal))
+        print("Serão necessários aos menos %d galões de tinta para pintar %.1f metros². O custo será R$ %.2f" % (quantidade_galoes, metragem_area, preco_final))
 
 else:
 
-    if metragemArea % metragemLata == 0:
+    if metragem_area % metragem_lata == 0:
 
-        quantidadeLatas = metragemArea / metragemLata
+        quantidade_latas = metragem_area / metragem_lata
 
-        precoFinal = quantidadeLatas * precoLata
+        preco_final = quantidade_latas * preco_lata
 
-        print("Serão necessária exatas %d latas de tinta para pintar %.1f metros². O custo será R$ %.2f" % (quantidadeLatas, metragemArea, precoFinal))
+        print("Serão necessária exatas %d latas de tinta para pintar %.1f metros². O custo será R$ %.2f" % (quantidade_latas, metragem_area, preco_final))
 
     else:
 
-        if metragemArea - metragemLata < 0:
+        if metragem_area - metragem_lata < 0:
 
-            quantidadeLatas = metragemArea // metragemLata + 1
+            quantidade_latas = metragem_area // metragem_lata + 1
 
-            precoFinal = quantidadeLatas * precoLata
+            preco_final = quantidade_latas * preco_lata
 
-            print("Serão necessária ao menos %d latas de tinta para pintar %.1f metros². O custo será R$ %.2f" % (quantidadeLatas, metragemArea, precoFinal))
+            print("Serão necessária ao menos %d latas de tinta para pintar %.1f metros². O custo será R$ %.2f" % (quantidade_latas, metragem_area, preco_final))
 
         else:
 
-            quantidadeLatas = metragemArea // metragemLata
+            quantidade_latas = metragem_area // metragem_lata
 
-            precoFinal = quantidadeLatas * precoLata
+            preco_final = quantidade_latas * preco_lata
 
-            metragemRestante = metragemArea - (metragemLata * quantidadeLatas)
+            metragemRestante = metragem_area - (metragem_lata * quantidade_latas)
 
-            if metragemRestante % metragemGalao == 0:
+            if metragemRestante % metragem_galao == 0:
 
-                quantidadeGaloes = metragemRestante / metragemGalao
+                quantidade_galoes = metragemRestante / metragem_galao
 
-                precoFinal += quantidadeGaloes * precoGalao
+                preco_final += quantidade_galoes * preco_galao
 
-                print("Serão necessárias ao menos %d latas de tinta e ao menos %d Galões para pintar %.1f metros². O custo será R$ %.2f" % (quantidadeLatas, quantidadeGaloes, metragemArea, precoFinal))
+                print("Serão necessárias ao menos %d latas de tinta e ao menos %d Galões para pintar %.1f metros². O custo será R$ %.2f" % (quantidade_latas, quantidade_galoes, metragem_area, preco_final))
 
             else:
 
-                if metragemRestante // metragemGalao >= 4:
+                if metragemRestante // metragem_galao >= 4:
 
-                    quantidadeLatas +=1
+                    quantidade_latas +=1
 
-                    precoFinal = quantidadeLatas * precoLata
+                    preco_final = quantidade_latas * preco_lata
 
-                    quantidadeGaloes = 0
+                    quantidade_galoes = 0
 
                 else:
 
-                    quantidadeGaloes = metragemRestante // metragemGalao + 1
+                    quantidade_galoes = metragemRestante // metragem_galao + 1
 
-                    precoFinal += quantidadeGaloes * precoGalao
+                    preco_final += quantidade_galoes * preco_galao
 
-                print("Serão necessárias ao menos %d latas de tinta e ao menos %d Galões para pintar %.1f metros². O custo será R$ %.2f" % (quantidadeLatas, quantidadeGaloes, metragemArea, precoFinal))
+                print("Serão necessárias ao menos %d latas de tinta e ao menos %d Galões para pintar %.1f metros². O custo será R$ %.2f" % (quantidade_latas, quantidade_galoes, metragem_area, preco_final))
 ```
 
   </details>
@@ -452,25 +454,25 @@ else:
     <summary><h4>Resposta</h4></summary>
     
 ```python
-tamanhoArquivo = float(input("Digite o tamanho do arquivo em Megabytes: "))
+tamanho_arquivo = float(input("Digite o tamanho do arquivo em Megabytes: "))
 
-if tamanhoArquivo < 1:
+if tamanho_arquivo < 1:
 
     print("Valor inválido!")
 
-velecidadeLink = float(input("Digite a velocidade de sua conexão em megabits: "))
+velecidade_link = float(input("Digite a velocidade de sua conexão em megabits: "))
 
-tempoDownload = (tamanhoArquivo / (velecidadeLink / 8))
+tempo_download = (tamanho_arquivo / (velecidade_link / 8))
 
-if tempoDownload >= 60:
+if tempo_download >= 60:
 
-    tempoDownload = tempoDownload / 60
+    tempo_download = tempo_download / 60
 
-    print("O tempo de Download será de no mínimo %.1f minutos" % tempoDownload)
+    print("O tempo de Download será de no mínimo %.1f minutos" % tempo_download)
 
 else:
 
-    print("O tempo de Download será de no mínimo %.1f segundos" % tempoDownload)
+    print("O tempo de Download será de no mínimo %.1f segundos" % tempo_download)
 ```
 
   </details>
