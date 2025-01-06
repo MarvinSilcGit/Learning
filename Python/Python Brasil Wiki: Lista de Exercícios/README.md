@@ -1086,7 +1086,7 @@ else:
     <summary><h4>Resposta</h4></summary>
     
 ```python
-import math
+import cmath
 
 a = int(input("Digite o valor de a: "))
 
@@ -1102,13 +1102,29 @@ else:
 
     delta = b ** 2 - 4 * a * c
 
-    print(math.sqrt(delta))
+    raiz_negativa = (- b - cmath.sqrt(delta)) / 2 * a
 
-    raiz_negativa = (- b - math.sqrt(delta)) / 2 * a
+    raiz_positiva = (- b + cmath.sqrt(delta)) / 2 * a
 
-    raiz_positiva = (- b + math.sqrt(delta)) / 2 * a
+    raiz_negativa = raiz_negativa.real
 
-    print(raiz_negativa, raiz_positiva)
+    raiz_positiva = raiz_positiva.real
+
+    if delta < 0:
+
+        print("A equação não possui raizes reais")
+
+    elif delta == 0:
+
+        print("A equação possui apenas uma raiz real")
+
+        print("A raiz positiva é %d" % raiz_positiva)
+
+    else:
+
+        print("A equação possui duas raiz reais")
+
+        print("A raiz negativa é %d e a raiz positiva é %d" % (raiz_negativa, raiz_positiva))
 ```
 
   </details>
