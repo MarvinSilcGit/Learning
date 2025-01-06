@@ -1975,7 +1975,7 @@ while contador != 0:
 
     else:
 
-        if numero > 1000:
+        if numero > 1000 or numero < 1:
 
             print("Valor inválido")
 
@@ -1983,17 +1983,25 @@ while contador != 0:
 
         else:
 
-            if numero > maior_numero:
+            if menor_numero == 0:
+
+                menor_numero = numero
+
+            if maior_numero < numero:
 
                 maior_numero = numero
 
-                menor_numero = numero
-
-            if numero < menor_numero:
+            if menor_numero > numero:
 
                 menor_numero = numero
 
-print("O maior número foi %d e o menor número foi %d" % (maior_numero, menor_numero))
+if maior_numero == menor_numero:
+
+    print("Os números são idênticos")
+
+else:
+
+    print("O maior número foi %d e o menor número foi %d" % (maior_numero, menor_numero))
 ```
 
   </details>
