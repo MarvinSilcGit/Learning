@@ -1,3 +1,3 @@
 ## Resources:
 
-### SQLite Tutorial
+### Code Cademy
