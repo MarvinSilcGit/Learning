@@ -3,9 +3,14 @@
     <h2>SQLite Getting Started</h2>
   </summary>
 
-  ### What is SQLite
 
-  <p></p>
+  <details>
+  <summary>
+    <h3>Section 1: Simple Query</h3>
+  </summary>
+
+  
+</details>
 
   
 </details>
