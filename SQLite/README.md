@@ -300,7 +300,7 @@ SELECT * FROM movies WHERE name LIKE 'A%';
 
 _Destrinchando o código acima_
 
-Utilizando o caractere coringa <code>%</code> no final do parâmetro, o comando vai procurar qualquer linha que começe com a letra 'A' ou 'a', tanto na forma caixa-alta ou caixa-baixa.. É possível buscar por linhas com terminem com mais de um caractere.
+Utilizando o caractere coringa <code>%</code> no início do parâmetro, o comando vai procurar qualquer linha que começe com a letra 'A' ou 'a', tanto na forma caixa-alta ou caixa-baixa.. É possível buscar por linhas com terminem com mais de um caractere.
 
 <br>
 
