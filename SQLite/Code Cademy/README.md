@@ -93,9 +93,9 @@ CREATE TABLE celebs
 ##### 1. <code>CREATE TABLE</code> é um comando que conta ao SQL que você quer criar uma nova tabela
 ##### 2. <code>celebs</code> é o nome da tabela;
 ##### 3. <code>(id INTEGER, name TEXT, age INTEGER)</code> é uma lista de parâmetros definindo cada coluna ou atributo na table e seu tipo de dado.
-##### - <code>id</code> é a primeira coluna da tabela e armazena valores do tipo <code>INTEGER</code>.
-##### - <code>name</code> é a segundo coluna e armazena valores do tipo <code>TEXT</code>.
-##### - <code>age</code> é a terceira coluna e armazena valores to tipo <code>INTEGER</code>.
+- <code>id</code> é a primeira coluna da tabela e armazena valores do tipo <code>INTEGER</code>.
+- <code>name</code> é a segundo coluna e armazena valores do tipo <code>TEXT</code>.
+- <code>age</code> é a terceira coluna e armazena valores to tipo <code>INTEGER</code>.
 
 <br>
 
@@ -285,6 +285,14 @@ SELECT * FROM movies WHERE year > 1999;
 ```
 
 ##### 1. <code>WHERE</code> é a declaração que especifica qual linha da coluna selecionada será alterada se o parâmetro for verdadeiro.
+##### 2. Podem ser utilizados os seguintes operadores relacionais em conjunto com <code>WHERE</code>:
+
+- <code>=</code>: igual a
+- <code>!=</code> diferente de
+- <code>></code> maior que
+- <code><</code> menor que
+- <code>>=</code> maior ou igual a
+- <code><=</code> menor ou igual a
 
 <br>
 
