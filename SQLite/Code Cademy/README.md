@@ -114,8 +114,8 @@ VALUES (1, 'Justin Bieber', 29);
 
 _Destrinchando o código acima_
 
-1. <code>INSERT INTO</code> é um comando que adiciona a especificada coluna ou colunas.
-2. <code>VALUES</code> é comando que indica os valores que estão sendo inseridos para cada coluna na ordem.
+1. <code>INSERT INTO</code> é o comando que adiciona os dados a uma especificada coluna.
+2. <code>VALUES</code> é comando que indica os valores que estão sendo inseridos para cada coluna na ordem criada.
 
 <br>
 
