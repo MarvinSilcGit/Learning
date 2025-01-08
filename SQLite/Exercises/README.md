@@ -31,7 +31,8 @@ CREATE TABLE enfermeiro
     salario REAL,
     email TEXT UNIQUE,
     endereco TEXT NOT NULL,
-    codigo_crm TEXT UNIQUE
+    codigo_crm TEXT UNIQUE,
+    genero_sexual TEXT NOT NULL
 );
 
 CREATE TABLE departamento
