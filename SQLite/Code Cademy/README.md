@@ -64,9 +64,9 @@ mindmap
 ```sql
 CREATE TABLE table_name
 (
-	 column_1 data_type, 
+   column_1 data_type, 
    column_2 data_type, 
-	 column_3 data_type
+   column_3 data_type
 );
 ```
 
@@ -85,7 +85,7 @@ _Destrinchando o código acima_
 ```sql
 CREATE TABLE celebs
 (
-	 id INTEGER, 
+   id INTEGER, 
    name TEXT, 
    age INTEGER
 );
