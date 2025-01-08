@@ -353,6 +353,8 @@ SELECT * FROM movies WHERE year BETWEEN 1990 AND 1999;
 
 ##### Irá pesquisar os anos de 1990 até 1999 inclusive
 
+<br>
+
 ```sql
 SELECT * FROM movies WHERE name BETWEEN 'A' AND 'J';
 ```
@@ -377,55 +379,64 @@ SELECT * FROM movies WHERE year < 1985;
 SELECT * FROM movies WHERE year BETWEEN 1990 AND 1999 AND genre = 'romance';
 ```
 
-_Comparação feita entre <code>BETWEEN 1990 AND 1999</code> e <code>genre = 'romance'</code>_
-
-```sql
-SELECT * FROM movies WHERE year < 1985 AND genre = 'horror';
-```
-
-_Comparação feita entre <code>year < 1985</code> e <code>genre = 'horror'</code>_
+##### Comparação feita entre <code>BETWEEN 1990 AND 1999</code> e <code>genre = 'romance'</code>
 
 <br>
 
+```sql
+SELECT * FROM movies WHERE year < 1985 OR genre = 'horror';
+```
+
+##### Comparação feita entre <code>year < 1985</code> e <code>genre = 'horror'</code>
+
+<br>
+
+
 ### ORDERY BY
 
-<p>Esse comando é utilizado para ordenar as linhas da tabela através do uso de uma coluna como referência. Utilize os comandos <code>ASC</code> para ordenação ascendente e <code>DESC</code> para ordenação descendente. Por padrão a ordenação é feita do menor para o maior, seja número ou texto.</p>
+#### Esse comando é utilizado para ordenar as linhas da tabela através do uso de uma coluna como referência. Utilize os comandos <code>ASC</code> para ordenação ascendente e <code>DESC</code> para ordenação descendente. Por padrão a ordenação é feita do menor para o maior, seja número ou texto.
 
 ```sql
 SELECT * FROM movies ORDER BY name;
 ```
 
-_Nesse caso, as linhas serão ordenada em ordem alfabética_
+##### Nesse caso, as linhas serão ordenada em ordem alfabética
 
+<br>
 
 ```sql
 SELECT * FROM movies WHERE imdb_rating > 8 ORDER BY year DESC;
 ```
 
-_Note que o <code>ORDER BY</code> vem depois de <code>WHERE</code> (se estiver presente)_
+##### Note que o <code>ORDER BY</code> vem depois de <code>WHERE</code> (se estiver presente)
+
+<br>
 
 ```sql
 SELECT * FROM movies WHERE year BETWEEN 1990 AND 1999 AND genre = 'romance' ORDER BY year;
 ```
-_É possível aplicar ordem depois de condições_
+
+#### É possível aplicar ordem depois de condições
 
 <br>
 
+
 ### LIMIT
 
-<p>Possui a função de limitar a quantidade de linhas que serão buscadas na consulta.</p>
+##### Possui a função de limitar a quantidade de linhas que serão buscadas na consulta.
 
 ```sql
 SELECT * FROM movies WHERE imdb_rating > 8 LIMIT 10;
 ```
 
-_É possível utilizar com ou sem outros comandos de consulta_
+##### É possível utilizar com ou sem outros comandos de consulta.
 
 <br>
 
+
 ### CASE
 
-<p>Esse comando permite criar uma avaliação de múltiplas condições de maneira mais organiza e permite também nova ação caso seja verdadeira tal condição. Entre o comando <code>WHEN</code> e <code>THEN</code> é possível diferentes tipos de condições. Em teoria, não há limite para quais combinações, porém, cuidado, pois elas podem ficar redundantes.</p>
+##### Essa declaração permite criar uma avaliação de múltiplas condições de maneira mais organizada. E permite, também, nova ação caso seja verdadeira tal condição. Entre o comando <code>WHEN</code> e <code>THEN</code> é possível diferentes tipos de condições. Em teoria, não há limite para quais combinações, porém, cuidado, pois elas podem ficar redundantes.
 
 ```sql
 SELECT name,
@@ -445,25 +456,14 @@ END AS 'Notinhas'
 FROM movies;
 ```
 
-_Utilizando operador relacional_
+##### 1. <code>CASE</code> é utilizado para criar múltiplas condições. 
+##### 2. <code>WHEN</code> é utilizada para avaliar se um conjunto de comparações lógicas são verdadeiras.
+##### 3. <code>THEN</code> caso seja a comparação verdadeira, retorne alguma informação.
+##### 4. <code>ELSE</code> caso nenhuma comparação lógica seja verdadeira, retorne a consulta com a alguma informação.
+##### 5. <code>END</code> declaração utilizada para dar fim às múltiplas condições iniciada pelo <code>CASE</code> e dar nome à coluna adicional que irá retornar as informações.
 
-```sql
-SELECT name,
+<br>
 
-CASE
-
-  WHEN name = 'Spider-Man' THEN "Crazy shit"
-
-  WHEN imdb_rating > 6 THEN 'Good at best'
-
-  ELSE 'Dumpster fire'
-
-END AS 'Notinhas'
-
-FROM movies;
-```
-
-_Referenciando outra coluna na primeira condição_
 
 </details>
 
