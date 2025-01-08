@@ -209,13 +209,13 @@ CREATE TABLE celebs
 
 _Distrinchando o código acima:_
 
-<p>><code>PRIMARY KEY</code> é a restrição que define uma coluna da tabela como sendo o identificador universal da própria tabela e que não pode ser repetido. Somente é permitida uma restrição dessa por tabela.</p>
+##### <code>PRIMARY KEY</code> é a restrição que define uma coluna da tabela como sendo o identificador universal da própria tabela e que não pode ser repetido. Somente é permitida uma restrição dessa por tabela.
 
-<p><code>UNIUE</code> é a restrição que diz que determinada coluna tem um valor único que não pode ser repetido. Tem semelhança com <code>PRIMARY KEY</code> mas não a mesma função.</p>
+##### <code>UNIUE</code> é a restrição que diz que determinada coluna tem um valor único que não pode ser repetido. Tem semelhança com <code>PRIMARY KEY</code> mas não a mesma função.
 
-<p><code>NOT NULL</code> é a restrição que impede a inserção de nova linha em branco na coluna em questão que sejam em branco.</p>
+##### <code>NOT NULL</code> é a restrição que impede a inserção de nova linha em branco na coluna em questão que sejam em branco.
 
-<p><code>DEFAULT</code> é a restrição que declara outro valor padrão caso, na hora de inserção de uma nova linha, esse valor esteja em branco</p>
+##### <code>DEFAULT</code> é a restrição que declara outro valor padrão caso, na hora de inserção de uma nova linha, esse valor esteja em branco
 
 
 </details>
@@ -242,9 +242,7 @@ mindmap
 
 ### Introduction
 
-<p>Um dos principais propósitos de uma linguagem SQL é recuperar informação armazenada no banco de dados. Isso é comumente conhecido como consulta. Consultas permitem-nos comunicar com um banco de dados perguntando e ele devolvendo um conjunto de resultados com dados relevantes.</p>
-
-<p>Nós deveríamos nos habituar com a tabela <code>movies</code></p>
+##### Um dos principais propósitos de uma linguagem SQL é recuperar informação armazenada no banco de dados. Isso é comumente conhecido como consulta. Consultas permitem-nos comunicar com um banco de dados perguntando e ele devolvendo um conjunto de resultados com dados relevantes.
 
 ```sql
 SELECT * FROM movies;
@@ -254,9 +252,9 @@ SELECT * FROM movies;
  
 ### SELECT
 
-<p>Anteriormente, nós aprendemos que o comando <code>SELECT</code> é usado toda vez que você quer consultar dados de um banco de dados. O <code>*</code> significa que todas as colunas da tabela <code>movies</code> serão recuperadas.</p>
+##### Anteriormente, nós aprendemos que o comando <code>SELECT</code> é usado toda vez que você quer consultar dados de um banco de dados. O <code>*</code> significa que todas as colunas da tabela <code>movies</code> serão recuperadas.
 
-<p>Suponha que nós estamos somente interessados em duas das colunas. Nós podemos selecionar colunas individualmente pelo seus nomes.</p>
+##### Suponha que nós estamos somente interessados em duas das colunas. Nós podemos selecionar colunas individualmente pelo seus nomes.
 
 ```sql
 SELECT column1, column2 FROM table_name;
@@ -271,7 +269,9 @@ SELECT name AS 'Titles'
 FROM movies;
 ```
 
-<p><code>AS</code> é o comando que permite modificar o noma da coluna somente na hora da exibição, mas não modificar de fato na tabela. Está mais para um recurso visual. No caso acima, ao invés de exibir <code>name</code> será exibido <code>Titles.</code></p>
+_Destrinchando o código acima_
+
+##### <code>AS</code> é o comando que permite modificar o noma da coluna somente na hora da exibição, mas não modificar de fato na tabela. Está mais para um recurso visual. No caso acima, ao invés de exibir <code>name</code> será exibido <code>Titles.</code>
 
 <br>
 
@@ -281,59 +281,66 @@ FROM movies;
 SELECT DISTINCT year FROM movies;
 ```
 
-<p>O comando <code>DISTINCT</code> é utilizado para exibir linhas de um coluna que possuem valores não repetidos. No caso acima, todas as linhas onde a coluna <code>year</code> possui valores distintos.</p>
+_Destrinchando o código acima:_
+
+##### O comando <code>DISTINCT</code> é utilizado para exibir linhas de um coluna que possuem valores não repetidos. No caso acima, todas as linhas onde a coluna <code>year</code> possui valores distintos.
+
 
 <br>
 
 ### WHERE
 
-<p><code>WHERE</code> é comando que especifica qual linha da coluna selecionada será alterada se o parâmetro for verdadeiro.</p>
+```sql
+SELECT * FROM movies WHERE year > 1999;
+```
+
+_Destrinchando código acima: <code>WHERE</code> é comando que especifica qual linha da coluna selecionada será alterada se o parâmetro for verdadeiro._
+
 
 <br>
 
 ### LIKE
 
-<p>O comando <code>LIKE</code> é utilizado em conjunção com <code>SELECT FROM</code> e <code>WHERE</code> para filtrar os dados de uma coluna de acordo com parâmetro.</p>
+O comando <code>LIKE</code> é utilizado em conjunção com <code>SELECT FROM</code> e <code>WHERE</code> para filtrar os dados de uma coluna de acordo com parâmetro.
 
 ```sql
 SELECT * FROM movies WHERE name LIKE 'A%';
 ```
 
-_Destrinchando o código acima_
+_Destrinchando o código acima: Utilizando o caractere coringa <code>%</code> no início do parâmetro, o comando vai procurar qualquer linha que começe com a letra 'A' ou 'a', tanto na forma caixa-alta ou caixa-baixa. É possível buscar por linhas com terminem com mais de um caractere._
 
-Utilizando o caractere coringa <code>%</code> no início do parâmetro, o comando vai procurar qualquer linha que começe com a letra 'A' ou 'a', tanto na forma caixa-alta ou caixa-baixa. É possível buscar por linhas com terminem com mais de um caractere.
 
 <br>
+
 
 ```sql
 SELECT * FROM movies WHERE name LIKE '%A';
 ```
 
-_Destrinchando o código acima_
-
-Utilizando o caractere coringa <code>%</code> no final do parâmetro, o comando vai procurar qualquer linha que termine com a letra 'A' ou 'a', tanto na forma caixa-alta ou caixa-baixa. É possível buscar por linhas com terminem com mais de um caractere.
+_Destrinchando o código acima: Utilizando o caractere coringa <code>%</code> no final do parâmetro, o comando vai procurar qualquer linha que termine com a letra 'A' ou 'a', tanto na forma caixa-alta ou caixa-baixa. É possível buscar por linhas com terminem com mais de um caractere._
 
 <br>
+
 
 ```sql
 SELECT * FROM movies WHERE name LIKE '%man%';
 ```
 
-_Destrinchando o código acima_
+_Destrinchando o código acima: Utilizando o caractere coringa <code>%</code> no início e fim do parâmetro, o comando vai procurar qualquer linha que contenha o texto 'man', tanto na forma caixa-alta ou caixa-baixa._
 
-Utilizando o caractere coringa <code>%</code> no início e fim do parâmetro, o comando vai procurar qualquer linha que contenha o texto 'man', tanto na forma caixa-alta ou caixa-baixa.
+
 
 <br>
+
 
 ```sql
 SELECT * FROM movies WHERE name LIKE 'B%A';
 ```
 
-_Destrinchando o código acima_
-
-Utilizando o caractere coringa <code>%</code> no meio do parâmetro, o comando vai procurar qualquer linha que começe com 'B' e termine com 'A', tanto na forma caixa-alta ou caixa-baixa.
+_Destrinchando o código acima: Utilizando o caractere coringa <code>%</code> no meio do parâmetro, o comando vai procurar qualquer linha que começe com 'B' e termine com 'A', tanto na forma caixa-alta ou caixa-baixa._
 
 <br>
+
 
 ### NULL (IS NULL, IS NOT NULL)
 
@@ -342,8 +349,7 @@ Utilizando o caractere coringa <code>%</code> no meio do parâmetro, o comando v
 ```sql
 SELECT name FROM movies WHERE imdb_rating IS NOT NULL;
 ```
-
-_No código acima vai exibir linhas das colunas onde imd_rating não é nulo_
+_Destrinchando o código acima: no código acima vai exibir linhas das colunas onde imd_rating não é nulo_
 
 ```sql
 SELECT name FROM movies WHERE imdb_rating IS NULL;
