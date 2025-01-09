@@ -64,6 +64,9 @@ function sum (x, y)
   return x % y;
 }
 ```
+
+#### Lembrete: cada função criada precisar conter o comando <code>return</code>, pois ele será responsável por entregar/retornar o resultado das atividades dentro da função.
+
 </details>
 
 <details>
