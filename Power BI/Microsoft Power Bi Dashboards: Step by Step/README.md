@@ -51,6 +51,17 @@
     <li>What is Power Bi Embedded?</li>
   </ol>
 
+  ### Answers
+
+  <ol>
+    <li>The premium package expand the capabilites of the pro pacakage like: more updates per day, near-infinite cloud storage, even higher capacity, more security and embebbed reports in external applications.</li>
+    <li>Customization, up to 70 data sources, sharing reports, report server, 10 GB storage per user, up to 1 million new rows per hour, to name a few.</li>
+    <li>It is the be able to understand a phrase in plain text (like english) and use it to convert the query in commands and perform the query made by the user accordingly.</li>
+    <li>Power BI Report Server.</li>
+    <li>It is a feature of Power Bi responsible for gather internal data of the organization for its own use in order to others members within the organization, in different levels, being able to analyse, insert e modify the data concerning their activities, to be shown in reports. And thus, improve the comunication between they and the understanding about how this microsystem works.</li>
+    <li></li>
+  </ol>
+
 </details>
 
 <details>
