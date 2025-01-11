@@ -1,12 +1,12 @@
 <details>
 
   <summary>
-    <h2>Fundação Bradesco: Fundamentos do Power BI</h2>
+    <h1>Fundação Bradesco: Fundamentos do Power BI</h1>
   </summary>
 
   <details>
     <summary>
-      <h3>Introdução à Análise de Dados</h3>
+      <h2>Introdução à Análise de Dados</h2>
     </summary>
     
 ```mermaid
