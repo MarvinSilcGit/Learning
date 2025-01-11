@@ -5,10 +5,22 @@
     <h2>Chapter 1: Introduction to Power BI</h2>
   </summary>
 
+  ### Skills review
+
+  <ul>
+    <li>Business Intelligence (BI).</li>
+    <li>How Power BI effectively streamlines organizational growth.</li>
+    <li>Features of Power BI.</li>
+    <li>Power BI platforms and licensing models.</li>
+    <li>Procedures for setting up Power BI service, Power BI Desktop, and Power BI for mobile devices.</li>
+    <li>The procedure for building a dashboard in Power BI.</li>
+  </ul>
+
+  <br>
+  
   ### Case Study
 
-  <p>Consider a large finance company in which an IT project manager is charged with
-deciding which version of Power BI to adopt. Here’s the scenario:</p>
+  #### Consider a large finance company in which an IT project manager is charged with deciding which version of Power BI to adopt. Here’s the scenario:
 
   <ul>
     <li>The finance organization has millions of row of data.</li>
@@ -20,8 +32,10 @@ deciding which version of Power BI to adopt. Here’s the scenario:</p>
     <li>The finance company wants to set up an on-premises environment within the organization.</li>
   </ul>
 
-  <p>Based on these points, decide whether the finance company should select the Power BI Pro version or the Premium package.</p>
+  #### Based on these points, decide whether the finance company should select the Power BI Pro version or the Premium package.
 
+  <br>
+  
   ### Practice questions
 
   <ol>
