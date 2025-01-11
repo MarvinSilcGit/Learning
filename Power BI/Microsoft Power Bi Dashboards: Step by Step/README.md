@@ -34,6 +34,10 @@
 
   #### Based on these points, decide whether the finance company should select the Power BI Pro version or the Premium package.
 
+  #### Resposta: Devido à grande quantidade de volume de dados, da necessidade de atualizações constantes dos registros dentro do banco de dados, do controle de acesso aos painéis digitais e demanda para o alto desempenho, essa organização deve selecionar o pacote Power BI premium. Com esse pacote, ela será capaz de ter sua demandas minimanente atendidas sem necessidade de adaptaçãoes indesejadas em vistas de reduzir custos no curto prazo ao escolher o pacote Power BI Pro.
+
+  #### Answer: Due to the large amount of data, the need of continuous updates in the database, the handling of dashboards by multiple and different users, the demand for high-perfomance system, this company should select the premium package. Thereby, it will be able to perform its daily tasks without major hassles, with no need to downgrade the service in order to save a buck by selecting the pro package.
+
   <br>
   
   ### Practice questions
