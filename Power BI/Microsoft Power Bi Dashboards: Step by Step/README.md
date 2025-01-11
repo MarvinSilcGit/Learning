@@ -65,9 +65,9 @@
     <li>It is a feature of Power Bi responsible for gather internal data of the organization for its own use in order to others members within the organization, in different levels, being able to analyse, insert e modify the data concerning their activities, to be shown in reports. And thus, improve the comunication between they and the understanding about how this microsystem works.</li>
     <li>It is a feature utilized to embed dashboards into other applications besides de Power BI App, like websites.</li>
     <li>The pro or premium license.</li>
-    <li></li>
+    <li>They are graphical representations of data sources. These sources can ben excel workbooks, sql file, text/csv file an so on so forth. They can be expressed through graphics, charts or tables</li>
     <li>Head to microsoft website and download the free version of Power BI. After that, execute the .exe file e go through the steps.</li>
-    <li></li>
+    <li>Head to Power BI. In the home panel chosse which one of the options the data source is stored. After that, just wait the application fetch all the data.</li>
   </ol>
 
 </details>
