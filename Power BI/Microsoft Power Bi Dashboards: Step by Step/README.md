@@ -5,6 +5,34 @@
     <h2>Chapter 1: Introduction to Power BI</h2>
   </summary>
 
+  ### Case Study
+
+  <p>Consider a large finance company in which an IT project manager is charged with
+deciding which version of Power BI to adopt. Here’s the scenario:</p>
+
+  <ul>
+    <li>The finance organization has millions of row of data.</li>
+    <li>Thousands of new rows are added to the database erery hour.</li>
+    <li>Employees have various roles, according to their professions.</li>
+    <li>Some employees act only as end user, viewing reports containing this data.</li>
+    <li>Some employees are analysts and require the ability to share Power BI dashboards.</li>
+    <li>Some employees focus on high-precision data to improve their understanding of perfomance</li>
+    <li>The finance company wants to set up an on-premises environment within the organization.</li>
+  </ul>
+
+  <p>Based on these points, decide whether the finance company should select the Power BI Pro version or the Premium package.</p>
+
+  ### Practice questions
+
+  <ol>
+    <li>What is the difference between Power BI Pro and Power BI Premium</li>
+    <li>What services does Power BI support?</li>
+    <li>Describe the natural query processing capabilities in Power BI.</li>
+    <li>What Power BI feature supports an on-premises environment?</li>
+    <li>What is Power BI Report Server?</li>
+    <li>What is Power Bi Embedded?</li>
+  </ol>
+
 </details>
 
 <details>
