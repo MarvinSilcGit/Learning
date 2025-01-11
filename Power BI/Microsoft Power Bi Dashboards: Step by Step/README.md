@@ -63,10 +63,10 @@
     <li>It is the be able to understand a phrase in plain text (like english) and use it to convert the query in commands and perform the query made by the user accordingly.</li>
     <li>Power BI Report Server.</li>
     <li>It is a feature of Power Bi responsible for gather internal data of the organization for its own use in order to others members within the organization, in different levels, being able to analyse, insert e modify the data concerning their activities, to be shown in reports. And thus, improve the comunication between they and the understanding about how this microsystem works.</li>
+    <li>It is a feature utilized to embed dashboards into other applications besides de Power BI App, like websites.</li>
+    <li>The pro or premium license.</li>
     <li></li>
-    <li></li>
-    <li></li>
-    <li></li>
+    <li>Head to microsoft website and download the free version of Power BI. After that, execute the .exe file e go through the steps.</li>
     <li></li>
   </ol>
 
