@@ -49,6 +49,10 @@
     <li>What Power BI feature supports an on-premises environment?</li>
     <li>What is Power BI Report Server?</li>
     <li>What is Power Bi Embedded?</li>
+    <li>What kind of license do you need to share your Power BI dashboard with other team members?</li>
+    <li>Why are visuals used in Power BI Desktop?</li>
+    <li>How do you set up Power BI Desktop</li>
+    <li>How do you set up a dynamic dashboard in Power BI.</li>
   </ol>
 
   ### Answers
@@ -59,6 +63,10 @@
     <li>It is the be able to understand a phrase in plain text (like english) and use it to convert the query in commands and perform the query made by the user accordingly.</li>
     <li>Power BI Report Server.</li>
     <li>It is a feature of Power Bi responsible for gather internal data of the organization for its own use in order to others members within the organization, in different levels, being able to analyse, insert e modify the data concerning their activities, to be shown in reports. And thus, improve the comunication between they and the understanding about how this microsystem works.</li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
     <li></li>
   </ol>
 
