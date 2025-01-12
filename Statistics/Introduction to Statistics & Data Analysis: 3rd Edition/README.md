@@ -66,11 +66,11 @@
   <ol>
     <li>A estatística descritiva é ramo responsável por coletar, organizar e resumir os dados de modos que eles possam ser de utilidade para o objetivo da pesquisa. A estatística inferencial é o ramo responsável por generalizar a interepretação dos agrupamento de dados a partir de uma amostra menor e representativa de um grupo consideravelmente maior.</li>
     <li>População se refere à totalidade do grupo alvo da pesquisa. Já uma amostra se refere a uma porção selecionada desse grupo.</li>
-    <li></li>
-    <li></li>
-    <li></li>
-    <li></li>
-    <li></li>
+    <li>Computed from a samples?</li>
+    <li>A amostra desse estudo se refere às 2121 crianças. Já a população seria todas as criança com a idade entre 1 e 4</li>
+    <li>A população de interesse são os 15 mil estudantes. Já a mostra são os 200 estudantes.</li>
+    <li>A população de interesse sãos 7000 fazendeiros. Já a amostra são os 500 fazendeiros.</li>
+    <li>A populção de interesse são todos os proprietários das habitações em Northridge, California. Já a amostra foram os proprietários que tiveram suas casas inspecionadas.</li>
     <li></li>
     <li></li>
     
