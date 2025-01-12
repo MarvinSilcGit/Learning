@@ -79,5 +79,7 @@
    
    #### 1.4 Types of Data and Some Simple Graphical Displays
 
+   <p>Cada indivíduo, animal ou objeto possui características que o diferenciam ou não de outros de seu grupo e que podem se alterar ou não conforme o tempo. Essas características são chamadas de <b>variáveis</b> e são fundamentais na estatística. <b>Dados</b>, por sua vez, resultam da observação dessas variáveis. Depois que esse dados são medidos ou contados eles se tranformam em <b>conjunto de dados</b>, que podem univariados, bivariados, multivariados.</p>
+
    
   </details>
