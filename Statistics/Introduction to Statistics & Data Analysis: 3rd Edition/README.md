@@ -64,8 +64,8 @@
   ### Answers 1.1 - 1.9
 
   <ol>
-    <li></li>
-    <li></li>
+    <li>A estatística descritiva é ramo responsável por coletar, organizar e resumir os dados de modos que eles possam ser de utilidade para o objetivo da pesquisa. A estatística inferencial é o ramo responsável por generalizar a interepretação dos agrupamento de dados a partir de uma amostra menor e representativa de um grupo consideravelmente maior.</li>
+    <li>População se refere à totalidade do grupo alvo da pesquisa. Já uma amostra se refere a uma porção selecionada desse grupo.</li>
     <li></li>
     <li></li>
     <li></li>
