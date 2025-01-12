@@ -39,7 +39,7 @@
 
    <p>A <b>Estatística inferencial</b> envolve generalizar a partir de uma amostra retirada de uma população. Porém, quando nós generalizamos corremos o risco de uma conclusão incorreta, pois a conclusão sobre uma população é baseada numa informação incompleta. Um aspecto importante ao desenvolver técnicas inferenciais envolve quantificar a chance de uma conclusão incorreta.</p>
 
-   #### Definitions:
+   #### Definition:
 
    <p>A coleção inteira de indivíduos ou objetos sobre o qual a informação precisa ser extraída é chamada de <b>população</b> de interesse. Uma <b>amostra</b> é um subconjunto da população de interesse selecionada de maneira intencional.</p>
 
@@ -80,6 +80,16 @@
    #### 1.4 Types of Data and Some Simple Graphical Displays
 
    <p>Cada indivíduo, animal ou objeto possui características que o diferenciam ou não de outros de seu grupo e que podem se alterar ou não conforme o tempo. Essas características são chamadas de <b>variáveis</b> e são fundamentais na estatística. <b>Dados</b>, por sua vez, resultam da observação dessas variáveis. Depois que esse dados são medidos ou contados eles se tranformam em <b>conjunto de dados</b>, que podem univariados, bivariados, multivariados.</p>
+
+
+   #### Definition: univariados, bivariados, multivariados
+
+### COLOCAR MAPA DAS CLASSIFICAÇÕES DE CONJUNTO DE DADOS
+
+### COLOCAR MAPA DAS CLASSIFCAÇÕES DE CONJUNTOS DE DADOS NUMÉRICOS E CATEGÓRICOS
+
+
+   #### Definition:  CONJUNTOS DE DADOS NUMÉRICOS E CATEGÓRICOS
 
    
   </details>
