@@ -140,7 +140,7 @@ SELECT * FROM celebs;
 
 ### ALTER
 
-##### A declaração <code>ALTER TABLE</code> juntamente com <code>ADD COLUMN</code> e <code>RENAME TO</code> permitem alterar a estrutura de uma tabela.
+##### A declaração <code>ALTER TABLE</code> juntamente com <code>ADD COLUMN</code>, <code>RENAME TO</code> e <code>DROP</code> permitem alterar a estrutura de uma tabela.
 
 ```sql
 ALTER TABLE celebs 
@@ -150,6 +150,7 @@ ADD COLUMN twitter_handle TEXT;
 ##### 1. <code>ALTER TABLE</code> é o comando que permite você fazer mudanças específicas.
 ##### 2. <code>ADD COLUMN</code> é o comando que permite você adicionar coluna.
 ##### 3. <code>RENAME TO</code> é o comando que permite alterar o nome de uma tabela ou coluna;
+##### 5. <code>DROP</code> é o comando que permite excluir uma coluna de um tabala;
 
 ```sql
 ALTER TABLE celebs
@@ -162,6 +163,12 @@ ALTER TABLE celebs
 RENAME expenses TO cost; 
 ```
 _Alterando nome da coluna_
+
+```sql
+ALTER TABLE celebrities
+DROP COLUMN cost;
+```
+_Exluindo a coluna cost_
 
 <br>
 
