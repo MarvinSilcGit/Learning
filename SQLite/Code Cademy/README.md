@@ -491,7 +491,19 @@ FROM movies;
 <details>
 	<summary><h2>Aggregate Functions</h2></summary>
 
- #### Funções agregadores são utilizadas no SQL para dar dinamismo à linguagem e fornecer operações matemáticas;
+ ```mermaid
+mindmap
+	**Aggregate functions**
+		(Count)
+		(Sum)
+		(Max / Min)
+		(Average)
+		(Round)
+		(Groub by)
+		(Having)
+```
+
+ #### Funções agregadores são utilizadas no SQL para dar dinamismo à linguagem e fornecer mais do que apenas definção, manipulação e extração de dados, através de operações matemáticas;
 
 </details>
 
