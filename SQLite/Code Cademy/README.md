@@ -234,7 +234,7 @@ mindmap
 		(AS)
 		(DISTINCT)
 		(WHERE)
-		(LIKE I, II)
+		(LIKE)
 		(IS NULL)
 		(BETWEEN)
 		(AND)
