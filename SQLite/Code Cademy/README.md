@@ -478,9 +478,9 @@ FROM movies;
 ```
 
 ##### 1. <code>CASE</code> é utilizado para criar múltiplas condições. 
-##### 2. <code>WHEN</code> é utilizada para avaliar se um conjunto de comparações lógicas são verdadeiras.
-##### 3. <code>THEN</code> caso seja a comparação verdadeira, retorne alguma informação.
-##### 4. <code>ELSE</code> caso nenhuma comparação lógica seja verdadeira, retorne a consulta com a alguma informação.
+##### 2. <code>WHEN</code> é a condição utilizada para avaliar se um conjunto de comparações lógicas são verdadeiras.
+##### 3. <code>THEN</code> caso seja a comparação verdadeira, retorne alguma informação na coluna adicional.
+##### 4. <code>ELSE</code> caso nenhuma comparação lógica seja verdadeira, retorne a consulta com a alguma informação na coluna adicional.
 ##### 5. <code>END</code> declaração utilizada para dar fim às múltiplas condições iniciada pelo <code>CASE</code> e dar nome à coluna adicional que irá retornar as informações.
 
 <br>
