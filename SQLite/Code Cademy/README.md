@@ -244,8 +244,7 @@ mindmap
 		(LIKE)
 		(IS NULL)
 		(BETWEEN)
-		(AND)
-		(OR)
+		(AND / OR)
 		(ORDER BY)
 		(LIMIT)
 		(CASE)
@@ -503,7 +502,17 @@ mindmap
 		(Having)
 ```
 
- #### Funções agregadores são utilizadas no SQL para dar dinamismo à linguagem e fornecer mais do que apenas definção, manipulação e extração de dados, através de operações matemáticas;
+ #### Funções agregadores são utilizadas no SQL para dar dinamismo à linguagem e fornecer mais do que apenas definção, manipulação e extração de dados, através de operações matemáticas.
+
+ <br>
+ 
+ ### Count
+
+ #### 
+
+ ```sql
+
+ ```
 
 </details>
 
