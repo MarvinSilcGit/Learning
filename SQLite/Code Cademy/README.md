@@ -493,13 +493,13 @@ FROM movies;
  ```mermaid
 mindmap
 	**Aggregate functions**
-		(Count)
-		(Sum)
-		(Max / Min)
-		(Average)
-		(Round)
-		(Groub by)
-		(Having)
+		(COUNT)
+		(SUM)
+		(MAX / MIN)
+		(AVG)
+		(ROUND)
+		(GROUP BY)
+		(HAVING)
 ```
 
  #### Funções agregadores são utilizadas no SQL para dar dinamismo à linguagem e fornecer mais do que apenas definção, manipulação e extração de dados, através de operações matemáticas.
