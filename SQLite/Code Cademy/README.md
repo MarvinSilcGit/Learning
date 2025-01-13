@@ -508,10 +508,12 @@ mindmap
  
  ### Count
 
- #### 
+ #### O comando <code>Code</code> é utilizado para fazer a contagem de quantas linhas (incluindo linhas com valores nulos) há em uma tabela, ao utilizar o caractere <code>*</code> como argumento. Se for utilizado o nome de uma coluna, a contagem será feita somente com linhas que não possuírem valores nulos.
 
  ```sql
+SELECT COUNT (*) FROM table_name;
 
+SELECT COUNT (column_name) FROM table_name;
  ```
 
 </details>
