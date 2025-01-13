@@ -502,7 +502,7 @@ mindmap
 		(HAVING)
 ```
 
- #### Funções agregadores são utilizadas no SQL para dar dinamismo à linguagem e fornecer mais do que apenas definção, manipulação e extração de dados, através de operações matemáticas.
+ #### Funções agregadores são utilizadas no SQL para dar dinamismo à linguagem e fornecer mais do que apenas definição, manipulação e extração de dados, através de operações matemáticas.
 
  <br>
  
@@ -515,6 +515,41 @@ SELECT COUNT (*) FROM table_name;
 
 SELECT COUNT (column_name) FROM table_name;
  ```
+
+<br>
+
+### SUM
+
+#### O comando <code>SUM</code> é utilizado para somar todos os valores da coluna que for informada no argumento da consulta.
+
+```sql
+SELECT SUM (downloads) FROM fake_apps;
+```
+
+<br>
+
+### MAX / MIN
+
+#### Os comandos <code>MAX</code> e <code>MIN</code> retornam os maiores e menores valores da coluna que for informada no argumento da consulta.
+
+```sql
+SELECT MAX (downloads) FROM fake_apps;
+
+SELECT MIN (downloads) FROM fake_apps;
+```
+
+<br>
+
+### AVG
+
+#### O comando <code>AVG</code> retorna a média dos valores da coluna que for informada no argumento da consulta.
+
+```sql
+SELECT AVG(downloads) FROM fake_apps;
+```
+
+<br>
+
 
 </details>
 
