@@ -400,7 +400,7 @@ SELECT * FROM movies WHERE year < 1985;
 SELECT * FROM movies WHERE year BETWEEN 1990 AND 1999 AND genre = 'romance';
 ```
 
-##### Comparação feita entre <code>BETWEEN 1990 AND 1999</code> e <code>genre = 'romance'</code>
+_Comparação feita entre <code>BETWEEN 1990 AND 1999</code> e <code>genre = 'romance'</code>_
 
 <br>
 
@@ -408,7 +408,7 @@ SELECT * FROM movies WHERE year BETWEEN 1990 AND 1999 AND genre = 'romance';
 SELECT * FROM movies WHERE year < 1985 OR genre = 'horror';
 ```
 
-##### Comparação feita entre <code>year < 1985</code> e <code>genre = 'horror'</code>
+_Comparação feita entre <code>year < 1985</code> ou <code>genre = 'horror'</code>_
 
 <br>
 
