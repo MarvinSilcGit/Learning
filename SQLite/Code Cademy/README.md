@@ -14,31 +14,31 @@ mindmap
 	
 ### What is SQLite
 
-##### SQLite é um moto de banco de dados. Ele permite usuários interagir com um banco de dados relacional. Em SQLite, o banco de dados é armazenado em um único arquivo. Esse fato permite uma grande acessibilidade: copiar um banco de dados não é mais complicado do que copiar um arquivo qualquer.
+#### SQLite é um moto de banco de dados. Ele permite usuários interagir com um banco de dados relacional. Em SQLite, o banco de dados é armazenado em um único arquivo. Esse fato permite uma grande acessibilidade: copiar um banco de dados não é mais complicado do que copiar um arquivo qualquer.
 
 <br>
 
 ### Drawbacks To SQLite
 
-##### A sua característica de ser portável o faz uma escolha ruim para quando muito usuários estão atualizando a tabela ao mesmo tempo (para manter integridade, somente um usuário por vez pode alterar a tabela). Ele também não oferece tantas funcionalidades quantos outros motores de banco de dados. Por último, SQLite não valida tipo de dados: onde muito bancos de dados rejeitariam dados que não estão de acordo com o esquema da tabela, SQLite permite a usuários armazenar dados de qualquer tipo em qualquer coluna.
+#### A sua característica de ser portável o faz uma escolha ruim para quando muito usuários estão atualizando a tabela ao mesmo tempo (para manter integridade, somente um usuário por vez pode alterar a tabela). Ele também não oferece tantas funcionalidades quantos outros motores de banco de dados. Por último, SQLite não valida tipo de dados: onde muito bancos de dados rejeitariam dados que não estão de acordo com o esquema da tabela, SQLite permite a usuários armazenar dados de qualquer tipo em qualquer coluna.
 
 <br>
 
 ### Uses for SQLite
 
-##### Mesmo considerando os pontos negativos. os benefícios de ser capaz de acesar e manipular um banco de dados sem envolver uma aplicação servidor são enormes. SQLite é usado mundialmente onde faz sentido armazenar o banco de dados no mesmo dispositivo da aplicação.
+#### Mesmo considerando os pontos negativos. os benefícios de ser capaz de acesar e manipular um banco de dados sem envolver uma aplicação servidor são enormes. SQLite é usado mundialmente onde faz sentido armazenar o banco de dados no mesmo dispositivo da aplicação.
 
 <br>
 
 ### Introduction to SQL
 
-##### SQL, Structured Query Language, é uma linguagem de programação projetada para gerenciar dados armazenados em um banco de dados relacional. Os comando cobertos nesse curso utiliza SQLite Relational Database Management System.
+#### SQL, Structured Query Language, é uma linguagem de programação projetada para gerenciar dados armazenados em um banco de dados relacional. Os comando cobertos nesse curso utiliza SQLite Relational Database Management System.
 
 <br>
 
 ### Relational Database
 
-##### Um banco de dados relacional é um banco de dados que organiza informação em uma ou mais tabelas. Uma tabela é uma coleção de dados organizados em linhas e colunas. Tabelas são também conhecidas como relações. Uma coluna é um conjunto de características de um tipo particular. Uma linha é um registro único em uma tabela.
+#### Um banco de dados relacional é um banco de dados que organiza informação em uma ou mais tabelas. Uma tabela é uma coleção de dados organizados em linhas e colunas. Tabelas são também conhecidas como relações. Uma coluna é um conjunto de características de um tipo particular. Uma linha é um registro único em uma tabela.
 
 </details>
 
@@ -59,7 +59,7 @@ mindmap
 
 ### Statements
 
-##### O código abaixo é uma declaração. Uma declaração é um texto que banco de dados reconhece como um comando válido. Declarações sempre terminam con ponto e vírgula.
+#### O código abaixo é uma declaração. Uma declaração é um texto que banco de dados reconhece como um comando válido. Declarações sempre terminam con ponto e vírgula.
 
 ```sql
 CREATE TABLE table_name
@@ -79,7 +79,7 @@ CREATE TABLE table_name
 
 ### CREATE
 
-##### Declarações <code>CREATE</code> nos permite crair uma nova tabela em um banco de dados. VOcê pode usar <code>CREATE</code> a qualquer momento para criar uma nova tabela do princípio.
+#### Declarações <code>CREATE</code> nos permite crair uma nova tabela em um banco de dados. VOcê pode usar <code>CREATE</code> a qualquer momento para criar uma nova tabela do princípio.
 
 ```sql
 CREATE TABLE celebs
@@ -102,7 +102,7 @@ CREATE TABLE celebs
 
 ### INSERT
 
-##### A declaração <code>INSERT</code> insere uma nova linha na coluna. Nós podemos usar esse comando sempre que for necessário adicionar novas colunas.
+#### A declaração <code>INSERT</code> insere uma nova linha na coluna. Nós podemos usar esse comando sempre que for necessário adicionar novas colunas.
 
 ```sql
 INSERT INTO celebs (id, name, age) 
@@ -117,7 +117,7 @@ VALUES (1, 'Justin Bieber', 29);
 
 ### SELECT
 
-##### A declaração <code>SELECT</code> é utilizadas para recupear dados de uma banco de dados.
+#### A declaração <code>SELECT</code> é utilizadas para recupear dados de uma banco de dados.
 
 ```sql
 SELECT name FROM celebs;
@@ -140,7 +140,7 @@ SELECT * FROM celebs;
 
 ### ALTER
 
-##### A declaração <code>ALTER TABLE</code> juntamente com <code>ADD COLUMN</code>, <code>RENAME TO</code> e <code>DROP</code> permitem alterar a estrutura de uma tabela.
+#### A declaração <code>ALTER TABLE</code> juntamente com <code>ADD COLUMN</code>, <code>RENAME TO</code> e <code>DROP</code> permitem alterar a estrutura de uma tabela.
 
 ```sql
 ALTER TABLE celebs 
@@ -175,7 +175,7 @@ _Exluindo a coluna cost_
 
 ### UPDATE
 
-##### A declaração <code>UPDATE SET</code> permite editar uma linha de uma coluna da tabela com um novo valor que for passado para a declaração.
+#### A declaração <code>UPDATE SET</code> permite editar uma linha de uma coluna da tabela com um novo valor que for passado para a declaração.
 
 ```sql
 UPDATE celebs SET twitter_handle = '@taylorswift13' WHERE id = 4; 
@@ -190,7 +190,7 @@ UPDATE celebs SET twitter_handle = '@taylorswift13' WHERE id = 4;
 
 ### DELETE
 
-<p>A declaração <code>DELETE FROM</code> apaga uma ou mais linhas de uma tabela.</p>
+#### A declaração <code>DELETE FROM</code> apaga uma ou mais linhas de uma tabela.
 
 ```sql
 DELETE FROM celebs 
@@ -206,7 +206,7 @@ WHERE twitter_handle IS NULL;
 
 ### Constraints
 
-##### As restrições são utilizadas para informar ao sistema de banco de dados que certas colunas possuem características adicionais e que essas características devem ser seguidas.
+#### As restrições são utilizadas para informar ao sistema de banco de dados que certas colunas possuem características adicionais e que essas características devem ser seguidas.
 
 ```sql
 CREATE TABLE celebs
@@ -228,8 +228,8 @@ CREATE TABLE celebs
 
 <br>
 
-
 </details>
+
 
 <details>
 	<summary><h2>Queries</h2></summary>
@@ -253,7 +253,7 @@ mindmap
 
 ### Introduction
 
-##### Um dos principais propósitos de uma linguagem SQL é recuperar informação armazenada no banco de dados. Isso é comumente conhecido como consulta. Consultas permitem-nos comunicar com um banco de dados perguntando e ele devolvendo um conjunto de resultados com dados relevantes.
+#### Um dos principais propósitos de uma linguagem SQL é recuperar informação armazenada no banco de dados. Isso é comumente conhecido como consulta. Consultas permitem-nos comunicar com um banco de dados perguntando e ele devolvendo um conjunto de resultados com dados relevantes.
 
 ```sql
 SELECT * FROM movies;
@@ -264,9 +264,9 @@ SELECT * FROM movies;
  
 ### SELECT
 
-##### Anteriormente, nós aprendemos que o comando <code>SELECT</code> é usado toda vez que você quer consultar dados de um banco de dados. O <code>*</code> significa que todas as colunas da tabela <code>movies</code> serão recuperadas.
+#### Anteriormente, nós aprendemos que o comando <code>SELECT</code> é usado toda vez que você quer consultar dados de um banco de dados. O <code>*</code> significa que todas as colunas da tabela <code>movies</code> serão recuperadas.
 
-##### Suponha que nós estamos somente interessados em duas das colunas. Nós podemos selecionar colunas individualmente pelo seus nomes.
+#### Suponha que nós estamos somente interessados em duas das colunas. Nós podemos selecionar colunas individualmente pelo seus nomes.
 
 ```sql
 SELECT column1, column2 FROM table_name;
@@ -277,42 +277,47 @@ SELECT column1, column2 FROM table_name;
 
 ### AS
 
+#### <code>AS</code> é a declaração que permite modificar o noma da coluna somente na hora da exibição, mas não modificar de fato na tabela. Está mais para um recurso visual. 
+
 ```sql
 SELECT name AS 'Titles'
 FROM movies;
 ```
 
-##### 1. <code>AS</code> é a declaração que permite modificar o noma da coluna somente na hora da exibição, mas não modificar de fato na tabela. Está mais para um recurso visual. No caso acima, ao invés de exibir <code>name</code> será exibido <code>Titles.</code>
+##### 1. No caso acima, ao invés de exibir name será exibido Titles.
 
 <br>
 
 
 ### Distinct
 
+#### A declaração <code>DISTINCT</code> é utilizado para exibir linhas de uma coluna que possuem valores não repetidos.
+
 ```sql
 SELECT DISTINCT year FROM movies;
 ```
 
-##### 1. A declaração <code>DISTINCT</code> é utilizado para exibir linhas de um coluna que possuem valores não repetidos. No caso acima, todas as linhas onde a coluna <code>year</code> possui valores distintos.
+##### 1. No caso acima, todas as linhas onde a coluna year possui valores distintos.
 
 <br>
 
 
 ### WHERE
 
+#### <code>WHERE</code> é a declaração que especifica qual linha (ou linhas) da coluna selecionada será alterada se o parâmetro seguinte for verdadeiro.
+
 ```sql
 SELECT * FROM movies WHERE year > 1999;
 ```
 
-##### 1. <code>WHERE</code> é a declaração que especifica qual linha da coluna selecionada será alterada se o parâmetro for verdadeiro.
-##### 2. Podem ser utilizados os seguintes operadores relacionais em conjunto com <code>WHERE</code>:
+##### 1. Podem ser utilizados os seguintes operadores relacionais em conjunto com <code>WHERE</code>:
 
 - <code>=</code>: igual a
-- <code>!=</code> diferente de
-- <code>></code> maior que
-- <code><</code> menor que
-- <code>>=</code> maior ou igual a
-- <code><=</code> menor ou igual a
+- <code>!=</code>: diferente de
+- <code>></code>: maior que
+- <code><</code>: menor que
+- <code>>=</code>: maior ou igual a
+- <code><=</code>: menor ou igual a
 
 <br>
 
@@ -323,50 +328,37 @@ SELECT * FROM movies WHERE year > 1999;
 
 ```sql
 SELECT * FROM movies WHERE name LIKE 'A%';
-```
 
-##### 1. Utilizando o caractere coringa <code>%</code> no início do parâmetro, o comando vai procurar qualquer linha que começe com a letra 'A' ou 'a', tanto na forma caixa-alta ou caixa-baixa. É possível buscar por linhas com terminem com mais de um caractere.
-
-<br>
-
-```sql
 SELECT * FROM movies WHERE name LIKE '%A';
-```
 
-##### 1. Utilizando o caractere coringa <code>%</code> no final do parâmetro, o comando vai procurar qualquer linha que termine com a letra 'A' ou 'a', tanto na forma caixa-alta ou caixa-baixa. É possível buscar por linhas com terminem com mais de um caractere.
-
-<br>
-
-```sql
 SELECT * FROM movies WHERE name LIKE '%man%';
-```
 
-##### 1. Utilizando o caractere coringa <code>%</code> no início e fim do parâmetro, o comando vai procurar qualquer linha que contenha o texto 'man', tanto na forma caixa-alta ou caixa-baixa.
-
-<br>
-
-```sql
 SELECT * FROM movies WHERE name LIKE 'B%A';
 ```
 
-##### 1. Utilizando o caractere coringa <code>%</code> no meio do parâmetro, o comando vai procurar qualquer linha que começe com 'B' e termine com 'A', tanto na forma caixa-alta ou caixa-baixa.
+##### 1. Utilizando o caractere coringa <code>%</code> no _início_ do parâmetro, o comando vai procurar qualquer linha que começe com a letra 'A' ou 'a', tanto na forma caixa-alta ou caixa-baixa. É possível buscar por linhas com terminem com mais de um caractere.
+
+##### 2. Utilizando o caractere coringa <code>%</code> no _final_ do parâmetro, o comando vai procurar qualquer linha que termine com a letra 'A' ou 'a', tanto na forma caixa-alta ou caixa-baixa. É possível buscar por linhas com terminem com mais de um caractere.
+
+##### 3. Utilizando o caractere coringa <code>%</code> no _início e fim_ do parâmetro, o comando vai procurar qualquer linha que contenha o texto 'man', tanto na forma caixa-alta ou caixa-baixa.
+
+##### 4. Utilizando o caractere coringa <code>%</code> no _meio_ do parâmetro, o comando vai procurar qualquer linha que começe com 'B' e termine com 'A', tanto na forma caixa-alta ou caixa-baixa.
 
 <br>
 
 
 ### NULL (IS NULL, IS NOT NULL)
 
-##### Esse comando serve para identificar se determinada linha de uma coluna possui ou não o valor em branco ou nulo que não passado no momento de insersação dos dados.
+#### Esse comando serve para identificar se determinada linha de uma coluna possui ou não o valor em branco ou nulo que não passado no momento de insersação dos dados.
 
 ```sql
 SELECT name FROM movies WHERE imdb_rating IS NOT NULL;
-```
-##### 1. no código acima vão ser exibidas a linhas da coluna imd_rating que não sejam nulo
 
-```sql
-SELECT name FROM movies WHERE imdb_rating IS NULL;
+SELECT name FROM movies WHERE genre IS NULL;
 ```
-##### 1. no código acima vão ser exibidas a linhas da coluna imd_rating que sejam nulo
+##### 1. Com o promeiro comando do código acima vão ser exibidas a linhas da coluna imd_rating que não sejam nulo.
+##### 2. Com o segundo comando do código acima vão ser exibidas a linhas da coluna genre que sejam nulo.
+
 
 <br>
 
@@ -499,7 +491,11 @@ FROM movies;
 <details>
 	<summary><h2>Aggregate Functions</h2></summary>
 
+ #### Funções agregadores são utilizadas no SQL para dar dinamismo à linguagem e fornecer operações matemáticas;
+
 </details>
+
+
 
 <details>
 	<summary><h2>Multiple Tables</h2></summary>
