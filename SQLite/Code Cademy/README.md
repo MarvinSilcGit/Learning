@@ -334,7 +334,7 @@ SELECT * FROM movies WHERE name LIKE '%A';
 SELECT * FROM movies WHERE name LIKE '%man%';
 ```
 
-##### 1. Utilizando o caractere coringa <code>%</code> no início e fim do parâmetro, o comando vai procurar qualquer linha que contenha o texto 'man', tanto na forma caixa-alta ou caixa-baixa._
+##### 1. Utilizando o caractere coringa <code>%</code> no início e fim do parâmetro, o comando vai procurar qualquer linha que contenha o texto 'man', tanto na forma caixa-alta ou caixa-baixa.
 
 <br>
 
