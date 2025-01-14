@@ -506,7 +506,7 @@ mindmap
 
  <br>
  
- ### Count
+ ### COUNT
 
  #### O comando <code>Code</code> é utilizado para fazer a contagem de quantas linhas (incluindo linhas com valores nulos) há em uma tabela, ao utilizar o caractere <code>*</code> como argumento. Se for utilizado o nome de uma coluna, a contagem será feita somente com linhas que não possuírem valores nulos.
 
@@ -550,9 +550,20 @@ SELECT AVG(downloads) FROM fake_apps;
 
 <br>
 
+### ROUND
+
+#### O comando <code>ROUND</code> é utilizado para aplicar dupla precisão aos números. Ele possui dois argumentos: o primeiro é a coluna que possui os valores e o segundo é o número de casas decimais.
+
+```sql
+SELECT ROUND(price, 2) FROM fake_apps;
+```
+
+```sql
+SELECT ROUND(AVG(price), 2) FROM fake_apps;
+```
+##### 1. O código logo acima faz com que um dos parâmetros do comando <code>ROUND</code> seja a média de preço, utilizando o comando <code>AVG</code>. O segundo argumento é quantidade casas decimais.
 
 </details>
-
 
 
 <details>
