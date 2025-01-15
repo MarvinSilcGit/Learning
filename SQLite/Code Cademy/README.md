@@ -511,9 +511,9 @@ mindmap
  #### O comando <code>COUNT</code> é utilizado para fazer a contagem de quantas linhas (incluindo linhas com valores nulos) há em uma tabela, ao utilizar o caractere <code>*</code> como argumento. Se for utilizado o nome de uma coluna, a contagem será feita somente com linhas que não possuírem valores nulos.
 
  ```sql
-SELECT COUNT (*) FROM table_name;
+SELECT COUNT(*) FROM table_name;
 
-SELECT COUNT (column_name) FROM table_name;
+SELECT COUNT(column_name) FROM table_name;
  ```
 
 <br>
@@ -523,7 +523,7 @@ SELECT COUNT (column_name) FROM table_name;
 #### O comando <code>SUM</code> é utilizado para somar todos os valores da coluna que for informada no argumento da consulta.
 
 ```sql
-SELECT SUM (downloads) FROM fake_apps;
+SELECT SUM(downloads) FROM fake_apps;
 ```
 
 <br>
@@ -533,9 +533,9 @@ SELECT SUM (downloads) FROM fake_apps;
 #### Os comandos <code>MAX</code> e <code>MIN</code> retornam os maiores e menores valores da coluna que for informada no argumento da consulta.
 
 ```sql
-SELECT MAX (downloads) FROM fake_apps;
+SELECT MAX(downloads) FROM fake_apps;
 
-SELECT MIN (downloads) FROM fake_apps;
+SELECT MIN(downloads) FROM fake_apps;
 ```
 
 <br>
