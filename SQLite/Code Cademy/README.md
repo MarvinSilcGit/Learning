@@ -574,7 +574,7 @@ SELECT ROUND(AVG(price), 2) FROM fake_apps;
 
 ### GROUP BY
 
-#### O comando <code>GROUP BY</code> é utilizado para agrupar resultados de consultas feitas utilizandos as próprias funções agregradas. A função dele é arranjar a consulta de dados idênticos em grupos.
+#### O comando <code>GROUP BY</code> é utilizado para agrupar resultados de consultas feitas em uma ou mais conluna utilizandos as próprias funções agregradas. A função dele é arranjar a consulta de dados idênticos em grupos.
 
 ```sql
 SELECT AVG(imdb_rating)
@@ -614,7 +614,20 @@ SELECT imdb_rating, COUNT(*) FROM movies GROUP BY imdb_rating;
 SELECT COUNT(*) AS 'total_movies', rating FROM movies GROUP BY 2 ORDER BY 1;
 ```
 
-##### 1. No código acima: <code>GROUP BY 2</code> está referenciando a segunda coluna da consulta <code>rating</code>, já <code>ORDER BY 1</code> está referenciando a primeira coluna da consulta <code>COUNT(*) AS 'total_movies'</code>.
+##### 1. No código acima, <code>GROUP BY 2</code> está referenciando a segunda coluna da consulta <code>rating</code>, já <code>ORDER BY 1</code> está referenciando a primeira coluna da consulta <code>COUNT(*) AS 'total_movies'</code>.
+
+<br>
+
+### HAVING
+
+#### O comando <code>HAVING</code> é utilizado para filtrar resultados, semelhante em parte ao comando <code>WHERE</code>. Porém, ao invés de filtras linhas, ele filtra grupos: os mesmos grupos criados pelos comando <code>GROUP BY</code>.
+
+```sql
+SELECT year, COUNT(*) FROM movies GROUP BY 1 HAVING COUNT(*) > 2;
+```
+
+##### 1. No código acima, irá retornar year, e a contagem de quantos filmes tiveram por ano, contanto que seja maior que 2. Ou seja, filtrando o resultado das funções agregadas maiores que 2; 
+
 
 </details>
 
