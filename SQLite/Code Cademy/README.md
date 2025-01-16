@@ -276,7 +276,7 @@ SELECT column1, column2 FROM table_name;
 
 ### AS
 
-#### <code>AS</code> é a declaração que permite modificar o noma da coluna somente na hora da exibição, mas não modificar de fato na tabela. Está mais para um recurso visual. 
+#### <code>AS</code> é a declaração que permite modificar o noma da coluna somente na hora da exibição, mas não modificar de fato na tabela. Está mais para um recurso visual. Ademais, cada coluna pode ter seu nome modificado na consultado individualmente. 
 
 ```sql
 SELECT name AS 'Titles'
@@ -284,6 +284,13 @@ FROM movies;
 ```
 
 ##### 1. No caso acima, ao invés de exibir name será exibido Titles.
+
+```sql
+SELECT name AS 'Titles', year AS 'Ano de lançamento'
+FROM movies;
+```
+
+##### 1. No caso acima, ao invés de exibir name e year será exibido Titles e Ano de Lançamento.
 
 <br>
 
@@ -562,6 +569,52 @@ SELECT ROUND(price, 2) FROM fake_apps;
 SELECT ROUND(AVG(price), 2) FROM fake_apps;
 ```
 ##### 1. O código logo acima faz com que um dos parâmetros do comando <code>ROUND</code> seja a média de preço, utilizando o comando <code>AVG</code>. O segundo argumento é quantidade casas decimais.
+
+<br>
+
+### GROUP BY
+
+#### O comando <code>GROUP BY</code> é utilizado para agrupar resultados de consultas feitas utilizandos as próprias funções agregradas. A função dele é arranjar a consulta de dados idênticos em grupos.
+
+```sql
+SELECT AVG(imdb_rating)
+FROM movies
+WHERE year = 1999;
+
+SELECT AVG(imdb_rating)
+FROM movies
+WHERE year = 2000;
+
+SELECT AVG(imdb_rating)
+FROM movies
+WHERE year = 2001;
+```
+
+##### 1. Exemplo sem <code>GROUP BY</code>.
+
+```sql
+SELECT year, AVG(imdb_rating) FROM movies GROUP BY year;
+```
+
+##### 2. Exemplo com <code>GROUP BY</code>: o código acima retorna a coluna year e a coluna de média das notas agrupadas por cada ano.
+
+```sql
+SELECT imdb_rating, COUNT(*) FROM movies GROUP BY imdb_rating;
+```
+
+##### 3. Exemplo com <code>GROUP BY</code>: o código acima irá retornar quantas vezes uma nota se repete no banco de dados. Ou seja, cada vez que a nota aparecer no banco de dados ela será computada, e, também, se houverem 10 notas 4.2 elas serão agrupadas (não somadas) numa só nota.
+
+<br>
+
+### Column references
+
+#### É possível também utilizar números ao invés dos nomes das colunas para referenciar os agrupamentos e ordenamentos numa consulta.
+
+```sql
+SELECT COUNT(*) AS 'total_movies', rating FROM movies GROUP BY 2 ORDER BY 1;
+```
+
+##### 1. No código acima: <code>GROUP BY 2</code> está referenciando a segunda coluna da consulta <code>rating</code>, já <code>ORDER BY 1</code> está referenciando a primeira coluna da consulta <code>COUNT(*) AS 'total_movies'</code>.
 
 </details>
 
