@@ -1,3 +1,10 @@
 # List of functions
 
-## Date
+<details>
+  <summary>
+    <h2>Date</h2>
+  </summary>
+
+
+  
+</details>
