@@ -63,4 +63,16 @@ SELECT strftime('%M');
 SELECT strftime('%S');
 ```
 
+##### 10. <code>%T</code> ISO Time: HH-MM-SS
+
+```SQL
+SELECT strftime('%T');
+```
+
+##### 11. <code>%R</code> ISO Time: HH-MM
+
+```SQL
+SELECT strftime('%R');
+```
+
 </details>
