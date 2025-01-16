@@ -32,25 +32,32 @@ SELECT strftime('%j');
 ```SQL
 SELECT strftime('%m');
 ```
+
 ##### 5. <code>%W</code> semana do ano a partir da primeira segunda: 00-53
 
 ```SQL
 SELECT strftime('%W');
 ```
 
-##### 6. <code>%H</code> horas: 00-24
+##### 6. <code>%p</code> "am" ou "pm" dependendo do horário:
+
+```SQL
+SELECT strftime('%p');
+```
+
+##### 7. <code>%H</code> horas: 00-24
 
 ```SQL
 SELECT strftime('%H');
 ```
 
-##### 7. <code>%M</code> minutos: 00-59
+##### 8. <code>%M</code> minutos: 00-59
 
 ```SQL
 SELECT strftime('%M');
 ```
 
-##### 8. <code>%S</code> segundos: 00-59
+##### 9. <code>%S</code> segundos: 00-59
 
 ```SQL
 SELECT strftime('%S');
