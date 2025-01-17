@@ -128,7 +128,7 @@
 
   <h3>The html element</h3>
   
-   <p>O elemento html é o elemento raiz de toda página html. A partir dele, todos os outros elementos são criados. Esse elemento possui dois elementos filho, <code>head</code> e <code>body</code>.</p>
+   <p>O elemento html é o elemento raiz de toda página html. A partir dele, todos os outros elementos são criados. Esse elemento possui somente dois elementos filho: <code>head</code> e <code>body</code>.</p>
 
    <br>
 
@@ -144,27 +144,29 @@
 
    <br>
 
-  <h3>Meta charset</h3>
+  <h3>The Meta elementt</h3>
+
+   <p>Esse elemento diz respeito a como devem ser exibidos os diversos tipos de elementos da página.</p>
+
+  <h4>Meta Charset</h4>
 
 ```html
 <meta charset ="UTF-8"
 ```
 
-   <p>A chave <code>charset</code> é a abreviação de <i>character set</i>(conjunto de caracteres). Ela refere a como exibir os diversos tipos de caracteres na tela pelo computador. O valor <code>UTF-8</code> possui suporte para muitos dos caracteres do mundo inteiro.</p>
+   <p>A chave <code>charset</code> é a abreviação para <i>character set</i> e signica qual conjunto de caracteres serão utilizados com referência para a representação textual da página. Já o atributo <code>charset = "UTF-8"</code> possui suporte para muitos dos caracteres do mundo inteiro.</p>
 
-   <br>
-
-  <h3>Meta viewport</h3>
+  <h4>Meta viewport</h4>
 
 ```html
 <meta name ="viewport" content ="width=device-width, initial-scale=1.0">
 ```
 
-   <p>O viewport precisa ser utilizado por um website para que em uma tela móvel a exibição seja adequada ao tamanho da tela. Ele pede para o navegador representar a largura da página de acordo com o dispositivo atual.</p>
+   <p>Os atributos <code>name ="viewport" content ="width=device-width, initial-scale=1.0"</code> são utilizado para adequar o tamanho e proporção da página web conforme o tipo de tela. Eles informam para o navegador representar a largura da página de acordo com o dispositivo atual.</p>
 
    <br>
 
-  <h3>The title element</h3>
+  <h3>The Title element</h3>
 
 ```html
 <title>MDN Web Docs</title>
@@ -177,6 +179,7 @@
  </details>
 
  <details>
+  
   <summary><h2>Chapter 6: Blank space and comments</h2></summary>
 
   ### HTML Comments
