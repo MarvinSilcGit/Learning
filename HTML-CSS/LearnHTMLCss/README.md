@@ -144,7 +144,7 @@
 
    <br>
 
-  <h3>The Meta elementt</h3>
+  <h3>The Meta element</h3>
 
    <p>Esse elemento diz respeito a como devem ser exibidos os diversos tipos de elementos da página.</p>
 
