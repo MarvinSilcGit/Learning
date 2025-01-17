@@ -1,23 +1,5 @@
 <h1>Learn HTML & CSS</h1>
 
-```mermaid
-mindmap
-  **HTML-CSS**
-    (Semantics)
-    (Accessibility)
-    (Headings)
-    (Boilerplate)
-    (Blank space and comments)
-    (Paragraphs)
-    (Lists)
-    (HTML validity)
-    (Landmarks)
-    (Strong and em)
-    (Images)
-    (Intro CSS)
-    (CSS Inheritance)
-```
-
 <details>
  
  <summary><h2>Charpter 2: Intro to Semantics</h2></summary>
@@ -81,7 +63,8 @@ mindmap
  </details>
 
  <details>
- <summary><h2>Chapter 4: Headings deep dive</h2></summary>
+
+  <summary><h2>Chapter 4: Headings deep dive</h2></summary>
 
   <h3>H1 e H2</h3>
 
@@ -122,9 +105,16 @@ mindmap
 ```html
 <meta name ="viewport" content ="width=device-width, initial-scale=1.0">
 ```
-   <p>Observe abaixo que o elemento <code>meta</code> possui 2 atributos: <code>name ="viewport" content ="width=device.width, initial-scale=1.0"</code></p>
 
-<br>
+   <p>Observe acima que o elemento <code>meta</code> possui 2 atributos: <code>name ="viewport" content ="width=device.width, initial-scale=1.0"</code></p>
+ 
+ <br>
+ 
+  <h3>Boilerplate</h3>
+
+   <p>Boilerplate representa uma porção de texto frequentemente utilizada e que raramente sofre alterações. No Html existem algumas tag/elementos que sempre serão utilizadas na construção de uma página. São eles a seguir:</p>
+
+ <br>
 
   <h3>The doctype</h3>
   
