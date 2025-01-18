@@ -1,10 +1,10 @@
-<h1>Learn HTML & CSS</h1>
+# Learn HTML & CSS
 
 <details>
 
 <summary>
 
-<h2>Charpter 2: Intro to Semantics</h2>
+## Charpter 2: Intro to Semantics
 
 </summary>
 
@@ -19,7 +19,7 @@
 
 <div>
 
- <div>This is the content of my blog</div>
+<div>This is the content of my blog</div>
 
 </div>
 
@@ -33,7 +33,7 @@
 
 <main>
 
- <p>This is the content of my blog</p>
+<p>This is the content of my blog</p>
 
 </main>
 
@@ -52,7 +52,11 @@
 
 <details>
 
-<summary><h2>Chapter 3: Intro to Acceessibility</h2></summary>
+<summary>
+
+## Chapter 3: Intro to Acceessibility
+
+</summary>
 
 ### Intro to Accessibility
 
@@ -262,7 +266,7 @@ Postcode, Country
 <details>
 
 <summary>
- 
+
 <h2>Chapter 7: The paragraph element</h2>
 
 </summary>
@@ -304,9 +308,9 @@ Postcode, Country
 ```html
 <ol>
 
- <li>Heat the pasta.</li>
+<li>Heat the pasta.</li>
 
- <li>Pour the sauce on the cooked pasta.</li>
+<li>Pour the sauce on the cooked pasta.</li>
 
 </ol>
 ```
@@ -320,9 +324,9 @@ Postcode, Country
 ```html
 <ul>
 
- <li>Heat the pasta.</li>
+<li>Heat the pasta.</li>
 
- <li>Pour the sauce on the cooked pasta.</li>
+<li>Pour the sauce on the cooked pasta.</li>
 
 </ul>
 ```
@@ -344,13 +348,13 @@ Postcode, Country
 
 <li>Theories</li>
 
- <ul>
+<ul>
 
-   <li>Behavior theory</li>
+<li>Behavior theory</li>
 
-   <li>Relational theory</li>
+<li>Relational theory</li>
 
- </ul>
+</ul>
 
 <li>Conclusion</li>
 
@@ -459,7 +463,12 @@ Postcode, Country
 </details>
 
 <details>
-<summary><h2>Chapter 13: Intro do CSS</h2></summary>
+
+ <summary>
+ 
+  <h2>Chapter 13: Intro do CSS</h2>
+  
+  </summary>
 
 ### Intro to CSS
 
@@ -481,19 +490,19 @@ Postcode, Country
 
 ```css
 h1 {
- color: red;
+color: red;
 }
 ```
 
-<p style ="text-align: justify">O elemento <code>h1</code> no contexto CSS é chamado de seletor. Um seletor CSS é usado para encontrar os elementos em uma página web que irá receber um conjunto de estilos.</p>
+<p>O elemento <code>h1</code> no contexto CSS é chamado de seletor. Um seletor CSS é usado para encontrar os elementos em uma página web que irá receber um conjunto de estilos.</p>
 
-<p style ="text-align: justify">A sintexe do CSS é composta de duas partes: o seletor e par propriedade/valor. No contexto do código de cima. <code>color:</code> é proprieade e <code>red</code> é o valor.</p>
+<p>A sintexe do CSS é composta de duas partes: o seletor e par propriedade/valor. No contexto do código de cima. <code>color:</code> é proprieade e <code>red</code> é o valor.</p>
 
 <br>
 
 ### O seletor simples
 
-<p style ="text-align: justify">Há várias maneiras de selecionar as tags de uma página, e uma delas é pelo uso do seletor simples. Com isso, toda vez que a tag <code>h1</code> for escrita, o seletor captura seu uso e aplica o efeito de cor green. No contexto do código acima, foi usado o seletor simples na tag <code>h1</code>.</p>
+<p>Há várias maneiras de selecionar as tags de uma página, e uma delas é pelo uso do seletor simples. Com isso, toda vez que a tag <code>h1</code> for escrita, o seletor captura seu uso e aplica o efeito de cor green. No contexto do código acima, foi usado o seletor simples na tag <code>h1</code>.</p>
 
 <br>
 
@@ -502,10 +511,11 @@ h1 {
 ```css
 /* This is a CSS comment */
 h1 {
- color: red;
+color: red;
 }
 ```
-<p style ="text-align: justify">Os comentários permitem acrescentar lembretes ou guias das funções que arquivo CSS possui e como isso afeta o conteúdo exibido no navegador.</p>
+
+<p>Os comentários permitem acrescentar lembretes ou guias das funções que arquivo CSS possui e como isso afeta o conteúdo exibido no navegador.</p>
 
 </details>
 
@@ -514,7 +524,7 @@ h1 {
 
 ### CSS Properties
 
-<p style ="text-align: justify">A propriedade <code>font-weight: bold</code> é responsável por deixar o texto com a fonte em destaque. Tem o mesmo que a tag <code>b</code>, porém é uma boa prática fazer uso da estilização no arquivo CSS que está conectado ao arquivo HTML. Pois, HTML se refere a estrutura e não estilização. Também é possível fazer múltiplias declações utilizando somente um seletor.</p>
+<p>A propriedade <code>font-weight: bold</code> é responsável por deixar o texto com a fonte em destaque. Tem o mesmo que a tag <code>b</code>, porém é uma boa prática fazer uso da estilização no arquivo CSS que está conectado ao arquivo HTML. Pois, HTML se refere a estrutura e não estilização. Também é possível fazer múltiplias declações utilizando somente um seletor.</p>
 
 ```css
 p
@@ -529,12 +539,17 @@ _Sempre utilize ponto e vírgula para finalizar cada linha da declaração dentr
 </details>
 
 <details>
-<summary><h2>Chapter 15: CSS inheritance</h2></summary>
+
+ <summary>
+ 
+  <h2>Chapter 15: CSS inheritance</h2>
+  
+ </summary>
 
 
 ### User-agent sylesheet
 
-<p style ="text-align: justify">O agente-usuário é um software que consome conteúdo da web à pedido dos usuários. Nesse caso, os navegadores web se encaixam nessa definição. O stylesheeet se refere ao arquivo CSS que todos os navegadores tem por padrão como forma de estilização mínima de uma página. Por exemplol, todo cabeça já vem estilizado em um determinado tamanho de fonte e destaque visual.</p>
+<p>O agente-usuário é um software que consome conteúdo da web à pedido dos usuários. Nesse caso, os navegadores web se encaixam nessa definição. O stylesheeet se refere ao arquivo CSS que todos os navegadores tem por padrão como forma de estilização mínima de uma página. Por exemplol, todo cabeça já vem estilizado em um determinado tamanho de fonte e destaque visual.</p>
 
 <br>
 
@@ -560,18 +575,18 @@ _Na página irá apareceu um parágrafo da cor azul, pois ele é o último na ca
 
 ### CSS inheritance
 
-<p style ="text-align: justify">Muitas propriedades podem ser herdadas através da tag pai respectiva. Somente quando a tag filha já possuir uma estilização depois da tag pag, é que a herança não funciona. Se a estilização for antes, ela herdará a característica da tag pai.</p>
+<p>Muitas propriedades podem ser herdadas através da tag pai respectiva. Somente quando a tag filha já possuir uma estilização depois da tag pag, é que a herança não funciona. Se a estilização for antes, ela herdará a característica da tag pai.</p>
 
 ```css
 <p>
- Welcome to my <strong>first</strong> website.
+Welcome to my <strong>first</strong> website.
 </p>
 
 <style>
- p
- {
-     color: blue;
- }
+p
+{
+color: blue;
+}
 </style>
 ```
 
