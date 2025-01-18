@@ -1,35 +1,39 @@
 <h1>Learn HTML & CSS</h1>
 
 <details>
- 
- <summary><h2>Charpter 2: Intro to Semantics</h2></summary>
 
-  <h3>Intro to Semantics</h3>
+<summary>
 
-   <p>Escrever HTML semântico significa dar significado para os elementos que nós usamos. Isso permite você focar no propósito do elemente ao invés de sua aparência. Semântica foca em fornecer significado e propósito para os elementos que você usa.</p>
+<h2>Charpter 2: Intro to Semantics</h2>
 
-   <h4>Código sem semântica</h4>
+</summary>
+
+### Intro to Semantics
+
+<p>Escrever HTML semântico significa dar significado para os elementos que nós usamos. Isso permite você focar no propósito do elemente ao invés de sua aparência. Semântica foca em fornecer significado e propósito para os elementos que você usa.</p>
+
+#### Código sem semântica
 
 ```html
 <div>My Blog</div>
 
 <div>
 
-    <div>This is the content of my blog</div>
+ <div>This is the content of my blog</div>
 
 </div>
 
 <div>We are located in Amsterdam</div>
 ```
 
-   <h4>Código com semântica</h4>
+#### Código com semântica</h4>
 
 ```html
 <header>My Blog</header>
 
 <main>
 
-    <p>This is the content of my blog</p>
+ <p>This is the content of my blog</p>
 
 </main>
 
@@ -38,151 +42,165 @@
 
 <br>
 
-  <h3>Intro to Headings</h3>
+### Intro to Headings
 
-   <p>O elemento cabeçalho h1 é usado para representa o tópico de mais alta importância em uma página web. Ao escrever código HTML, é importante focar na semântica ao invés da aparencia. HTML é feito para o conteúdo, enquanto que o CSS é usado para estilizar o conteúdo.</p>
+<p>O elemento cabeçalho h1 é usado para representa o tópico de mais alta importância em uma página web. Ao escrever código HTML, é importante focar na semântica ao invés da aparencia. HTML é feito para o conteúdo, enquanto que o CSS é usado para estilizar o conteúdo.</p>
 
- <br>
- 
- </details>
+<br>
 
- <details>
-   
-  <summary><h2>Chapter 3: Intro to Acceessibility</h2></summary>
+</details>
 
-  ### Intro to Accessibility
+<details>
 
-   <p>No contexto do HTML, acessibilidade se refere a fazer seu site usável por todo mundo. Quando você escrever seu código de acessibilidade, seu eu do futuro irá te agradecer. Nós estamos escrevendo websites que nós iremos usar daqui alguns anos. Nossa extensão de habilidades pode muito bem mudar em poucos anos.</p>
+<summary><h2>Chapter 3: Intro to Acceessibility</h2></summary>
 
-   <br>
+### Intro to Accessibility
 
-  ### Headings and Accesibility
+<p>No contexto do HTML, acessibilidade se refere a fazer seu site usável por todo mundo. Quando você escrever seu código de acessibilidade, seu eu do futuro irá te agradecer. Nós estamos escrevendo websites que nós iremos usar daqui alguns anos. Nossa extensão de habilidades pode muito bem mudar em poucos anos.</p>
 
-   <p>Leitor de tela é um software que tem comandos para rapidamente pular entre cabeçalhos ou regiões referenciais específicas. Isso faz com que seja essencial ter cabeçalhos siginificativos. Isso ajuda ususários com tecnologias assistivas facilmente navegar e explorar sua página. Note que isso não é o único benefício de ter cabeçalhos siginicativos. Há muito mais benefícios no que diz respeito a SEO.</p>
-  
- </details>
+<br>
 
- <details>
+### Headings and Accesibility
 
-  <summary><h2>Chapter 4: Headings deep dive</h2></summary>
+<p>Leitor de tela é um software que tem comandos para rapidamente pular entre cabeçalhos ou regiões referenciais específicas. Isso faz com que seja essencial ter cabeçalhos siginificativos. Isso ajuda ususários com tecnologias assistivas facilmente navegar e explorar sua página. Note que isso não é o único benefício de ter cabeçalhos siginicativos. Há muito mais benefícios no que diz respeito a SEO.</p>
 
-  <h3>H1 e H2</h3>
+<br>
 
-   <p>O elemento h2 é usado para definir títulos da principais seções de uma página web. O elemente h2 é uma subseção do elemento h1. É importante pensar nos elementos h1 e h2 como um rascunho de um livro. O h1 é o título da página e os elementos h2 são os capítulos. Nós estamos levando um tempo e focando nos pequenos detalhes porque é muito importante usar h1 e h2 baseado na hierarquia no documento ao invés do tamanho da fonte. Utilize somente um h1 por página, pois o h1 é o principal</p>
+</details>
 
-   <br>
+<details>
 
-  <h3>H3, H4, H5 and H6</h3>
+<summary>
+
+<h2>Chapter 4: Headings deep dive</h2>
+
+</summary>
+
+### H1 e H2
+
+<p>O elemento h2 é usado para definir títulos da principais seções de uma página web. O elemente h2 é uma subseção do elemento h1. É importante pensar nos elementos h1 e h2 como um rascunho de um livro. O h1 é o título da página e os elementos h2 são os capítulos. Nós estamos levando um tempo e focando nos pequenos detalhes porque é muito importante usar h1 e h2 baseado na hierarquia no documento ao invés do tamanho da fonte. Utilize somente um h1 por página, pois o h1 é o principal</p>
+
+<br>
+
+### H3, H4, H5 and H6
 
 <p>Nós já aprendemos sobre h1 e h2. Similarmente para como h2 se relaciona com h1: o elemento h3 é uma subseção de h2, h4 é uma subseção de 3, h5 é uma subseção de h4 e h6 é uma subseção de h5. É importante evitar pular níveis de cabeçalhos. Se você tem um h1, o cabeçalho a seguir deverá ser h2. Você não deve pular h2 e ir direto para h3. O mesmo se aplica aos outros cabeçalhos.</p>
 
 <br>
 
-  <h3>Headings and SEO</h3>
+### Headings and SEO
 
-   <p>SEO (Search Engine Optimization) é a prática de aprimorar a qualidade de seu website de modo a adquirir mais visitantes advindos dos motores de busca. Cabeçalhos teem uma função importante em SE, pois você está comunicndo para o motor de busca o rascunho da página e o tópico mais importante.</p>
+<p>SEO (Search Engine Optimization) é a prática de aprimorar a qualidade de seu website de modo a adquirir mais visitantes advindos dos motores de busca. Cabeçalhos teem uma função importante em SE, pois você está comunicndo para o motor de busca o rascunho da página e o tópico mais importante.</p>
 
- <br>
- 
- </details>
+<br>
 
- <details>
-  
-  <summary><h2>Chapter 5: Boilerplate</h2></summary>
+</details>
 
-  <h3>What is an attribute?</h3>
+<details>
 
-   <p>Todo elemento html pode ter um ou mais pares de <code>chave="valor"</code> que permite você customizar ou configurar o comportamento do elemento. Os pares <code>chave="valor" são chamados de atributos.</code></p>
-  
+<summary>
+
+<h2>Chapter 5: Boilerplate</h2>
+
+</summary>
+
+### What is an attribute?
+
+<p>Todo elemento html pode ter um ou mais pares de <code>chave="valor"</code> que permite você customizar ou configurar o comportamento do elemento. Os pares <code>chave="valor" são chamados de atributos.</code></p>
+
 ```html
 <html lang ="pt-br">
 
 </html>
 ```
 
-   <p>O <code>lang</code> é chamado de chave e o <code>"pt-br"</code> é chamado de valor. As aspas são necessárias para diferenciar atributos de outros e não gerar problemas inesperados.</p>
+<p>O <code>lang</code> é chamado de chave e o <code>"pt-br"</code> é chamado de valor. As aspas são necessárias para diferenciar atributos de outros e não gerar problemas inesperados.</p>
 
 ```html
 <meta name ="viewport" content ="width=device-width, initial-scale=1.0">
 ```
 
-   <p>Observe acima que o elemento <code>meta</code> possui 2 atributos: <code>name ="viewport" content ="width=device.width, initial-scale=1.0"</code></p>
- 
- <br>
- 
-  <h3>Boilerplate</h3>
+<p>Observe acima que o elemento <code>meta</code> possui 2 atributos: <code>name ="viewport" content ="width=device.width, initial-scale=1.0"</code></p>
 
-   <p>Boilerplate representa uma porção de texto frequentemente utilizada e que raramente sofre alterações. No Html existem algumas tag/elementos que sempre serão utilizadas na construção de uma página. São eles a seguir:</p>
+<br>
 
- <br>
+### Boilerplate
 
-  <h3>The doctype</h3>
-  
+<p>Boilerplate representa uma porção de texto frequentemente utilizada e que raramente sofre alterações. No Html existem algumas tag/elementos que sempre serão utilizadas na construção de uma página. São eles a seguir:</p>
+
+<br>
+
+<h3>The doctype</h3>
+
 ```html
 <!DOCTYPE html>
 ```
 
-   <p>Especifica a versão do html que o navegador irá renderizar. Nesse caos, HTML 5</p>
+<p>Especifica a versão do html que o navegador irá renderizar. Nesse caos, HTML 5</p>
 
-   <br>
+<br>
 
-  <h3>The html element</h3>
-  
-   <p>O elemento html é o elemento raiz de toda página html. A partir dele, todos os outros elementos são criados. Esse elemento possui somente dois elementos filho: <code>head</code> e <code>body</code>.</p>
+### The html element
 
-   <br>
+<p>O elemento html é o elemento raiz de toda página html. A partir dele, todos os outros elementos são criados. Esse elemento possui somente dois elementos filho: <code>head</code> e <code>body</code>.</p>
 
-  <h3>The head element</h3>
+<br>
 
-   <p>O elemento <code>head</code> contém informação e dados que serão processados pelo navegador e motores de busca. O conteúdo dentro dessa tag não é exibido na página, mas pode afetar o comportamento visual dela.</p>
+### The head element
 
-   <br>
+<p>O elemento <code>head</code> contém informação e dados que serão processados pelo navegador e motores de busca. O conteúdo dentro dessa tag não é exibido na página, mas pode afetar o comportamento visual dela.</p>
 
-  <h3>The body element</h3>
+<br>
 
-   <p>O elemento <code>body</code> contém todo o conteúdo da página. É aqui onde você escreve os cabeçalhos, parágrafos, adiciona imagens, vídeos e tudo o mais.</p>
+### The body element
 
-   <br>
+<p>O elemento <code>body</code> contém todo o conteúdo da página. É aqui onde você escreve os cabeçalhos, parágrafos, adiciona imagens, vídeos e tudo o mais.</p>
 
-  <h3>The Meta element</h3>
+<br>
 
-   <p>Esse elemento diz respeito a como devem ser exibidos os diversos tipos de elementos da página.</p>
+### The Meta element
 
-  <h4>Meta Charset</h4>
+<p>Esse elemento diz respeito a como devem ser exibidos os diversos tipos de elementos da página.</p>
+
+#### Meta Charset
 
 ```html
 <meta charset ="UTF-8"
 ```
 
-   <p>A chave <code>charset</code> é a abreviação para <i>character set</i> e signica qual conjunto de caracteres serão utilizados com referência para a representação textual da página. Já o atributo <code>charset = "UTF-8"</code> possui suporte para muitos dos caracteres do mundo inteiro.</p>
+<p>A chave <code>charset</code> é a abreviação para <i>character set</i> e signica qual conjunto de caracteres serão utilizados com referência para a representação textual da página. Já o atributo <code>charset = "UTF-8"</code> possui suporte para muitos dos caracteres do mundo inteiro.</p>
 
-  <h4>Meta viewport</h4>
+#### Meta viewport
 
 ```html
 <meta name ="viewport" content ="width=device-width, initial-scale=1.0">
 ```
 
-   <p>Os atributos <code>name ="viewport" content ="width=device-width, initial-scale=1.0"</code> são utilizado para adequar o tamanho e proporção da página web conforme o tipo de tela. Eles informam para o navegador representar a largura da página de acordo com o dispositivo atual.</p>
+<p>Os atributos <code>name ="viewport" content ="width=device-width, initial-scale=1.0"</code> são utilizado para adequar o tamanho e proporção da página web conforme o tipo de tela. Eles informam para o navegador representar a largura da página de acordo com o dispositivo atual.</p>
 
-   <br>
+<br>
 
-  <h3>The Title element</h3>
+### The Title element
 
 ```html
 <title>MDN Web Docs</title>
 ```
 
-   <p>O elemento <code>title</code> mostra o título de uma página web barra de abas de um navegador.</p>
+<p>O elemento <code>title</code> mostra o título de uma página web barra de abas de um navegador.</p>
 
- <br>
-  
- </details>
+<br>
 
- <details>
-  
-  <summary><h2>Chapter 6: Blank space and comments</h2></summary>
+</details>
 
-  ### HTML Comments
+<details>
+
+<summary>
+
+<h2>Chapter 6: Blank space and comments</h2>
+
+</summary>
+
+### HTML Comments
 
 ```html
 <!-- Comentário de linha única-->
@@ -191,21 +209,19 @@
 de múltiplas linhas -->
 ```
 
-  <p>Um comentário é um pedaço de texto escrito por um desenvolvedor para descrever o que está acontecendo no código, prover esclarecimento, uma nota para ele mesmo ou outras notas.</p>
-  
-  <br>
+<p>Um comentário é um pedaço de texto escrito por um desenvolvedor para descrever o que está acontecendo no código, prover esclarecimento, uma nota para ele mesmo ou outras notas.</p>
 
-  ### Blank space and newlines
+<br>
 
-  <p>Espaços em branco são tratados diferentemente no HTML do que você pode experar. Olhe abaixo:</p>
+### Blank space and newlines
+
+<p>Espaços em branco são tratados diferentemente no HTML do que você pode experar. Olhe abaixo:</p>
 
 ```html
 <h1>Hello           world</h1>
 ```
 
-**Resposta:**
-
-<code>Hello world</code>
+<p><code>Hello world</code></p>
 
 <p>Você tem mais do que um espaço em branco, ele será renderizado como um espaço em branco pelo navegador. Este comportamento dá a você flexibilidade sobre como escrever seu código, especialmente conforme sua página vai ficando mais complexa.</p>
 
@@ -221,9 +237,7 @@ de múltiplas linhas -->
 World</h1>
 ```
 
-**Resultado:**
-
-<code>Hello World</code>
+<p><code>Hello World</code></p>
 
 <br>
 
@@ -240,12 +254,18 @@ Street name<br>
 City<br>
 Postcode, Country
 ```
-  
+
+<br>
+
 </details>
 
 <details>
-  <summary><h2>Chapter 7: The paragraph element</h2></summary>
 
+<summary>
+ 
+<h2>Chapter 7: The paragraph element</h2>
+
+</summary>
 
 ```html
 <p>The xPhone is the best phone on the market.</p>
@@ -253,92 +273,100 @@ Postcode, Country
 
 ### The paragraph element
 
-<p style ="text-align: justify">O elemento <code>p</code>é usado para representar um parágrafo de texto de uma página web. Alguns leitores de tela anunciam o elemento <code>p</code> como um parágrafo. Isso permite ao usuário escutar algumas poucas palavras do parágrafo e pular para o seguinte. Quando você escreve o texto dentro do parágrafo, você fala ao navegador o significado do elemento. Isso é chamado de HTML semântico.</p>
+<p>O elemento <code>p</code>é usado para representar um parágrafo de texto de uma página web. Alguns leitores de tela anunciam o elemento <code>p</code> como um parágrafo. Isso permite ao usuário escutar algumas poucas palavras do parágrafo e pular para o seguinte. Quando você escreve o texto dentro do parágrafo, você fala ao navegador o significado do elemento. Isso é chamado de HTML semântico.</p>
 
 <br>
 
 ### Paragraphs and line breaks
 
-<p style ="text-align: justify">O elemento <code>br</code> não deveria ser usado para separar parágrafos ou dois elementos. De fato, ele deveria ser usado somente para criar uma nova linha dentro da mesma sentência ou contexto.</p>
+<p>O elemento <code>br</code> não deveria ser usado para separar parágrafos ou dois elementos. De fato, ele deveria ser usado somente para criar uma nova linha dentro da mesma sentência ou contexto.</p>
 
 <br>
 
 ### Contents of a paragraph
 
-<p style ="text-align: justify">Um elemento parágrafo irá conter majoritariamente texto. Por agora, é importante saber que você não pode aninhar um parágrafo dentro do outro.</p>
-  
+<p>Um elemento parágrafo irá conter majoritariamente texto. Por agora, é importante saber que você não pode aninhar um parágrafo dentro do outro.</p>
+
+<br>
+
 </details>
 
 <details>
-  <summary><h2>Chapter 8: Lists</h2></summary>
+
+<summary>
+
+<h2>Chapter 8: Lists</h2>
+
+</summary>
 
 ### The ol and ul elements
 
 ```html
 <ol>
 
-    <li>Heat the pasta.</li>
+ <li>Heat the pasta.</li>
 
-    <li>Pour the sauce on the cooked pasta.</li>
+ <li>Pour the sauce on the cooked pasta.</li>
 
 </ol>
 ```
 
 ### The ol (ordered list) element
 
-<p style ="text-align: justify">O elemento <code>ol</code> (ordered list) representa uma lista de items onde os items foram intencionalmente ordenados. O elemento <code>li</code> representa o um item da lista. Então, o <code>ol</code> define que a lista é ordenada. Então, cada elemento <code>li</code> dentro representa um item dessa lista ordenada.</p>
+<p>O elemento <code>ol</code> (ordered list) representa uma lista de items onde os items foram intencionalmente ordenados. O elemento <code>li</code> representa o um item da lista. Então, o <code>ol</code> define que a lista é ordenada. Então, cada elemento <code>li</code> dentro representa um item dessa lista ordenada.</p>
 
 <br>
 
 ```html
 <ul>
 
-    <li>Heat the pasta.</li>
+ <li>Heat the pasta.</li>
 
-    <li>Pour the sauce on the cooked pasta.</li>
+ <li>Pour the sauce on the cooked pasta.</li>
 
 </ul>
 ```
 
+<br>
 
 ### The ul (unordered list) element
 
-<p style="text-align: justify">Similar ao elmento <code>ol</code> nós temos agora o elemento <code>ul</code>. O elemento <code>ul</code> representa listas de items onde a ordem de items não importa.</p>
+<p>Similar ao elmento <code>ol</code> nós temos agora o elemento <code>ul</code>. O elemento <code>ul</code> representa listas de items onde a ordem de items não importa.</p>
 
 <br>
 
 ```html
 <ol>
 
-  <li>Introduction</li>
+<li>Introduction</li>
 
-  <li>Hypothesis</li>
+<li>Hypothesis</li>
 
-  <li>Theories</li>
+<li>Theories</li>
 
-    <ul>
+ <ul>
 
-      <li>Behavior theory</li>
+   <li>Behavior theory</li>
 
-      <li>Relational theory</li>
+   <li>Relational theory</li>
 
-    </ul>
-  
-  <li>Conclusion</li>
+ </ul>
+
+<li>Conclusion</li>
 
 </ol>
 ```
 
 ### Element nesting
 
-<p style ="text-align: justify">É possíve também com listas, aninhar uma dentro da outra, criando listas dentro de listas. Vale tanto para listas ordenadas dentro de lista não ordenadas ou vice-versa, listas ordenads dentro de listas ordenadas e listas não ordenadas dentro de listas não ordenadas</p>
+<p>É possíve também com listas, aninhar uma dentro da outra, criando listas dentro de listas. Vale tanto para listas ordenadas dentro de lista não ordenadas ou vice-versa, listas ordenads dentro de listas ordenadas e listas não ordenadas dentro de listas não ordenadas</p>
 
-  
+
 </details>
 
 <details>
- <summary><h2>Chapter 10: Intro to Landmarks</h2></summary>
- 
+<summary><h2>Chapter 10: Intro to Landmarks</h2></summary>
+
 ### Intro to Landmarks
 
 <p style ="text-align: justify">Elementos referenciais teem o objetivo de dividir a página em várias áreas reconhecíveis. Um usuário pode usar leitores de tela para navegar com facilidade e motores de buscam podem melhor entender o conteúdo do seu website</p>
@@ -359,87 +387,87 @@ Postcode, Country
 
 ### The footer element
 
- <p style ="text-align:justify">O elemento <code>footer</code> representa o rodapé da página. Ele contém os dados comumente utilizados no final da página, tais como: links, documentos relacionados, direitos de propriedade intelectual, informações de contato e endereço.</p>
+<p style ="text-align:justify">O elemento <code>footer</code> representa o rodapé da página. Ele contém os dados comumente utilizados no final da página, tais como: links, documentos relacionados, direitos de propriedade intelectual, informações de contato e endereço.</p>
 
- 
+
 </details>
 
 <details>
-  <summary><h2>Chapter 11: strong and em</h2></summary>
+<summary><h2>Chapter 11: strong and em</h2></summary>
 
- ### The strong and b elements
+### The strong and b elements
 
- <p style ="text-align: justify">O elemento <code>strong</code> é utilizado para represenar conteúdo que forte relevância, seriedade ou urgência.</p>
+<p style ="text-align: justify">O elemento <code>strong</code> é utilizado para represenar conteúdo que forte relevância, seriedade ou urgência.</p>
 
 <br>
 
 ### The b element
 
- <p style ="text-align: justify">O elemento <code>b</code> é utilizado para chamar a atenção de uma porção de texto relevante, sem tem muita importância além disso.</p>
+<p style ="text-align: justify">O elemento <code>b</code> é utilizado para chamar a atenção de uma porção de texto relevante, sem tem muita importância além disso.</p>
 
 <br>
 
 ### The em and i elements
 
- <p style ="text-align: justify">O elemento <code>em</code> é utilizado para dar ênfase em termos de tonalidade ao conteúdo.</p>
+<p style ="text-align: justify">O elemento <code>em</code> é utilizado para dar ênfase em termos de tonalidade ao conteúdo.</p>
 
 <br>
 
- <p style ="text-align: justify">O elemento <code>i</code> é utilizado para denotar outros termos de idioma diferentes, títulos de obras artísticas ou termos técnicos.</p>
+<p style ="text-align: justify">O elemento <code>i</code> é utilizado para denotar outros termos de idioma diferentes, títulos de obras artísticas ou termos técnicos.</p>
 
-  
+
 </details>
 
 <details>
-  <summary><h2>Chapter 12: Intro to Images</h2></summary>
+<summary><h2>Chapter 12: Intro to Images</h2></summary>
 
 ```html
 <img src = "" width ="" height ="" alt ="">
 ```
- 
-  ### The img element
 
-  <p style ="text-align: justify">O elemento <code>img</code> é responsável por exibir imagens na página.</p>
+### The img element
 
-  <br>
-
-  ### The src attribute
-
-  <p style ="text-align: justify">O atributo src é usado para definir o local da página.</p>
-
-  ### The width and height attributes
-
-  <p style ="text-align: justify">O atributo width define a largura da imagem e height a altura da página e é sempre necessário utilizar-los para explicitar o tamanho da imagem para o navegador e remover comportamentos preditivos dos navegadores em alocar o espaço certo para imagem na página.</p>
-
-  <br>
-
-  ### Alternative text
-
-  <p style ="text-align: justify">O atributo alt é usado para especificar um texto alternativo no lugar da imagem caso ele não possa ser exibida. Com isso, ele sempre é necessário. Ele é usado também em leitores de tela, como forma de narrar a imagem para uma pessoa cega.</p>
-
-
- #### Decorative images
-
- <p style ="text-align: justify">Um imagem decorativa é usada somente com o único propósito estético na página. Para tais imagens, o atributo alt precisa estar assim: <code>alt =""</code>.</p>
-
- <br>
-
- #### Informative images
-
- <p style ="text-align: justify">Imagens informativas são imagens que adicionam valor para a página e possuem relacão com o conteúdo. Para tais imagens o atributo alt precisa estar assim: <code>alt ="textoDescritivoImagem"</code>. Evite utilizar descrições genéricas, pois pode confundir pessoas que estejam utilizando leitores de tela.</p>
-  
-</details>
-
-<details>
-  <summary><h2>Chapter 13: Intro do CSS</h2></summary>
-
- ### Intro to CSS
-
- <p style ="text-align: justify">CSS significa _Cascading Style Sheets_. O CSS é utilizado para estilizar uma página escrita em HTML. Ou seja, CSS vai de mão dada com HTML na construção de uma página minimamente decente e funcional.</p>
+<p style ="text-align: justify">O elemento <code>img</code> é responsável por exibir imagens na página.</p>
 
 <br>
 
- ### Adding stylesheet
+### The src attribute
+
+<p style ="text-align: justify">O atributo src é usado para definir o local da página.</p>
+
+### The width and height attributes
+
+<p style ="text-align: justify">O atributo width define a largura da imagem e height a altura da página e é sempre necessário utilizar-los para explicitar o tamanho da imagem para o navegador e remover comportamentos preditivos dos navegadores em alocar o espaço certo para imagem na página.</p>
+
+<br>
+
+### Alternative text
+
+<p style ="text-align: justify">O atributo alt é usado para especificar um texto alternativo no lugar da imagem caso ele não possa ser exibida. Com isso, ele sempre é necessário. Ele é usado também em leitores de tela, como forma de narrar a imagem para uma pessoa cega.</p>
+
+
+#### Decorative images
+
+<p style ="text-align: justify">Um imagem decorativa é usada somente com o único propósito estético na página. Para tais imagens, o atributo alt precisa estar assim: <code>alt =""</code>.</p>
+
+<br>
+
+#### Informative images
+
+<p style ="text-align: justify">Imagens informativas são imagens que adicionam valor para a página e possuem relacão com o conteúdo. Para tais imagens o atributo alt precisa estar assim: <code>alt ="textoDescritivoImagem"</code>. Evite utilizar descrições genéricas, pois pode confundir pessoas que estejam utilizando leitores de tela.</p>
+
+</details>
+
+<details>
+<summary><h2>Chapter 13: Intro do CSS</h2></summary>
+
+### Intro to CSS
+
+<p style ="text-align: justify">CSS significa _Cascading Style Sheets_. O CSS é utilizado para estilizar uma página escrita em HTML. Ou seja, CSS vai de mão dada com HTML na construção de uma página minimamente decente e funcional.</p>
+
+<br>
+
+### Adding stylesheet
 
 ```html
 <link rel ="stylesheet" type ="text/css" href ="style.css">
@@ -453,7 +481,7 @@ Postcode, Country
 
 ```css
 h1 {
-    color: red;
+ color: red;
 }
 ```
 
@@ -474,15 +502,15 @@ h1 {
 ```css
 /* This is a CSS comment */
 h1 {
-    color: red;
+ color: red;
 }
 ```
 <p style ="text-align: justify">Os comentários permitem acrescentar lembretes ou guias das funções que arquivo CSS possui e como isso afeta o conteúdo exibido no navegador.</p>
-  
+
 </details>
 
 <details>
-  <summary><h2>Chapter 14: Intro do CSS (continued)</h2></summary>
+<summary><h2>Chapter 14: Intro do CSS (continued)</h2></summary>
 
 ### CSS Properties
 
@@ -491,8 +519,8 @@ h1 {
 ```css
 p
 {
-  color: red;
-  font-weight: bold;
+color: red;
+font-weight: bold;
 }
 ```
 _Sempre utilize ponto e vírgula para finalizar cada linha da declaração dentro do seletor_
@@ -501,7 +529,7 @@ _Sempre utilize ponto e vírgula para finalizar cada linha da declaração dentr
 </details>
 
 <details>
-  <summary><h2>Chapter 15: CSS inheritance</h2></summary>
+<summary><h2>Chapter 15: CSS inheritance</h2></summary>
 
 
 ### User-agent sylesheet
@@ -517,12 +545,12 @@ _Sempre utilize ponto e vírgula para finalizar cada linha da declaração dentr
 ```css
 p
 {
-  color: red;
+color: red;
 }
 
 p
 {
-  color: blue;
+color: blue;
 }
 ```
 
@@ -536,17 +564,17 @@ _Na página irá apareceu um parágrafo da cor azul, pois ele é o último na ca
 
 ```css
 <p>
-    Welcome to my <strong>first</strong> website.
+ Welcome to my <strong>first</strong> website.
 </p>
 
 <style>
-    p
-    {
-        color: blue;
-    }
+ p
+ {
+     color: blue;
+ }
 </style>
 ```
 
 _No caso acima, a tag strong é filha da tag p e herdada a estilização da mesma._
-  
+
 </details>
