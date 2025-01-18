@@ -76,7 +76,7 @@
 
 <summary>
 
-<h2>Chapter 4: Headings deep dive</h2>
+## Chapter 4: Headings deep dive
 
 </summary>
 
@@ -134,7 +134,7 @@
 
 <br>
 
-<h3>The doctype</h3>
+### The doctype
 
 ```html
 <!DOCTYPE html>
@@ -464,11 +464,11 @@ Postcode, Country
 
 <details>
 
- <summary>
- 
-  <h2>Chapter 13: Intro do CSS</h2>
-  
-  </summary>
+<summary>
+
+<h2>Chapter 13: Intro do CSS</h2>
+
+</summary>
 
 ### Intro to CSS
 
@@ -540,11 +540,11 @@ _Sempre utilize ponto e vírgula para finalizar cada linha da declaração dentr
 
 <details>
 
- <summary>
- 
-  <h2>Chapter 15: CSS inheritance</h2>
-  
- </summary>
+<summary>
+
+<h2>Chapter 15: CSS inheritance</h2>
+
+</summary>
 
 
 ### User-agent sylesheet
