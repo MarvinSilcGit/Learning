@@ -11,8 +11,6 @@
 
    <p>Um comentário é um pedaço de texto escrito por um desenvolvedor para descrever o que está acontecendo no código, prover esclarecimento, uma nota para ele mesmo ou outras notas.</p>
 
-  <br>
-
   ## Blank space and newlines
 
    <p>Espaços em branco são tratados diferentemente no HTML do que você pode experar. Olhe abaixo:</p>
@@ -25,8 +23,6 @@
 
    <p>Você tem mais do que um espaço em branco, ele será renderizado como um espaço em branco pelo navegador. Este comportamento dá a você flexibilidade sobre como escrever seu código, especialmente conforme sua página vai ficando mais complexa.</p>
 
-  <br>
-
   ## New Lines
 
    <p>Caracteres de nova linha são representados por um único caractere de espaço em branco.</p>
@@ -38,8 +34,6 @@
   ```
 
    <p><code>Hello World</code></p>
-
-  <br>
 
   ## What if a want a new line to render?
 

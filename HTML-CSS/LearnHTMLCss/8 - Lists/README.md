@@ -28,13 +28,10 @@
   </ul>
   ```
 
-  <br>
 
   ## The ul (unordered list) element
 
-   <p>Similar ao elmento <code>ol</code> nós temos agora o elemento <code>ul</code>. O elemento <code>ul</code> representa listas de items onde a ordem de items não importa.</p>
-
-  <br>
+   <p>Similar ao elemento <code>ol</code> nós temos agora o elemento <code>ul</code>. O elemento <code>ul</code> representa listas de items onde a ordem de items não importa.</p>
 
   ```html
   <ol>
@@ -57,8 +54,7 @@
   
   </ol>
   ```
-  <br>
 
   ## Element nesting
 
-   <p>É possíve também com listas, aninhar uma dentro da outra, criando listas dentro de listas. Vale tanto para listas ordenadas dentro de lista não ordenadas ou vice-versa, listas ordenads dentro de listas ordenadas e listas não ordenadas dentro de listas não ordenadas</p>
+   <p>É possível também com listas, aninhar uma dentro da outra, criando listas dentro de listas. Vale tanto para listas ordenadas dentro de listas não ordenadas ou vice-versa, listas ordenadas dentro de listas ordenadas e listas não ordenadas dentro de listas não ordenadas</p>
