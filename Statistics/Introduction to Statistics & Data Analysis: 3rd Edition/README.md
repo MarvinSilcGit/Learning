@@ -105,7 +105,7 @@ mindmap
 
    <p>Um conjunto de dados podem classificados conformes a quantidade diferentes de características (variáveis) observadas. Quando de somente uma característica é conhecido como <b>univariado</b>, quando de duas características sendo analisadas será do tipo <b>bivariado</b> e acima de duas características será do tipo <b>multivariado</b>.</p>
 
-  <p>Logo após um conjunto de dados ser clasificado como univariado, bivariado ou multivariado conforme a quantidade de variáveis analisadas, A variáveis tambem podem ser classificados conforme os tipos de dados.</p>
+  <p>Logo após um conjunto de dados ser clasificado como univariado, bivariado ou multivariado conforme a quantidade de variáveis analisadas, as variáveis também possuem uma classificação conforme os tipos de dados.</p>
 
   #### Categorical and Numerical Data
 
