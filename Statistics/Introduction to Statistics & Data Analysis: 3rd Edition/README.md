@@ -88,7 +88,7 @@
    
    ### 1.4 Types of Data and Some Simple Graphical Displays
 
-   #### Descbribing Data
+   #### Describing Data
 
    <p>Cada indivíduo, animal ou objeto possui características que o diferenciam ou não de outros de seu grupo e que podem se alterar ou não conforme o tempo. Essas características são chamadas de <b>variáveis</b> e são fundamentais na estatística. <b>Dados</b>, por sua vez, resultam da observação dessas variáveis. Depois que esse dados são medidos ou contados eles se tranformam em <b>conjunto de dados</b>, que podem univariados, bivariados, multivariados.</p>
 
@@ -96,6 +96,7 @@
 
 ```mermaid
 mindmap
+
   (**Conjunto de dados**)
     (Univariado)
     (Bivariado)
@@ -104,18 +105,24 @@ mindmap
 
    <p>Um conjunto de dados podem classificados conformes a quantidade diferentes de características (variáveis) observadas. Quando de somente uma característica é conhecido como <b>univariado</b>, quando de duas características sendo analisadas será do tipo <b>bivariado</b> e acima de duas características será do tipo <b>multivariado</b>.</p>
 
-   #### Two types of Numerical Data
+  <p>Logo após um conjunto de dados ser clasificado como univariado, bivariado ou multivariado conforme a quantidade de variáveis analisadas, A variáveis tambem podem ser classificados conforme os tipos de dados.</p>
 
-COLOCAR MAPA DAS CLASSIFCAÇÕES DE CONJUNTOS DE DADOS NUMÉRICOS E CATEGÓRICOS
+  #### Categorical and Numerical Data
 
 ```mermaid
 mindmap
-
-```
-
-  #### Definition:  CONJUNTOS DE DADOS NUMÉRICOS E CATEGÓRICOS
-
-   
+  (**Tipo de dados**)
+    (Categórico / qualitativo)
+      (Nominal)
+        (Gênero, etinicidade ...)
+      (Ordinal)
+        (Condição econômica, nível educacional ...)
+    (Numérico / quantitativo)
+      (Discreto)
+        (Notas, idade, altura...)
+      (Contínuo)
+        (Dinheiro em posse, peso...)
+```   
 
    
   </details>
