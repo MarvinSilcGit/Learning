@@ -77,14 +77,22 @@
 
   <br>
    
-   #### 1.4 Types of Data and Some Simple Graphical Displays
+   ### 1.4 Types of Data and Some Simple Graphical Displays
 
    <p>Cada indivíduo, animal ou objeto possui características que o diferenciam ou não de outros de seu grupo e que podem se alterar ou não conforme o tempo. Essas características são chamadas de <b>variáveis</b> e são fundamentais na estatística. <b>Dados</b>, por sua vez, resultam da observação dessas variáveis. Depois que esse dados são medidos ou contados eles se tranformam em <b>conjunto de dados</b>, que podem univariados, bivariados, multivariados.</p>
 
+   #### Definition: univariate, bivariate, multivariate
 
-   #### Definition: univariados, bivariados, multivariados
+```mermaid
+mindmap
+  (**Conjunto de dados**)
+    (Univariado)
+    (Bivariado)
+    (Multivariado)
+```
 
-### COLOCAR MAPA DAS CLASSIFICAÇÕES DE CONJUNTO DE DADOS
+   <p>Um conjunto de dados podem classificados conformes a quantidade diferentes de características (variáveis) observadas. Quando de somente uma característica é conhecido como <b>univariado</b>, quando de duas características sendo analisadas será do tipo <b>bivariado</b> e acima de duas características será do tipo <b>multivariado</b>.</p>
+
 
 ### COLOCAR MAPA DAS CLASSIFCAÇÕES DE CONJUNTOS DE DADOS NUMÉRICOS E CATEGÓRICOS
 
