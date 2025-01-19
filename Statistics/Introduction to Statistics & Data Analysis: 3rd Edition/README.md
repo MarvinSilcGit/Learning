@@ -45,6 +45,15 @@
 
    <p><b>Estatítica descritiva</b> é o ramo da estatística que inclui métodos para organizar e resumir dados. <b>Estatística inferencial</b> é o ramo da estatística que envolve generalizar a partir de uma amostra de uma população e avaliar a confiabilidade de tais generalizações.</p>
 
+   #### The Data analysis Process
+
+   1. **Understanding the nature of the problem**:
+   2. **Deciding what to measure and how to measure it**:
+   3. **Data collection**:
+   4. **Data summarization and preliminary analysis**:
+   5. **Formal dta anlysis**:
+   6. **Interepretation of results**:
+
 <br>
 
   ### Exercises 1.1 - 1.9
@@ -79,6 +88,8 @@
    
    ### 1.4 Types of Data and Some Simple Graphical Displays
 
+   #### Descbribing Data
+
    <p>Cada indivíduo, animal ou objeto possui características que o diferenciam ou não de outros de seu grupo e que podem se alterar ou não conforme o tempo. Essas características são chamadas de <b>variáveis</b> e são fundamentais na estatística. <b>Dados</b>, por sua vez, resultam da observação dessas variáveis. Depois que esse dados são medidos ou contados eles se tranformam em <b>conjunto de dados</b>, que podem univariados, bivariados, multivariados.</p>
 
    #### Definition: univariate, bivariate, multivariate
@@ -93,11 +104,18 @@ mindmap
 
    <p>Um conjunto de dados podem classificados conformes a quantidade diferentes de características (variáveis) observadas. Quando de somente uma característica é conhecido como <b>univariado</b>, quando de duas características sendo analisadas será do tipo <b>bivariado</b> e acima de duas características será do tipo <b>multivariado</b>.</p>
 
+   #### Two types of Numerical Data
 
-### COLOCAR MAPA DAS CLASSIFCAÇÕES DE CONJUNTOS DE DADOS NUMÉRICOS E CATEGÓRICOS
+COLOCAR MAPA DAS CLASSIFCAÇÕES DE CONJUNTOS DE DADOS NUMÉRICOS E CATEGÓRICOS
 
+```mermaid
+mindmap
 
-   #### Definition:  CONJUNTOS DE DADOS NUMÉRICOS E CATEGÓRICOS
+```
+
+  #### Definition:  CONJUNTOS DE DADOS NUMÉRICOS E CATEGÓRICOS
+
+   
 
    
   </details>
