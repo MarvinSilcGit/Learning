@@ -80,7 +80,7 @@
      <li>A população são todos os 5000 blocos. Já a amostra foram os 100 blocos inspecionados.</li>
    </ol>
 
-  <br>
+<br>
 
   ### 1.4 Types of Data and Some Simple Graphical Displays
 
@@ -134,6 +134,7 @@ mindmap
 
    <p>Quandos as variáveis categóricas asssumem valores que não possuem necesidade de ordenação, elas serão do tipo <b>nominal</b>. Quando as variáveis categóricas assumem valores que possuem necessidade de ordenação, elas serão do tipo <b>ordinal</b>.</p>
 
+<br>
 
   ### Frequency Distribution and Bar Charts for Categorical Data
 
