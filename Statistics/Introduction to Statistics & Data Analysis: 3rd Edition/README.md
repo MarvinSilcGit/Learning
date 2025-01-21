@@ -1,15 +1,11 @@
 # Introduction to Statistics & Data Analysis - 3rd Edition
 
-  <details>
-    <summary>
-      <h2>Chapter 1: The Role of Statistics and the Data Analysis Process</h2>
-    </summary>
+
+## Chapter 1: The Role of Statistics and the Data Analysis Process
 
   <p>O uso da estatística está cada vez mais disseminado no mundo atual por consequência de sua utilização e aplicação prática. Ainda assim, muitos acreditam que se trata de uma disicplina desnecessária e muitas vezes utilizada somente para fundamentar mentiras através dos dados coletados, campanhas de marketing suspiciosas, para dizer o mínimo, e narrativas sociais dos grupos sociais e econômicos dominantes. Contudo, a estatística é muito utilizada em várias áreas do conhecimento, de modo que ela se torna imprescindível em um mundo cada vez mais complexo e abarrotado de interações.</p>
 
   <p>Mesmo em meio à desconfianças, a estatística está se tornando mais popular entre o público que não contribui diariamente com ela. Isso porque ela dá ferramentas necessárias para pensar além do óbvio e do genérico, facilitando a compreensão dos eventos naturais e sociais e formando uma maneira de pensar para além da bestialidade social e individual. Nessa cadência, vão se formando mais e mais pessoas interessadas e pelos menos compreender sua utilidade prática.</p>
-
-<br>
    
    ### 1.1: Three reasons to study statistics
 
@@ -93,6 +89,9 @@
    <p>Cada indivíduo, animal ou objeto possui características que o diferenciam ou não de outros de seu grupo e que podem se alterar ou não conforme o tempo. Essas características são chamadas de <b>variáveis</b> e são fundamentais na estatística. <b>Dados</b>, por sua vez, resultam da observação dessas variáveis. Depois que esse dados são medidos ou contados eles se tranformam em <b>conjunto de dados</b>, que podem univariados, bivariados, multivariados.</p>
 
    #### Definition: univariate, bivariate, multivariate
+
+   
+   <p>Um conjunto de dados podem classificados conformes a quantidade diferentes de características (variáveis) observadas. Quando de somente uma característica é conhecido como <b>univariado</b>, quando de duas características sendo analisadas será do tipo <b>bivariado</b> e acima de duas características será do tipo <b>multivariado</b>.</p>
   
 ```mermaid
 mindmap
@@ -102,13 +101,15 @@ mindmap
     (Multivariado)
 ```
 
-   <p>Um conjunto de dados podem classificados conformes a quantidade diferentes de características (variáveis) observadas. Quando de somente uma característica é conhecido como <b>univariado</b>, quando de duas características sendo analisadas será do tipo <b>bivariado</b> e acima de duas características será do tipo <b>multivariado</b>.</p>
+   #### Definition: Numerical Data
 
-  #### Definition: Categorical and Numerical Data
+   <p>Logo após um conjunto de dados ser clasificado como univariado, bivariado ou multivariado conforme a quantidade de variáveis analisadas, as variáveis também possuem uma classificação conforme os tipos de dados.</p>
+
+  <p>Variáveis numéricas são representadas por números. Quando essas variáveis numéricas assumem valores que excluem outros valores possíveis, essa variável serão to tipo <b>discreta</b>. Porém, quando essas variáveis assumem valores dentro de um intervalo delimitado de valores, essa variável serão do tipo <b>contínua</b>.</p>
 
 ```mermaid
 mindmap
-  (**Tipo de dados**)
+**Tipo de dados**
     (Categórico / qualitativo)
       (Nominal)
         (Gênero, etinicidade ...)
@@ -120,9 +121,8 @@ mindmap
       (Contínuo)
         (Dinheiro em posse, peso, pressão arterial...)
 ```
-
-   <p>Logo após um conjunto de dados ser clasificado como univariado, bivariado ou multivariado conforme a quantidade de variáveis analisadas, as variáveis também possuem uma classificação conforme os tipos de dados.</p>
-
-  <p>Variáveis numéricas são representadas por números. Quando essas variáveis numéricas assumem valores que excluem outros valores possíveis, essa variável será to tipo <b>discreta</b>. Porém, quando essas variáveis assumem valores dentro de um intervalo delimitado de valores, essa variável será do tipo <b>contínua</b>.</p>
    
-  </details>
+   #### Definition: Categorical Data
+
+   
+   <p></p>
