@@ -1,6 +1,6 @@
 # Sintax
 
-## Mind Maps
+## Mind Maps Basics
 
 ```
 mindmap
@@ -19,7 +19,7 @@ mindmap
     (Intro CSS)
     (CSS Inheritance)
 ```
-_Add 3 backsticks at the beginning and end of the code block with mermaid to highlight the code_
+_Add 3 backsticks at the beginning and end of the code block with mermaid at the right side of the top backsticks to highlight the code_
 
 ```
 mindmap
@@ -32,32 +32,44 @@ mindmap
     (Strings)
 ```
 
+```mermaid
+mindmap
+  **HTML-CSS**
+    (Semantics)
+    (Accessibility)
+    (Headings)
+    **JavaScript**
+       (Numbers)
+       (Strings)
+```
 _Use indentaion to create hierarchy between topics_
-### Shapes
 
+### Shapes
 
 ```
 mindmap
-    id[I am a square]
+	Formas
+	    id[I am a square]
+	    id(I am a rounded square)
+	    id((I am a circle))
+	    id))I am a bang((
+	    id)I am a cloud(
+	    id{{I am a hexagon}}
+	    Default
+```
 
+_Resultado_
+
+```mermaid
 mindmap
-    id(I am a rounded square)
-
-mindmap
-    id((I am a circle))
-
-mindmap
-    id))I am a bang((
-
-mindmap
-    id)I am a cloud(
-
-mindmap
-    id{{I am a hexagon}}
-
-mindmap
-    I am the default shape
-
+	Formas
+	    id[I am a square]
+	    id(I am a rounded square)
+	    id((I am a circle))
+	    id))I am a bang((
+	    id)I am a cloud(
+	    id{{I am a hexagon}}
+	    Default
 ```
 
 <br>
@@ -123,4 +135,12 @@ flowchart LR;
 		Tempo-real --> GPS & Aviação;
 		
 		Rede --> Provedor_Internet & Starlink;
+```
+
+
+## Piechart
+
+```mermaid
+
+
 ```
