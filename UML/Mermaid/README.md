@@ -60,6 +60,10 @@ Course
         (Visuals)
 ```
 
+<br>
+
+
+
 ### Shapes
 
 ```mermaid
@@ -113,6 +117,8 @@ Escola ||--|{ Aluno: possuiMuitos
 Escola ||--|{ Departamento: temUm
 ```
 
+<br>
+
 
 ## Piechart
 
@@ -123,17 +129,4 @@ pie title Dia divido em horas
     "Dormindo": 8.5
     "Necessidades Básicas": 1.2
     "Alimentação": 1.6
-
-```
-
-```
-mindmap
-Formas
-    id[I am a square]
-    id(I am a rounded square)
-    id((I am a circle))
-    id))I am a bang((
-    id)I am a cloud(
-    id{{I am a hexagon}}
-    Default
 ```
