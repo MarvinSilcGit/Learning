@@ -96,7 +96,6 @@
 
 ```mermaid
 mindmap
-
   (**Conjunto de dados**)
     (Univariado)
     (Bivariado)
@@ -105,9 +104,7 @@ mindmap
 
    <p>Um conjunto de dados podem classificados conformes a quantidade diferentes de características (variáveis) observadas. Quando de somente uma característica é conhecido como <b>univariado</b>, quando de duas características sendo analisadas será do tipo <b>bivariado</b> e acima de duas características será do tipo <b>multivariado</b>.</p>
 
-  <p>Logo após um conjunto de dados ser clasificado como univariado, bivariado ou multivariado conforme a quantidade de variáveis analisadas, as variáveis também possuem uma classificação conforme os tipos de dados.</p>
-
-  #### Categorical and Numerical Data
+  #### Definition: Categorical and Numerical Data
 
 ```mermaid
 mindmap
@@ -122,7 +119,11 @@ mindmap
         (Notas, idade, altura...)
       (Contínuo)
         (Dinheiro em posse, peso...)
-```   
+```
+
+   <p>Logo após um conjunto de dados ser clasificado como univariado, bivariado ou multivariado conforme a quantidade de variáveis analisadas, as variáveis também possuem uma classificação conforme os tipos de dados.</p>
+
+  <p>Variáveis numéricas são representadas por números. E quando esse números </p>
 
    
   </details>
