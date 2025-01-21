@@ -1,48 +1,40 @@
 # Sintax
 
-## Mind Maps Basics
+<details>
+	<summary><h2>Mindmaps</h2></summary>
+
+### Simple Mindmap
 
 ```
 mindmap
-  **HTML-CSS**
-    (Semantics)
-    (Accessibility)
-    (Headings)
-    (Boilerplate)
-    (Blank space and comments)
-    (Paragraphs)
-    (Lists)
-    (HTML validity)
-    (Landmarks)
-    (Strong and em)
-    (Images)
-    (Intro CSS)
-    (CSS Inheritance)
+	**Course**
+		**HTML**
+			(Semantics)
+			(Accessibility)
+			(Headings)
+		**JavaScript**
+			(Numbers)
+			(Strings)
+		**CSS**
+			(Style)
+			(Visuals)
 ```
-_Add 3 backsticks at the beginning and end of the code block with mermaid at the right side of the top backsticks to highlight the code_
 
-```
-mindmap
-  **HTML-CSS**
-    (Semantics)
-    (Accessibility)
-    (Headings)
-  **JavaScript**
-    (Numbers)
-    (Strings)
-```
 
 ```mermaid
 mindmap
-  **HTML-CSS**
-    (Semantics)
-    (Accessibility)
-    (Headings)
-    **JavaScript**
-       (Numbers)
-       (Strings)
+	**Course**
+		**HTML**
+			(Semantics)
+			(Accessibility)
+			(Headings)
+		**JavaScript**
+			(Numbers)
+			(Strings)
+		**CSS**
+			(Style)
+			(Visuals)
 ```
-_Use indentaion to create hierarchy between topics_
 
 ### Shapes
 
@@ -60,7 +52,7 @@ mindmap
 
 _Resultado_
 
-```mermaid
+```
 mindmap
 	Formas
 	    id[I am a square]
@@ -73,6 +65,9 @@ mindmap
 ```
 
 <br>
+
+</details>
+
 
 ## EMR diagrams
 
@@ -143,4 +138,16 @@ flowchart LR;
 ```mermaid
 
 
+```
+
+```mermaid
+mindmap
+	Formas
+	    id[I am a square]
+	    id(I am a rounded square)
+	    id((I am a circle))
+	    id))I am a bang((
+	    id)I am a cloud(
+	    id{{I am a hexagon}}
+	    Default
 ```
