@@ -93,7 +93,7 @@
    <p>Cada indivíduo, animal ou objeto possui características que o diferenciam ou não de outros de seu grupo e que podem se alterar ou não conforme o tempo. Essas características são chamadas de <b>variáveis</b> e são fundamentais na estatística. <b>Dados</b>, por sua vez, resultam da observação dessas variáveis. Depois que esse dados são medidos ou contados eles se tranformam em <b>conjunto de dados</b>, que podem univariados, bivariados, multivariados.</p>
 
    #### Definition: univariate, bivariate, multivariate
-
+  
 ```mermaid
 mindmap
   (**Conjunto de dados**)
@@ -118,12 +118,11 @@ mindmap
       (Discreto)
         (Notas, idade, altura...)
       (Contínuo)
-        (Dinheiro em posse, peso...)
+        (Dinheiro em posse, peso, pressão arterial...)
 ```
 
    <p>Logo após um conjunto de dados ser clasificado como univariado, bivariado ou multivariado conforme a quantidade de variáveis analisadas, as variáveis também possuem uma classificação conforme os tipos de dados.</p>
 
-  <p>Variáveis numéricas são representadas por números. E quando esse números </p>
-
+  <p>Variáveis numéricas são representadas por números. Quando essas variáveis numéricas assumem valores que excluem outros valores possíveis, essa variável será to tipo <b>discreta</b>. Porém, quando essas variáveis assumem valores dentro de um intervalo delimitado de valores, essa variável será do tipo <b>contínua</b>.</p>
    
   </details>
