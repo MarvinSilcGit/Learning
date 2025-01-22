@@ -20,13 +20,13 @@ mindmap
 
 ### Drawbacks To SQLite
 
-#### A sua característica de ser portável o faz uma escolha ruim para quando muito usuários estão atualizando a tabela ao mesmo tempo (para manter integridade, somente um usuário por vez pode alterar a tabela). Ele também não oferece tantas funcionalidades quantos outros motores de banco de dados. Por último, SQLite não valida tipo de dados: onde muito bancos de dados rejeitariam dados que não estão de acordo com o esquema da tabela, SQLite permite a usuários armazenar dados de qualquer tipo em qualquer coluna.
+#### A sua característica de ser portável o faz uma escolha ruim para quando muito usuários estão atualizando a tabela ao mesmo tempo (para manter integridade, somente um usuário por vez pode alterar a tabela). Ele também não oferece tantas funcionalidades quantos outros motores de banco de dados. Por último, SQLite não valida tipo de dados: onde muito bancos de dados rejeitariam dados que não estão conforme o esquema da tabela, SQLite permite a usuários armazenar dados de qualquer tipo em qualquer coluna.
 
 <br>
 
 ### Uses for SQLite
 
-#### Mesmo considerando os pontos negativos. os benefícios de ser capaz de acesar e manipular um banco de dados sem envolver uma aplicação servidor são enormes. SQLite é usado mundialmente onde faz sentido armazenar o banco de dados no mesmo dispositivo da aplicação.
+#### Mesmo considerando os pontos negativos. Os benefícios de ser capaz de acesar e manipular um banco de dados sem envolver uma aplicação servidor são enormes. SQLite é usado mundialmente onde faz sentido armazenar o banco de dados no mesmo dispositivo da aplicação.
 
 <br>
 
@@ -70,9 +70,9 @@ CREATE TABLE table_name
 );
 ```
 
-##### 1. <code>CREATE TABLE</code> é um comando. Comandos performam tarefas específicas em SQL. Por convenção, comando são escrito em caxa-alta.
+##### 1. <code>CREATE TABLE</code> é um comando. Comandos performam tarefas específicas em SQL. Por convenção, comando são escritos em caxa-alta.
 ##### 2. <code>table_name</code> se refere ao nome da tabela o qual o comando se aplica.
-##### 3. <code>column_1 data_type, column_2 data_type, column_3 data_type</code> são parâmetros. Parâmetros são uma lista de colunas, tipos de dados ou valores que são passados para um comando como sendo um argumento.
+##### 3. <code>column_1 data_type, column_2 data_type, column_3 data_type</code> são parâmetros. Parâmetros são uma lista de colunas, tipos de dados ou valores passados para um comando como um argumento.
 
 <br>
 
@@ -95,7 +95,7 @@ CREATE TABLE celebs
 ##### 3. <code>(id INTEGER, name TEXT, age INTEGER)</code> é uma lista de parâmetros definindo cada coluna ou atributo na table e seu tipo de dado.
 - <code>id</code> é a primeira coluna da tabela e armazena valores do tipo <code>INTEGER</code>.
 - <code>name</code> é a segundo coluna e armazena valores do tipo <code>TEXT</code>.
-- <code>age</code> é a terceira coluna e armazena valores to tipo <code>INTEGER</code>.
+- <code>age</code> é a terceira coluna e armazena valores do tipo <code>INTEGER</code>.
 
 <br>
 
@@ -117,7 +117,7 @@ VALUES (1, 'Justin Bieber', 29);
 
 ### SELECT
 
-#### A declaração <code>SELECT</code> é utilizadas para recupear dados de uma banco de dados.
+#### A declaração <code>SELECT</code> é utilizada para recupear dados de uma banco de dados.
 
 ```sql
 SELECT name FROM celebs;
@@ -197,7 +197,7 @@ DELETE FROM celebs
 WHERE twitter_handle IS NULL;
 ```
 
-##### 1. <code>DELETE FROM</code> é o comando que permite deletar uma mais linhas de uma tabela.
+##### 1. <code>DELETE FROM</code> é o comando que permite deletar uma ou mais linhas de uma tabela.
 ##### 2. <code>WHERE</code> especifica uma ou mais linhas que serão deletadas confome o parâmetro for verdadeiro.
 ##### 3. <code>IS NULL</code> é o parâmetro que será analizado com verdadeiro ou não.
 
@@ -218,9 +218,9 @@ CREATE TABLE celebs
 );
 ```
 
-##### 1. <code>PRIMARY KEY</code> é a restrição que define uma coluna da tabela como sendo o identificador universal da própria tabela e que não pode ser repetido. Somente é permitida uma restrição dessa por tabela.
+##### 1. <code>PRIMARY KEY</code> é a restrição que define uma coluna da tabela como o identificador universal da própria tabela e que não pode ser repetido. Somente é permitida uma restrição dessa por tabela.
 
-##### 2. <code>UNIUE</code> é a restrição que diz que determinada coluna tem um valor único que não pode ser repetido. Tem semelhança com <code>PRIMARY KEY</code> mas não a mesma função.
+##### 2. <code>UNIUE</code> é a restrição que diz que determinada coluna tem um valor único que não pode ser repetido. Tem semelhança com <code>PRIMARY KEY</code>, mas não a mesma função.
 
 ##### 3. <code>NOT NULL</code> é a restrição que impede a inserção de nova linha em branco na coluna em questão que sejam em branco.
 
@@ -265,7 +265,7 @@ SELECT * FROM movies;
 
 #### Anteriormente, nós aprendemos que o comando <code>SELECT</code> é usado toda vez que você quer consultar dados de um banco de dados. O <code>*</code> significa que todas as colunas da tabela <code>movies</code> serão recuperadas.
 
-#### Suponha que nós estamos somente interessados em duas das colunas. Nós podemos selecionar colunas individualmente pelo seus nomes.
+#### Suponha que nós estamos somente interessados em duas das colunas. Nós podemos selecionar colunas individualmente pelos seus nomes.
 
 ```sql
 SELECT column1, column2 FROM table_name;
@@ -276,7 +276,7 @@ SELECT column1, column2 FROM table_name;
 
 ### AS
 
-#### <code>AS</code> é a declaração que permite modificar o noma da coluna somente na hora da exibição, mas não modificar de fato na tabela. Está mais para um recurso visual. Ademais, cada coluna pode ter seu nome modificado na consultado individualmente. 
+#### <code>AS</code> é a declaração que permite modificar o nome da coluna somente na hora da exibição, mas não modificar de fato na tabela. Está mais para um recurso visual. Ademais, cada coluna pode ter seu nome modificado na consultado individualmente. 
 
 ```sql
 SELECT name AS 'Titles'
@@ -355,15 +355,15 @@ SELECT * FROM movies WHERE name LIKE 'B%A';
 
 ### NULL (IS NULL, IS NOT NULL)
 
-#### Esse comando serve para identificar se determinada linha de uma coluna possui ou não o valor em branco ou nulo que não passado no momento de insersação dos dados.
+#### Esse comando serve para identificar se determinada linha de uma coluna possui ou não o valor em branco, ou nulo que não passado no momento de insersação dos dados.
 
 ```sql
 SELECT name FROM movies WHERE imdb_rating IS NOT NULL;
 
 SELECT name FROM movies WHERE genre IS NULL;
 ```
-##### 1. Com o promeiro comando do código acima vão ser exibidas a linhas da coluna imd_rating que não sejam nulo.
-##### 2. Com o segundo comando do código acima vão ser exibidas a linhas da coluna genre que sejam nulo.
+##### 1. Com o promeiro comando do código acima vão ser exibidas a linhas da coluna imd_rating que não sejam nulas.
+##### 2. Com o segundo comando do código acima vão ser exibidas a linhas da coluna genre que sejam nulas.
 
 
 <br>
@@ -385,7 +385,7 @@ SELECT * FROM movies WHERE year BETWEEN 1990 AND 1999;
 SELECT * FROM movies WHERE name BETWEEN 'A' AND 'J';
 ```
 
-##### Irá pesquisar os nome dos filmes que comecem entre A e J não inclusivo, ou seja, até a letra I
+##### Irá pesquisar os nomes dos filmes que comecem entre A e J não inclusivo, ou seja, até a letra I
 
 <br>
 
@@ -426,7 +426,7 @@ _Comparação feita entre <code>year < 1985</code> ou <code>genre = 'horror'</co
 SELECT * FROM movies ORDER BY name;
 ```
 
-##### Nesse caso, as linhas serão ordenada em ordem alfabética
+##### Nesse caso, as linhas serão ordenadas em ordem alfabética
 
 <br>
 
@@ -442,7 +442,7 @@ SELECT * FROM movies WHERE imdb_rating > 8 ORDER BY year DESC;
 SELECT * FROM movies WHERE year BETWEEN 1990 AND 1999 AND genre = 'romance' ORDER BY year;
 ```
 
-#### É possível aplicar ordem depois de condições
+#### É possível aplicar ordem após condições
 
 <br>
 
@@ -509,7 +509,7 @@ mindmap
 		(HAVING)
 ```
 
- #### Funções agregadores são utilizadas no SQL para dar dinamismo à linguagem e fornecer mais do que apenas definição, manipulação e extração de dados, através de operações matemáticas.
+ #### Funções agregadores são utilizadas no SQL para dar dinamismo à linguagem e fornecer mais do que apenas definição, manipulação e extração de dados, por operações matemáticas.
 
  <br>
  
@@ -620,7 +620,7 @@ SELECT COUNT(*) AS 'total_movies', rating FROM movies GROUP BY 2 ORDER BY 1;
 
 ### HAVING
 
-#### O comando <code>HAVING</code> é utilizado para filtrar resultados, semelhante em parte ao comando <code>WHERE</code>. Porém, ao invés de filtras linhas, ele filtra grupos, os mesmos grupos criados pelos comando <code>GROUP BY</code>.
+#### O comando <code>HAVING</code> é utilizado para filtrar resultados, semelhante em parte ao comando <code>WHERE</code>. Porém, ao invés de filtras linhas, ele filtra grupos, os mesmos grupos criados pelo comando <code>GROUP BY</code>.
 
 ```sql
 SELECT year, COUNT(*) FROM movies GROUP BY 1 HAVING COUNT(*) > 2;
