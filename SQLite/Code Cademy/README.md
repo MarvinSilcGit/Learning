@@ -295,7 +295,7 @@ FROM movies;
 <br>
 
 
-### Distinct
+### DISTINCT
 
 #### A declaração <code>DISTINCT</code> é utilizado para exibir linhas de uma coluna que possuem valores não repetidos.
 
@@ -620,7 +620,7 @@ SELECT COUNT(*) AS 'total_movies', rating FROM movies GROUP BY 2 ORDER BY 1;
 
 ### HAVING
 
-#### O comando <code>HAVING</code> é utilizado para filtrar resultados, semelhante em parte ao comando <code>WHERE</code>. Porém, ao invés de filtras linhas, ele filtra grupos: os mesmos grupos criados pelos comando <code>GROUP BY</code>.
+#### O comando <code>HAVING</code> é utilizado para filtrar resultados, semelhante em parte ao comando <code>WHERE</code>. Porém, ao invés de filtras linhas, ele filtra grupos, os mesmos grupos criados pelos comando <code>GROUP BY</code>.
 
 ```sql
 SELECT year, COUNT(*) FROM movies GROUP BY 1 HAVING COUNT(*) > 2;
