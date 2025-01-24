@@ -284,7 +284,7 @@ Number.parseInt(str, 10); //42
 
 ### Use cases for converting to a number
 
-<p style ="text-align: justify">Há muitas razões que você gostaria de converter uma string para um número, porém, a mais comum é quando o número e digitado pelo usuáiro em uma caixa de texto or o número está sendo lido de um DOM. Como você verá, os valores serão sempre uma string mesmo se o usuário digitar um número.</p>
+<p style ="text-align: justify">Há muitas razões que você gostaria de converter uma string para um número, porém, a mais comum é quando o número e digitado pelo usuário em uma caixa de texto or o número está sendo lido de um DOM. Como você verá, os valores serão sempre uma string mesmo se o usuário digitar um número.</p>
 
 </details>
 
