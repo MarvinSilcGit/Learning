@@ -660,15 +660,19 @@ SELECT orders.order_id, customers.customer_name FROM orders
 ```
 
    ##### 1. É possível também referenciar as colunas das tabelas utilizando o nome da tabela, o caractere <code>.</code> e o nome da coluna.
+   ##### 2. Esse tipo de referência também evita ambiguidade no momento da consulta, pois destaca a qual tabela pertence determinada coluna: <code>orders.customer_id</code> e <code>customers.customer_id</code> possuem colunas com o mesmo nome.
 
 ```sql
-SELECT subscriptions.description AS 'Categoria', COUNT(*) AS 'Q° Vendida por categoria',
-       ROUND(AVG(subscriptions.price_per_month), 2) AS 'Média de preço', 
-       ROUND(AVG(subscriptions.subscription_length), 2) AS 'Média inscrição' FROM orders JOIN 
-        subscriptions ON orders.subscription_id = subscriptions.subscription_id GROUP BY 1;
+SELECT subscriptions.description AS 'Categoria',
+        COUNT(*) AS 'Quantidade magazines compradas por categoria',
+        ROUND(AVG(subscriptions.price_per_month), 2) AS 'Média de preço',
+        ROUND(AVG(subscriptions.subscription_length), 2) AS 'Duração média da inscrição',
+        SUM(subscriptions.price_per_month) AS 'Receita Anual total por categoria',
+        SUM(subscriptions.price_per_month) / 12 AS 'Receita mensal total por categoria'
+FROM orders JOIN subscriptions ON orders.subscription_id = subscriptions.subscription_id
+GROUP BY 1;
 ```
 
-   ##### 1. É possível também utilizar funções agregadoras na junção das consultas. Nesse exemplo o <code>GROUP BY</code> poderia ser agrupado por <code>subscriptions.description</code> que teria o mesmo resultado. Se for por número, será conforme a ordem das colunas. As primeiras colunas serão da tabela consultada, depois a tabela unida e por fim a coluna com a contagem.
-   ##### 2. Esse tipo de referência também evita ambiguidade no momento da consulta, pois destaca a qual tabela pertence determinada coluna: <code>orders.subscription_id</code> e <code>subscriptions.subscription_id</code> possuem colunas com o mesmo nome.
+   ##### 1. É possível também utilizar funções agregadoras na junção das consultas, juntamente com referências. Nesse exemplo o <code>GROUP BY</code> poderia ser agrupado por <code>subscriptions.description</code> que teria o mesmo resultado. Se for por número, será conforme a ordem das colunas. As primeiras colunas serão da tabela consultada, depois a tabela unida e por fim a coluna com a contagem.
 
 </details>
