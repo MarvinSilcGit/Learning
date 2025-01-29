@@ -654,7 +654,7 @@ SELECT * FROM orders JOIN customers ON orders.customer_id = customers.customer_i
    ##### 2. <code>JOIN customers</code> Faz a união da tabela <code>orders</code> com a tabela da tabela <code>customers</code>. O comando <code>INNER JOIN</code> é o comportamento padrão, quando não especificado.
    ##### 3. <code>ON orders.customer_id = customers.customer_id</code> Essa união será baseada na igualdade dos valores dentro das colunas nas duas tabelas.
 
-```sqlite
+```sql
 SELECT orders.order_id, customers.customer_name FROM orders
     JOIN customers ON orders.customer_id = customers.customer_id;
 ```
@@ -662,7 +662,7 @@ SELECT orders.order_id, customers.customer_name FROM orders
    ##### 1. É possível também referenciar as colunas das tabelas utilizando o nome da tabela, o caractere <code>.</code> e o nome da coluna.
    ##### 2. Esse tipo de referência também evita ambiguidade no momento da consulta, pois destaca a qual tabela pertence determinada coluna: <code>orders.customer_id</code> e <code>customers.customer_id</code> possuem colunas com o mesmo nome.
 
-```sqlite
+```sql
 SELECT subscriptions.description AS 'Categoria',
         COUNT(*) AS 'Quantidade magazines compradas por categoria',
         ROUND(AVG(subscriptions.price_per_month), 2) AS 'Média de preço',
