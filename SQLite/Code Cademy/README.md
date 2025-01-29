@@ -61,7 +61,7 @@ mindmap
 
 #### O código abaixo é uma declaração. Uma declaração é um texto que banco de dados reconhece como um comando válido. Declarações sempre terminam con ponto e vírgula.
 
-```sqlite
+```sql
 CREATE TABLE table_name
 (
    column_1 data_type, 
@@ -81,7 +81,7 @@ CREATE TABLE table_name
 
 #### Declarações <code>CREATE</code> nos permite crair uma nova tabela em um banco de dados. VOcê pode usar <code>CREATE</code> a qualquer momento para criar uma nova tabela do princípio.
 
-```sqlite
+```sql
 CREATE TABLE celebs
 (
    id INTEGER, 
@@ -104,7 +104,7 @@ CREATE TABLE celebs
 
 #### A declaração <code>INSERT</code> insere uma nova linha na coluna. Nós podemos usar esse comando sempre que for necessário adicionar novas colunas.
 
-```sqlite
+```sql
 INSERT INTO celebs (id, name, age) 
 VALUES (1, 'Justin Bieber', 29);
 ```
@@ -119,7 +119,7 @@ VALUES (1, 'Justin Bieber', 29);
 
 #### A declaração <code>SELECT</code> é utilizada para recupear dados de uma banco de dados.
 
-```sqlite
+```sql
 SELECT name FROM celebs;
 ```
 
@@ -129,7 +129,7 @@ SELECT name FROM celebs;
 <br>
 
 
-```sqlite
+```sql
 SELECT * FROM celebs;
 ```
 
@@ -142,7 +142,7 @@ SELECT * FROM celebs;
 
 #### A declaração <code>ALTER TABLE</code> juntamente com <code>ADD COLUMN</code>, <code>RENAME TO</code> e <code>DROP</code> permitem alterar a estrutura de uma tabela.
 
-```sqlite
+```sql
 ALTER TABLE celebs 
 ADD COLUMN twitter_handle TEXT;
 ```
@@ -152,23 +152,23 @@ ADD COLUMN twitter_handle TEXT;
 ##### 3. <code>RENAME TO</code> é o comando que permite alterar o nome de uma tabela ou coluna;
 ##### 5. <code>DROP</code> é o comando que permite excluir uma coluna de um tabala;
 
-```sqlite
+```sql
 ALTER TABLE celebs
 RENAME TO celebrities;
 ```
-_Alterando nome da tabela_
+   ##### Alterando nome da tabela
 
-```sqlite
+```sql
 ALTER TABLE celebs
 RENAME expenses TO cost; 
 ```
-_Alterando nome da coluna_
+   ##### Alterando nome da coluna
 
-```sqlite
+```sql
 ALTER TABLE celebrities
 DROP COLUMN cost;
 ```
-_Exluindo a coluna cost_
+   ##### Exluindo a coluna cost
 
 <br>
 
@@ -177,7 +177,7 @@ _Exluindo a coluna cost_
 
 #### A declaração <code>UPDATE SET</code> permite editar uma linha de uma coluna da tabela com um novo valor que for passado para a declaração.
 
-```sqlite
+```sql
 UPDATE celebs SET twitter_handle = '@taylorswift13' WHERE id = 4; 
 ```
 
@@ -192,7 +192,7 @@ UPDATE celebs SET twitter_handle = '@taylorswift13' WHERE id = 4;
 
 #### A declaração <code>DELETE FROM</code> apaga uma ou mais linhas de uma tabela.
 
-```sqlite
+```sql
 DELETE FROM celebs 
 WHERE twitter_handle IS NULL;
 ```
@@ -208,7 +208,7 @@ WHERE twitter_handle IS NULL;
 
 #### As restrições são utilizadas para informar ao sistema de banco de dados que certas colunas possuem características adicionais e que essas características devem ser seguidas.
 
-```sqlite
+```sql
 CREATE TABLE celebs
 (
    id INTEGER PRIMARY KEY, 
@@ -254,7 +254,7 @@ mindmap
 
 #### Um dos principais propósitos de uma linguagem SQL é recuperar informação armazenada no banco de dados. Isso é comumente conhecido como consulta. Consultas permitem-nos comunicar com um banco de dados perguntando e ele devolvendo um conjunto de resultados com dados relevantes.
 
-```sqlite
+```sql
 SELECT * FROM movies;
 ```
 
@@ -267,7 +267,7 @@ SELECT * FROM movies;
 
 #### Suponha que nós estamos somente interessados em duas das colunas. Nós podemos selecionar colunas individualmente pelos seus nomes.
 
-```sqlite
+```sql
 SELECT column1, column2 FROM table_name;
 ```
 
@@ -278,14 +278,14 @@ SELECT column1, column2 FROM table_name;
 
 #### <code>AS</code> é a declaração que permite modificar o nome da coluna somente na hora da exibição, mas não modificar de fato na tabela. Está mais para um recurso visual. Ademais, cada coluna pode ter seu nome modificado na consultado individualmente. 
 
-```sqlite
+```sql
 SELECT name AS 'Titles'
 FROM movies;
 ```
 
 ##### 1. No caso acima, ao invés de exibir name será exibido Titles.
 
-```sqlite
+```sql
 SELECT name AS 'Titles', year AS 'Ano de lançamento'
 FROM movies;
 ```
@@ -299,7 +299,7 @@ FROM movies;
 
 #### A declaração <code>DISTINCT</code> é utilizado para exibir linhas de uma coluna que possuem valores não repetidos.
 
-```sqlite
+```sql
 SELECT DISTINCT year FROM movies;
 ```
 
@@ -312,7 +312,7 @@ SELECT DISTINCT year FROM movies;
 
 #### <code>WHERE</code> é a declaração que especifica qual linha (ou linhas) da coluna selecionada será alterada se o parâmetro seguinte for verdadeiro.
 
-```sqlite
+```sql
 SELECT * FROM movies WHERE year > 1999;
 ```
 
@@ -332,7 +332,7 @@ SELECT * FROM movies WHERE year > 1999;
 
 ##### O comando <code>LIKE</code> é utilizado em conjunção com <code>SELECT FROM</code> e <code>WHERE</code> para filtrar os dados de uma coluna semelhante ao parâmetro.
 
-```sqlite
+```sql
 SELECT * FROM movies WHERE name LIKE 'A%';
 
 SELECT * FROM movies WHERE name LIKE '%A';
@@ -357,7 +357,7 @@ SELECT * FROM movies WHERE name LIKE 'B%A';
 
 #### Esse comando serve para identificar se determinada linha de uma coluna possui ou não o valor em branco, ou nulo que não passado no momento de insersação dos dados.
 
-```sqlite
+```sql
 SELECT name FROM movies WHERE imdb_rating IS NOT NULL;
 
 SELECT name FROM movies WHERE genre IS NULL;
@@ -373,7 +373,7 @@ SELECT name FROM movies WHERE genre IS NULL;
 
 ##### Essa declaração serve para consultar valores que estejam no alcance delimitado pela consulta, utilizando sempre o comando <code>WHERE</code> para auxiliar quais dados buscar. Quando do uso, o comportamento desse comando é diferente de letras para números.
 
-```sqlite
+```sql
 SELECT * FROM movies WHERE year BETWEEN 1990 AND 1999;
 ```
 
@@ -381,7 +381,7 @@ SELECT * FROM movies WHERE year BETWEEN 1990 AND 1999;
 
 <br>
 
-```sqlite
+```sql
 SELECT * FROM movies WHERE name BETWEEN 'A' AND 'J';
 ```
 
@@ -389,7 +389,7 @@ SELECT * FROM movies WHERE name BETWEEN 'A' AND 'J';
 
 <br>
 
-```sqlite
+```sql
 SELECT * FROM movies WHERE year < 1985;
 ```
 
@@ -401,7 +401,7 @@ SELECT * FROM movies WHERE year < 1985;
 
 <p>Assim como na programação, é possível fazer comparações lógicas entre condições na linguagem SQL. Quando utilizando <code>AND</code> somente é feita a consulta quando as duas condições são verdadeiras. Quando <code>OR</code> basta que apena uma das condições seja verdadeira para a consulta ser realizada.</p>
 
-```sqlite
+```sql
 SELECT * FROM movies WHERE year BETWEEN 1990 AND 1999 AND genre = 'romance';
 ```
 
@@ -409,7 +409,7 @@ _Comparação feita entre <code>BETWEEN 1990 AND 1999</code> e <code>genre = 'ro
 
 <br>
 
-```sqlite
+```sql
 SELECT * FROM movies WHERE year < 1985 OR genre = 'horror';
 ```
 
@@ -422,7 +422,7 @@ _Comparação feita entre <code>year < 1985</code> ou <code>genre = 'horror'</co
 
 #### Esse comando é utilizado para ordenar as linhas da tabela através do uso de uma coluna como referência. Utilize os comandos <code>ASC</code> para ordenação ascendente e <code>DESC</code> para ordenação descendente. Por padrão a ordenação é feita do menor para o maior, seja número ou texto.
 
-```sqlite
+```sql
 SELECT * FROM movies ORDER BY name;
 ```
 
@@ -430,7 +430,7 @@ SELECT * FROM movies ORDER BY name;
 
 <br>
 
-```sqlite
+```sql
 SELECT * FROM movies WHERE imdb_rating > 8 ORDER BY year DESC;
 ```
 
@@ -438,7 +438,7 @@ SELECT * FROM movies WHERE imdb_rating > 8 ORDER BY year DESC;
 
 <br>
 
-```sqlite
+```sql
 SELECT * FROM movies WHERE year BETWEEN 1990 AND 1999 AND genre = 'romance' ORDER BY year;
 ```
 
@@ -451,7 +451,7 @@ SELECT * FROM movies WHERE year BETWEEN 1990 AND 1999 AND genre = 'romance' ORDE
 
 ##### Possui a função de limitar a quantidade de linhas que serão buscadas na consulta.
 
-```sqlite
+```sql
 SELECT * FROM movies WHERE imdb_rating > 8 LIMIT 10;
 ```
 
@@ -464,7 +464,7 @@ SELECT * FROM movies WHERE imdb_rating > 8 LIMIT 10;
 
 ##### Essa declaração permite criar uma avaliação de múltiplas condições de maneira mais organizada. E permite, também, nova ação caso seja verdadeira tal condição. Entre o comando <code>WHEN</code> e <code>THEN</code> é possível diferentes tipos de condições. Em teoria, não há limite para quais combinações, porém, cuidado, pois elas podem ficar redundantes.
 
-```sqlite
+```sql
 SELECT name,
 
 CASE
@@ -517,7 +517,7 @@ mindmap
 
  #### O comando <code>COUNT</code> é utilizado para fazer a contagem de quantas linhas (incluindo linhas com valores nulos) há em uma tabela, ao utilizar o caractere <code>*</code> como argumento. Se for utilizado o nome de uma coluna, a contagem será feita somente com linhas que não possuírem valores nulos.
 
- ```sqlite
+ ```sql
 SELECT COUNT(*) FROM table_name;
 
 SELECT COUNT(column_name) FROM table_name;
@@ -529,7 +529,7 @@ SELECT COUNT(column_name) FROM table_name;
 
 #### O comando <code>SUM</code> é utilizado para somar todos os valores da coluna que for informada no argumento da consulta.
 
-```sqlite
+```sql
 SELECT SUM(downloads) FROM fake_apps;
 ```
 
@@ -539,7 +539,7 @@ SELECT SUM(downloads) FROM fake_apps;
 
 #### Os comandos <code>MAX</code> e <code>MIN</code> retornam os maiores e menores valores da coluna que for informada no argumento da consulta.
 
-```sqlite
+```sql
 SELECT MAX(downloads) FROM fake_apps;
 
 SELECT MIN(downloads) FROM fake_apps;
@@ -551,7 +551,7 @@ SELECT MIN(downloads) FROM fake_apps;
 
 #### O comando <code>AVG</code> retorna a média dos valores da coluna que for informada no argumento da consulta.
 
-```sqlite
+```sql
 SELECT AVG(downloads) FROM fake_apps;
 ```
 
@@ -561,11 +561,11 @@ SELECT AVG(downloads) FROM fake_apps;
 
 #### O comando <code>ROUND</code> é utilizado para aplicar dupla precisão aos números. Ele possui dois argumentos: o primeiro é a coluna que possui os valores e o segundo é o número de casas decimais.
 
-```sqlite
+```sql
 SELECT ROUND(price, 2) FROM fake_apps;
 ```
 
-```sqlite
+```sql
 SELECT ROUND(AVG(price), 2) FROM fake_apps;
 ```
 ##### 1. O código logo acima faz com que um dos parâmetros do comando <code>ROUND</code> seja a média de preço, utilizando o comando <code>AVG</code>. O segundo argumento é quantidade casas decimais.
@@ -576,7 +576,7 @@ SELECT ROUND(AVG(price), 2) FROM fake_apps;
 
 #### O comando <code>GROUP BY</code> é utilizado para agrupar resultados de consultas feitas em uma ou mais conluna utilizandos as próprias funções agregradas. A função dele é arranjar a consulta de dados idênticos em grupos.
 
-```sqlite
+```sql
 SELECT AVG(imdb_rating)
 FROM movies
 WHERE year = 1999;
@@ -598,7 +598,7 @@ SELECT year, AVG(imdb_rating) FROM movies GROUP BY year;
 
 ##### 2. Exemplo com <code>GROUP BY</code>: o código acima retorna a coluna year e a coluna de média das notas agrupadas por cada ano.
 
-```sqlite
+```sql
 SELECT imdb_rating, COUNT(*) FROM movies GROUP BY imdb_rating;
 ```
 
@@ -610,7 +610,7 @@ SELECT imdb_rating, COUNT(*) FROM movies GROUP BY imdb_rating;
 
 #### É possível também utilizar números ao invés dos nomes das colunas para referenciar os agrupamentos e ordenamentos numa consulta.
 
-```sqlite
+```sql
 SELECT COUNT(*) AS 'total_movies', rating FROM movies GROUP BY 2 ORDER BY 1;
 ```
 
@@ -622,7 +622,7 @@ SELECT COUNT(*) AS 'total_movies', rating FROM movies GROUP BY 2 ORDER BY 1;
 
 #### O comando <code>HAVING</code> é utilizado para filtrar resultados, semelhante em parte ao comando <code>WHERE</code>. Porém, ao invés de filtras linhas, ele filtra grupos, os mesmos grupos criados pelo comando <code>GROUP BY</code>.
 
-```sqlite
+```sql
 SELECT year, COUNT(*) FROM movies GROUP BY 1 HAVING COUNT(*) > 2;
 ```
 
@@ -646,7 +646,7 @@ mindmap
 
   #### O comando <code>JOIN</code> é utilizado fundamentalmente para unir tabelas num banco de dados a partir de um ou mais valores em comum. Para isso, é necessário ser feito o uso das restrições <code>PRIMARY KEY</code> e <code>FOREIGN KEY</code>. Esse comando possibilita uma análise dos dados minimamente relevante.
 
-```sqlite
+```sql
 SELECT * FROM orders JOIN customers ON orders.customer_id = customers.customer_id;
 ```
 
@@ -661,7 +661,7 @@ SELECT orders.order_id, customers.customer_name FROM orders
 
    ##### 1. É possível também referenciar as colunas das tabelas utilizando o nome da tabela, o caractere <code>.</code> e o nome da coluna.
 
-```sqlite
+```sql
 SELECT subscriptions.description AS 'Categoria', COUNT(*) AS 'Q° Vendida por categoria',
        ROUND(AVG(subscriptions.price_per_month), 2) AS 'Média de preço', 
        ROUND(AVG(subscriptions.subscription_length), 2) AS 'Média inscrição' FROM orders JOIN 
