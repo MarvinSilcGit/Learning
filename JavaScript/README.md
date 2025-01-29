@@ -276,7 +276,7 @@ let str = "42";
 Number.parseInt(str, 10); //42
 ```
 
-<p style ="text-align: justify">O nome da função é chamada <code>Numer.parseInt()</code>. Sim, incluindo the <code>Number</code>. É assim porque há um objeto global chamado <code>Number</code> que contém o método chamado <code>parseInt()</code>. Esse método espera dois parâmetros: o primeiro parâmetro é a string que você gostaria de converter em um número. O segundo argumeneto é a raiz que será usada na conversão.</p>
+<p style ="text-align: justify">O nome da função é chamada <code>Number.parseInt()</code>. Sim, incluindo the <code>Number</code>. É assim porque há um objeto global chamado <code>Number</code> que contém o método chamado <code>parseInt()</code>. Esse método espera dois parâmetros: o primeiro parâmetro é a string que você gostaria de converter em um número. O segundo argumeneto é a raiz que será usada na conversão.</p>
 
 <p style ="text-align: justify">A raiz é a base do sistema numérico que você gostaria de usar. No seu caso, utilize o número pois representa a maneira que nós contamos números diariamente utilizando o sistema decimal. Sempre utilze a raiz em 10 para garantir a compatibilidade com o sistema decimal. Caso seja o sistema binário, utilize 2</p>
 
@@ -284,7 +284,7 @@ Number.parseInt(str, 10); //42
 
 ### Use cases for converting to a number
 
-<p style ="text-align: justify">Há muitas razões que você gostaria de converter uma string para um número, porém, a mais comum é quando o número e digitado pelo usuáiro em uma caixa de texto or o número está sendo lido de um DOM. Como você verá, os valores serão sempre uma string mesmo se o usuário digitar um número.</p>
+<p style ="text-align: justify">Há muitas razões que você gostaria de converter uma string para um número, porém, a mais comum é quando o número e digitado pelo usuário em uma caixa de texto or o número está sendo lido de um DOM. Como você verá, os valores serão sempre uma string mesmo se o usuário digitar um número.</p>
 
 </details>
 
