@@ -662,7 +662,7 @@ SELECT orders.order_id, customers.customer_name FROM orders
    ##### 1. É possível também referenciar as colunas das tabelas utilizando o nome da tabela, o caractere <code>.</code> e o nome da coluna.
    ##### 2. Esse tipo de referência também evita ambiguidade no momento da consulta, pois destaca a qual tabela pertence determinada coluna: <code>orders.customer_id</code> e <code>customers.customer_id</code> possuem colunas com o mesmo nome.
 
-```sql
+```sqlite
 SELECT subscriptions.description AS 'Categoria',
         COUNT(*) AS 'Quantidade magazines compradas por categoria',
         ROUND(AVG(subscriptions.price_per_month), 2) AS 'Média de preço',
