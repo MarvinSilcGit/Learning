@@ -26,7 +26,7 @@ mindmap
 
 ### Uses for SQLite
 
-#### Mesmo considerando os pontos negativos. Os benefícios de ser capaz de acesar e manipular um banco de dados sem envolver uma aplicação servidor são enormes. SQLite é usado mundialmente onde faz sentido armazenar o banco de dados no mesmo dispositivo da aplicação.
+#### Mesmo considerando os pontos negativos. Os benefícios de ser capaz de acessar e manipular um banco de dados sem envolver uma aplicação servidor são enormes. SQLite é usado mundialmente onde faz sentido armazenar o banco de dados no mesmo dispositivo da aplicação.
 
 <br>
 
@@ -79,7 +79,7 @@ CREATE TABLE table_name
 
 ### CREATE
 
-#### Declarações <code>CREATE</code> nos permite crair uma nova tabela em um banco de dados. VOcê pode usar <code>CREATE</code> a qualquer momento para criar uma nova tabela do princípio.
+#### Declarações <code>CREATE</code> nos permite criar uma nova tabela em um banco de dados. VOcê pode usar <code>CREATE</code> a qualquer momento para criar uma nova tabela do princípio.
 
 ```sql
 CREATE TABLE celebs
@@ -117,7 +117,7 @@ VALUES (1, 'Justin Bieber', 29);
 
 ### SELECT
 
-#### A declaração <code>SELECT</code> é utilizada para recupear dados de uma banco de dados.
+#### A declaração <code>SELECT</code> é utilizada para recuperar dados de uma banco de dados.
 
 ```sql
 SELECT name FROM celebs;
@@ -168,7 +168,7 @@ RENAME expenses TO cost;
 ALTER TABLE celebrities
 DROP COLUMN cost;
 ```
-   ##### Exluindo a coluna cost
+   ##### Excluindo a coluna cost
 
 <br>
 
@@ -183,7 +183,7 @@ UPDATE celebs SET twitter_handle = '@taylorswift13' WHERE id = 4;
 
 ##### 1. <code>UPDATE</code> é o comando que edita uma linha da tabela.
 ##### 2. <code>SET</code> é o comando que especifica a coluna e depois o parâmetro (entre aspas ou não a depender do tipo de dado) que ficará no lugar do anterior.
-##### 3. <code>WHERE</code> é comando que especifica qual linha da coluna selecionada será alterada se o parâmetro for verdadeiro. Apesar de não ser necesário para o restante do comando funcionar, se não for acrescentado, todas as linhas da coluna possuirão o mesmo valor passado como parâmetro. Por isso mesmo, é necessária a utilização de um valor que seja único para cada linha da tabela.
+##### 3. <code>WHERE</code> é comando que especifica qual linha da coluna selecionada será alterada se o parâmetro for verdadeiro. Apesar de não ser necessário para o restante do comando funcionar, se não for acrescentado, todas as linhas da coluna possuirão o mesmo valor passado como parâmetro. Por isso mesmo, é necessária a utilização de um valor que seja único para cada linha da tabela.
 
 <br>
 
@@ -198,8 +198,8 @@ WHERE twitter_handle IS NULL;
 ```
 
 ##### 1. <code>DELETE FROM</code> é o comando que permite deletar uma ou mais linhas de uma tabela.
-##### 2. <code>WHERE</code> especifica uma ou mais linhas que serão deletadas confome o parâmetro for verdadeiro.
-##### 3. <code>IS NULL</code> é o parâmetro que será analizado com verdadeiro ou não.
+##### 2. <code>WHERE</code> especifica uma ou mais linhas que serão deletadas conforme o parâmetro for verdadeiro.
+##### 3. <code>IS NULL</code> é o parâmetro que será analisado com verdadeiro ou não.
 
 <br>
 
@@ -220,7 +220,7 @@ CREATE TABLE celebs
 
 ##### 1. <code>PRIMARY KEY</code> é a restrição que define uma coluna da tabela como o identificador universal da própria tabela e que não pode ser repetido. Somente é permitida uma restrição dessa por tabela.
 
-##### 2. <code>UNIUE</code> é a restrição que diz que determinada coluna tem um valor único que não pode ser repetido. Tem semelhança com <code>PRIMARY KEY</code>, mas não a mesma função.
+##### 2. <code>UNIQUE</code> é a restrição que diz que determinada coluna tem um valor único que não pode ser repetido. Tem semelhança com <code>PRIMARY KEY</code>, mas não a mesma função.
 
 ##### 3. <code>NOT NULL</code> é a restrição que impede a inserção de nova linha em branco na coluna em questão que sejam em branco.
 
@@ -355,14 +355,14 @@ SELECT * FROM movies WHERE name LIKE 'B%A';
 
 ### NULL (IS NULL, IS NOT NULL)
 
-#### Esse comando serve para identificar se determinada linha de uma coluna possui ou não o valor em branco, ou nulo que não passado no momento de insersação dos dados.
+#### Esse comando serve para identificar se determinada linha de uma coluna possui ou não o valor em branco, ou nulo que não passado no momento de inserção dos dados.
 
 ```sql
 SELECT name FROM movies WHERE imdb_rating IS NOT NULL;
 
 SELECT name FROM movies WHERE genre IS NULL;
 ```
-##### 1. Com o promeiro comando do código acima vão ser exibidas a linhas da coluna imd_rating que não sejam nulas.
+##### 1. Com o primeiro comando do código acima vão ser exibidas a linhas da coluna imd_rating que não sejam nulas.
 ##### 2. Com o segundo comando do código acima vão ser exibidas a linhas da coluna genre que sejam nulas.
 
 
@@ -418,7 +418,7 @@ _Comparação feita entre <code>year < 1985</code> ou <code>genre = 'horror'</co
 <br>
 
 
-### ORDERY BY
+### ORDER BY
 
 #### Esse comando é utilizado para ordenar as linhas da tabela através do uso de uma coluna como referência. Utilize os comandos <code>ASC</code> para ordenação ascendente e <code>DESC</code> para ordenação descendente. Por padrão a ordenação é feita do menor para o maior, seja número ou texto.
 
@@ -574,7 +574,7 @@ SELECT ROUND(AVG(price), 2) FROM fake_apps;
 
 ### GROUP BY
 
-#### O comando <code>GROUP BY</code> é utilizado para agrupar resultados de consultas feitas em uma ou mais conluna utilizandos as próprias funções agregradas. A função dele é arranjar a consulta de dados idênticos em grupos.
+#### O comando <code>GROUP BY</code> é utilizado para agrupar resultados de consultas feitas em uma ou mais coluna utilizando as próprias funções agregadoras. A função dele é arranjar a consulta de dados idênticos em grupos.
 
 ```sql
 SELECT AVG(imdb_rating)
