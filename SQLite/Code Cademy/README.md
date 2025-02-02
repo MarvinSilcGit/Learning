@@ -556,9 +556,9 @@ SELECT AVG(downloads) FROM fake_apps;
 
 <br>
 
-### ROUND
+ ### ROUND
 
-#### O comando <code>ROUND</code> é utilizado para aplicar dupla precisão aos números. Ele possui dois argumentos: o primeiro é a coluna que possui os valores e o segundo é o número de casas decimais.
+  #### O comando <code>ROUND</code> é utilizado para aplicar dupla precisão aos números. Ele possui dois argumentos: o primeiro é a coluna que possui os valores e o segundo é o número de casas decimais.
 
 ```sql
 SELECT ROUND(price, 2) FROM fake_apps;
@@ -567,13 +567,13 @@ SELECT ROUND(price, 2) FROM fake_apps;
 ```sql
 SELECT ROUND(AVG(price), 2) FROM fake_apps;
 ```
-##### 1. O código logo acima faz com que um dos parâmetros do comando <code>ROUND</code> seja a média de preço, utilizando o comando <code>AVG</code>. O segundo argumento é quantidade casas decimais.
+   ##### 1. O código logo acima faz com que um dos parâmetros do comando <code>ROUND</code> seja a média de preço, utilizando o comando <code>AVG</code>. O segundo argumento é quantidade casas decimais.
 
 <br>
 
-### GROUP BY
+ ### GROUP BY
 
-#### O comando <code>GROUP BY</code> é utilizado para agrupar resultados de consultas feitas em uma ou mais coluna utilizando as próprias funções agregadoras. A função dele é arranjar a consulta de dados idênticos em grupos.
+  #### O comando <code>GROUP BY</code> é utilizado para agrupar resultados de consultas feitas em uma ou mais coluna utilizando as próprias funções agregadoras. A função dele é arranjar a consulta de dados idênticos em grupos.
 
 ```sql
 SELECT AVG(imdb_rating)
@@ -589,43 +589,43 @@ FROM movies
 WHERE year = 2001;
 ```
 
-##### 1. Exemplo sem <code>GROUP BY</code>.
+   ##### 1. Exemplo sem <code>GROUP BY</code>.
 
 ```sqlite
 SELECT year, AVG(imdb_rating) FROM movies GROUP BY year;
 ```
 
-##### 2. Exemplo com <code>GROUP BY</code>: o código acima retorna a coluna year e a coluna de média das notas agrupadas por cada ano.
+   ##### 2. Exemplo com <code>GROUP BY</code>: o código acima retorna a coluna <code>year</code> e uma coluna da média das notas agrupadas por cada ano.
 
 ```sql
 SELECT imdb_rating, COUNT(*) FROM movies GROUP BY imdb_rating;
 ```
 
-##### 3. Exemplo com <code>GROUP BY</code>: o código acima irá retornar quantas vezes uma nota se repete no banco de dados. Ou seja, cada vez que a nota aparecer no banco de dados ela será computada, e, também, se houverem 10 notas 4.2 elas serão agrupadas (não somadas) numa só nota.
+   ##### 3. Exemplo com <code>GROUP BY</code>: o código acima irá retornar quantas vezes uma nota se repete no banco de dados. Ou seja, cada vez que a nota aparecer no banco de dados ela será computada. Por exemplo, se houverem 10 notas 4.2 elas serão agrupadas (não somadas) numa só nota e contadas quantas vezes essa nota (e outras) se repetem.
 
 <br>
 
-### Column references
-
-#### É possível também utilizar números ao invés dos nomes das colunas para referenciar os agrupamentos e ordenamentos numa consulta.
+ ### Column references
+ 
+  #### É possível também utilizar números ao invés dos nomes das colunas para referenciar os agrupamentos e ordenamentos numa consulta.
 
 ```sql
 SELECT COUNT(*) AS 'total_movies', rating FROM movies GROUP BY 2 ORDER BY 1;
 ```
 
-##### 1. No código acima, <code>GROUP BY 2</code> está referenciando a segunda coluna da consulta <code>rating</code>, já <code>ORDER BY 1</code> está referenciando a primeira coluna da consulta <code>COUNT(*) AS 'total_movies'</code>.
+  ##### 1. No código acima, <code>GROUP BY 2</code> está referenciando a segunda coluna da consulta <code>rating</code>, já <code>ORDER BY 1</code> está referenciando a primeira coluna da consulta <code>COUNT(*) AS 'total_movies'</code>.
 
 <br>
 
-### HAVING
+ ### HAVING
 
-#### O comando <code>HAVING</code> é utilizado para filtrar resultados, semelhante em parte ao comando <code>WHERE</code>. Porém, ao invés de filtras linhas, ele filtra grupos, os mesmos grupos criados pelo comando <code>GROUP BY</code>.
+  #### O comando <code>HAVING</code> é utilizado para filtrar resultados, semelhante em parte ao comando <code>WHERE</code>. Porém, ao invés de filtras linhas, ele filtra grupos, os mesmos grupos criados pelo comando <code>GROUP BY</code>.
 
 ```sql
 SELECT year, COUNT(*) FROM movies GROUP BY 1 HAVING COUNT(*) > 2;
 ```
 
-##### 1. No código acima, irá retornar year, e a contagem de quantos filmes tiveram por ano, contanto que seja maior que 2. Ou seja, filtrando o resultado das funções agregadas maiores que 2; 
+  ##### 1. No código acima, irá retornar year, e a contagem de quantos filmes tiveram por ano, contanto que seja maior que 2. Ou seja, filtrando o resultado das funções agregadas maiores que 2; 
 
 
 </details>
@@ -696,6 +696,15 @@ SELECT * FROM newspaper LEFT JOIN online ON newspaper.id = online.id WHERE onlin
 
  ### Primary Key vs. Foreign Key
 
-  #### Os dois modos mais utilizados para criar relações entre tabelas dentro um banco de dados SQL é utilizando as restrições <code>PRIMARY KEY</code> e <code>FOREIGN KEY</code>. Com essas restrições é possível relacionar diretamente múltiplas tabelas simultâneamente, criando assim um banco de dados conciso e consistente. Geralmente essas e outras restrições são aplicadas na criação de uma tabela. Porém, poder ser modificadas com o comando <code>ALTER TABLE</code>.
+  #### Os dois modos mais utilizados para criar relações entre tabelas dentro um banco de dados SQL é utilizando as restrições <code>PRIMARY KEY</code> e <code>FOREIGN KEY</code>. Com essas restrições é possível relacionar diretamente múltiplas tabelas simultâneamente, criando assim um banco de dados conciso e consistente. Geralmente, essas e outras restrições são aplicadas na criação de uma tabela. Porém, poder ser modificadas com o comando <code>ALTER TABLE</code>.
 
+   ##### 1. <code>PRIMARY KEY</code> é a restrição que define uma coluna da tabela como o identificador universal da própria tabela e que não pode ser repetido. Somente é permitida uma restrição dessa por tabela.
+
+   ##### 2. <code>FOREIGN KEY</code> é a restrição que faz referência a uma <code>PRIMARY KEY</code> em outra tabela. Ou seja, toda <code>FOREIGN KEY</code> é antes uma <code>PRIMARY KEY</code> criada em outra tabela.
+
+<br>
+
+ ### CROSS JOIN
+
+  #### 
 </details>
