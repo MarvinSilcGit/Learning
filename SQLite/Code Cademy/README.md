@@ -753,11 +753,23 @@ FROM newspaper GROUP BY 2 ORDER BY start_month;
 
  ### UNION
 
-  #### O comando <code>UNION</code> é utilizado para unir consultas individuais de tabelas distintintas numa só consulta.
+  #### O comando <code>UNION</code> é utilizado para unir consultas individuais de tabelas distintas numa só consulta.
 
 ```sql
 SELECT * FROM newspaper UNION  SELECT * FROM online;
 ```
 
-   ##### 1. 
+   ##### 1. As tabelas precisam ter o mesmo número de linhas e colunas.
+   ##### 2. As colunas devem ter os mesmo tipos de dados e na mesma ordem semelhante à primeira tabela
+
+```sql
+SELECT start_month AS 'Mês de Início', COUNT(*) AS 'Q°' FROM newspaper GROUP BY 1
+
+UNION
+
+SELECT start_month, COUNT(*) FROM online GROUP BY 1;
+```
+
+   ##### 1. No código acima será retornado quantas inscrições foram iniciadas em cada mês nas duas tabelas.
+   ##### 2. No caso de renomeação das colunas utilizando <code>AS</code>, basta que a primeira parte da consulta seja alterada, aplicando o efeito na segunda parte em diante
 </details>
