@@ -636,8 +636,12 @@ SELECT year, COUNT(*) FROM movies GROUP BY 1 HAVING COUNT(*) > 2;
 
 ```mermaid
 mindmap
-
-
+	**Multiple tables**
+  (JOIN / INNER JOIN)
+  (LEFT JOIN)
+  (CROSS JOIN)
+  (UNION)
+  (WITH)
 ```
 
  ### JOIN
@@ -662,13 +666,18 @@ SELECT orders.order_id, customers.customer_name FROM orders
 
 ```sql
 SELECT subscriptions.description AS 'Categoria',
-        COUNT(*) AS 'Quantidade magazines compradas por categoria',
-        ROUND(AVG(subscriptions.price_per_month), 2) AS 'Média de preço',
-        ROUND(AVG(subscriptions.subscription_length), 2) AS 'Duração média da inscrição',
-        SUM(subscriptions.price_per_month) AS 'Receita Anual total por categoria',
-        SUM(subscriptions.price_per_month) / 12 AS 'Receita mensal total por categoria'
-FROM orders JOIN subscriptions ON orders.subscription_id = subscriptions.subscription_id
-GROUP BY 1;
+
+    COUNT(*) AS 'Quantidade magazines compradas por categoria',
+    
+    ROUND(AVG(subscriptions.price_per_month), 2) AS 'Média de preço',
+        
+    ROUND(AVG(subscriptions.subscription_length), 2) AS 'Duração média da inscrição',
+        
+    SUM(subscriptions.price_per_month) AS 'Receita Anual total por categoria',
+        
+    SUM(subscriptions.price_per_month) / 12 AS 'Receita mensal total por categoria'
+
+FROM orders JOIN subscriptions ON orders.subscription_id = subscriptions.subscription_id GROUP BY 1;
 ```
 
    ##### 1. É possível também utilizar funções agregadoras na junção das consultas, juntamente com referências. Nesse exemplo o <code>GROUP BY</code> poderia ser agrupado por <code>subscriptions.description</code> que teria o mesmo resultado. Se for por número, será conforme a ordem das colunas. As primeiras colunas serão da tabela consultada, depois a tabela unida e por fim a coluna com a contagem.
@@ -706,5 +715,38 @@ SELECT * FROM newspaper LEFT JOIN online ON newspaper.id = online.id WHERE onlin
 
  ### CROSS JOIN
 
-  #### 
+  #### O comando <code>CROSS JOIN</code> é utilizado para combinar múltiplas colunas e linhas de uma tabela com outra tabela sem qualquer restrição. 
+
+```sql
+SELECT * FROM newspaper CROSS JOIN months;
+```
+
+   ##### 1. Nesse caso acima, todas as colunas da tabela <code>newspaper</code> serão combinadas com todas as colunas da tabela <code>online</code>. Também seria possível selecionar somente algumas colunas e utilizar funções agregadoras.
+
+
+```sql
+SELECT COUNT(*) AS 'Quantidade de pessoas por meses restantes',
+
+CASE 
+
+    WHEN end_month - start_month <= 1 THEN 'UM'
+    
+    WHEN end_month - start_month <= 2 THEN 'Dois'
+      
+    WHEN end_month - start_month <= 3 THEN 'Três'
+      
+    WHEN end_month - start_month <= 4 THEN 'Quatro'
+     
+    WHEN end_month - start_month <= 5 THEN 'Cinco'
+    
+    WHEN end_month - start_month <= 3 THEN 'Seis'
+    
+    WHEN end_month - start_month <= 3 THEN 'Sete'
+    
+    ELSE 'Inscrição finalizada'
+
+END AS 'Meses restantes'
+
+FROM newspaper GROUP BY 2;
+```
 </details>
