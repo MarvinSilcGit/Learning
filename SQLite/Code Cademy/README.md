@@ -721,32 +721,43 @@ SELECT * FROM newspaper LEFT JOIN online ON newspaper.id = online.id WHERE onlin
 SELECT * FROM newspaper CROSS JOIN months;
 ```
 
-   ##### 1. Nesse caso acima, todas as colunas da tabela <code>newspaper</code> serão combinadas com todas as colunas da tabela <code>online</code>. Também seria possível selecionar somente algumas colunas e utilizar funções agregadoras.
-
+   ##### 1. Nesse caso acima, todas as colunas da tabela <code>newspaper</code> serão combinadas com todas as colunas da tabela <code>online</code>. Dessa forma, é possível fazer múltiplas combinações de consulta.
 
 ```sql
-SELECT COUNT(*) AS 'Quantidade de pessoas por meses restantes',
+SELECT COUNT(*) AS 'Q° de assinaturas iniciadas por mês',
+CASE
 
-CASE 
+  WHEN start_month = 1 THEN 'Janeiro'
+  WHEN start_month = 2 THEN 'Fevereiro'
+  WHEN start_month = 3 THEN 'Março'
+  WHEN start_month = 4 THEN 'Abril'
+  WHEN start_month = 5 THEN 'Maio'
+  WHEN start_month = 6 THEN 'Junho'
+  WHEN start_month = 7 THEN 'Julho'
+  WHEN start_month = 8 THEN 'Agosto'
+  WHEN start_month = 9 THEN 'Setembro'
+  WHEN start_month = 10 THEN 'Outubro'
+  WHEN start_month = 11 THEN 'Novembro'
+  WHEN start_month = 12 THEN 'Dezembro'
 
-    WHEN end_month - start_month <= 1 THEN 'UM'
-    
-    WHEN end_month - start_month <= 2 THEN 'Dois'
-      
-    WHEN end_month - start_month <= 3 THEN 'Três'
-      
-    WHEN end_month - start_month <= 4 THEN 'Quatro'
-     
-    WHEN end_month - start_month <= 5 THEN 'Cinco'
-    
-    WHEN end_month - start_month <= 3 THEN 'Seis'
-    
-    WHEN end_month - start_month <= 3 THEN 'Sete'
-    
-    ELSE 'Inscrição finalizada'
+  ELSE 'NULO'
 
-END AS 'Meses restantes'
+END 'Mês'
 
-FROM newspaper GROUP BY 2;
+FROM newspaper GROUP BY 2 ORDER BY start_month;
 ```
+
+   ##### 1. Também seria possível selecionar somente algumas colunas e/ou utilizar funções agregadoras.
+
+<br>
+
+ ### UNION
+
+  #### O comando <code>UNION</code> é utilizado para unir consultas individuais de tabelas distintintas numa só consulta.
+
+```sql
+SELECT * FROM newspaper UNION  SELECT * FROM online;
+```
+
+   ##### 1. 
 </details>
