@@ -654,7 +654,7 @@ SELECT * FROM orders JOIN customers ON orders.customer_id = customers.customer_i
 
    ##### 1. <code>SELECT * FROM orders</code> inicia a consulta a partir da tabela <code>orders</code>.
    ##### 2. <code>JOIN customers</code> faz a união da tabela <code>orders</code> com a tabela da tabela <code>customers</code>. O comando <code>INNER JOIN</code> é o comportamento padrão, quando somente <code>JOIN</code>.
-   ##### 3. <code>ON orders.customer_id = customers.customer_id</code> essa união/junção será baseada na igualdade dos valores dentro das colunas nas duas tabelas.
+   ##### 3. <code>ON orders.customer_id = customers.customer_id</code> essa união/junção será baseada na igualdade entre os valores das colunas comparadas das duas tabelas. Caso não haja total igualdade, a consulta não será feita.
 
 ```sql
 SELECT orders.order_id, customers.customer_name FROM orders
@@ -686,7 +686,7 @@ FROM orders JOIN subscriptions ON orders.subscription_id = subscriptions.subscri
 
  ### LEFT JOIN
 
-  #### Semelhante ao comando <code>JOIN</code>, o comando <code>LEFT JOIN</code> faz a junção/união de duas tabelas ou mais. Porém, esse comando permite manter na consulta as linhas da tabela primária (*LEFT*), mesmo que não haja correspondentes na tabela secundária.
+  #### Semelhante ao comando <code>JOIN</code>, o comando <code>LEFT JOIN</code> faz a junção/união de duas tabelas ou mais. Porém, esse comando permite manter na consulta as linhas da tabela primária (*LEFT*) mesmo que não haja correspondentes na tabela secundária (*RIGHT*). Ou seja, mesmo que a condição <code>JOIN ON</code> não seja verdadeira.
 
 ```sql
 SELECT * FROM newspaper LEFT JOIN online ON newspaper.id = online.id;
@@ -715,7 +715,7 @@ SELECT * FROM newspaper LEFT JOIN online ON newspaper.id = online.id WHERE onlin
 
  ### CROSS JOIN
 
-  #### O comando <code>CROSS JOIN</code> é utilizado para combinar múltiplas colunas e linhas de uma tabela com outra tabela sem qualquer restrição. 
+  #### O comando <code>CROSS JOIN</code> é utilizado para combinar todas as colunas e linhas de uma tabela com outra tabela sem qualquer restrição. 
 
 ```sql
 SELECT * FROM newspaper CROSS JOIN months;
@@ -759,8 +759,8 @@ FROM newspaper GROUP BY 2 ORDER BY start_month;
 SELECT * FROM newspaper UNION  SELECT * FROM online;
 ```
 
-   ##### 1. As tabelas precisam ter o mesmo número de linhas e colunas.
-   ##### 2. As colunas devem ter os mesmo tipos de dados e na mesma ordem semelhante à primeira tabela
+   ##### 1. As tabelas criadas na consulta precisam ter o mesmo número de linhas e colunas.
+   ##### 2. As colunas devem ter os mesmo tipos de dados e na mesma ordem semelhante à primeira tabela.
 
 ```sql
 SELECT start_month AS 'Mês de Início', COUNT(*) AS 'Q°' FROM newspaper GROUP BY 1
