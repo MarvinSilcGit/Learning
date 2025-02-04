@@ -771,5 +771,24 @@ SELECT start_month, COUNT(*) FROM online GROUP BY 1;
 ```
 
    ##### 1. No código acima será retornado quantas inscrições foram iniciadas em cada mês nas duas tabelas.
-   ##### 2. No caso de renomeação das colunas utilizando <code>AS</code>, basta que a primeira parte da consulta seja alterada, aplicando o efeito na segunda parte em diante
+   ##### 2. No caso de renomeação das colunas utilizando <code>AS</code>, basta que a primeira parte da consulta seja alterada, aplicando o efeito na segunda parte em diante.
+
+<br>
+
+
+ ### WITH
+
+  #### O comando <code>WITH</code> é utilizado para criar uma tabela temporária e armazenar esses dados também de maneira temporária, de forma que esses dados sejam utilizados em conjunção com outra tabela permanente dentro do banco de dados.
+
+```sql
+WITH teste AS ( SELECT customer_id AS, COUNT(subscription_id) AS 'ola' FROM orders GROUP BY customer_id)
+
+SELECT customer_name, teste.ola, customers.address FROM teste JOIN customers ON teste.customer_id = customers.customer_id;
+```
+
+   ##### 1. Utilizando <code>WITH teste AS</code> é possível criar uma tabela temporária utilizando uma sub-consulta que está ligada a essa tabela <code>teste</code>. Para referenciar as colunas criadas/consultadas temporariamente dessa tabela basta utilizar <code>.</code>.
+   ##### 2. Depois, basta escolher quais colunas da tabela temporária serão exibidas juntamente com as colunas da tabela unida. Como no final haverá uma tabela unida, não há problema em escolher colunas de tabelas distintas entre o <code>SELECT customer_name, teste.ola, customers.address</code> e <code>FROM teste</code>.
+   ##### 3. Após isso, é necessário unir essa tabela com outra tabela permanente para dar prosseguimento a finalização da consulta, seja utilizando <code> JOIN</code>, <code>LEFT JOIN</code> ou <code>CROSS JOIN</code>.
+   ##### 4. Vale salientar: durante toda a consulta é necessária referenciar a tabela temporária, caso contraŕio, ocorrerá um erro fatal na consulta.
+   ##### 5. Ainda é possível utilizar essa tabela temporária com o comando <code>UNION</code>, e assim ter uma possibilidade a mais de uso.
 </details>
