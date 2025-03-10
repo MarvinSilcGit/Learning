@@ -22,7 +22,7 @@
 
   ## Boilerplate
 
-   <p>Boilerplate representa uma porção de texto frequentemente utilizada e que raramente sofre alterações. No Html existem algumas tag/elementos que sempre serão utilizadas na construção de uma página. São eles a seguir:</p>
+   <p>Boilerplate representa uma porção de texto frequentemente utilizada e que raramente sofre alterações. No Html existem algumas tags/elementos que sempre serão utilizadas na construção de uma página. São eles a seguir:</p>
 
   <br>
 
@@ -64,7 +64,7 @@
   <meta charset ="UTF-8"
   ```
 
-   <p>A chave <code>charset</code> é a abreviação para <i>character set</i> e signica qual conjunto de caracteres serão utilizados com referência para a representação textual da página. Já o atributo <code>charset = "UTF-8"</code> possui suporte para muitos dos caracteres do mundo inteiro.</p>
+   <p>A chave <code>charset</code> é a abreviação para <i>character set</i> e significa qual conjunto de caracteres serão utilizados com referência para a representação textual da página. Já o atributo <code>charset = "UTF-8"</code> possui suporte para muitos dos caracteres do mundo inteiro.</p>
 
    ### Meta viewport
 
@@ -72,7 +72,7 @@
   <meta name ="viewport" content ="width=device-width, initial-scale=1.0">
   ```
 
-   <p>Os atributos <code>name ="viewport" content ="width=device-width, initial-scale=1.0"</code> são utilizado para adequar o tamanho e proporção da página web conforme o tipo de tela. Eles informam para o navegador representar a largura da página de acordo com o dispositivo atual.</p>
+   <p>Os atributos <code>name ="viewport" content ="width=device-width, initial-scale=1.0"</code> são utilizado para adequar o tamanho e proporção da página web conforme o tipo de tela. Eles informam para o navegador representar a largura da página conforme dispositivo atual.</p>
 
   <br>
 

@@ -1,12 +1,12 @@
 # Chapter 15: CSS inheritance
 
-## User-agent sylesheet
+## User-agent stylesheet
 
-   <p>O agente-usuário é um software que consome conteúdo da web a pedido dos usuários. Nesse caso, os navegadores web se encaixam nessa definição. O stylesheeet se refere ao arquivo CSS que todos os navegadores têm por padrão como forma de estilização mínima de uma página. Por exemplo, toda cabeça já vem estilizado em um determinado tamanho de fonte e destaque visual.</p>
+   <p>O agente-usuário é um software que consome conteúdo da web a pedido dos usuários. Nesse caso, os navegadores web se encaixam nessa definição. O stylesheet se refere ao arquivo CSS que todos os navegadores têm por padrão como forma de estilização mínima de uma página. Por exemplo, toda cabeça já vem estilizado em um determinado tamanho de fonte e destaque visual.</p>
 
 ## User-agent styles and the cascade
 
-   <p>Por ser um arquivo do tipo <i>cascade</i> (cascata) a declaração que você fizer irá sobescrever o mesmo tipo de declaração feita pelo navegador, pois será a última declaração e assim ficará com a prioridade na hora da estilização. Do mesmo modo, dentro do seu arquivo css, qualquer declaração feita depois e que seja do mesmo tipo sobsescreverá a declaração feita antes.</p>
+   <p>Por ser um arquivo do tipo <i>cascade</i> (cascata) a declaração que você fizer irá sob escrever o mesmo tipo de declaração feita pelo navegador, pois será a última declaração e assim ficará com a prioridade na hora da estilização. Do mesmo modo, dentro do seu arquivo css, qualquer declaração feita depois e que seja do mesmo tipo sobrescreverá a declaração feita antes.</p>
 
   ```css
   p

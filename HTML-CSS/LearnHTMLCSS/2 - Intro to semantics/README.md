@@ -1,8 +1,8 @@
-# Charpter 2: Intro to Semantics
+# Chapter 2: Intro to Semantics
   
   ## Intro to Semantics
   
-  <p>Escrever HTML semântico significa dar significado para os elementos que nós usamos. Isso permite você focar no propósito do elemente ao invés de sua aparência. Semântica foca em fornecer significado e propósito para os elementos que você usa.</p>
+  <p>Escrever HTML semântico significa dar significado para os elementos que nós usamos. Isso permite você focar no propósito do elemento ao invés de sua aparência. Semântica foca em fornecer significado e propósito para os elementos que você usa.</p>
   
   ### Código sem semântica
   
@@ -36,4 +36,4 @@
   
   ## Intro to Headings
   
-  <p>O elemento cabeçalho h1 é usado para representa o tópico de mais alta importância em uma página web. Ao escrever código HTML, é importante focar na semântica ao invés da aparencia. HTML é feito para o conteúdo, enquanto que o CSS é usado para estilizar o conteúdo.</p>
+  <p>O elemento cabeçalho h1 é usado para representar o tópico de mais alta importância em uma página web. Ao escrever código HTML, é importante focar na semântica ao invés da aparência. HTML é feito para o conteúdo, enquanto o CSS é usado para estilizar o conteúdo.</p>

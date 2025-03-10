@@ -13,7 +13,7 @@
 
   ## Blank space and newlines
 
-   <p>Espaços em branco são tratados diferentemente no HTML do que você pode experar. Olhe abaixo:</p>
+   <p>Espaços em branco são tratados diferentemente no HTML do que você pode esperar. Olhe abaixo:</p>
 
   ```html
   <h1>Hello           world</h1>
@@ -39,7 +39,7 @@
 
    <p>Em alguns casos, você pode querer um caractere de nova linha para renderizar na página. Nesse caso, você usa o elemento de quebra de linha <code>br</code>. Esse elemento produz uma nova linha e não possui tag de fechamento.</p>
 
-   <p>O elemento <code>br</code> não é tão utilizado como você pode esperar. Seu uso deveria ser limitado a lugares onde uma nova linha dentro da mesma sentência ou contexto. Você não deveria usar-ló para separar parágrafos. Também, o elemento <code>br</code> nunca deveria ser usado para criar separação entre elementos: 1. ele quebra a página em termos de acessibilidade e 2. você não pode facilmente modificar a separação entre dois elementos.</p>
+   <p>O elemento <code>br</code> não é tão utilizado como você pode esperar. Seu uso deveria ser limitado a lugares onde uma nova linha dentro da mesma sentência ou contexto. Você não deveria usar-ló para separar parágrafos. Também, o elemento <code>br</code> nunca deveria ser usado para criar separação entre elementos: 1, ele quebra a página em termos de acessibilidade e 2, você não pode facilmente modificar a separação entre dois elementos.</p>
 
    <p>O exemplo mais comum de uso é para representar endereços. Outro exemplo típico está em literatura (poemas), onde você precisa que um pedaço do texto vá em outra linha.</p>
 
