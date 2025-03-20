@@ -2,7 +2,7 @@
   
   ## Intro to Semantics
   
-  <p>Escrever HTML semântico significa dar significado para os elementos que nós usamos. Isso permite você focar no propósito do elemento ao invés de sua aparência. Semântica foca em fornecer significado e propósito para os elementos que você usa.</p>
+  <p>Escrever HTML semântico significa dar significado para os elementos utilizados. Isso permite você focar no propósito do elemento ao invés de sua aparência. Semântica foca em fornecer significado e propósito para os elementos que você usa.</p>
   
   ### Código sem semântica
   

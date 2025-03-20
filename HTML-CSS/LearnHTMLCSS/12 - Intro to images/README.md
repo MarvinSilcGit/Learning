@@ -1,7 +1,7 @@
 # Chapter 12: Intro to Images
 
   ```html
-  <img src = "" width ="" height ="" alt ="">
+  <img src ="" width ="" height ="" alt ="">
   ```
 
   ## The img element
