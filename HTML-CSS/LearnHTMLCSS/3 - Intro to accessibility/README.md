@@ -3,7 +3,7 @@
 
   ## Intro to Accessibility
 
-   <p>No contexto do HTML, acessibilidade se refere a fazer seu site usável por todo mundo. Quando você escrever seu código de acessibilidade, seu eu do futuro irá te agradecer. Nós estamos escrevendo websites que nós iremos usar em alguns anos. Nossa extensão de habilidades pode muito bem mudar em poucos anos.</p>
+   <p>No contexto do HTML, acessibilidade se refere a fazer seu site usável por todo mundo. Quando você escrever seu código Com acessibilidade em mente, seu eu do futuro irá te agradecer. Nós estamos escrevendo websites que nós iremos usar em alguns anos. Nossa extensão de habilidades pode muito bem mudar em poucos anos.</p>
 
   <br>
 
