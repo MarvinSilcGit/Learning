@@ -59,7 +59,7 @@ mindmap
 
  ### Statements
 
-  #### O código abaixo é uma declaração. Uma declaração é um texto que banco de dados reconhece como um comando válido. Declarações sempre terminam con ponto e vírgula.
+  #### O código abaixo é uma declaração. Uma declaração é um texto que banco de dados reconhece como um comando válido. Declarações sempre terminam com ponto e vírgula.
 
 ```sql
 CREATE TABLE table_name
