@@ -221,7 +221,7 @@ CREATE TABLE celebs
 
    ##### 1. <code>PRIMARY KEY</code> é a restrição que define uma coluna da tabela como o identificador universal da própria tabela e que não pode ser repetido. Somente é permitida uma restrição dessa por tabela.
    
-   ##### 2. <code>UNIQUE</code> é a restrição que diz que determinada linha de uma coluna deve ter valor único. Tem semelhança com <code>PRIMARY KEY</code>, mas possui a mesma função.
+   ##### 2. <code>UNIQUE</code> é a restrição que diz que determinada linha de uma coluna deve ter valor único. Tem semelhança com <code>PRIMARY KEY</code>, mas não possui a mesma função.
    
    ##### 3. <code>NOT NULL</code> é a restrição que impede a inserção de nova linha em branco na coluna em questão que sejam em branco.
    
