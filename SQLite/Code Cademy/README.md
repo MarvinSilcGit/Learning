@@ -79,7 +79,7 @@ CREATE TABLE table_name
 
  ### CREATE
 
-  #### Declarações <code>CREATE</code> nos permite criar uma nova tabela em um banco de dados. VOcê pode usar <code>CREATE</code> a qualquer momento para criar uma nova tabela do princípio.
+  #### Declarações <code>CREATE</code> nos permite criar uma nova tabela em um banco de dados. Você pode usar <code>CREATE</code> a qualquer momento para criar uma nova tabela do princípio.
 
 ```sql
 CREATE TABLE celebs
@@ -103,7 +103,7 @@ CREATE TABLE celebs
 
  ### INSERT
 
-  #### A declaração <code>INSERT</code> insere uma nova linha na coluna. Nós podemos usar esse comando sempre que for necessário adicionar novas colunas.
+  #### A declaração <code>INSERT</code> insere uma nova linha na coluna. Nós podemos usar esse comando sempre que for necessário adicionar novas linhas.
 
 ```sql
 INSERT INTO celebs (id, name, age) 
