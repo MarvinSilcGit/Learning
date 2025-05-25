@@ -151,7 +151,7 @@ ADD COLUMN twitter_handle TEXT;
    ##### 1. <code>ALTER TABLE</code> é o comando que permite você fazer mudanças específicas.
    ##### 2. <code>ADD COLUMN</code> é o comando que permite você adicionar coluna.
    ##### 3. <code>RENAME TO</code> é o comando que permite alterar o nome de uma tabela ou coluna;
-   ##### 5. <code>DROP</code> é o comando que permite excluir uma coluna de um tabala;
+   ##### 4. <code>DROP</code> é o comando que permite excluir uma coluna de um tabala;
 
 ```sql
 ALTER TABLE celebs
