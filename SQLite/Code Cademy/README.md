@@ -138,6 +138,14 @@ SELECT * FROM celebs;
 
 <br>
 
+```sql
+SELECT name, age FROM celebs;
+```
+
+   ##### É possível também exibir somente algumas colunas da tabela como no caso acima.
+
+<br>
+
 
  ### ALTER
 
