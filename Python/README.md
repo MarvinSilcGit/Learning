@@ -13,3 +13,9 @@
 <br>
 
 ### Introdução à Programação com Python - 2ª Edição
+
+<br>
+
+### Goal Kikcer - Python Notes for Professionals
+
+<h3>https://goalkicker.com/</h3>
