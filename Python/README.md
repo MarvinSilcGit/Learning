@@ -1,4 +1,4 @@
-## Souces of learning:
+## Sources of learning:
 
 ### Techie Delight
 
