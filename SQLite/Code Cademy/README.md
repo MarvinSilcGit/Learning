@@ -349,9 +349,9 @@ SELECT * FROM movies WHERE name LIKE '%man%';
 SELECT * FROM movies WHERE name LIKE 'B%A';
 ```
 
-   ##### 1. Utilizando o caractere coringa <code>%</code> no _início_ do parâmetro, o comando vai procurar qualquer linha que começe com a letra 'A' ou 'a', tanto na forma caixa-alta ou caixa-baixa. É possível buscar por linhas com terminem com mais de um caractere.
+   ##### 1. Utilizando o caractere coringa <code>%</code> no _final_ do parâmetro, o comando vai procurar qualquer linha que começe com a letra 'A' ou 'a', tanto na forma caixa-alta ou caixa-baixa. É possível buscar por linhas com terminem com mais de um caractere.
    
-   ##### 2. Utilizando o caractere coringa <code>%</code> no _final_ do parâmetro, o comando vai procurar qualquer linha que termine com a letra 'A' ou 'a', tanto na forma caixa-alta ou caixa-baixa. É possível buscar por linhas com terminem com mais de um caractere.
+   ##### 2. Utilizando o caractere coringa <code>%</code> no _início_ do parâmetro, o comando vai procurar qualquer linha que termine com a letra 'A' ou 'a', tanto na forma caixa-alta ou caixa-baixa. É possível buscar por linhas com terminem com mais de um caractere.
    
    ##### 3. Utilizando o caractere coringa <code>%</code> no _início e fim_ do parâmetro, o comando vai procurar qualquer linha que contenha o texto 'man', tanto na forma caixa-alta ou caixa-baixa.
    
