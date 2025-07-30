@@ -32,7 +32,7 @@
   <!DOCTYPE html>
   ```
 
-   <p>Especifica a versão do html que o navegador irá renderizar. Nesse caos, HTML 5</p>
+   <p>Especifica a versão do html que o navegador irá renderizar. Nesse caso, HTML 5</p>
 
   <br>
 
