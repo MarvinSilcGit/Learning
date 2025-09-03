@@ -16,4 +16,43 @@ p{
 
 ## Font-size is inherited
 
-  <p></p>
+  <p>Por padrão todos os elementos filhos também herdam o font-size. Caso seja necessário mudar o font-size será preciso alterar individualmente para cada elemento filho.</p>
+
+```html
+<ul>
+  <li>elemento</li>
+</ul>
+```
+```css
+ul{
+  font-size: 20px;
+}
+```
+
+#### *Versão com o font-size herdado.*
+
+```html
+<ul>
+  <li>elemento</li>
+</ul>
+```
+```css
+ul{
+  font-size: 20px;
+}
+
+li{
+  font-size: 16px;
+}
+```
+
+#### *Versão com o font-size não herdado.*
+
+
+## Erros comuns ao utilizar o font-size
+
+  <ol>
+    <li>Não colocar ao final a abreviação px. 20px é diferente de 20 ou 20 px.</li>
+    <li>Caso o tamanho da fonte seja 0 não precisa definir com px.</li>
+    <li>Os atributos <code>width</code> e <code>height</code> utilizados em imagens e vídeos não utilizam o px para funcionar corretamente.</li>
+  </ol>
