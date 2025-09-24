@@ -2146,10 +2146,6 @@ if numero == 0 or numero == 1:
 
     print("Esse número é inválido")
 
-if numero == 2 or numero == 3:
-
-    print("%d é um número primo" % numero)
-
 else:
 
     for contador in range(confirmacao, numero + 1):
@@ -2158,13 +2154,7 @@ else:
 
             confirmacao += 1
 
-    if confirmacao == numero:
-
-        print("%d é um número primo" % numero)
-
-    else:
-
-       print("%d não é um número primo" % numero)
+    print("%d é um número primo" % numero) if confirmacao == numero else print("%d não é um número primo" % numero)
 ```
 
   </details>
@@ -2268,7 +2258,7 @@ while contador != 0:
 
                 if confirmacao == numero:
 
-                    print("%d é um número primo e foram feitas %d diviões" % (numero, divisoes))
+                    print("%d é um número primo e foram feitas %d divisões" % (numero, divisoes))
 
                 else:
 
