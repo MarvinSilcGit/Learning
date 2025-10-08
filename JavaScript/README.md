@@ -111,7 +111,7 @@ function lowerName(name)
 
 <br>
 
-### Character acess
+### Character access
 
 <p style ="text-align: justify"> Você pode acessar um caractere específico em uma string ao utilizar a sintaxe dos colchetes</p>
 
@@ -124,7 +124,7 @@ function getFirstCharacter(name)
 
 <br>
 
-<p style ="text-align> justify">Também é possível utilizar a função <code>.lenght</code> abaixo para buscar o último caractere dentro da função dos colchetes.</p>
+<p style ="text-align: justify">Também é possível utilizar a função <code>.length</code> abaixo para buscar o último caractere dentro da função dos colchetes.</p>
 
 ```javascript
 function getLastCharacter(name)
@@ -137,7 +137,7 @@ function getLastCharacter(name)
 
 ### Substring
 
-<p style="text-align">Uma substring é uma parte ou uma porção de uma string. Por exemplo, "rain" é uma substring da string "brain. Você pode recupear "rain" ao tomar os últimos quatro caracteres.</p>
+<p style="text-align: justify">Uma substring é uma parte ou uma porção de uma string. Por exemplo, "rain" é uma substring da string "brain. Você pode recuperar "rain" ao tomar os últimos quatro caracteres.</p>
 
 **Exemplo:**
 
@@ -160,7 +160,7 @@ function skipFirstCharacter(text)
 
 ### Concatenation
 
-<p style ="text-align: justify">Em JavaScript, o operador + irá se comportar de maneira diferente baseado nos tipos de valores que você usa com ele. Você já viu que <code>1 + 3 </code> irá retornar 4. Contudo, você poderia usar o operador + para concatenar duas strings. que significa unificar elas em uma única string.</p>
+<p style ="text-align: justify">Em JavaScript, o operador + irá se comportar de maneira diferente baseado nos tipos de valores que você usa com ele. Você já viu que <code>1 + 3 </code> irá retornar 4. Contudo, você poderia usar o operador + para concatenar duas strings, que significa unificar elas em uma única string.</p>
 
 **Exemplo:**
 
@@ -240,7 +240,7 @@ function index(word)
 
 ### Numeric separator (<code>_</code>)
 
-<p style ="text-align: justify">Você pode representar números grandes mais claramente com o separador numério (<code>_</code>)</p>
+<p style ="text-align: justify">Você pode representar números grandes mais claramente com o separador numérico (<code>_</code>)</p>
 
 ```javascript
 let nb = 1_000; // equivalent to 1000
@@ -263,22 +263,22 @@ answer.toString(); //"42"
 
 ### NaN
 
-<p>Você pode algumas vezes encontar <code>NaN</code> que significa <b>Not a Number</b>. Por exemplo, você tenta multiplicar um número por uma string. NaN é com frequência um sinal que algo está errado com seu código, na maioria das vezes vocês esqueceu de converter uma string para um número.</p>
+<p>Você pode algumas vezes encontrar <code>NaN</code> que significa <b>Not a Number</b>. Por exemplo, você tenta multiplicar um número por uma string. NaN é com frequência um sinal que algo está errado com seu código, na maioria das vezes você esqueceu de converter uma string para um número.</p>
 
 <br>
 
 ### Converting string to number
 
-<p style ="text-align: justify">Em alguns cenários, você iria preferir converter de uma string para um número, Por conta disso, você terá que usar o método <code>Number.parseInt()</code>.</p>
+<p style ="text-align: justify">Em alguns cenários, você iria preferir converter de uma string para um número, por conta disso, você terá que usar o método <code>Number.parseInt()</code>.</p>
 
 ```javascript
 let str = "42";
 Number.parseInt(str, 10); //42
 ```
 
-<p style ="text-align: justify">O nome da função é chamada <code>Number.parseInt()</code>. Sim, incluindo the <code>Number</code>. É assim porque há um objeto global chamado <code>Number</code> que contém o método chamado <code>parseInt()</code>. Esse método espera dois parâmetros: o primeiro parâmetro é a string que você gostaria de converter em um número. O segundo argumeneto é a raiz que será usada na conversão.</p>
+<p style ="text-align: justify">O nome da função é chamada <code>Number.parseInt()</code>. Sim, incluindo the <code>Number</code>. É assim porque há um objeto global chamado <code>Number</code> que contém o método chamado <code>parseInt()</code>. Esse método espera dois parâmetros: o primeiro parâmetro é a string que você gostaria de converter em um número. O segundo argumento é a raiz que será usada na conversão.</p>
 
-<p style ="text-align: justify">A raiz é a base do sistema numérico que você gostaria de usar. No seu caso, utilize o número pois representa a maneira que nós contamos números diariamente utilizando o sistema decimal. Sempre utilze a raiz em 10 para garantir a compatibilidade com o sistema decimal. Caso seja o sistema binário, utilize 2</p>
+<p style ="text-align: justify">A raiz é a base do sistema numérico que você gostaria de usar. No seu caso, utilize o número, pois representa a maneira que contamos números utilizando diariamente o sistema decimal. Sempre utilize a raiz em 10 para garantir a compatibilidade com o sistema decimal. Caso seja o sistema binário, utilize 2</p>
 
 <br>
 
@@ -305,7 +305,7 @@ let name = "Sam";
 console.log(name);
 ```
 
-<p style ="text-align: justify">Isso define uma varíavel chamada <code>name</code> com o valor <code>"Sam"</code>. Da próxima vez que foz utilizar a variável, basta apenas o nome dela. Variável com prefixo <code>let</code> podem ser modificadas futuramente por qualquer outro tipo de valor.</p>
+<p style ="text-align: justify">Isso define uma variável chamada <code>name</code> com o valor <code>"Sam"</code>. Da próxima vez que foz utilizar a variável, basta apenas o nome dela. Variável com prefixo <code>let</code> podem ser modificadas futuramente por qualquer outro tipo de valor.</p>
 
 
 <br>
@@ -323,7 +323,7 @@ console.log(language); // "C++"
 
 ### let vs const
 
-<p style ="text-align: justify">Para escolher entre <code>let</code> e <code>const</code> use o seguinte regra: sempre vá com <code>const</code> até você perceber que precisa atribuir um novo valor para a variável. Quando sim, mude para let.</p>
+<p style ="text-align: justify">Para escolher entre <code>let</code> e <code>const</code> use o seguinte regra: sempre vá com <code>const</code> até você perceber que precisa atribuir um novo valor para a variável. Quando, sim, mude para let.</p>
   
 </details>
 
@@ -428,7 +428,7 @@ function canVote(age)
 
 <br>
 
-### Legany note
+### Legacy note
 
 <p style ="text-align: justify">Não utilize <code>==</code> para fazer comparações entre valores e/ou variáveis. Utilize no lugar <code>===</code>.</p>
 
@@ -443,7 +443,7 @@ console.log(a === 2) // false
 
 ### Returning booleans
 
-<p style ="text-align: justify">Sempre que estiver retorando booleano, não é necessário utilizar if e elses</p>
+<p style ="text-align: justify">Sempre que estiver retornando booleano, não é necessário utilizar if e elses</p>
 
 ```javascript
 function isPassing(grade)
@@ -464,7 +464,7 @@ function isPassing(grade)
 isPassing(12);
 ```
 
-_Pode ser simplicado com:_
+_Pode ser simplificado com:
 
 ```javascript
 function isPassing(grade)
@@ -477,7 +477,7 @@ function isPassing(grade)
 
 ### Even & Odd
 
-<p style ="text-align: justify">O operator <code>%</code> pode ser utilizad para retornar se tal número é par ou ímpar.</p>
+<p style ="text-align: justify">O operator <code>%</code> pode ser utilizado para retornar se tal número é par ou ímpar.</p>
 
 ```javascript
 // even numbers
@@ -540,7 +540,7 @@ const attendees = ["Sam", "Alex"]; // array of strings
 const values = [10, false, "John"]; // mixed
 ```
 
-<p style ="text-align: justify">Vetores permitem você armazenar vários tipos de dados diferentes em uma mesma variável. Dessa forma, a variável em questão assume a condição de uma variável que possuem diversos valores individuais. Semelhante a Strins, também é possível as seguintes funções: <code>length</code>, <code>at()</code>, acesso pelo índice <code>[]</code> e adicionar novos valores ao final do vetor <code>push()</code></p>
+<p style ="text-align: justify">Vetores permitem você armazenar vários tipos de dados diferentes em uma mesma variável. Dessa forma, a variável em questão assume a condição de uma variável que possuem diversos valores individuais. Semelhante a Strings, também é possível as seguintes funções: <code>length</code>, <code>at()</code>, acesso pelo índice <code>[]</code> e adicionar novos valores ao final do vetor <code>push()</code></p>
 
 ```javascript
 const numbers = [1, 2, 3, '4'];
@@ -614,7 +614,7 @@ gradis.forEach(function(gradi)
 
 ```
 
-<p style ="text-align: justify">Como pode ter observado, a variável grades é diferente do nome pasado como parâmetro. O que acontece é que no caso do <code>.forEach()</code> o javaScript supôe que o primeiro parâmetro passado é o parâmetro percetence ao vetor <code>grades</code> pois o método está sendo inicializado através da varíavel <code>grades</code></p>
+<p style ="text-align: justify">Como pode ter observado, a variável grades é diferente do nome passado como parâmetro. O que acontece é que no caso do <code>.forEach()</code> o javaScript supôe que o primeiro parâmetro passado é o parâmetro pertence ao vetor <code>grades</code> pois o método está sendo inicializado através da variável <code>grades</code></p>
 
 <br>
 
