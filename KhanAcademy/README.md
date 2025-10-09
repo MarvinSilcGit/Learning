@@ -26,9 +26,9 @@
 - [x] Unit 2 Addition and subtraction intro
 - [x] Unit 3 Place value (tens and hundreds)
 - [x] Unit 4 Addition and subtraction within 20
-- [ ] Unit 5 Addition and subtractino within 100
+- [ ] Unit 5 Addition and subtracting within 100
 - [ ] Unit 6 Addition and subtraction within 1000
-- [ ] Unit 7 Measuremente and data
+- [ ] Unit 7 Measurements and data
 - [ ] Unit 8 Geometry
 
 </details>
@@ -38,7 +38,7 @@
 
 - [ ] Unit 1 Add and subtract within 20
 - [ ] Unit 2 Place Value
-- [ ] Unit 3 Add and subtratct within 100
+- [ ] Unit 3 Add and subtract within 100
 - [ ] Unit 4 Add and subtract within 1000
 - [ ] Unit 5 Money and time
 - [ ] Unit 6 Measurement
